@@ -1,12 +1,11 @@
 
 # Script for preparing data exported from vivli for public download and analysis
-# Can be run all at once or section-by-section
 # Public versions are saved as csv for easier access
-
-### Empirical cumulative distribution ##########################################
 
 source("config.R")
 library(tidyverse)
+
+### Empirical cumulative distribution ##########################################
 
 # Import exported version
 imp_cind <- read_csv("total_attrition/data/t2e.csv")
