@@ -1,0 +1,1623 @@
+ctgov,cause,dist,loglik,aic
+NCT00034840,Lack of Efficacy,exp,-1.047e+02,2.113e+02
+NCT00051558,Adverse Event,exp,-4.743e+02,9.506e+02
+NCT00051558,Lost to Follow-up,exp,-1.657e+02,3.333e+02
+NCT00051558,Other/Miscellaneous,exp,-3.292e+02,6.603e+02
+NCT00051558,PI/Sponsor Decision,exp,-1.352e+02,2.724e+02
+NCT00051558,Voluntary Withdrawal,exp,-6.652e+02,1.332e+03
+NCT00125918,Adverse Event,exp,-3.602e+02,7.223e+02
+NCT00152984,Adverse Event,exp,-1.093e+02,2.206e+02
+NCT00153023,Adverse Event,exp,-7.984e+02,1.599e+03
+NCT00153023,Other/Miscellaneous,exp,-2.301e+02,4.622e+02
+NCT00153023,Protocol Violation,exp,-1.724e+02,3.469e+02
+NCT00153023,Voluntary Withdrawal,exp,-2.953e+02,5.926e+02
+NCT00153088,Adverse Event,exp,-5.353e+02,1.073e+03
+NCT00153088,Voluntary Withdrawal,exp,-1.314e+02,2.648e+02
+NCT00168831,Adverse Event,exp,-1.335e+03,2.672e+03
+NCT00168831,Lost to Follow-up,exp,-1.529e+02,3.078e+02
+NCT00168831,Other/Miscellaneous,exp,-1.628e+02,3.275e+02
+NCT00168831,Protocol Violation,exp,-2.864e+02,5.747e+02
+NCT00168831,Voluntary Withdrawal,exp,-3.948e+02,7.916e+02
+NCT00168844,Adverse Event,exp,-9.840e+02,1.970e+03
+NCT00168844,Lost to Follow-up,exp,-2.116e+02,4.252e+02
+NCT00168844,Other/Miscellaneous,exp,-2.211e+02,4.443e+02
+NCT00168844,Voluntary Withdrawal,exp,-3.687e+02,7.393e+02
+NCT00168857,Adverse Event,exp,-8.532e+02,1.708e+03
+NCT00168857,Lost to Follow-up,exp,-1.326e+02,2.672e+02
+NCT00168857,Other/Miscellaneous,exp,-1.916e+02,3.852e+02
+NCT00168857,Protocol Violation,exp,-2.857e+02,5.734e+02
+NCT00168857,Voluntary Withdrawal,exp,-1.722e+02,3.464e+02
+NCT00239421,Adverse Event,exp,-1.195e+02,2.409e+02
+NCT00274014,Adverse Event,exp,-9.784e+02,1.959e+03
+NCT00274014,Lost to Follow-up,exp,-3.241e+02,6.503e+02
+NCT00274014,Other/Miscellaneous,exp,-3.873e+02,7.766e+02
+NCT00274014,Protocol Violation,exp,-2.594e+02,5.208e+02
+NCT00274014,Voluntary Withdrawal,exp,-4.493e+02,9.005e+02
+NCT00274053,Adverse Event,exp,-3.955e+02,7.930e+02
+NCT00274053,Other/Miscellaneous,exp,-1.419e+02,2.857e+02
+NCT00274053,Protocol Violation,exp,-2.043e+02,4.106e+02
+NCT00274053,Voluntary Withdrawal,exp,-2.388e+02,4.797e+02
+NCT00274079,Adverse Event,exp,-2.576e+02,5.171e+02
+NCT00274547,Adverse Event,exp,-2.048e+03,4.098e+03
+NCT00274547,Lost to Follow-up,exp,-1.127e+02,2.274e+02
+NCT00274547,Other/Miscellaneous,exp,-2.495e+02,5.010e+02
+NCT00274547,Protocol Violation,exp,-3.596e+02,7.213e+02
+NCT00274547,Voluntary Withdrawal,exp,-5.857e+02,1.173e+03
+NCT00274560,Adverse Event,exp,-3.694e+02,7.408e+02
+NCT00274560,Voluntary Withdrawal,exp,-1.125e+02,2.270e+02
+NCT00274573,Adverse Event,exp,-1.506e+03,3.013e+03
+NCT00274573,Other/Miscellaneous,exp,-2.872e+02,5.764e+02
+NCT00274573,Protocol Violation,exp,-1.766e+02,3.551e+02
+NCT00274573,Voluntary Withdrawal,exp,-2.623e+02,5.265e+02
+NCT00274599,Adverse Event,exp,-2.960e+02,5.940e+02
+NCT00274599,Lack of Efficacy,exp,-1.170e+02,2.359e+02
+NCT00274599,Lost to Follow-up,exp,-9.929e+01,2.006e+02
+NCT00274599,Other/Miscellaneous,exp,-9.929e+01,2.006e+02
+NCT00274599,Voluntary Withdrawal,exp,-1.681e+02,3.383e+02
+NCT00274612,Adverse Event,exp,-3.118e+02,6.256e+02
+NCT00274612,Lack of Efficacy,exp,-9.941e+01,2.008e+02
+NCT00274612,Other/Miscellaneous,exp,-1.600e+02,3.220e+02
+NCT00277264,Adverse Event,exp,-9.703e+02,1.943e+03
+NCT00277264,Other/Miscellaneous,exp,-1.415e+02,2.850e+02
+NCT00277264,Protocol Violation,exp,-1.514e+02,3.047e+02
+NCT00277264,Voluntary Withdrawal,exp,-6.524e+02,1.307e+03
+NCT00321854,Adverse Event,exp,-7.284e+02,1.459e+03
+NCT00321854,Lack of Efficacy,exp,-2.292e+02,4.605e+02
+NCT00321854,Protocol Violation,exp,-1.178e+02,2.375e+02
+NCT00321854,Voluntary Withdrawal,exp,-2.292e+02,4.605e+02
+NCT00384930,Adverse Event,exp,-3.922e+02,7.864e+02
+NCT00384930,Other/Miscellaneous,exp,-2.284e+02,4.588e+02
+NCT00384930,PI/Sponsor Decision,exp,-1.360e+02,2.740e+02
+NCT00384930,Protocol Violation,exp,-1.095e+02,2.210e+02
+NCT00384930,Voluntary Withdrawal,exp,-3.312e+02,6.645e+02
+NCT00402233,Adverse Event,exp,-2.038e+02,4.096e+02
+NCT00466167,Adverse Event,exp,-2.493e+02,5.007e+02
+NCT00466167,Voluntary Withdrawal,exp,-1.735e+02,3.490e+02
+NCT00472199,Adverse Event,exp,-3.369e+02,6.759e+02
+NCT00472199,Lack of Efficacy,exp,-2.434e+02,4.888e+02
+NCT00472199,Voluntary Withdrawal,exp,-1.030e+02,2.080e+02
+NCT00479401,Adverse Event,exp,-4.195e+02,8.409e+02
+NCT00479401,Voluntary Withdrawal,exp,-2.515e+02,5.050e+02
+NCT00525512,Adverse Event,exp,-6.999e+02,1.402e+03
+NCT00525512,Lack of Efficacy,exp,-1.917e+02,3.854e+02
+NCT00525512,Other/Miscellaneous,exp,-2.580e+02,5.181e+02
+NCT00525512,Voluntary Withdrawal,exp,-2.858e+02,5.736e+02
+NCT00563381,Adverse Event,exp,-5.204e+03,1.041e+04
+NCT00563381,Lack of Efficacy,exp,-6.526e+02,1.307e+03
+NCT00563381,Lost to Follow-up,exp,-2.770e+02,5.559e+02
+NCT00563381,Other/Miscellaneous,exp,-6.739e+02,1.350e+03
+NCT00563381,Protocol Violation,exp,-1.494e+03,2.989e+03
+NCT00563381,Voluntary Withdrawal,exp,-3.884e+03,7.770e+03
+NCT00601250,Adverse Event,exp,-1.129e+02,2.277e+02
+NCT00601250,Other/Miscellaneous,exp,-1.036e+02,2.091e+02
+NCT00601250,Voluntary Withdrawal,exp,-1.670e+02,3.361e+02
+NCT00602472,Adverse Event,exp,-2.725e+02,5.471e+02
+NCT00602472,Protocol Violation,exp,-2.194e+02,4.409e+02
+NCT00602472,Voluntary Withdrawal,exp,-2.104e+02,4.229e+02
+NCT00622284,Adverse Event,exp,-1.475e+03,2.952e+03
+NCT00622284,Lack of Efficacy,exp,-6.414e+02,1.285e+03
+NCT00622284,Lost to Follow-up,exp,-2.573e+02,5.165e+02
+NCT00622284,Other/Miscellaneous,exp,-6.123e+02,1.227e+03
+NCT00622284,Protocol Violation,exp,-2.032e+02,4.083e+02
+NCT00622284,Voluntary Withdrawal,exp,-5.436e+02,1.089e+03
+NCT00641043,Adverse Event,exp,-9.742e+01,1.968e+02
+NCT00654381,Adverse Event,exp,-2.119e+02,4.258e+02
+NCT00734474,Adverse Event,exp,-2.052e+03,4.106e+03
+NCT00734474,Lack of Efficacy,exp,-1.636e+02,3.293e+02
+NCT00734474,Lost to Follow-up,exp,-3.278e+02,6.575e+02
+NCT00734474,Other/Miscellaneous,exp,-1.636e+02,3.293e+02
+NCT00734474,PI/Sponsor Decision,exp,-3.770e+02,7.560e+02
+NCT00734474,Protocol Violation,exp,-1.312e+02,2.644e+02
+NCT00734474,Voluntary Withdrawal,exp,-9.634e+02,1.929e+03
+NCT00740051,Lost to Follow-up,exp,-1.078e+02,2.175e+02
+NCT00740051,Voluntary Withdrawal,exp,-1.338e+02,2.696e+02
+NCT00772538,Adverse Event,exp,-1.248e+02,2.517e+02
+NCT00772538,Other/Miscellaneous,exp,-1.435e+02,2.890e+02
+NCT00772538,Voluntary Withdrawal,exp,-1.154e+02,2.328e+02
+NCT00776984,Adverse Event,exp,-1.058e+02,2.136e+02
+NCT00776984,Other/Miscellaneous,exp,-1.434e+02,2.888e+02
+NCT00776984,Voluntary Withdrawal,exp,-1.888e+02,3.796e+02
+NCT00782210,Adverse Event,exp,-4.938e+02,9.895e+02
+NCT00782210,Lack of Efficacy,exp,-1.844e+02,3.707e+02
+NCT00782210,Voluntary Withdrawal,exp,-2.919e+02,5.859e+02
+NCT00782509,Adverse Event,exp,-4.635e+02,9.291e+02
+NCT00782509,Lack of Efficacy,exp,-1.759e+02,3.539e+02
+NCT00782509,Other/Miscellaneous,exp,-1.088e+02,2.196e+02
+NCT00782509,Voluntary Withdrawal,exp,-1.571e+02,3.162e+02
+NCT00793624,Adverse Event,exp,-6.138e+02,1.230e+03
+NCT00793624,Lack of Efficacy,exp,-1.617e+02,3.254e+02
+NCT00793624,Other/Miscellaneous,exp,-1.811e+02,3.643e+02
+NCT00793624,Protocol Violation,exp,-1.119e+02,2.257e+02
+NCT00793624,Voluntary Withdrawal,exp,-5.045e+02,1.011e+03
+NCT00798161,Adverse Event,exp,-2.464e+02,4.948e+02
+NCT00798161,Lack of Efficacy,exp,-1.683e+02,3.386e+02
+NCT00798161,Lost to Follow-up,exp,-1.413e+02,2.847e+02
+NCT00798161,Protocol Violation,exp,-1.413e+02,2.847e+02
+NCT00798161,Voluntary Withdrawal,exp,-2.035e+02,4.090e+02
+NCT00800683,Adverse Event,exp,-1.644e+02,3.308e+02
+NCT00848081,Adverse Event,exp,-1.039e+02,2.097e+02
+NCT00855582,Adverse Event,exp,-1.033e+02,2.085e+02
+NCT00855582,Lack of Efficacy,exp,-1.116e+02,2.252e+02
+NCT00855582,Other/Miscellaneous,exp,-1.442e+02,2.904e+02
+NCT00855582,Protocol Violation,exp,-1.116e+02,2.252e+02
+NCT00855582,Voluntary Withdrawal,exp,-1.442e+02,2.904e+02
+NCT00861757,Adverse Event,exp,-1.367e+02,2.753e+02
+NCT00861757,Voluntary Withdrawal,exp,-1.203e+02,2.426e+02
+NCT00915772,Adverse Event,exp,-3.452e+02,6.924e+02
+NCT00915772,Lack of Efficacy,exp,-2.667e+02,5.353e+02
+NCT00915772,Other/Miscellaneous,exp,-1.851e+02,3.721e+02
+NCT00915772,Voluntary Withdrawal,exp,-1.758e+02,3.535e+02
+NCT00926289,Adverse Event,exp,-1.728e+02,3.477e+02
+NCT00926289,Protocol Violation,exp,-1.728e+02,3.477e+02
+NCT00954447,Adverse Event,exp,-4.862e+02,9.744e+02
+NCT00954447,Lack of Efficacy,exp,-2.035e+02,4.090e+02
+NCT00954447,Lost to Follow-up,exp,-2.240e+02,4.500e+02
+NCT00954447,Other/Miscellaneous,exp,-3.627e+02,7.275e+02
+NCT00954447,Voluntary Withdrawal,exp,-4.107e+02,8.234e+02
+NCT00970632,Protocol Violation,exp,-1.807e+02,3.634e+02
+NCT00970632,Voluntary Withdrawal,exp,-1.420e+02,2.861e+02
+NCT00975195,Adverse Event,exp,-1.927e+03,3.856e+03
+NCT00975195,Lack of Efficacy,exp,-1.454e+02,2.928e+02
+NCT00975195,Lost to Follow-up,exp,-1.893e+02,3.806e+02
+NCT00975195,Other/Miscellaneous,exp,-6.495e+02,1.301e+03
+NCT00975195,Protocol Violation,exp,-5.346e+02,1.071e+03
+NCT00975195,Voluntary Withdrawal,exp,-1.080e+03,2.163e+03
+NCT00996658,Other/Miscellaneous,exp,-1.347e+02,2.714e+02
+NCT01064687,Adverse Event,exp,-2.720e+02,5.460e+02
+NCT01064687,Lost to Follow-up,exp,-2.625e+02,5.271e+02
+NCT01064687,Voluntary Withdrawal,exp,-3.002e+02,6.025e+02
+NCT01075282,Adverse Event,exp,-2.386e+02,4.791e+02
+NCT01075282,Other/Miscellaneous,exp,-1.478e+02,2.976e+02
+NCT01075282,Voluntary Withdrawal,exp,-2.776e+02,5.572e+02
+NCT01084005,Protocol Violation,exp,-9.258e+01,1.872e+02
+NCT01087502,Adverse Event,exp,-2.412e+02,4.845e+02
+NCT01126437,Adverse Event,exp,-1.809e+04,3.619e+04
+NCT01126437,Lack of Efficacy,exp,-2.230e+03,4.463e+03
+NCT01126437,Lost to Follow-up,exp,-2.074e+03,4.150e+03
+NCT01126437,Other/Miscellaneous,exp,-6.205e+03,1.241e+04
+NCT01126437,Protocol Violation,exp,-2.085e+03,4.173e+03
+NCT01126437,Voluntary Withdrawal,exp,-1.029e+04,2.058e+04
+NCT01126580,Adverse Event,exp,-3.386e+02,6.793e+02
+NCT01126580,Lost to Follow-up,exp,-2.751e+02,5.523e+02
+NCT01126580,PI/Sponsor Decision,exp,-2.098e+02,4.216e+02
+NCT01126580,Voluntary Withdrawal,exp,-3.919e+02,7.858e+02
+NCT01131676,Adverse Event,exp,-2.466e+03,4.934e+03
+NCT01131676,Other/Miscellaneous,exp,-1.301e+03,2.604e+03
+NCT01131676,Protocol Violation,exp,-2.653e+02,5.327e+02
+NCT01131676,Voluntary Withdrawal,exp,-5.672e+02,1.136e+03
+NCT01159600,Adverse Event,exp,-3.399e+02,6.817e+02
+NCT01159600,Lost to Follow-up,exp,-1.294e+02,2.607e+02
+NCT01159600,Other/Miscellaneous,exp,-2.146e+02,4.313e+02
+NCT01159600,Voluntary Withdrawal,exp,-2.238e+02,4.497e+02
+NCT01164501,Adverse Event,exp,-4.155e+02,8.331e+02
+NCT01164501,Other/Miscellaneous,exp,-1.412e+02,2.844e+02
+NCT01164501,Voluntary Withdrawal,exp,-2.273e+02,4.567e+02
+NCT01167881,Adverse Event,exp,-7.494e+02,1.501e+03
+NCT01167881,Lost to Follow-up,exp,-3.265e+02,6.551e+02
+NCT01167881,Other/Miscellaneous,exp,-6.777e+02,1.357e+03
+NCT01167881,Protocol Violation,exp,-2.479e+02,4.978e+02
+NCT01167881,Voluntary Withdrawal,exp,-6.777e+02,1.357e+03
+NCT01177813,Adverse Event,exp,-1.977e+02,3.973e+02
+NCT01177813,Lost to Follow-up,exp,-2.328e+02,4.676e+02
+NCT01177813,Other/Miscellaneous,exp,-1.247e+02,2.514e+02
+NCT01177813,Voluntary Withdrawal,exp,-2.758e+02,5.536e+02
+NCT01191268,Adverse Event,exp,-4.128e+02,8.276e+02
+NCT01191268,Lost to Follow-up,exp,-1.825e+02,3.669e+02
+NCT01191268,PI/Sponsor Decision,exp,-2.493e+02,5.006e+02
+NCT01191268,Voluntary Withdrawal,exp,-5.936e+02,1.189e+03
+NCT01191944,Adverse Event,exp,-2.026e+02,4.072e+02
+NCT01194830,Lost to Follow-up,exp,-1.292e+02,2.604e+02
+NCT01194830,Other/Miscellaneous,exp,-1.592e+02,3.203e+02
+NCT01204294,Adverse Event,exp,-2.043e+02,4.105e+02
+NCT01210001,Adverse Event,exp,-1.090e+02,2.201e+02
+NCT01214239,Voluntary Withdrawal,exp,-1.115e+02,2.251e+02
+NCT01306214,Adverse Event,exp,-2.749e+02,5.519e+02
+NCT01306214,Protocol Violation,exp,-1.567e+02,3.153e+02
+NCT01306214,Voluntary Withdrawal,exp,-2.572e+02,5.165e+02
+NCT01335464,Adverse Event,exp,-7.583e+02,1.519e+03
+NCT01335464,Voluntary Withdrawal,exp,-1.638e+02,3.295e+02
+NCT01335477,Adverse Event,exp,-8.241e+02,1.650e+03
+NCT01335477,Voluntary Withdrawal,exp,-1.740e+02,3.501e+02
+NCT01368081,Adverse Event,exp,-4.638e+02,9.295e+02
+NCT01368081,Other/Miscellaneous,exp,-1.161e+02,2.342e+02
+NCT01368081,Voluntary Withdrawal,exp,-3.437e+02,6.893e+02
+NCT01370005,Adverse Event,exp,-1.499e+02,3.019e+02
+NCT01422876,Adverse Event,exp,-5.423e+02,1.087e+03
+NCT01422876,Lost to Follow-up,exp,-5.060e+02,1.014e+03
+NCT01422876,Other/Miscellaneous,exp,-4.230e+02,8.481e+02
+NCT01422876,Protocol Violation,exp,-1.386e+02,2.791e+02
+NCT01422876,Voluntary Withdrawal,exp,-3.381e+02,6.782e+02
+NCT01558271,Adverse Event,exp,-1.362e+02,2.743e+02
+NCT01558271,Voluntary Withdrawal,exp,-2.718e+02,5.456e+02
+NCT01621178,Adverse Event,exp,-1.567e+02,3.154e+02
+NCT01621178,Other/Miscellaneous,exp,-1.567e+02,3.154e+02
+NCT01621178,PI/Sponsor Decision,exp,-1.472e+02,2.965e+02
+NCT01621178,Voluntary Withdrawal,exp,-4.290e+02,8.601e+02
+NCT01624259,Adverse Event,exp,-1.743e+02,3.506e+02
+NCT01624259,Voluntary Withdrawal,exp,-1.119e+02,2.259e+02
+NCT01694771,Adverse Event,exp,-3.036e+02,6.092e+02
+NCT01694771,Other/Miscellaneous,exp,-1.106e+02,2.233e+02
+NCT01694771,Protocol Violation,exp,-1.196e+02,2.413e+02
+NCT01694771,Voluntary Withdrawal,exp,-1.462e+02,2.944e+02
+NCT01708902,Adverse Event,exp,-2.362e+02,4.743e+02
+NCT01708902,Voluntary Withdrawal,exp,-2.020e+02,4.061e+02
+NCT01719003,Adverse Event,exp,-3.496e+02,7.012e+02
+NCT01719003,Lost to Follow-up,exp,-2.428e+02,4.876e+02
+NCT01719003,Other/Miscellaneous,exp,-1.395e+02,2.810e+02
+NCT01719003,Protocol Violation,exp,-1.099e+02,2.218e+02
+NCT01719003,Voluntary Withdrawal,exp,-3.583e+02,7.186e+02
+NCT01769378,Adverse Event,exp,-9.479e+01,1.916e+02
+NCT01769378,Voluntary Withdrawal,exp,-9.479e+01,1.916e+02
+NCT02152371,Voluntary Withdrawal,exp,-9.626e+01,1.945e+02
+NCT02172287,Adverse Event,exp,-6.437e+02,1.289e+03
+NCT02172287,Voluntary Withdrawal,exp,-2.137e+02,4.295e+02
+NCT02172586,Voluntary Withdrawal,exp,-1.305e+02,2.631e+02
+NCT02175355,Adverse Event,exp,-1.884e+02,3.787e+02
+NCT02175355,Protocol Violation,exp,-2.330e+02,4.680e+02
+NCT02177344,Adverse Event,exp,-2.726e+02,5.472e+02
+NCT02177344,Other/Miscellaneous,exp,-2.067e+02,4.154e+02
+NCT02177344,Voluntary Withdrawal,exp,-1.813e+02,3.646e+02
+NCT02177396,Adverse Event,exp,-1.026e+02,2.072e+02
+NCT02177396,Lack of Efficacy,exp,-8.733e+01,1.767e+02
+NCT02177461,Adverse Event,exp,-1.461e+02,2.942e+02
+NCT02177461,Lack of Efficacy,exp,-2.701e+02,5.421e+02
+NCT02177461,Protocol Violation,exp,-1.130e+02,2.281e+02
+NCT02177461,Voluntary Withdrawal,exp,-3.287e+02,6.593e+02
+NCT02183064,Adverse Event,exp,-3.749e+02,7.518e+02
+NCT02183064,Other/Miscellaneous,exp,-1.775e+02,3.570e+02
+NCT02183064,Voluntary Withdrawal,exp,-3.576e+02,7.172e+02
+NCT02200653,Adverse Event,exp,-1.019e+02,2.059e+02
+NCT02240680,Adverse Event,exp,-1.154e+02,2.327e+02
+NCT02489968,Adverse Event,exp,-1.673e+02,3.365e+02
+NCT02750410,Adverse Event,exp,-1.130e+02,2.280e+02
+NCT00034840,Lack of Efficacy,gengamma,-5.462e+01,1.152e+02
+NCT00051558,Adverse Event,gengamma,-4.667e+02,9.394e+02
+NCT00051558,Lost to Follow-up,gengamma,-1.097e+02,2.254e+02
+NCT00051558,Other/Miscellaneous,gengamma,-3.244e+02,6.548e+02
+NCT00051558,PI/Sponsor Decision,gengamma,-1.349e+02,2.758e+02
+NCT00051558,Voluntary Withdrawal,gengamma,-6.642e+02,1.334e+03
+NCT00125918,Adverse Event,gengamma,-3.596e+02,7.252e+02
+NCT00152984,Adverse Event,gengamma,-1.092e+02,2.245e+02
+NCT00153023,Adverse Event,gengamma,-7.916e+02,1.589e+03
+NCT00153023,Other/Miscellaneous,gengamma,-2.168e+02,4.397e+02
+NCT00153023,Protocol Violation,gengamma,-1.710e+02,3.480e+02
+NCT00153023,Voluntary Withdrawal,gengamma,-2.837e+02,5.734e+02
+NCT00153088,Adverse Event,gengamma,-5.321e+02,1.070e+03
+NCT00153088,Voluntary Withdrawal,gengamma,-1.314e+02,2.687e+02
+NCT00168831,Adverse Event,gengamma,-1.314e+03,2.633e+03
+NCT00168831,Lost to Follow-up,gengamma,-1.524e+02,3.109e+02
+NCT00168831,Other/Miscellaneous,gengamma,-9.110e+01,1.882e+02
+NCT00168831,Protocol Violation,gengamma,-2.755e+02,5.569e+02
+NCT00168831,Voluntary Withdrawal,gengamma,-3.874e+02,7.808e+02
+NCT00168844,Adverse Event,gengamma,-9.766e+02,1.959e+03
+NCT00168844,Lost to Follow-up,gengamma,-2.086e+02,4.233e+02
+NCT00168844,Other/Miscellaneous,gengamma,-2.187e+02,4.434e+02
+NCT00168844,Voluntary Withdrawal,gengamma,-3.478e+02,7.017e+02
+NCT00168857,Adverse Event,gengamma,-8.531e+02,1.712e+03
+NCT00168857,Lost to Follow-up,gengamma,-7.928e+01,1.646e+02
+NCT00168857,Other/Miscellaneous,gengamma,-1.724e+02,3.509e+02
+NCT00168857,Protocol Violation,gengamma,-2.857e+02,5.773e+02
+NCT00168857,Voluntary Withdrawal,gengamma,-1.710e+02,3.479e+02
+NCT00239421,Adverse Event,gengamma,-1.176e+02,2.412e+02
+NCT00274014,Adverse Event,gengamma,-9.671e+02,1.940e+03
+NCT00274014,Lost to Follow-up,gengamma,-2.987e+02,6.033e+02
+NCT00274014,Other/Miscellaneous,gengamma,-2.460e+02,4.981e+02
+NCT00274014,Protocol Violation,gengamma,-2.573e+02,5.206e+02
+NCT00274014,Voluntary Withdrawal,gengamma,-4.459e+02,8.978e+02
+NCT00274053,Adverse Event,gengamma,-3.926e+02,7.911e+02
+NCT00274053,Other/Miscellaneous,gengamma,-1.393e+02,2.847e+02
+NCT00274053,Protocol Violation,gengamma,-2.014e+02,4.088e+02
+NCT00274053,Voluntary Withdrawal,gengamma,-2.361e+02,4.782e+02
+NCT00274079,Adverse Event,gengamma,-2.560e+02,5.180e+02
+NCT00274547,Adverse Event,gengamma,-2.024e+03,4.055e+03
+NCT00274547,Lost to Follow-up,gengamma,-1.401e+02,2.863e+02
+NCT00274547,Other/Miscellaneous,gengamma,-2.036e+02,4.133e+02
+NCT00274547,Protocol Violation,gengamma,-1.973e+02,4.005e+02
+NCT00274547,Voluntary Withdrawal,gengamma,-5.807e+02,1.167e+03
+NCT00274560,Adverse Event,gengamma,-3.658e+02,7.377e+02
+NCT00274560,Voluntary Withdrawal,gengamma,-5.642e+01,1.188e+02
+NCT00274573,Adverse Event,gengamma,-1.464e+03,2.935e+03
+NCT00274573,Other/Miscellaneous,gengamma,-2.863e+02,5.787e+02
+NCT00274573,Protocol Violation,gengamma,-1.750e+02,3.560e+02
+NCT00274573,Voluntary Withdrawal,gengamma,-2.593e+02,5.246e+02
+NCT00274599,Adverse Event,gengamma,-2.904e+02,5.868e+02
+NCT00274599,Lack of Efficacy,gengamma,-1.383e+02,2.825e+02
+NCT00274599,Lost to Follow-up,gengamma,-1.211e+02,2.482e+02
+NCT00274599,Other/Miscellaneous,gengamma,-9.210e+01,1.902e+02
+NCT00274599,Voluntary Withdrawal,gengamma,-1.680e+02,3.419e+02
+NCT00274612,Adverse Event,gengamma,-3.111e+02,6.282e+02
+NCT00274612,Lack of Efficacy,gengamma,-1.082e+02,2.224e+02
+NCT00274612,Other/Miscellaneous,gengamma,-1.587e+02,3.233e+02
+NCT00277264,Adverse Event,gengamma,-9.431e+02,1.892e+03
+NCT00277264,Other/Miscellaneous,gengamma,-1.405e+02,2.870e+02
+NCT00277264,Protocol Violation,gengamma,-1.493e+02,3.046e+02
+NCT00277264,Voluntary Withdrawal,gengamma,-6.402e+02,1.286e+03
+NCT00321854,Adverse Event,gengamma,-7.261e+02,1.458e+03
+NCT00321854,Lack of Efficacy,gengamma,-2.275e+02,4.609e+02
+NCT00321854,Protocol Violation,gengamma,-1.172e+02,2.404e+02
+NCT00321854,Voluntary Withdrawal,gengamma,-2.249e+02,4.558e+02
+NCT00384930,Adverse Event,gengamma,-3.883e+02,7.825e+02
+NCT00384930,Other/Miscellaneous,gengamma,-2.245e+02,4.550e+02
+NCT00384930,PI/Sponsor Decision,gengamma,-7.295e+01,1.519e+02
+NCT00384930,Protocol Violation,gengamma,-1.374e+02,2.808e+02
+NCT00384930,Voluntary Withdrawal,gengamma,-3.296e+02,6.653e+02
+NCT00402233,Adverse Event,gengamma,-1.893e+02,3.846e+02
+NCT00466167,Adverse Event,gengamma,-2.423e+02,4.906e+02
+NCT00466167,Voluntary Withdrawal,gengamma,-1.727e+02,3.514e+02
+NCT00472199,Adverse Event,gengamma,-3.256e+02,6.571e+02
+NCT00472199,Lack of Efficacy,gengamma,-2.299e+02,4.657e+02
+NCT00472199,Voluntary Withdrawal,gengamma,-1.004e+02,2.068e+02
+NCT00479401,Adverse Event,gengamma,-4.097e+02,8.254e+02
+NCT00479401,Voluntary Withdrawal,gengamma,-2.491e+02,5.041e+02
+NCT00525512,Adverse Event,gengamma,-6.984e+02,1.403e+03
+NCT00525512,Lack of Efficacy,gengamma,-1.783e+02,3.627e+02
+NCT00525512,Other/Miscellaneous,gengamma,-2.321e+02,4.701e+02
+NCT00525512,Voluntary Withdrawal,gengamma,-2.757e+02,5.575e+02
+NCT00563381,Adverse Event,gengamma,-5.148e+03,1.030e+04
+NCT00563381,Lack of Efficacy,gengamma,-3.339e+02,6.738e+02
+NCT00563381,Lost to Follow-up,gengamma,-3.147e+02,6.355e+02
+NCT00563381,Other/Miscellaneous,gengamma,-7.709e+02,1.548e+03
+NCT00563381,Protocol Violation,gengamma,-1.461e+03,2.928e+03
+NCT00563381,Voluntary Withdrawal,gengamma,-3.785e+03,7.576e+03
+NCT00601250,Adverse Event,gengamma,-1.323e+02,2.705e+02
+NCT00601250,Other/Miscellaneous,gengamma,-1.313e+02,2.687e+02
+NCT00601250,Voluntary Withdrawal,gengamma,-9.267e+01,1.913e+02
+NCT00602472,Adverse Event,gengamma,-2.712e+02,5.483e+02
+NCT00602472,Protocol Violation,gengamma,-1.185e+02,2.430e+02
+NCT00602472,Voluntary Withdrawal,gengamma,-2.084e+02,4.229e+02
+NCT00622284,Adverse Event,gengamma,-1.445e+03,2.895e+03
+NCT00622284,Lack of Efficacy,gengamma,-6.402e+02,1.286e+03
+NCT00622284,Lost to Follow-up,gengamma,-2.561e+02,5.182e+02
+NCT00622284,Other/Miscellaneous,gengamma,-6.074e+02,1.221e+03
+NCT00622284,Protocol Violation,gengamma,-2.021e+02,4.101e+02
+NCT00622284,Voluntary Withdrawal,gengamma,-5.334e+02,1.073e+03
+NCT00641043,Adverse Event,gengamma,-9.446e+01,1.949e+02
+NCT00654381,Adverse Event,gengamma,-2.017e+02,4.093e+02
+NCT00734474,Adverse Event,gengamma,-2.051e+03,4.107e+03
+NCT00734474,Lack of Efficacy,gengamma,-1.608e+02,3.277e+02
+NCT00734474,Lost to Follow-up,gengamma,-3.264e+02,6.589e+02
+NCT00734474,Other/Miscellaneous,gengamma,-1.622e+02,3.303e+02
+NCT00734474,PI/Sponsor Decision,gengamma,-2.306e+02,4.673e+02
+NCT00734474,Protocol Violation,gengamma,-1.210e+02,2.480e+02
+NCT00734474,Voluntary Withdrawal,gengamma,-9.549e+02,1.916e+03
+NCT00740051,Lost to Follow-up,gengamma,-1.050e+02,2.160e+02
+NCT00740051,Voluntary Withdrawal,gengamma,-1.326e+02,2.711e+02
+NCT00772538,Adverse Event,gengamma,-1.241e+02,2.541e+02
+NCT00772538,Other/Miscellaneous,gengamma,-1.388e+02,2.835e+02
+NCT00772538,Voluntary Withdrawal,gengamma,-1.142e+02,2.344e+02
+NCT00776984,Adverse Event,gengamma,-1.053e+02,2.167e+02
+NCT00776984,Other/Miscellaneous,gengamma,-1.434e+02,2.928e+02
+NCT00776984,Voluntary Withdrawal,gengamma,-1.878e+02,3.815e+02
+NCT00782210,Adverse Event,gengamma,-4.921e+02,9.901e+02
+NCT00782210,Lack of Efficacy,gengamma,-1.808e+02,3.675e+02
+NCT00782210,Voluntary Withdrawal,gengamma,-2.848e+02,5.756e+02
+NCT00782509,Adverse Event,gengamma,-4.600e+02,9.261e+02
+NCT00782509,Lack of Efficacy,gengamma,-1.754e+02,3.568e+02
+NCT00782509,Other/Miscellaneous,gengamma,-9.916e+01,2.043e+02
+NCT00782509,Voluntary Withdrawal,gengamma,-1.554e+02,3.168e+02
+NCT00793624,Adverse Event,gengamma,-6.033e+02,1.213e+03
+NCT00793624,Lack of Efficacy,gengamma,-1.545e+02,3.149e+02
+NCT00793624,Other/Miscellaneous,gengamma,-1.011e+02,2.082e+02
+NCT00793624,Protocol Violation,gengamma,-1.163e+02,2.385e+02
+NCT00793624,Voluntary Withdrawal,gengamma,-4.963e+02,9.986e+02
+NCT00798161,Adverse Event,gengamma,-2.407e+02,4.874e+02
+NCT00798161,Lack of Efficacy,gengamma,-1.564e+02,3.187e+02
+NCT00798161,Lost to Follow-up,gengamma,-1.394e+02,2.847e+02
+NCT00798161,Protocol Violation,gengamma,-1.391e+02,2.842e+02
+NCT00798161,Voluntary Withdrawal,gengamma,-2.016e+02,4.092e+02
+NCT00800683,Adverse Event,gengamma,-1.633e+02,3.325e+02
+NCT00848081,Adverse Event,gengamma,-1.023e+02,2.107e+02
+NCT00855582,Adverse Event,gengamma,-1.028e+02,2.116e+02
+NCT00855582,Lack of Efficacy,gengamma,-1.100e+02,2.260e+02
+NCT00855582,Other/Miscellaneous,gengamma,-1.381e+02,2.821e+02
+NCT00855582,Protocol Violation,gengamma,-1.247e+02,2.554e+02
+NCT00855582,Voluntary Withdrawal,gengamma,-1.415e+02,2.889e+02
+NCT00861757,Adverse Event,gengamma,-1.318e+02,2.695e+02
+NCT00861757,Voluntary Withdrawal,gengamma,-1.154e+02,2.369e+02
+NCT00915772,Adverse Event,gengamma,-3.448e+02,6.956e+02
+NCT00915772,Lack of Efficacy,gengamma,-2.603e+02,5.266e+02
+NCT00915772,Other/Miscellaneous,gengamma,-1.842e+02,3.743e+02
+NCT00915772,Voluntary Withdrawal,gengamma,-1.736e+02,3.533e+02
+NCT00926289,Adverse Event,gengamma,-1.663e+02,3.386e+02
+NCT00926289,Protocol Violation,gengamma,-1.725e+02,3.509e+02
+NCT00954447,Adverse Event,gengamma,-4.808e+02,9.677e+02
+NCT00954447,Lack of Efficacy,gengamma,-1.175e+02,2.410e+02
+NCT00954447,Lost to Follow-up,gengamma,-2.189e+02,4.439e+02
+NCT00954447,Other/Miscellaneous,gengamma,-3.575e+02,7.209e+02
+NCT00954447,Voluntary Withdrawal,gengamma,-4.073e+02,8.205e+02
+NCT00970632,Protocol Violation,gengamma,-1.750e+02,3.560e+02
+NCT00970632,Voluntary Withdrawal,gengamma,-1.416e+02,2.891e+02
+NCT00975195,Adverse Event,gengamma,-1.924e+03,3.855e+03
+NCT00975195,Lack of Efficacy,gengamma,-7.164e+01,1.493e+02
+NCT00975195,Lost to Follow-up,gengamma,-1.898e+02,3.857e+02
+NCT00975195,Other/Miscellaneous,gengamma,-4.897e+02,9.854e+02
+NCT00975195,Protocol Violation,gengamma,-5.335e+02,1.073e+03
+NCT00975195,Voluntary Withdrawal,gengamma,-1.069e+03,2.144e+03
+NCT00996658,Other/Miscellaneous,gengamma,-1.330e+02,2.720e+02
+NCT01064687,Adverse Event,gengamma,-2.587e+02,5.235e+02
+NCT01064687,Lost to Follow-up,gengamma,-2.593e+02,5.245e+02
+NCT01064687,Voluntary Withdrawal,gengamma,-3.002e+02,6.064e+02
+NCT01075282,Adverse Event,gengamma,-2.355e+02,4.771e+02
+NCT01075282,Other/Miscellaneous,gengamma,-8.610e+01,1.782e+02
+NCT01075282,Voluntary Withdrawal,gengamma,-2.722e+02,5.504e+02
+NCT01084005,Protocol Violation,gengamma,-9.188e+01,1.898e+02
+NCT01087502,Adverse Event,gengamma,-2.410e+02,4.879e+02
+NCT01126437,Adverse Event,gengamma,-1.798e+04,3.596e+04
+NCT01126437,Lack of Efficacy,gengamma,-1.269e+03,2.544e+03
+NCT01126437,Lost to Follow-up,gengamma,-1.862e+03,3.729e+03
+NCT01126437,Other/Miscellaneous,gengamma,-6.202e+03,1.241e+04
+NCT01126437,Protocol Violation,gengamma,-1.153e+03,2.312e+03
+NCT01126437,Voluntary Withdrawal,gengamma,-1.005e+04,2.010e+04
+NCT01126580,Adverse Event,gengamma,-3.274e+02,6.609e+02
+NCT01126580,Lost to Follow-up,gengamma,-2.742e+02,5.543e+02
+NCT01126580,PI/Sponsor Decision,gengamma,-2.088e+02,4.236e+02
+NCT01126580,Voluntary Withdrawal,gengamma,-3.915e+02,7.890e+02
+NCT01131676,Adverse Event,gengamma,-2.464e+03,4.934e+03
+NCT01131676,Other/Miscellaneous,gengamma,-1.294e+03,2.593e+03
+NCT01131676,Protocol Violation,gengamma,-2.650e+02,5.361e+02
+NCT01131676,Voluntary Withdrawal,gengamma,-3.914e+02,7.888e+02
+NCT01159600,Adverse Event,gengamma,-3.362e+02,6.785e+02
+NCT01159600,Lost to Follow-up,gengamma,-1.332e+02,2.724e+02
+NCT01159600,Other/Miscellaneous,gengamma,-2.193e+02,4.445e+02
+NCT01159600,Voluntary Withdrawal,gengamma,-2.205e+02,4.471e+02
+NCT01164501,Adverse Event,gengamma,-4.105e+02,8.269e+02
+NCT01164501,Other/Miscellaneous,gengamma,-1.410e+02,2.879e+02
+NCT01164501,Voluntary Withdrawal,gengamma,-2.267e+02,4.594e+02
+NCT01167881,Adverse Event,gengamma,-7.236e+02,1.453e+03
+NCT01167881,Lost to Follow-up,gengamma,-1.934e+02,3.928e+02
+NCT01167881,Other/Miscellaneous,gengamma,-6.581e+02,1.322e+03
+NCT01167881,Protocol Violation,gengamma,-2.294e+02,4.647e+02
+NCT01167881,Voluntary Withdrawal,gengamma,-6.662e+02,1.338e+03
+NCT01177813,Adverse Event,gengamma,-1.958e+02,3.977e+02
+NCT01177813,Lost to Follow-up,gengamma,-2.253e+02,4.566e+02
+NCT01177813,Other/Miscellaneous,gengamma,-1.242e+02,2.545e+02
+NCT01177813,Voluntary Withdrawal,gengamma,-2.747e+02,5.555e+02
+NCT01191268,Adverse Event,gengamma,-3.955e+02,7.971e+02
+NCT01191268,Lost to Follow-up,gengamma,-1.800e+02,3.660e+02
+NCT01191268,PI/Sponsor Decision,gengamma,-2.458e+02,4.977e+02
+NCT01191268,Voluntary Withdrawal,gengamma,-5.910e+02,1.188e+03
+NCT01191944,Adverse Event,gengamma,-1.950e+02,3.960e+02
+NCT01194830,Lost to Follow-up,gengamma,-1.256e+02,2.572e+02
+NCT01194830,Other/Miscellaneous,gengamma,-1.554e+02,3.167e+02
+NCT01204294,Adverse Event,gengamma,-2.017e+02,4.094e+02
+NCT01210001,Adverse Event,gengamma,-1.088e+02,2.237e+02
+NCT01214239,Voluntary Withdrawal,gengamma,-1.114e+02,2.288e+02
+NCT01306214,Adverse Event,gengamma,-2.745e+02,5.550e+02
+NCT01306214,Protocol Violation,gengamma,-1.544e+02,3.148e+02
+NCT01306214,Voluntary Withdrawal,gengamma,-2.571e+02,5.201e+02
+NCT01335464,Adverse Event,gengamma,-7.581e+02,1.522e+03
+NCT01335464,Voluntary Withdrawal,gengamma,-1.602e+02,3.264e+02
+NCT01335477,Adverse Event,gengamma,-8.239e+02,1.654e+03
+NCT01335477,Voluntary Withdrawal,gengamma,-1.708e+02,3.477e+02
+NCT01368081,Adverse Event,gengamma,-4.632e+02,9.325e+02
+NCT01368081,Other/Miscellaneous,gengamma,-1.095e+02,2.250e+02
+NCT01368081,Voluntary Withdrawal,gengamma,-3.435e+02,6.929e+02
+NCT01370005,Adverse Event,gengamma,-1.477e+02,3.014e+02
+NCT01422876,Adverse Event,gengamma,-5.385e+02,1.083e+03
+NCT01422876,Lost to Follow-up,gengamma,-5.009e+02,1.008e+03
+NCT01422876,Other/Miscellaneous,gengamma,-4.210e+02,8.480e+02
+NCT01422876,Protocol Violation,gengamma,-1.683e+02,3.427e+02
+NCT01422876,Voluntary Withdrawal,gengamma,-3.357e+02,6.775e+02
+NCT01558271,Adverse Event,gengamma,-1.348e+02,2.757e+02
+NCT01558271,Voluntary Withdrawal,gengamma,-2.623e+02,5.306e+02
+NCT01621178,Adverse Event,gengamma,-9.754e+01,2.011e+02
+NCT01621178,Other/Miscellaneous,gengamma,-1.538e+02,3.136e+02
+NCT01621178,PI/Sponsor Decision,gengamma,-1.420e+02,2.899e+02
+NCT01621178,Voluntary Withdrawal,gengamma,-4.156e+02,8.372e+02
+NCT01624259,Adverse Event,gengamma,-1.720e+02,3.500e+02
+NCT01624259,Voluntary Withdrawal,gengamma,-1.117e+02,2.294e+02
+NCT01694771,Adverse Event,gengamma,-3.035e+02,6.129e+02
+NCT01694771,Other/Miscellaneous,gengamma,-1.493e+02,3.047e+02
+NCT01694771,Protocol Violation,gengamma,-1.593e+02,3.245e+02
+NCT01694771,Voluntary Withdrawal,gengamma,-1.462e+02,2.985e+02
+NCT01708902,Adverse Event,gengamma,-2.320e+02,4.699e+02
+NCT01708902,Voluntary Withdrawal,gengamma,-1.089e+02,2.238e+02
+NCT01719003,Adverse Event,gengamma,-3.445e+02,6.950e+02
+NCT01719003,Lost to Follow-up,gengamma,-2.310e+02,4.681e+02
+NCT01719003,Other/Miscellaneous,gengamma,-1.686e+02,3.431e+02
+NCT01719003,Protocol Violation,gengamma,-1.359e+02,2.777e+02
+NCT01719003,Voluntary Withdrawal,gengamma,-3.558e+02,7.176e+02
+NCT01769378,Adverse Event,gengamma,-8.906e+01,1.841e+02
+NCT01769378,Voluntary Withdrawal,gengamma,-9.342e+01,1.928e+02
+NCT02152371,Voluntary Withdrawal,gengamma,-9.950e+01,2.050e+02
+NCT02172287,Adverse Event,gengamma,-6.317e+02,1.269e+03
+NCT02172287,Voluntary Withdrawal,gengamma,-2.058e+02,4.175e+02
+NCT02172586,Voluntary Withdrawal,gengamma,-1.299e+02,2.657e+02
+NCT02175355,Adverse Event,gengamma,-1.826e+02,3.712e+02
+NCT02175355,Protocol Violation,gengamma,-2.245e+02,4.550e+02
+NCT02177344,Adverse Event,gengamma,-2.623e+02,5.306e+02
+NCT02177344,Other/Miscellaneous,gengamma,-1.997e+02,4.054e+02
+NCT02177344,Voluntary Withdrawal,gengamma,-1.711e+02,3.483e+02
+NCT02177396,Adverse Event,gengamma,-5.238e+01,1.108e+02
+NCT02177396,Lack of Efficacy,gengamma,-8.556e+01,1.771e+02
+NCT02177461,Adverse Event,gengamma,-1.447e+02,2.954e+02
+NCT02177461,Lack of Efficacy,gengamma,-2.567e+02,5.194e+02
+NCT02177461,Protocol Violation,gengamma,-1.118e+02,2.297e+02
+NCT02177461,Voluntary Withdrawal,gengamma,-3.265e+02,6.590e+02
+NCT02183064,Adverse Event,gengamma,-3.595e+02,7.251e+02
+NCT02183064,Other/Miscellaneous,gengamma,-1.745e+02,3.551e+02
+NCT02183064,Voluntary Withdrawal,gengamma,-3.465e+02,6.990e+02
+NCT02200653,Adverse Event,gengamma,-1.013e+02,2.086e+02
+NCT02240680,Adverse Event,gengamma,-1.140e+02,2.340e+02
+NCT02489968,Adverse Event,gengamma,-1.009e+02,2.078e+02
+NCT02750410,Adverse Event,gengamma,-1.129e+02,2.317e+02
+NCT00034840,Lack of Efficacy,gompertz,-1.032e+02,2.104e+02
+NCT00051558,Adverse Event,gompertz,-4.682e+02,9.403e+02
+NCT00051558,Lost to Follow-up,gompertz,-1.657e+02,3.353e+02
+NCT00051558,Other/Miscellaneous,gompertz,-3.255e+02,6.549e+02
+NCT00051558,PI/Sponsor Decision,gompertz,-1.351e+02,2.742e+02
+NCT00051558,Voluntary Withdrawal,gompertz,-6.651e+02,1.334e+03
+NCT00125918,Adverse Event,gompertz,-3.602e+02,7.243e+02
+NCT00152984,Adverse Event,gompertz,-1.091e+02,2.221e+02
+NCT00153023,Adverse Event,gompertz,-7.905e+02,1.585e+03
+NCT00153023,Other/Miscellaneous,gompertz,-2.133e+02,4.306e+02
+NCT00153023,Protocol Violation,gompertz,-1.719e+02,3.478e+02
+NCT00153023,Voluntary Withdrawal,gompertz,-2.856e+02,5.751e+02
+NCT00153088,Adverse Event,gompertz,-5.328e+02,1.070e+03
+NCT00153088,Voluntary Withdrawal,gompertz,-1.314e+02,2.668e+02
+NCT00168831,Adverse Event,gompertz,-1.320e+03,2.643e+03
+NCT00168831,Lost to Follow-up,gompertz,-1.527e+02,3.094e+02
+NCT00168831,Other/Miscellaneous,gompertz,-1.605e+02,3.251e+02
+NCT00168831,Protocol Violation,gompertz,-2.751e+02,5.542e+02
+NCT00168831,Voluntary Withdrawal,gompertz,-3.908e+02,7.855e+02
+NCT00168844,Adverse Event,gompertz,-9.775e+02,1.959e+03
+NCT00168844,Lost to Follow-up,gompertz,-2.103e+02,4.245e+02
+NCT00168844,Other/Miscellaneous,gompertz,-2.189e+02,4.418e+02
+NCT00168844,Voluntary Withdrawal,gompertz,-3.496e+02,7.033e+02
+NCT00168857,Adverse Event,gompertz,-8.532e+02,1.710e+03
+NCT00168857,Lost to Follow-up,gompertz,-1.325e+02,2.690e+02
+NCT00168857,Other/Miscellaneous,gompertz,-1.721e+02,3.482e+02
+NCT00168857,Protocol Violation,gompertz,-2.856e+02,5.752e+02
+NCT00168857,Voluntary Withdrawal,gompertz,-1.713e+02,3.466e+02
+NCT00239421,Adverse Event,gompertz,-1.194e+02,2.428e+02
+NCT00274014,Adverse Event,gompertz,-9.700e+02,1.944e+03
+NCT00274014,Lost to Follow-up,gompertz,-3.238e+02,6.517e+02
+NCT00274014,Other/Miscellaneous,gompertz,-3.873e+02,7.785e+02
+NCT00274014,Protocol Violation,gompertz,-2.584e+02,5.208e+02
+NCT00274014,Voluntary Withdrawal,gompertz,-4.471e+02,8.981e+02
+NCT00274053,Adverse Event,gompertz,-3.927e+02,7.894e+02
+NCT00274053,Other/Miscellaneous,gompertz,-1.400e+02,2.841e+02
+NCT00274053,Protocol Violation,gompertz,-2.033e+02,4.105e+02
+NCT00274053,Voluntary Withdrawal,gompertz,-2.350e+02,4.741e+02
+NCT00274079,Adverse Event,gompertz,-2.565e+02,5.169e+02
+NCT00274547,Adverse Event,gompertz,-2.024e+03,4.053e+03
+NCT00274547,Lost to Follow-up,gompertz,-1.121e+02,2.282e+02
+NCT00274547,Other/Miscellaneous,gompertz,-2.404e+02,4.848e+02
+NCT00274547,Protocol Violation,gompertz,-3.595e+02,7.230e+02
+NCT00274547,Voluntary Withdrawal,gompertz,-5.807e+02,1.165e+03
+NCT00274560,Adverse Event,gompertz,-3.677e+02,7.393e+02
+NCT00274560,Voluntary Withdrawal,gompertz,-1.124e+02,2.289e+02
+NCT00274573,Adverse Event,gompertz,-1.467e+03,2.938e+03
+NCT00274573,Other/Miscellaneous,gompertz,-2.872e+02,5.784e+02
+NCT00274573,Protocol Violation,gompertz,-1.764e+02,3.569e+02
+NCT00274573,Voluntary Withdrawal,gompertz,-2.609e+02,5.257e+02
+NCT00274599,Adverse Event,gompertz,-2.926e+02,5.892e+02
+NCT00274599,Lack of Efficacy,gompertz,-1.169e+02,2.379e+02
+NCT00274599,Lost to Follow-up,gompertz,-9.844e+01,2.009e+02
+NCT00274599,Other/Miscellaneous,gompertz,-9.251e+01,1.890e+02
+NCT00274599,Voluntary Withdrawal,gompertz,-1.677e+02,3.394e+02
+NCT00274612,Adverse Event,gompertz,-3.105e+02,6.251e+02
+NCT00274612,Lack of Efficacy,gompertz,-9.935e+01,2.027e+02
+NCT00274612,Other/Miscellaneous,gompertz,-1.600e+02,3.240e+02
+NCT00277264,Adverse Event,gompertz,-9.445e+02,1.893e+03
+NCT00277264,Other/Miscellaneous,gompertz,-1.410e+02,2.860e+02
+NCT00277264,Protocol Violation,gompertz,-1.493e+02,3.025e+02
+NCT00277264,Voluntary Withdrawal,gompertz,-6.387e+02,1.281e+03
+NCT00321854,Adverse Event,gompertz,-7.262e+02,1.456e+03
+NCT00321854,Lack of Efficacy,gompertz,-2.292e+02,4.624e+02
+NCT00321854,Protocol Violation,gompertz,-1.175e+02,2.391e+02
+NCT00321854,Voluntary Withdrawal,gompertz,-2.244e+02,4.529e+02
+NCT00384930,Adverse Event,gompertz,-3.913e+02,7.865e+02
+NCT00384930,Other/Miscellaneous,gompertz,-2.239e+02,4.518e+02
+NCT00384930,PI/Sponsor Decision,gompertz,-1.349e+02,2.738e+02
+NCT00384930,Protocol Violation,gompertz,-1.095e+02,2.230e+02
+NCT00384930,Voluntary Withdrawal,gompertz,-3.308e+02,6.656e+02
+NCT00402233,Adverse Event,gompertz,-1.998e+02,4.036e+02
+NCT00466167,Adverse Event,gompertz,-2.414e+02,4.867e+02
+NCT00466167,Voluntary Withdrawal,gompertz,-1.732e+02,3.505e+02
+NCT00472199,Adverse Event,gompertz,-3.256e+02,6.552e+02
+NCT00472199,Lack of Efficacy,gompertz,-2.361e+02,4.763e+02
+NCT00472199,Voluntary Withdrawal,gompertz,-1.005e+02,2.049e+02
+NCT00479401,Adverse Event,gompertz,-4.094e+02,8.228e+02
+NCT00479401,Voluntary Withdrawal,gompertz,-2.491e+02,5.022e+02
+NCT00525512,Adverse Event,gompertz,-6.995e+02,1.403e+03
+NCT00525512,Lack of Efficacy,gompertz,-1.849e+02,3.739e+02
+NCT00525512,Other/Miscellaneous,gompertz,-2.407e+02,4.854e+02
+NCT00525512,Voluntary Withdrawal,gompertz,-2.812e+02,5.664e+02
+NCT00563381,Adverse Event,gompertz,-5.151e+03,1.031e+04
+NCT00563381,Lack of Efficacy,gompertz,-6.448e+02,1.294e+03
+NCT00563381,Lost to Follow-up,gompertz,-2.765e+02,5.571e+02
+NCT00563381,Other/Miscellaneous,gompertz,-6.702e+02,1.344e+03
+NCT00563381,Protocol Violation,gompertz,-1.457e+03,2.918e+03
+NCT00563381,Voluntary Withdrawal,gompertz,-3.776e+03,7.556e+03
+NCT00601250,Adverse Event,gompertz,-1.122e+02,2.284e+02
+NCT00601250,Other/Miscellaneous,gompertz,-1.028e+02,2.096e+02
+NCT00601250,Voluntary Withdrawal,gompertz,-1.656e+02,3.352e+02
+NCT00602472,Adverse Event,gompertz,-2.713e+02,5.466e+02
+NCT00602472,Protocol Violation,gompertz,-2.194e+02,4.428e+02
+NCT00602472,Voluntary Withdrawal,gompertz,-2.104e+02,4.248e+02
+NCT00622284,Adverse Event,gompertz,-1.453e+03,2.909e+03
+NCT00622284,Lack of Efficacy,gompertz,-6.413e+02,1.287e+03
+NCT00622284,Lost to Follow-up,gompertz,-2.566e+02,5.173e+02
+NCT00622284,Other/Miscellaneous,gompertz,-6.088e+02,1.222e+03
+NCT00622284,Protocol Violation,gompertz,-2.026e+02,4.091e+02
+NCT00622284,Voluntary Withdrawal,gompertz,-5.323e+02,1.069e+03
+NCT00641043,Adverse Event,gompertz,-9.506e+01,1.941e+02
+NCT00654381,Adverse Event,gompertz,-2.039e+02,4.118e+02
+NCT00734474,Adverse Event,gompertz,-2.052e+03,4.108e+03
+NCT00734474,Lack of Efficacy,gompertz,-1.613e+02,3.266e+02
+NCT00734474,Lost to Follow-up,gompertz,-3.265e+02,6.569e+02
+NCT00734474,Other/Miscellaneous,gompertz,-1.619e+02,3.279e+02
+NCT00734474,PI/Sponsor Decision,gompertz,-3.735e+02,7.509e+02
+NCT00734474,Protocol Violation,gompertz,-1.312e+02,2.663e+02
+NCT00734474,Voluntary Withdrawal,gompertz,-9.563e+02,1.917e+03
+NCT00740051,Lost to Follow-up,gompertz,-1.077e+02,2.194e+02
+NCT00740051,Voluntary Withdrawal,gompertz,-1.313e+02,2.666e+02
+NCT00772538,Adverse Event,gompertz,-1.248e+02,2.536e+02
+NCT00772538,Other/Miscellaneous,gompertz,-1.420e+02,2.880e+02
+NCT00772538,Voluntary Withdrawal,gompertz,-1.150e+02,2.340e+02
+NCT00776984,Adverse Event,gompertz,-1.058e+02,2.156e+02
+NCT00776984,Other/Miscellaneous,gompertz,-1.434e+02,2.908e+02
+NCT00776984,Voluntary Withdrawal,gompertz,-1.887e+02,3.815e+02
+NCT00782210,Adverse Event,gompertz,-4.930e+02,9.900e+02
+NCT00782210,Lack of Efficacy,gompertz,-1.814e+02,3.668e+02
+NCT00782210,Voluntary Withdrawal,gompertz,-2.852e+02,5.743e+02
+NCT00782509,Adverse Event,gompertz,-4.606e+02,9.253e+02
+NCT00782509,Lack of Efficacy,gompertz,-1.755e+02,3.550e+02
+NCT00782509,Other/Miscellaneous,gompertz,-1.046e+02,2.132e+02
+NCT00782509,Voluntary Withdrawal,gompertz,-1.560e+02,3.161e+02
+NCT00793624,Adverse Event,gompertz,-6.038e+02,1.212e+03
+NCT00793624,Lack of Efficacy,gompertz,-1.532e+02,3.105e+02
+NCT00793624,Other/Miscellaneous,gompertz,-1.800e+02,3.641e+02
+NCT00793624,Protocol Violation,gompertz,-1.090e+02,2.220e+02
+NCT00793624,Voluntary Withdrawal,gompertz,-4.953e+02,9.946e+02
+NCT00798161,Adverse Event,gompertz,-2.414e+02,4.867e+02
+NCT00798161,Lack of Efficacy,gompertz,-1.677e+02,3.394e+02
+NCT00798161,Lost to Follow-up,gompertz,-1.410e+02,2.859e+02
+NCT00798161,Protocol Violation,gompertz,-1.378e+02,2.796e+02
+NCT00798161,Voluntary Withdrawal,gompertz,-2.013e+02,4.067e+02
+NCT00800683,Adverse Event,gompertz,-1.638e+02,3.317e+02
+NCT00848081,Adverse Event,gompertz,-1.029e+02,2.099e+02
+NCT00855582,Adverse Event,gompertz,-1.004e+02,2.049e+02
+NCT00855582,Lack of Efficacy,gompertz,-1.111e+02,2.263e+02
+NCT00855582,Other/Miscellaneous,gompertz,-1.437e+02,2.914e+02
+NCT00855582,Protocol Violation,gompertz,-1.116e+02,2.271e+02
+NCT00855582,Voluntary Withdrawal,gompertz,-1.429e+02,2.898e+02
+NCT00861757,Adverse Event,gompertz,-1.358e+02,2.755e+02
+NCT00861757,Voluntary Withdrawal,gompertz,-1.197e+02,2.434e+02
+NCT00915772,Adverse Event,gompertz,-3.449e+02,6.939e+02
+NCT00915772,Lack of Efficacy,gompertz,-2.625e+02,5.290e+02
+NCT00915772,Other/Miscellaneous,gompertz,-1.844e+02,3.728e+02
+NCT00915772,Voluntary Withdrawal,gompertz,-1.745e+02,3.531e+02
+NCT00926289,Adverse Event,gompertz,-1.693e+02,3.426e+02
+NCT00926289,Protocol Violation,gompertz,-1.723e+02,3.487e+02
+NCT00954447,Adverse Event,gompertz,-4.805e+02,9.650e+02
+NCT00954447,Lack of Efficacy,gompertz,-2.031e+02,4.101e+02
+NCT00954447,Lost to Follow-up,gompertz,-2.184e+02,4.408e+02
+NCT00954447,Other/Miscellaneous,gompertz,-3.612e+02,7.263e+02
+NCT00954447,Voluntary Withdrawal,gompertz,-4.090e+02,8.220e+02
+NCT00970632,Protocol Violation,gompertz,-1.792e+02,3.624e+02
+NCT00970632,Voluntary Withdrawal,gompertz,-1.419e+02,2.878e+02
+NCT00975195,Adverse Event,gompertz,-1.924e+03,3.853e+03
+NCT00975195,Lack of Efficacy,gompertz,-1.428e+02,2.896e+02
+NCT00975195,Lost to Follow-up,gompertz,-1.893e+02,3.825e+02
+NCT00975195,Other/Miscellaneous,gompertz,-6.489e+02,1.302e+03
+NCT00975195,Protocol Violation,gompertz,-5.336e+02,1.071e+03
+NCT00975195,Voluntary Withdrawal,gompertz,-1.067e+03,2.138e+03
+NCT00996658,Other/Miscellaneous,gompertz,-1.346e+02,2.732e+02
+NCT01064687,Adverse Event,gompertz,-2.587e+02,5.214e+02
+NCT01064687,Lost to Follow-up,gompertz,-2.597e+02,5.234e+02
+NCT01064687,Voluntary Withdrawal,gompertz,-3.002e+02,6.044e+02
+NCT01075282,Adverse Event,gompertz,-2.365e+02,4.771e+02
+NCT01075282,Other/Miscellaneous,gompertz,-1.449e+02,2.937e+02
+NCT01075282,Voluntary Withdrawal,gompertz,-2.745e+02,5.529e+02
+NCT01084005,Protocol Violation,gompertz,-9.167e+01,1.873e+02
+NCT01087502,Adverse Event,gompertz,-2.411e+02,4.861e+02
+NCT01126437,Adverse Event,gompertz,-1.805e+04,3.610e+04
+NCT01126437,Lack of Efficacy,gompertz,-2.187e+03,4.378e+03
+NCT01126437,Lost to Follow-up,gompertz,-2.071e+03,4.146e+03
+NCT01126437,Other/Miscellaneous,gompertz,-6.204e+03,1.241e+04
+NCT01126437,Protocol Violation,gompertz,-2.079e+03,4.162e+03
+NCT01126437,Voluntary Withdrawal,gompertz,-1.010e+04,2.021e+04
+NCT01126580,Adverse Event,gompertz,-3.278e+02,6.595e+02
+NCT01126580,Lost to Follow-up,gompertz,-2.750e+02,5.540e+02
+NCT01126580,PI/Sponsor Decision,gompertz,-2.098e+02,4.235e+02
+NCT01126580,Voluntary Withdrawal,gompertz,-3.918e+02,7.875e+02
+NCT01131676,Adverse Event,gompertz,-2.464e+03,4.933e+03
+NCT01131676,Other/Miscellaneous,gompertz,-1.292e+03,2.588e+03
+NCT01131676,Protocol Violation,gompertz,-2.652e+02,5.345e+02
+NCT01131676,Voluntary Withdrawal,gompertz,-5.640e+02,1.132e+03
+NCT01159600,Adverse Event,gompertz,-3.357e+02,6.754e+02
+NCT01159600,Lost to Follow-up,gompertz,-1.274e+02,2.587e+02
+NCT01159600,Other/Miscellaneous,gompertz,-2.132e+02,4.303e+02
+NCT01159600,Voluntary Withdrawal,gompertz,-2.206e+02,4.453e+02
+NCT01164501,Adverse Event,gompertz,-4.122e+02,8.283e+02
+NCT01164501,Other/Miscellaneous,gompertz,-1.410e+02,2.861e+02
+NCT01164501,Voluntary Withdrawal,gompertz,-2.261e+02,4.561e+02
+NCT01167881,Adverse Event,gompertz,-7.186e+02,1.441e+03
+NCT01167881,Lost to Follow-up,gompertz,-3.152e+02,6.345e+02
+NCT01167881,Other/Miscellaneous,gompertz,-6.498e+02,1.304e+03
+NCT01167881,Protocol Violation,gompertz,-2.297e+02,4.635e+02
+NCT01167881,Voluntary Withdrawal,gompertz,-6.616e+02,1.327e+03
+NCT01177813,Adverse Event,gompertz,-1.967e+02,3.974e+02
+NCT01177813,Lost to Follow-up,gompertz,-2.325e+02,4.690e+02
+NCT01177813,Other/Miscellaneous,gompertz,-1.239e+02,2.518e+02
+NCT01177813,Voluntary Withdrawal,gompertz,-2.742e+02,5.523e+02
+NCT01191268,Adverse Event,gompertz,-3.982e+02,8.004e+02
+NCT01191268,Lost to Follow-up,gompertz,-1.820e+02,3.680e+02
+NCT01191268,PI/Sponsor Decision,gompertz,-2.473e+02,4.987e+02
+NCT01191268,Voluntary Withdrawal,gompertz,-5.917e+02,1.187e+03
+NCT01191944,Adverse Event,gompertz,-1.963e+02,3.967e+02
+NCT01194830,Lost to Follow-up,gompertz,-1.257e+02,2.554e+02
+NCT01194830,Other/Miscellaneous,gompertz,-1.570e+02,3.181e+02
+NCT01204294,Adverse Event,gompertz,-2.022e+02,4.085e+02
+NCT01210001,Adverse Event,gompertz,-1.090e+02,2.221e+02
+NCT01214239,Voluntary Withdrawal,gompertz,-1.113e+02,2.267e+02
+NCT01306214,Adverse Event,gompertz,-2.749e+02,5.538e+02
+NCT01306214,Protocol Violation,gompertz,-1.557e+02,3.154e+02
+NCT01306214,Voluntary Withdrawal,gompertz,-2.571e+02,5.183e+02
+NCT01335464,Adverse Event,gompertz,-7.582e+02,1.520e+03
+NCT01335464,Voluntary Withdrawal,gompertz,-1.624e+02,3.288e+02
+NCT01335477,Adverse Event,gompertz,-8.240e+02,1.652e+03
+NCT01335477,Voluntary Withdrawal,gompertz,-1.705e+02,3.450e+02
+NCT01368081,Adverse Event,gompertz,-4.637e+02,9.315e+02
+NCT01368081,Other/Miscellaneous,gompertz,-1.140e+02,2.320e+02
+NCT01368081,Voluntary Withdrawal,gompertz,-3.434e+02,6.909e+02
+NCT01370005,Adverse Event,gompertz,-1.499e+02,3.038e+02
+NCT01422876,Adverse Event,gompertz,-5.398e+02,1.084e+03
+NCT01422876,Lost to Follow-up,gompertz,-5.051e+02,1.014e+03
+NCT01422876,Other/Miscellaneous,gompertz,-4.204e+02,8.447e+02
+NCT01422876,Protocol Violation,gompertz,-1.385e+02,2.810e+02
+NCT01422876,Voluntary Withdrawal,gompertz,-3.359e+02,6.759e+02
+NCT01558271,Adverse Event,gompertz,-1.353e+02,2.746e+02
+NCT01558271,Voluntary Withdrawal,gompertz,-2.653e+02,5.346e+02
+NCT01621178,Adverse Event,gompertz,-1.566e+02,3.172e+02
+NCT01621178,Other/Miscellaneous,gompertz,-1.566e+02,3.171e+02
+NCT01621178,PI/Sponsor Decision,gompertz,-1.458e+02,2.957e+02
+NCT01621178,Voluntary Withdrawal,gompertz,-4.185e+02,8.409e+02
+NCT01624259,Adverse Event,gompertz,-1.733e+02,3.506e+02
+NCT01624259,Voluntary Withdrawal,gompertz,-1.119e+02,2.279e+02
+NCT01694771,Adverse Event,gompertz,-3.028e+02,6.095e+02
+NCT01694771,Other/Miscellaneous,gompertz,-1.100e+02,2.240e+02
+NCT01694771,Protocol Violation,gompertz,-1.194e+02,2.428e+02
+NCT01694771,Voluntary Withdrawal,gompertz,-1.457e+02,2.954e+02
+NCT01708902,Adverse Event,gompertz,-2.307e+02,4.655e+02
+NCT01708902,Voluntary Withdrawal,gompertz,-1.977e+02,3.995e+02
+NCT01719003,Adverse Event,gompertz,-3.459e+02,6.959e+02
+NCT01719003,Lost to Follow-up,gompertz,-2.388e+02,4.816e+02
+NCT01719003,Other/Miscellaneous,gompertz,-1.391e+02,2.823e+02
+NCT01719003,Protocol Violation,gompertz,-1.096e+02,2.231e+02
+NCT01719003,Voluntary Withdrawal,gompertz,-3.561e+02,7.161e+02
+NCT01769378,Adverse Event,gompertz,-9.153e+01,1.871e+02
+NCT01769378,Voluntary Withdrawal,gompertz,-9.467e+01,1.933e+02
+NCT02152371,Voluntary Withdrawal,gompertz,-9.606e+01,1.961e+02
+NCT02172287,Adverse Event,gompertz,-6.349e+02,1.274e+03
+NCT02172287,Voluntary Withdrawal,gompertz,-2.073e+02,4.186e+02
+NCT02172586,Voluntary Withdrawal,gompertz,-1.292e+02,2.624e+02
+NCT02175355,Adverse Event,gompertz,-1.876e+02,3.792e+02
+NCT02175355,Protocol Violation,gompertz,-2.296e+02,4.632e+02
+NCT02177344,Adverse Event,gompertz,-2.598e+02,5.237e+02
+NCT02177344,Other/Miscellaneous,gompertz,-1.957e+02,3.954e+02
+NCT02177344,Voluntary Withdrawal,gompertz,-1.681e+02,3.402e+02
+NCT02177396,Adverse Event,gompertz,-1.014e+02,2.068e+02
+NCT02177396,Lack of Efficacy,gompertz,-8.724e+01,1.785e+02
+NCT02177461,Adverse Event,gompertz,-1.447e+02,2.935e+02
+NCT02177461,Lack of Efficacy,gompertz,-2.688e+02,5.415e+02
+NCT02177461,Protocol Violation,gompertz,-1.116e+02,2.273e+02
+NCT02177461,Voluntary Withdrawal,gompertz,-3.262e+02,6.564e+02
+NCT02183064,Adverse Event,gompertz,-3.593e+02,7.227e+02
+NCT02183064,Other/Miscellaneous,gompertz,-1.762e+02,3.565e+02
+NCT02183064,Voluntary Withdrawal,gompertz,-3.472e+02,6.983e+02
+NCT02200653,Adverse Event,gompertz,-1.015e+02,2.070e+02
+NCT02240680,Adverse Event,gompertz,-1.134e+02,2.308e+02
+NCT02489968,Adverse Event,gompertz,-1.655e+02,3.350e+02
+NCT02750410,Adverse Event,gompertz,-1.124e+02,2.289e+02
+NCT00034840,Lack of Efficacy,llogis,-1.022e+02,2.084e+02
+NCT00051558,Adverse Event,llogis,-4.685e+02,9.410e+02
+NCT00051558,Lost to Follow-up,llogis,-1.652e+02,3.343e+02
+NCT00051558,Other/Miscellaneous,llogis,-3.270e+02,6.581e+02
+NCT00051558,PI/Sponsor Decision,llogis,-1.350e+02,2.741e+02
+NCT00051558,Voluntary Withdrawal,llogis,-6.651e+02,1.334e+03
+NCT00125918,Adverse Event,llogis,-3.598e+02,7.236e+02
+NCT00152984,Adverse Event,llogis,-1.092e+02,2.225e+02
+NCT00153023,Adverse Event,llogis,-7.926e+02,1.589e+03
+NCT00153023,Other/Miscellaneous,llogis,-2.207e+02,4.455e+02
+NCT00153023,Protocol Violation,llogis,-1.710e+02,3.460e+02
+NCT00153023,Voluntary Withdrawal,llogis,-2.855e+02,5.750e+02
+NCT00153088,Adverse Event,llogis,-5.325e+02,1.069e+03
+NCT00153088,Voluntary Withdrawal,llogis,-1.314e+02,2.668e+02
+NCT00168831,Adverse Event,llogis,-1.316e+03,2.636e+03
+NCT00168831,Lost to Follow-up,llogis,-1.528e+02,3.096e+02
+NCT00168831,Other/Miscellaneous,llogis,-1.622e+02,3.284e+02
+NCT00168831,Protocol Violation,llogis,-2.773e+02,5.586e+02
+NCT00168831,Voluntary Withdrawal,llogis,-3.876e+02,7.793e+02
+NCT00168844,Adverse Event,llogis,-9.777e+02,1.959e+03
+NCT00168844,Lost to Follow-up,llogis,-2.087e+02,4.213e+02
+NCT00168844,Other/Miscellaneous,llogis,-2.200e+02,4.439e+02
+NCT00168844,Voluntary Withdrawal,llogis,-3.530e+02,7.101e+02
+NCT00168857,Adverse Event,llogis,-8.532e+02,1.710e+03
+NCT00168857,Lost to Follow-up,llogis,-1.315e+02,2.671e+02
+NCT00168857,Other/Miscellaneous,llogis,-1.778e+02,3.596e+02
+NCT00168857,Protocol Violation,llogis,-2.857e+02,5.754e+02
+NCT00168857,Voluntary Withdrawal,llogis,-1.710e+02,3.459e+02
+NCT00239421,Adverse Event,llogis,-1.194e+02,2.427e+02
+NCT00274014,Adverse Event,llogis,-9.709e+02,1.946e+03
+NCT00274014,Lost to Follow-up,llogis,-3.240e+02,6.519e+02
+NCT00274014,Other/Miscellaneous,llogis,-3.873e+02,7.787e+02
+NCT00274014,Protocol Violation,llogis,-2.584e+02,5.209e+02
+NCT00274014,Voluntary Withdrawal,llogis,-4.472e+02,8.985e+02
+NCT00274053,Adverse Event,llogis,-3.945e+02,7.930e+02
+NCT00274053,Other/Miscellaneous,llogis,-1.414e+02,2.867e+02
+NCT00274053,Protocol Violation,llogis,-2.040e+02,4.119e+02
+NCT00274053,Voluntary Withdrawal,llogis,-2.365e+02,4.770e+02
+NCT00274079,Adverse Event,llogis,-2.566e+02,5.171e+02
+NCT00274547,Adverse Event,llogis,-2.027e+03,4.058e+03
+NCT00274547,Lost to Follow-up,llogis,-1.115e+02,2.270e+02
+NCT00274547,Other/Miscellaneous,llogis,-2.432e+02,4.904e+02
+NCT00274547,Protocol Violation,llogis,-3.588e+02,7.215e+02
+NCT00274547,Voluntary Withdrawal,llogis,-5.835e+02,1.171e+03
+NCT00274560,Adverse Event,llogis,-3.665e+02,7.369e+02
+NCT00274560,Voluntary Withdrawal,llogis,-1.124e+02,2.288e+02
+NCT00274573,Adverse Event,llogis,-1.480e+03,2.964e+03
+NCT00274573,Other/Miscellaneous,llogis,-2.864e+02,5.768e+02
+NCT00274573,Protocol Violation,llogis,-1.765e+02,3.570e+02
+NCT00274573,Voluntary Withdrawal,llogis,-2.620e+02,5.281e+02
+NCT00274599,Adverse Event,llogis,-2.951e+02,5.942e+02
+NCT00274599,Lack of Efficacy,llogis,-1.166e+02,2.372e+02
+NCT00274599,Lost to Follow-up,llogis,-9.870e+01,2.014e+02
+NCT00274599,Other/Miscellaneous,llogis,-9.421e+01,1.924e+02
+NCT00274599,Voluntary Withdrawal,llogis,-1.680e+02,3.400e+02
+NCT00274612,Adverse Event,llogis,-3.110e+02,6.261e+02
+NCT00274612,Lack of Efficacy,llogis,-9.935e+01,2.027e+02
+NCT00274612,Other/Miscellaneous,llogis,-1.597e+02,3.234e+02
+NCT00277264,Adverse Event,llogis,-9.420e+02,1.888e+03
+NCT00277264,Other/Miscellaneous,llogis,-1.405e+02,2.850e+02
+NCT00277264,Protocol Violation,llogis,-1.502e+02,3.044e+02
+NCT00277264,Voluntary Withdrawal,llogis,-6.428e+02,1.290e+03
+NCT00321854,Adverse Event,llogis,-7.270e+02,1.458e+03
+NCT00321854,Lack of Efficacy,llogis,-2.291e+02,4.622e+02
+NCT00321854,Protocol Violation,llogis,-1.177e+02,2.394e+02
+NCT00321854,Voluntary Withdrawal,llogis,-2.271e+02,4.583e+02
+NCT00384930,Adverse Event,llogis,-3.921e+02,7.881e+02
+NCT00384930,Other/Miscellaneous,llogis,-2.257e+02,4.553e+02
+NCT00384930,PI/Sponsor Decision,llogis,-1.340e+02,2.719e+02
+NCT00384930,Protocol Violation,llogis,-1.095e+02,2.230e+02
+NCT00384930,Voluntary Withdrawal,llogis,-3.312e+02,6.663e+02
+NCT00402233,Adverse Event,llogis,-2.032e+02,4.104e+02
+NCT00466167,Adverse Event,llogis,-2.438e+02,4.915e+02
+NCT00466167,Voluntary Withdrawal,llogis,-1.727e+02,3.495e+02
+NCT00472199,Adverse Event,llogis,-3.278e+02,6.596e+02
+NCT00472199,Lack of Efficacy,llogis,-2.414e+02,4.868e+02
+NCT00472199,Voluntary Withdrawal,llogis,-1.016e+02,2.072e+02
+NCT00479401,Adverse Event,llogis,-4.110e+02,8.261e+02
+NCT00479401,Voluntary Withdrawal,llogis,-2.493e+02,5.026e+02
+NCT00525512,Adverse Event,llogis,-6.988e+02,1.402e+03
+NCT00525512,Lack of Efficacy,llogis,-1.893e+02,3.826e+02
+NCT00525512,Other/Miscellaneous,llogis,-2.515e+02,5.071e+02
+NCT00525512,Voluntary Withdrawal,llogis,-2.761e+02,5.563e+02
+NCT00563381,Adverse Event,llogis,-5.161e+03,1.033e+04
+NCT00563381,Lack of Efficacy,llogis,-6.490e+02,1.302e+03
+NCT00563381,Lost to Follow-up,llogis,-2.761e+02,5.562e+02
+NCT00563381,Other/Miscellaneous,llogis,-6.696e+02,1.343e+03
+NCT00563381,Protocol Violation,llogis,-1.465e+03,2.935e+03
+NCT00563381,Voluntary Withdrawal,llogis,-3.804e+03,7.611e+03
+NCT00601250,Adverse Event,llogis,-1.127e+02,2.294e+02
+NCT00601250,Other/Miscellaneous,llogis,-1.029e+02,2.097e+02
+NCT00601250,Voluntary Withdrawal,llogis,-1.666e+02,3.371e+02
+NCT00602472,Adverse Event,llogis,-2.711e+02,5.463e+02
+NCT00602472,Protocol Violation,llogis,-2.194e+02,4.429e+02
+NCT00602472,Voluntary Withdrawal,llogis,-2.102e+02,4.244e+02
+NCT00622284,Adverse Event,llogis,-1.449e+03,2.902e+03
+NCT00622284,Lack of Efficacy,llogis,-6.410e+02,1.286e+03
+NCT00622284,Lost to Follow-up,llogis,-2.569e+02,5.178e+02
+NCT00622284,Other/Miscellaneous,llogis,-6.102e+02,1.224e+03
+NCT00622284,Protocol Violation,llogis,-2.026e+02,4.091e+02
+NCT00622284,Voluntary Withdrawal,llogis,-5.340e+02,1.072e+03
+NCT00641043,Adverse Event,llogis,-9.445e+01,1.929e+02
+NCT00654381,Adverse Event,llogis,-2.015e+02,4.070e+02
+NCT00734474,Adverse Event,llogis,-2.053e+03,4.109e+03
+NCT00734474,Lack of Efficacy,llogis,-1.622e+02,3.284e+02
+NCT00734474,Lost to Follow-up,llogis,-3.275e+02,6.590e+02
+NCT00734474,Other/Miscellaneous,llogis,-1.627e+02,3.294e+02
+NCT00734474,PI/Sponsor Decision,llogis,-3.739e+02,7.518e+02
+NCT00734474,Protocol Violation,llogis,-1.307e+02,2.653e+02
+NCT00734474,Voluntary Withdrawal,llogis,-9.574e+02,1.919e+03
+NCT00740051,Lost to Follow-up,llogis,-1.077e+02,2.195e+02
+NCT00740051,Voluntary Withdrawal,llogis,-1.325e+02,2.689e+02
+NCT00772538,Adverse Event,llogis,-1.241e+02,2.522e+02
+NCT00772538,Other/Miscellaneous,llogis,-1.388e+02,2.816e+02
+NCT00772538,Voluntary Withdrawal,llogis,-1.149e+02,2.339e+02
+NCT00776984,Adverse Event,llogis,-1.057e+02,2.154e+02
+NCT00776984,Other/Miscellaneous,llogis,-1.434e+02,2.908e+02
+NCT00776984,Voluntary Withdrawal,llogis,-1.887e+02,3.814e+02
+NCT00782210,Adverse Event,llogis,-4.922e+02,9.884e+02
+NCT00782210,Lack of Efficacy,llogis,-1.812e+02,3.664e+02
+NCT00782210,Voluntary Withdrawal,llogis,-2.858e+02,5.756e+02
+NCT00782509,Adverse Event,llogis,-4.603e+02,9.246e+02
+NCT00782509,Lack of Efficacy,llogis,-1.756e+02,3.553e+02
+NCT00782509,Other/Miscellaneous,llogis,-1.025e+02,2.090e+02
+NCT00782509,Voluntary Withdrawal,llogis,-1.564e+02,3.167e+02
+NCT00793624,Adverse Event,llogis,-6.043e+02,1.213e+03
+NCT00793624,Lack of Efficacy,llogis,-1.565e+02,3.171e+02
+NCT00793624,Other/Miscellaneous,llogis,-1.792e+02,3.625e+02
+NCT00793624,Protocol Violation,llogis,-1.093e+02,2.227e+02
+NCT00793624,Voluntary Withdrawal,llogis,-4.998e+02,1.004e+03
+NCT00798161,Adverse Event,llogis,-2.424e+02,4.889e+02
+NCT00798161,Lack of Efficacy,llogis,-1.677e+02,3.394e+02
+NCT00798161,Lost to Follow-up,llogis,-1.403e+02,2.845e+02
+NCT00798161,Protocol Violation,llogis,-1.397e+02,2.834e+02
+NCT00798161,Voluntary Withdrawal,llogis,-2.020e+02,4.080e+02
+NCT00800683,Adverse Event,llogis,-1.640e+02,3.320e+02
+NCT00848081,Adverse Event,llogis,-1.036e+02,2.112e+02
+NCT00855582,Adverse Event,llogis,-1.020e+02,2.081e+02
+NCT00855582,Lack of Efficacy,llogis,-1.116e+02,2.271e+02
+NCT00855582,Other/Miscellaneous,llogis,-1.442e+02,2.924e+02
+NCT00855582,Protocol Violation,llogis,-1.115e+02,2.270e+02
+NCT00855582,Voluntary Withdrawal,llogis,-1.440e+02,2.920e+02
+NCT00861757,Adverse Event,llogis,-1.366e+02,2.772e+02
+NCT00861757,Voluntary Withdrawal,llogis,-1.203e+02,2.445e+02
+NCT00915772,Adverse Event,llogis,-3.449e+02,6.938e+02
+NCT00915772,Lack of Efficacy,llogis,-2.607e+02,5.253e+02
+NCT00915772,Other/Miscellaneous,llogis,-1.846e+02,3.732e+02
+NCT00915772,Voluntary Withdrawal,llogis,-1.736e+02,3.513e+02
+NCT00926289,Adverse Event,llogis,-1.718e+02,3.476e+02
+NCT00926289,Protocol Violation,llogis,-1.727e+02,3.495e+02
+NCT00954447,Adverse Event,llogis,-4.833e+02,9.705e+02
+NCT00954447,Lack of Efficacy,llogis,-2.033e+02,4.107e+02
+NCT00954447,Lost to Follow-up,llogis,-2.192e+02,4.424e+02
+NCT00954447,Other/Miscellaneous,llogis,-3.626e+02,7.292e+02
+NCT00954447,Voluntary Withdrawal,llogis,-4.103e+02,8.247e+02
+NCT00970632,Protocol Violation,llogis,-1.778e+02,3.595e+02
+NCT00970632,Voluntary Withdrawal,llogis,-1.418e+02,2.876e+02
+NCT00975195,Adverse Event,llogis,-1.926e+03,3.856e+03
+NCT00975195,Lack of Efficacy,llogis,-1.444e+02,2.929e+02
+NCT00975195,Lost to Follow-up,llogis,-1.891e+02,3.821e+02
+NCT00975195,Other/Miscellaneous,llogis,-6.485e+02,1.301e+03
+NCT00975195,Protocol Violation,llogis,-5.335e+02,1.071e+03
+NCT00975195,Voluntary Withdrawal,llogis,-1.070e+03,2.144e+03
+NCT00996658,Other/Miscellaneous,llogis,-1.339e+02,2.719e+02
+NCT01064687,Adverse Event,llogis,-2.650e+02,5.340e+02
+NCT01064687,Lost to Follow-up,llogis,-2.593e+02,5.225e+02
+NCT01064687,Voluntary Withdrawal,llogis,-3.002e+02,6.044e+02
+NCT01075282,Adverse Event,llogis,-2.367e+02,4.774e+02
+NCT01075282,Other/Miscellaneous,llogis,-1.434e+02,2.908e+02
+NCT01075282,Voluntary Withdrawal,llogis,-2.729e+02,5.498e+02
+NCT01084005,Protocol Violation,llogis,-9.192e+01,1.878e+02
+NCT01087502,Adverse Event,llogis,-2.410e+02,4.860e+02
+NCT01126437,Adverse Event,llogis,-1.799e+04,3.597e+04
+NCT01126437,Lack of Efficacy,llogis,-2.201e+03,4.406e+03
+NCT01126437,Lost to Follow-up,llogis,-2.061e+03,4.126e+03
+NCT01126437,Other/Miscellaneous,llogis,-6.203e+03,1.241e+04
+NCT01126437,Protocol Violation,llogis,-2.068e+03,4.140e+03
+NCT01126437,Voluntary Withdrawal,llogis,-1.005e+04,2.011e+04
+NCT01126580,Adverse Event,llogis,-3.320e+02,6.679e+02
+NCT01126580,Lost to Follow-up,llogis,-2.745e+02,5.530e+02
+NCT01126580,PI/Sponsor Decision,llogis,-2.096e+02,4.233e+02
+NCT01126580,Voluntary Withdrawal,llogis,-3.918e+02,7.877e+02
+NCT01131676,Adverse Event,llogis,-2.467e+03,4.938e+03
+NCT01131676,Other/Miscellaneous,llogis,-1.295e+03,2.594e+03
+NCT01131676,Protocol Violation,llogis,-2.651e+02,5.341e+02
+NCT01131676,Voluntary Withdrawal,llogis,-5.632e+02,1.130e+03
+NCT01159600,Adverse Event,llogis,-3.362e+02,6.764e+02
+NCT01159600,Lost to Follow-up,llogis,-1.270e+02,2.580e+02
+NCT01159600,Other/Miscellaneous,llogis,-2.131e+02,4.302e+02
+NCT01159600,Voluntary Withdrawal,llogis,-2.211e+02,4.462e+02
+NCT01164501,Adverse Event,llogis,-4.131e+02,8.301e+02
+NCT01164501,Other/Miscellaneous,llogis,-1.410e+02,2.859e+02
+NCT01164501,Voluntary Withdrawal,llogis,-2.269e+02,4.578e+02
+NCT01167881,Adverse Event,llogis,-7.311e+02,1.466e+03
+NCT01167881,Lost to Follow-up,llogis,-3.221e+02,6.482e+02
+NCT01167881,Other/Miscellaneous,llogis,-6.619e+02,1.328e+03
+NCT01167881,Protocol Violation,llogis,-2.324e+02,4.687e+02
+NCT01167881,Voluntary Withdrawal,llogis,-6.696e+02,1.343e+03
+NCT01177813,Adverse Event,llogis,-1.958e+02,3.957e+02
+NCT01177813,Lost to Follow-up,llogis,-2.313e+02,4.667e+02
+NCT01177813,Other/Miscellaneous,llogis,-1.243e+02,2.525e+02
+NCT01177813,Voluntary Withdrawal,llogis,-2.752e+02,5.544e+02
+NCT01191268,Adverse Event,llogis,-4.027e+02,8.095e+02
+NCT01191268,Lost to Follow-up,llogis,-1.824e+02,3.688e+02
+NCT01191268,PI/Sponsor Decision,llogis,-2.483e+02,5.005e+02
+NCT01191268,Voluntary Withdrawal,llogis,-5.922e+02,1.188e+03
+NCT01191944,Adverse Event,llogis,-1.968e+02,3.976e+02
+NCT01194830,Lost to Follow-up,llogis,-1.260e+02,2.560e+02
+NCT01194830,Other/Miscellaneous,llogis,-1.580e+02,3.201e+02
+NCT01204294,Adverse Event,llogis,-2.017e+02,4.073e+02
+NCT01210001,Adverse Event,llogis,-1.090e+02,2.221e+02
+NCT01214239,Voluntary Withdrawal,llogis,-1.114e+02,2.268e+02
+NCT01306214,Adverse Event,llogis,-2.747e+02,5.535e+02
+NCT01306214,Protocol Violation,llogis,-1.544e+02,3.128e+02
+NCT01306214,Voluntary Withdrawal,llogis,-2.572e+02,5.184e+02
+NCT01335464,Adverse Event,llogis,-7.582e+02,1.520e+03
+NCT01335464,Voluntary Withdrawal,llogis,-1.633e+02,3.306e+02
+NCT01335477,Adverse Event,llogis,-8.239e+02,1.652e+03
+NCT01335477,Voluntary Withdrawal,llogis,-1.712e+02,3.463e+02
+NCT01368081,Adverse Event,llogis,-4.634e+02,9.307e+02
+NCT01368081,Other/Miscellaneous,llogis,-1.142e+02,2.323e+02
+NCT01368081,Voluntary Withdrawal,llogis,-3.435e+02,6.910e+02
+NCT01370005,Adverse Event,llogis,-1.498e+02,3.037e+02
+NCT01422876,Adverse Event,llogis,-5.385e+02,1.081e+03
+NCT01422876,Lost to Follow-up,llogis,-5.011e+02,1.006e+03
+NCT01422876,Other/Miscellaneous,llogis,-4.212e+02,8.464e+02
+NCT01422876,Protocol Violation,llogis,-1.385e+02,2.811e+02
+NCT01422876,Voluntary Withdrawal,llogis,-3.366e+02,6.772e+02
+NCT01558271,Adverse Event,llogis,-1.350e+02,2.740e+02
+NCT01558271,Voluntary Withdrawal,llogis,-2.623e+02,5.285e+02
+NCT01621178,Adverse Event,llogis,-1.564e+02,3.169e+02
+NCT01621178,Other/Miscellaneous,llogis,-1.563e+02,3.166e+02
+NCT01621178,PI/Sponsor Decision,llogis,-1.465e+02,2.970e+02
+NCT01621178,Voluntary Withdrawal,llogis,-4.182e+02,8.404e+02
+NCT01624259,Adverse Event,llogis,-1.740e+02,3.521e+02
+NCT01624259,Voluntary Withdrawal,llogis,-1.117e+02,2.275e+02
+NCT01694771,Adverse Event,llogis,-3.034e+02,6.108e+02
+NCT01694771,Other/Miscellaneous,llogis,-1.103e+02,2.246e+02
+NCT01694771,Protocol Violation,llogis,-1.194e+02,2.429e+02
+NCT01694771,Voluntary Withdrawal,llogis,-1.461e+02,2.962e+02
+NCT01708902,Adverse Event,llogis,-2.333e+02,4.707e+02
+NCT01708902,Voluntary Withdrawal,llogis,-1.990e+02,4.021e+02
+NCT01719003,Adverse Event,llogis,-3.454e+02,6.947e+02
+NCT01719003,Lost to Follow-up,llogis,-2.311e+02,4.661e+02
+NCT01719003,Other/Miscellaneous,llogis,-1.392e+02,2.824e+02
+NCT01719003,Protocol Violation,llogis,-1.099e+02,2.238e+02
+NCT01719003,Voluntary Withdrawal,llogis,-3.563e+02,7.166e+02
+NCT01769378,Adverse Event,llogis,-9.374e+01,1.915e+02
+NCT01769378,Voluntary Withdrawal,llogis,-9.478e+01,1.936e+02
+NCT02152371,Voluntary Withdrawal,llogis,-9.621e+01,1.964e+02
+NCT02172287,Adverse Event,llogis,-6.336e+02,1.271e+03
+NCT02172287,Voluntary Withdrawal,llogis,-2.066e+02,4.172e+02
+NCT02172586,Voluntary Withdrawal,llogis,-1.300e+02,2.639e+02
+NCT02175355,Adverse Event,llogis,-1.883e+02,3.806e+02
+NCT02175355,Protocol Violation,llogis,-2.267e+02,4.574e+02
+NCT02177344,Adverse Event,llogis,-2.675e+02,5.390e+02
+NCT02177344,Other/Miscellaneous,llogis,-2.016e+02,4.071e+02
+NCT02177344,Voluntary Withdrawal,llogis,-1.743e+02,3.526e+02
+NCT02177396,Adverse Event,llogis,-1.024e+02,2.088e+02
+NCT02177396,Lack of Efficacy,llogis,-8.689e+01,1.778e+02
+NCT02177461,Adverse Event,llogis,-1.453e+02,2.947e+02
+NCT02177461,Lack of Efficacy,llogis,-2.653e+02,5.346e+02
+NCT02177461,Protocol Violation,llogis,-1.119e+02,2.279e+02
+NCT02177461,Voluntary Withdrawal,llogis,-3.278e+02,6.595e+02
+NCT02183064,Adverse Event,llogis,-3.635e+02,7.310e+02
+NCT02183064,Other/Miscellaneous,llogis,-1.771e+02,3.581e+02
+NCT02183064,Voluntary Withdrawal,llogis,-3.487e+02,7.014e+02
+NCT02200653,Adverse Event,llogis,-1.013e+02,2.066e+02
+NCT02240680,Adverse Event,llogis,-1.140e+02,2.321e+02
+NCT02489968,Adverse Event,llogis,-1.666e+02,3.372e+02
+NCT02750410,Adverse Event,llogis,-1.128e+02,2.296e+02
+NCT00034840,Lack of Efficacy,lnorm,-1.018e+02,2.077e+02
+NCT00051558,Adverse Event,lnorm,-4.674e+02,9.388e+02
+NCT00051558,Lost to Follow-up,lnorm,-1.660e+02,3.360e+02
+NCT00051558,Other/Miscellaneous,lnorm,-3.259e+02,6.559e+02
+NCT00051558,PI/Sponsor Decision,lnorm,-1.349e+02,2.739e+02
+NCT00051558,Voluntary Withdrawal,lnorm,-6.643e+02,1.333e+03
+NCT00125918,Adverse Event,lnorm,-3.598e+02,7.235e+02
+NCT00152984,Adverse Event,lnorm,-1.093e+02,2.225e+02
+NCT00153023,Adverse Event,lnorm,-7.916e+02,1.587e+03
+NCT00153023,Other/Miscellaneous,lnorm,-2.197e+02,4.434e+02
+NCT00153023,Protocol Violation,lnorm,-1.711e+02,3.463e+02
+NCT00153023,Voluntary Withdrawal,lnorm,-2.847e+02,5.734e+02
+NCT00153088,Adverse Event,lnorm,-5.321e+02,1.068e+03
+NCT00153088,Voluntary Withdrawal,lnorm,-1.314e+02,2.667e+02
+NCT00168831,Adverse Event,lnorm,-1.314e+03,2.632e+03
+NCT00168831,Lost to Follow-up,lnorm,-1.526e+02,3.092e+02
+NCT00168831,Other/Miscellaneous,lnorm,-1.616e+02,3.271e+02
+NCT00168831,Protocol Violation,lnorm,-2.765e+02,5.570e+02
+NCT00168831,Voluntary Withdrawal,lnorm,-3.874e+02,7.788e+02
+NCT00168844,Adverse Event,lnorm,-9.766e+02,1.957e+03
+NCT00168844,Lost to Follow-up,lnorm,-2.088e+02,4.217e+02
+NCT00168844,Other/Miscellaneous,lnorm,-2.195e+02,4.429e+02
+NCT00168844,Voluntary Withdrawal,lnorm,-3.516e+02,7.072e+02
+NCT00168857,Adverse Event,lnorm,-8.542e+02,1.712e+03
+NCT00168857,Lost to Follow-up,lnorm,-1.321e+02,2.682e+02
+NCT00168857,Other/Miscellaneous,lnorm,-1.769e+02,3.578e+02
+NCT00168857,Protocol Violation,lnorm,-2.858e+02,5.755e+02
+NCT00168857,Voluntary Withdrawal,lnorm,-1.710e+02,3.460e+02
+NCT00239421,Adverse Event,lnorm,-1.189e+02,2.418e+02
+NCT00274014,Adverse Event,lnorm,-9.685e+02,1.941e+03
+NCT00274014,Lost to Follow-up,lnorm,-3.241e+02,6.521e+02
+NCT00274014,Other/Miscellaneous,lnorm,-3.876e+02,7.792e+02
+NCT00274014,Protocol Violation,lnorm,-2.580e+02,5.199e+02
+NCT00274014,Voluntary Withdrawal,lnorm,-4.464e+02,8.968e+02
+NCT00274053,Adverse Event,lnorm,-3.933e+02,7.906e+02
+NCT00274053,Other/Miscellaneous,lnorm,-1.408e+02,2.856e+02
+NCT00274053,Protocol Violation,lnorm,-2.033e+02,4.105e+02
+NCT00274053,Voluntary Withdrawal,lnorm,-2.361e+02,4.763e+02
+NCT00274079,Adverse Event,lnorm,-2.561e+02,5.162e+02
+NCT00274547,Adverse Event,lnorm,-2.025e+03,4.053e+03
+NCT00274547,Lost to Follow-up,lnorm,-1.113e+02,2.265e+02
+NCT00274547,Other/Miscellaneous,lnorm,-2.424e+02,4.889e+02
+NCT00274547,Protocol Violation,lnorm,-3.591e+02,7.221e+02
+NCT00274547,Voluntary Withdrawal,lnorm,-5.820e+02,1.168e+03
+NCT00274560,Adverse Event,lnorm,-3.660e+02,7.359e+02
+NCT00274560,Voluntary Withdrawal,lnorm,-1.124e+02,2.287e+02
+NCT00274573,Adverse Event,lnorm,-1.473e+03,2.950e+03
+NCT00274573,Other/Miscellaneous,lnorm,-2.872e+02,5.783e+02
+NCT00274573,Protocol Violation,lnorm,-1.760e+02,3.561e+02
+NCT00274573,Voluntary Withdrawal,lnorm,-2.612e+02,5.264e+02
+NCT00274599,Adverse Event,lnorm,-2.938e+02,5.916e+02
+NCT00274599,Lack of Efficacy,lnorm,-1.164e+02,2.367e+02
+NCT00274599,Lost to Follow-up,lnorm,-9.861e+01,2.012e+02
+NCT00274599,Other/Miscellaneous,lnorm,-9.386e+01,1.917e+02
+NCT00274599,Voluntary Withdrawal,lnorm,-1.687e+02,3.414e+02
+NCT00274612,Adverse Event,lnorm,-3.106e+02,6.252e+02
+NCT00274612,Lack of Efficacy,lnorm,-9.917e+01,2.023e+02
+NCT00274612,Other/Miscellaneous,lnorm,-1.593e+02,3.226e+02
+NCT00277264,Adverse Event,lnorm,-9.386e+02,1.881e+03
+NCT00277264,Other/Miscellaneous,lnorm,-1.405e+02,2.850e+02
+NCT00277264,Protocol Violation,lnorm,-1.498e+02,3.037e+02
+NCT00277264,Voluntary Withdrawal,lnorm,-6.411e+02,1.286e+03
+NCT00321854,Adverse Event,lnorm,-7.261e+02,1.456e+03
+NCT00321854,Lack of Efficacy,lnorm,-2.284e+02,4.608e+02
+NCT00321854,Protocol Violation,lnorm,-1.175e+02,2.389e+02
+NCT00321854,Voluntary Withdrawal,lnorm,-2.263e+02,4.566e+02
+NCT00384930,Adverse Event,lnorm,-3.907e+02,7.854e+02
+NCT00384930,Other/Miscellaneous,lnorm,-2.251e+02,4.542e+02
+NCT00384930,PI/Sponsor Decision,lnorm,-1.336e+02,2.712e+02
+NCT00384930,Protocol Violation,lnorm,-1.094e+02,2.228e+02
+NCT00384930,Voluntary Withdrawal,lnorm,-3.304e+02,6.648e+02
+NCT00402233,Adverse Event,lnorm,-2.015e+02,4.070e+02
+NCT00466167,Adverse Event,lnorm,-2.430e+02,4.900e+02
+NCT00466167,Voluntary Withdrawal,lnorm,-1.728e+02,3.497e+02
+NCT00472199,Adverse Event,lnorm,-3.265e+02,6.570e+02
+NCT00472199,Lack of Efficacy,lnorm,-2.395e+02,4.829e+02
+NCT00472199,Voluntary Withdrawal,lnorm,-1.012e+02,2.064e+02
+NCT00479401,Adverse Event,lnorm,-4.101e+02,8.241e+02
+NCT00479401,Voluntary Withdrawal,lnorm,-2.491e+02,5.022e+02
+NCT00525512,Adverse Event,lnorm,-7.001e+02,1.404e+03
+NCT00525512,Lack of Efficacy,lnorm,-1.883e+02,3.805e+02
+NCT00525512,Other/Miscellaneous,lnorm,-2.498e+02,5.036e+02
+NCT00525512,Voluntary Withdrawal,lnorm,-2.758e+02,5.557e+02
+NCT00563381,Adverse Event,lnorm,-5.151e+03,1.031e+04
+NCT00563381,Lack of Efficacy,lnorm,-6.475e+02,1.299e+03
+NCT00563381,Lost to Follow-up,lnorm,-2.765e+02,5.570e+02
+NCT00563381,Other/Miscellaneous,lnorm,-6.690e+02,1.342e+03
+NCT00563381,Protocol Violation,lnorm,-1.463e+03,2.930e+03
+NCT00563381,Voluntary Withdrawal,lnorm,-3.793e+03,7.590e+03
+NCT00601250,Adverse Event,lnorm,-1.123e+02,2.287e+02
+NCT00601250,Other/Miscellaneous,lnorm,-1.029e+02,2.098e+02
+NCT00601250,Voluntary Withdrawal,lnorm,-1.660e+02,3.360e+02
+NCT00602472,Adverse Event,lnorm,-2.709e+02,5.458e+02
+NCT00602472,Protocol Violation,lnorm,-2.193e+02,4.426e+02
+NCT00602472,Voluntary Withdrawal,lnorm,-2.096e+02,4.232e+02
+NCT00622284,Adverse Event,lnorm,-1.446e+03,2.896e+03
+NCT00622284,Lack of Efficacy,lnorm,-6.404e+02,1.285e+03
+NCT00622284,Lost to Follow-up,lnorm,-2.565e+02,5.171e+02
+NCT00622284,Other/Miscellaneous,lnorm,-6.089e+02,1.222e+03
+NCT00622284,Protocol Violation,lnorm,-2.023e+02,4.087e+02
+NCT00622284,Voluntary Withdrawal,lnorm,-5.335e+02,1.071e+03
+NCT00641043,Adverse Event,lnorm,-9.422e+01,1.924e+02
+NCT00654381,Adverse Event,lnorm,-2.003e+02,4.047e+02
+NCT00734474,Adverse Event,lnorm,-2.058e+03,4.120e+03
+NCT00734474,Lack of Efficacy,lnorm,-1.618e+02,3.275e+02
+NCT00734474,Lost to Follow-up,lnorm,-3.268e+02,6.576e+02
+NCT00734474,Other/Miscellaneous,lnorm,-1.624e+02,3.289e+02
+NCT00734474,PI/Sponsor Decision,lnorm,-3.731e+02,7.502e+02
+NCT00734474,Protocol Violation,lnorm,-1.302e+02,2.645e+02
+NCT00734474,Voluntary Withdrawal,lnorm,-9.556e+02,1.915e+03
+NCT00740051,Lost to Follow-up,lnorm,-1.074e+02,2.187e+02
+NCT00740051,Voluntary Withdrawal,lnorm,-1.321e+02,2.682e+02
+NCT00772538,Adverse Event,lnorm,-1.242e+02,2.524e+02
+NCT00772538,Other/Miscellaneous,lnorm,-1.389e+02,2.819e+02
+NCT00772538,Voluntary Withdrawal,lnorm,-1.147e+02,2.334e+02
+NCT00776984,Adverse Event,lnorm,-1.055e+02,2.150e+02
+NCT00776984,Other/Miscellaneous,lnorm,-1.435e+02,2.909e+02
+NCT00776984,Voluntary Withdrawal,lnorm,-1.882e+02,3.805e+02
+NCT00782210,Adverse Event,lnorm,-4.921e+02,9.882e+02
+NCT00782210,Lack of Efficacy,lnorm,-1.809e+02,3.658e+02
+NCT00782210,Voluntary Withdrawal,lnorm,-2.852e+02,5.743e+02
+NCT00782509,Adverse Event,lnorm,-4.600e+02,9.241e+02
+NCT00782509,Lack of Efficacy,lnorm,-1.755e+02,3.549e+02
+NCT00782509,Other/Miscellaneous,lnorm,-1.022e+02,2.083e+02
+NCT00782509,Voluntary Withdrawal,lnorm,-1.560e+02,3.160e+02
+NCT00793624,Adverse Event,lnorm,-6.034e+02,1.211e+03
+NCT00793624,Lack of Efficacy,lnorm,-1.560e+02,3.160e+02
+NCT00793624,Other/Miscellaneous,lnorm,-1.790e+02,3.621e+02
+NCT00793624,Protocol Violation,lnorm,-1.090e+02,2.221e+02
+NCT00793624,Voluntary Withdrawal,lnorm,-4.981e+02,1.000e+03
+NCT00798161,Adverse Event,lnorm,-2.418e+02,4.875e+02
+NCT00798161,Lack of Efficacy,lnorm,-1.677e+02,3.394e+02
+NCT00798161,Lost to Follow-up,lnorm,-1.398e+02,2.836e+02
+NCT00798161,Protocol Violation,lnorm,-1.394e+02,2.827e+02
+NCT00798161,Voluntary Withdrawal,lnorm,-2.017e+02,4.074e+02
+NCT00800683,Adverse Event,lnorm,-1.635e+02,3.311e+02
+NCT00848081,Adverse Event,lnorm,-1.032e+02,2.104e+02
+NCT00855582,Adverse Event,lnorm,-1.017e+02,2.074e+02
+NCT00855582,Lack of Efficacy,lnorm,-1.109e+02,2.259e+02
+NCT00855582,Other/Miscellaneous,lnorm,-1.436e+02,2.911e+02
+NCT00855582,Protocol Violation,lnorm,-1.111e+02,2.262e+02
+NCT00855582,Voluntary Withdrawal,lnorm,-1.434e+02,2.907e+02
+NCT00861757,Adverse Event,lnorm,-1.360e+02,2.759e+02
+NCT00861757,Voluntary Withdrawal,lnorm,-1.197e+02,2.434e+02
+NCT00915772,Adverse Event,lnorm,-3.448e+02,6.937e+02
+NCT00915772,Lack of Efficacy,lnorm,-2.603e+02,5.246e+02
+NCT00915772,Other/Miscellaneous,lnorm,-1.843e+02,3.727e+02
+NCT00915772,Voluntary Withdrawal,lnorm,-1.737e+02,3.513e+02
+NCT00926289,Adverse Event,lnorm,-1.710e+02,3.459e+02
+NCT00926289,Protocol Violation,lnorm,-1.725e+02,3.490e+02
+NCT00954447,Adverse Event,lnorm,-4.820e+02,9.681e+02
+NCT00954447,Lack of Efficacy,lnorm,-2.031e+02,4.102e+02
+NCT00954447,Lost to Follow-up,lnorm,-2.190e+02,4.419e+02
+NCT00954447,Other/Miscellaneous,lnorm,-3.612e+02,7.265e+02
+NCT00954447,Voluntary Withdrawal,lnorm,-4.092e+02,8.224e+02
+NCT00970632,Protocol Violation,lnorm,-1.771e+02,3.582e+02
+NCT00970632,Voluntary Withdrawal,lnorm,-1.416e+02,2.872e+02
+NCT00975195,Adverse Event,lnorm,-1.925e+03,3.853e+03
+NCT00975195,Lack of Efficacy,lnorm,-1.441e+02,2.921e+02
+NCT00975195,Lost to Follow-up,lnorm,-1.895e+02,3.830e+02
+NCT00975195,Other/Miscellaneous,lnorm,-6.496e+02,1.303e+03
+NCT00975195,Protocol Violation,lnorm,-5.338e+02,1.072e+03
+NCT00975195,Voluntary Withdrawal,lnorm,-1.069e+03,2.142e+03
+NCT00996658,Other/Miscellaneous,lnorm,-1.334e+02,2.709e+02
+NCT01064687,Adverse Event,lnorm,-2.638e+02,5.316e+02
+NCT01064687,Lost to Follow-up,lnorm,-2.594e+02,5.228e+02
+NCT01064687,Voluntary Withdrawal,lnorm,-3.002e+02,6.044e+02
+NCT01075282,Adverse Event,lnorm,-2.363e+02,4.765e+02
+NCT01075282,Other/Miscellaneous,lnorm,-1.430e+02,2.901e+02
+NCT01075282,Voluntary Withdrawal,lnorm,-2.725e+02,5.490e+02
+NCT01084005,Protocol Violation,lnorm,-9.213e+01,1.883e+02
+NCT01087502,Adverse Event,lnorm,-2.417e+02,4.873e+02
+NCT01126437,Adverse Event,lnorm,-1.802e+04,3.604e+04
+NCT01126437,Lack of Efficacy,lnorm,-2.196e+03,4.396e+03
+NCT01126437,Lost to Follow-up,lnorm,-2.066e+03,4.136e+03
+NCT01126437,Other/Miscellaneous,lnorm,-6.224e+03,1.245e+04
+NCT01126437,Protocol Violation,lnorm,-2.069e+03,4.141e+03
+NCT01126437,Voluntary Withdrawal,lnorm,-1.005e+04,2.009e+04
+NCT01126580,Adverse Event,lnorm,-3.306e+02,6.653e+02
+NCT01126580,Lost to Follow-up,lnorm,-2.742e+02,5.524e+02
+NCT01126580,PI/Sponsor Decision,lnorm,-2.092e+02,4.223e+02
+NCT01126580,Voluntary Withdrawal,lnorm,-3.915e+02,7.870e+02
+NCT01131676,Adverse Event,lnorm,-2.478e+03,4.960e+03
+NCT01131676,Other/Miscellaneous,lnorm,-1.307e+03,2.618e+03
+NCT01131676,Protocol Violation,lnorm,-2.654e+02,5.348e+02
+NCT01131676,Voluntary Withdrawal,lnorm,-5.644e+02,1.133e+03
+NCT01159600,Adverse Event,lnorm,-3.358e+02,6.755e+02
+NCT01159600,Lost to Follow-up,lnorm,-1.270e+02,2.579e+02
+NCT01159600,Other/Miscellaneous,lnorm,-2.131e+02,4.302e+02
+NCT01159600,Voluntary Withdrawal,lnorm,-2.208e+02,4.455e+02
+NCT01164501,Adverse Event,lnorm,-4.119e+02,8.279e+02
+NCT01164501,Other/Miscellaneous,lnorm,-1.414e+02,2.867e+02
+NCT01164501,Voluntary Withdrawal,lnorm,-2.267e+02,4.574e+02
+NCT01167881,Adverse Event,lnorm,-7.285e+02,1.461e+03
+NCT01167881,Lost to Follow-up,lnorm,-3.208e+02,6.457e+02
+NCT01167881,Other/Miscellaneous,lnorm,-6.599e+02,1.324e+03
+NCT01167881,Protocol Violation,lnorm,-2.316e+02,4.673e+02
+NCT01167881,Voluntary Withdrawal,lnorm,-6.677e+02,1.339e+03
+NCT01177813,Adverse Event,lnorm,-1.959e+02,3.959e+02
+NCT01177813,Lost to Follow-up,lnorm,-2.305e+02,4.650e+02
+NCT01177813,Other/Miscellaneous,lnorm,-1.243e+02,2.525e+02
+NCT01177813,Voluntary Withdrawal,lnorm,-2.748e+02,5.536e+02
+NCT01191268,Adverse Event,lnorm,-4.010e+02,8.060e+02
+NCT01191268,Lost to Follow-up,lnorm,-1.817e+02,3.675e+02
+NCT01191268,PI/Sponsor Decision,lnorm,-2.476e+02,4.991e+02
+NCT01191268,Voluntary Withdrawal,lnorm,-5.913e+02,1.187e+03
+NCT01191944,Adverse Event,lnorm,-1.961e+02,3.963e+02
+NCT01194830,Lost to Follow-up,lnorm,-1.257e+02,2.554e+02
+NCT01194830,Other/Miscellaneous,lnorm,-1.573e+02,3.185e+02
+NCT01204294,Adverse Event,lnorm,-2.015e+02,4.070e+02
+NCT01210001,Adverse Event,lnorm,-1.089e+02,2.218e+02
+NCT01214239,Voluntary Withdrawal,lnorm,-1.116e+02,2.273e+02
+NCT01306214,Adverse Event,lnorm,-2.745e+02,5.530e+02
+NCT01306214,Protocol Violation,lnorm,-1.544e+02,3.128e+02
+NCT01306214,Voluntary Withdrawal,lnorm,-2.571e+02,5.182e+02
+NCT01335464,Adverse Event,lnorm,-7.587e+02,1.521e+03
+NCT01335464,Voluntary Withdrawal,lnorm,-1.627e+02,3.295e+02
+NCT01335477,Adverse Event,lnorm,-8.244e+02,1.653e+03
+NCT01335477,Voluntary Withdrawal,lnorm,-1.709e+02,3.458e+02
+NCT01368081,Adverse Event,lnorm,-4.645e+02,9.329e+02
+NCT01368081,Other/Miscellaneous,lnorm,-1.139e+02,2.319e+02
+NCT01368081,Voluntary Withdrawal,lnorm,-3.439e+02,6.918e+02
+NCT01370005,Adverse Event,lnorm,-1.494e+02,3.027e+02
+NCT01422876,Adverse Event,lnorm,-5.389e+02,1.082e+03
+NCT01422876,Lost to Follow-up,lnorm,-5.030e+02,1.010e+03
+NCT01422876,Other/Miscellaneous,lnorm,-4.210e+02,8.461e+02
+NCT01422876,Protocol Violation,lnorm,-1.391e+02,2.823e+02
+NCT01422876,Voluntary Withdrawal,lnorm,-3.361e+02,6.761e+02
+NCT01558271,Adverse Event,lnorm,-1.349e+02,2.737e+02
+NCT01558271,Voluntary Withdrawal,lnorm,-2.622e+02,5.284e+02
+NCT01621178,Adverse Event,lnorm,-1.564e+02,3.168e+02
+NCT01621178,Other/Miscellaneous,lnorm,-1.560e+02,3.159e+02
+NCT01621178,PI/Sponsor Decision,lnorm,-1.460e+02,2.961e+02
+NCT01621178,Voluntary Withdrawal,lnorm,-4.169e+02,8.379e+02
+NCT01624259,Adverse Event,lnorm,-1.735e+02,3.509e+02
+NCT01624259,Voluntary Withdrawal,lnorm,-1.119e+02,2.277e+02
+NCT01694771,Adverse Event,lnorm,-3.028e+02,6.097e+02
+NCT01694771,Other/Miscellaneous,lnorm,-1.104e+02,2.249e+02
+NCT01694771,Protocol Violation,lnorm,-1.194e+02,2.428e+02
+NCT01694771,Voluntary Withdrawal,lnorm,-1.464e+02,2.967e+02
+NCT01708902,Adverse Event,lnorm,-2.326e+02,4.693e+02
+NCT01708902,Voluntary Withdrawal,lnorm,-1.984e+02,4.009e+02
+NCT01719003,Adverse Event,lnorm,-3.449e+02,6.937e+02
+NCT01719003,Lost to Follow-up,lnorm,-2.309e+02,4.658e+02
+NCT01719003,Other/Miscellaneous,lnorm,-1.393e+02,2.826e+02
+NCT01719003,Protocol Violation,lnorm,-1.104e+02,2.248e+02
+NCT01719003,Voluntary Withdrawal,lnorm,-3.559e+02,7.158e+02
+NCT01769378,Adverse Event,lnorm,-9.324e+01,1.905e+02
+NCT01769378,Voluntary Withdrawal,lnorm,-9.447e+01,1.929e+02
+NCT02152371,Voluntary Withdrawal,lnorm,-9.576e+01,1.955e+02
+NCT02172287,Adverse Event,lnorm,-6.322e+02,1.268e+03
+NCT02172287,Voluntary Withdrawal,lnorm,-2.062e+02,4.163e+02
+NCT02172586,Voluntary Withdrawal,lnorm,-1.299e+02,2.638e+02
+NCT02175355,Adverse Event,lnorm,-1.873e+02,3.786e+02
+NCT02175355,Protocol Violation,lnorm,-2.256e+02,4.552e+02
+NCT02177344,Adverse Event,lnorm,-2.660e+02,5.361e+02
+NCT02177344,Other/Miscellaneous,lnorm,-2.007e+02,4.055e+02
+NCT02177344,Voluntary Withdrawal,lnorm,-1.735e+02,3.509e+02
+NCT02177396,Adverse Event,lnorm,-1.019e+02,2.078e+02
+NCT02177396,Lack of Efficacy,lnorm,-8.658e+01,1.772e+02
+NCT02177461,Adverse Event,lnorm,-1.450e+02,2.939e+02
+NCT02177461,Lack of Efficacy,lnorm,-2.633e+02,5.305e+02
+NCT02177461,Protocol Violation,lnorm,-1.118e+02,2.277e+02
+NCT02177461,Voluntary Withdrawal,lnorm,-3.267e+02,6.574e+02
+NCT02183064,Adverse Event,lnorm,-3.622e+02,7.284e+02
+NCT02183064,Other/Miscellaneous,lnorm,-1.766e+02,3.571e+02
+NCT02183064,Voluntary Withdrawal,lnorm,-3.478e+02,6.996e+02
+NCT02200653,Adverse Event,lnorm,-1.012e+02,2.064e+02
+NCT02240680,Adverse Event,lnorm,-1.140e+02,2.321e+02
+NCT02489968,Adverse Event,lnorm,-1.660e+02,3.360e+02
+NCT02750410,Adverse Event,lnorm,-1.125e+02,2.290e+02
+NCT00034840,Lack of Efficacy,weibull,-1.022e+02,2.084e+02
+NCT00051558,Adverse Event,weibull,-4.687e+02,9.414e+02
+NCT00051558,Lost to Follow-up,weibull,-1.651e+02,3.342e+02
+NCT00051558,Other/Miscellaneous,weibull,-3.272e+02,6.584e+02
+NCT00051558,PI/Sponsor Decision,weibull,-1.350e+02,2.741e+02
+NCT00051558,Voluntary Withdrawal,weibull,-6.652e+02,1.334e+03
+NCT00125918,Adverse Event,weibull,-3.600e+02,7.239e+02
+NCT00152984,Adverse Event,weibull,-1.092e+02,2.225e+02
+NCT00153023,Adverse Event,weibull,-7.928e+02,1.590e+03
+NCT00153023,Other/Miscellaneous,weibull,-2.208e+02,4.456e+02
+NCT00153023,Protocol Violation,weibull,-1.710e+02,3.460e+02
+NCT00153023,Voluntary Withdrawal,weibull,-2.856e+02,5.751e+02
+NCT00153088,Adverse Event,weibull,-5.325e+02,1.069e+03
+NCT00153088,Voluntary Withdrawal,weibull,-1.314e+02,2.668e+02
+NCT00168831,Adverse Event,weibull,-1.317e+03,2.637e+03
+NCT00168831,Lost to Follow-up,weibull,-1.528e+02,3.096e+02
+NCT00168831,Other/Miscellaneous,weibull,-1.622e+02,3.285e+02
+NCT00168831,Protocol Violation,weibull,-2.774e+02,5.587e+02
+NCT00168831,Voluntary Withdrawal,weibull,-3.876e+02,7.793e+02
+NCT00168844,Adverse Event,weibull,-9.779e+02,1.960e+03
+NCT00168844,Lost to Follow-up,weibull,-2.086e+02,4.213e+02
+NCT00168844,Other/Miscellaneous,weibull,-2.200e+02,4.440e+02
+NCT00168844,Voluntary Withdrawal,weibull,-3.531e+02,7.103e+02
+NCT00168857,Adverse Event,weibull,-8.531e+02,1.710e+03
+NCT00168857,Lost to Follow-up,weibull,-1.315e+02,2.670e+02
+NCT00168857,Other/Miscellaneous,weibull,-1.778e+02,3.597e+02
+NCT00168857,Protocol Violation,weibull,-2.857e+02,5.754e+02
+NCT00168857,Voluntary Withdrawal,weibull,-1.710e+02,3.459e+02
+NCT00239421,Adverse Event,weibull,-1.194e+02,2.428e+02
+NCT00274014,Adverse Event,weibull,-9.712e+02,1.946e+03
+NCT00274014,Other/Miscellaneous,weibull,-3.873e+02,7.786e+02
+NCT00274014,Protocol Violation,weibull,-2.584e+02,5.209e+02
+NCT00274014,Voluntary Withdrawal,weibull,-4.473e+02,8.986e+02
+NCT00274053,Adverse Event,weibull,-3.947e+02,7.934e+02
+NCT00274053,Protocol Violation,weibull,-2.040e+02,4.120e+02
+NCT00274053,Voluntary Withdrawal,weibull,-2.366e+02,4.771e+02
+NCT00274079,Adverse Event,weibull,-2.566e+02,5.172e+02
+NCT00274547,Adverse Event,weibull,-2.028e+03,4.060e+03
+NCT00274547,Lost to Follow-up,weibull,-1.115e+02,2.270e+02
+NCT00274547,Other/Miscellaneous,weibull,-2.432e+02,4.904e+02
+NCT00274547,Protocol Violation,weibull,-3.587e+02,7.215e+02
+NCT00274547,Voluntary Withdrawal,weibull,-5.836e+02,1.171e+03
+NCT00274560,Adverse Event,weibull,-3.665e+02,7.369e+02
+NCT00274560,Voluntary Withdrawal,weibull,-1.124e+02,2.288e+02
+NCT00274573,Adverse Event,weibull,-1.482e+03,2.967e+03
+NCT00274573,Other/Miscellaneous,weibull,-2.864e+02,5.767e+02
+NCT00274573,Protocol Violation,weibull,-1.765e+02,3.570e+02
+NCT00274573,Voluntary Withdrawal,weibull,-2.621e+02,5.282e+02
+NCT00274599,Adverse Event,weibull,-2.952e+02,5.944e+02
+NCT00274599,Lack of Efficacy,weibull,-1.166e+02,2.373e+02
+NCT00274599,Lost to Follow-up,weibull,-9.870e+01,2.014e+02
+NCT00274599,Other/Miscellaneous,weibull,-9.422e+01,1.924e+02
+NCT00274599,Voluntary Withdrawal,weibull,-1.680e+02,3.399e+02
+NCT00274612,Adverse Event,weibull,-3.111e+02,6.261e+02
+NCT00274612,Lack of Efficacy,weibull,-9.936e+01,2.027e+02
+NCT00274612,Other/Miscellaneous,weibull,-1.597e+02,3.234e+02
+NCT00277264,Adverse Event,weibull,-9.426e+02,1.889e+03
+NCT00277264,Other/Miscellaneous,weibull,-1.405e+02,2.850e+02
+NCT00277264,Protocol Violation,weibull,-1.502e+02,3.044e+02
+NCT00277264,Voluntary Withdrawal,weibull,-6.431e+02,1.290e+03
+NCT00321854,Adverse Event,weibull,-7.274e+02,1.459e+03
+NCT00321854,Lack of Efficacy,weibull,-2.291e+02,4.623e+02
+NCT00321854,Protocol Violation,weibull,-1.177e+02,2.394e+02
+NCT00321854,Voluntary Withdrawal,weibull,-2.272e+02,4.584e+02
+NCT00384930,Adverse Event,weibull,-3.922e+02,7.883e+02
+NCT00384930,Other/Miscellaneous,weibull,-2.257e+02,4.554e+02
+NCT00384930,PI/Sponsor Decision,weibull,-1.340e+02,2.720e+02
+NCT00384930,Protocol Violation,weibull,-1.095e+02,2.230e+02
+NCT00384930,Voluntary Withdrawal,weibull,-3.312e+02,6.664e+02
+NCT00402233,Adverse Event,weibull,-2.035e+02,4.109e+02
+NCT00466167,Adverse Event,weibull,-2.438e+02,4.917e+02
+NCT00466167,Voluntary Withdrawal,weibull,-1.727e+02,3.495e+02
+NCT00472199,Adverse Event,weibull,-3.281e+02,6.602e+02
+NCT00472199,Lack of Efficacy,weibull,-2.417e+02,4.874e+02
+NCT00472199,Voluntary Withdrawal,weibull,-1.016e+02,2.073e+02
+NCT00479401,Adverse Event,weibull,-4.112e+02,8.264e+02
+NCT00479401,Voluntary Withdrawal,weibull,-2.493e+02,5.027e+02
+NCT00525512,Adverse Event,weibull,-6.986e+02,1.401e+03
+NCT00525512,Lack of Efficacy,weibull,-1.894e+02,3.828e+02
+NCT00525512,Other/Miscellaneous,weibull,-2.517e+02,5.074e+02
+NCT00525512,Voluntary Withdrawal,weibull,-2.762e+02,5.563e+02
+NCT00563381,Adverse Event,weibull,-5.163e+03,1.033e+04
+NCT00563381,Lack of Efficacy,weibull,-6.490e+02,1.302e+03
+NCT00563381,Lost to Follow-up,weibull,-2.761e+02,5.562e+02
+NCT00563381,Other/Miscellaneous,weibull,-6.696e+02,1.343e+03
+NCT00563381,Protocol Violation,weibull,-1.466e+03,2.935e+03
+NCT00563381,Voluntary Withdrawal,weibull,-3.805e+03,7.614e+03
+NCT00601250,Other/Miscellaneous,weibull,-1.029e+02,2.097e+02
+NCT00601250,Voluntary Withdrawal,weibull,-1.666e+02,3.372e+02
+NCT00602472,Adverse Event,weibull,-2.712e+02,5.463e+02
+NCT00602472,Protocol Violation,weibull,-2.194e+02,4.429e+02
+NCT00602472,Voluntary Withdrawal,weibull,-2.102e+02,4.245e+02
+NCT00622284,Adverse Event,weibull,-1.449e+03,2.903e+03
+NCT00622284,Lack of Efficacy,weibull,-6.410e+02,1.286e+03
+NCT00622284,Lost to Follow-up,weibull,-2.569e+02,5.178e+02
+NCT00622284,Other/Miscellaneous,weibull,-6.103e+02,1.225e+03
+NCT00622284,Protocol Violation,weibull,-2.026e+02,4.091e+02
+NCT00622284,Voluntary Withdrawal,weibull,-5.340e+02,1.072e+03
+NCT00641043,Adverse Event,weibull,-9.445e+01,1.929e+02
+NCT00654381,Adverse Event,weibull,-2.016e+02,4.071e+02
+NCT00734474,Adverse Event,weibull,-2.051e+03,4.107e+03
+NCT00734474,Lack of Efficacy,weibull,-1.622e+02,3.284e+02
+NCT00734474,Lost to Follow-up,weibull,-3.275e+02,6.591e+02
+NCT00734474,Other/Miscellaneous,weibull,-1.627e+02,3.294e+02
+NCT00734474,PI/Sponsor Decision,weibull,-3.739e+02,7.519e+02
+NCT00734474,Protocol Violation,weibull,-1.307e+02,2.654e+02
+NCT00734474,Voluntary Withdrawal,weibull,-9.577e+02,1.919e+03
+NCT00740051,Lost to Follow-up,weibull,-1.078e+02,2.195e+02
+NCT00740051,Voluntary Withdrawal,weibull,-1.325e+02,2.690e+02
+NCT00772538,Adverse Event,weibull,-1.241e+02,2.522e+02
+NCT00772538,Other/Miscellaneous,weibull,-1.388e+02,2.816e+02
+NCT00772538,Voluntary Withdrawal,weibull,-1.149e+02,2.339e+02
+NCT00776984,Adverse Event,weibull,-1.057e+02,2.154e+02
+NCT00776984,Other/Miscellaneous,weibull,-1.434e+02,2.908e+02
+NCT00776984,Voluntary Withdrawal,weibull,-1.887e+02,3.815e+02
+NCT00782210,Adverse Event,weibull,-4.922e+02,9.884e+02
+NCT00782210,Lack of Efficacy,weibull,-1.812e+02,3.664e+02
+NCT00782210,Voluntary Withdrawal,weibull,-2.858e+02,5.757e+02
+NCT00782509,Adverse Event,weibull,-4.603e+02,9.247e+02
+NCT00782509,Lack of Efficacy,weibull,-1.757e+02,3.553e+02
+NCT00782509,Other/Miscellaneous,weibull,-1.025e+02,2.090e+02
+NCT00782509,Voluntary Withdrawal,weibull,-1.564e+02,3.168e+02
+NCT00793624,Adverse Event,weibull,-6.045e+02,1.213e+03
+NCT00793624,Lack of Efficacy,weibull,-1.566e+02,3.171e+02
+NCT00793624,Other/Miscellaneous,weibull,-1.793e+02,3.625e+02
+NCT00793624,Protocol Violation,weibull,-1.093e+02,2.227e+02
+NCT00793624,Voluntary Withdrawal,weibull,-5.000e+02,1.004e+03
+NCT00798161,Adverse Event,weibull,-2.425e+02,4.890e+02
+NCT00798161,Lack of Efficacy,weibull,-1.677e+02,3.394e+02
+NCT00798161,Lost to Follow-up,weibull,-1.403e+02,2.845e+02
+NCT00798161,Protocol Violation,weibull,-1.397e+02,2.834e+02
+NCT00798161,Voluntary Withdrawal,weibull,-2.020e+02,4.081e+02
+NCT00800683,Adverse Event,weibull,-1.641e+02,3.321e+02
+NCT00848081,Adverse Event,weibull,-1.036e+02,2.113e+02
+NCT00855582,Adverse Event,weibull,-1.020e+02,2.081e+02
+NCT00855582,Lack of Efficacy,weibull,-1.116e+02,2.272e+02
+NCT00855582,Other/Miscellaneous,weibull,-1.442e+02,2.924e+02
+NCT00855582,Protocol Violation,weibull,-1.115e+02,2.270e+02
+NCT00855582,Voluntary Withdrawal,weibull,-1.440e+02,2.921e+02
+NCT00861757,Adverse Event,weibull,-1.366e+02,2.772e+02
+NCT00861757,Voluntary Withdrawal,weibull,-1.203e+02,2.446e+02
+NCT00915772,Adverse Event,weibull,-3.449e+02,6.938e+02
+NCT00915772,Lack of Efficacy,weibull,-2.607e+02,5.255e+02
+NCT00915772,Other/Miscellaneous,weibull,-1.846e+02,3.732e+02
+NCT00915772,Voluntary Withdrawal,weibull,-1.736e+02,3.513e+02
+NCT00926289,Adverse Event,weibull,-1.718e+02,3.477e+02
+NCT00926289,Protocol Violation,weibull,-1.727e+02,3.495e+02
+NCT00954447,Adverse Event,weibull,-4.834e+02,9.707e+02
+NCT00954447,Lack of Efficacy,weibull,-2.034e+02,4.107e+02
+NCT00954447,Lost to Follow-up,weibull,-2.192e+02,4.424e+02
+NCT00954447,Other/Miscellaneous,weibull,-3.627e+02,7.294e+02
+NCT00954447,Voluntary Withdrawal,weibull,-4.104e+02,8.248e+02
+NCT00970632,Protocol Violation,weibull,-1.778e+02,3.596e+02
+NCT00970632,Voluntary Withdrawal,weibull,-1.418e+02,2.876e+02
+NCT00975195,Adverse Event,weibull,-1.926e+03,3.857e+03
+NCT00975195,Lack of Efficacy,weibull,-1.444e+02,2.929e+02
+NCT00975195,Lost to Follow-up,weibull,-1.891e+02,3.821e+02
+NCT00975195,Protocol Violation,weibull,-5.335e+02,1.071e+03
+NCT00975195,Voluntary Withdrawal,weibull,-1.070e+03,2.145e+03
+NCT00996658,Other/Miscellaneous,weibull,-1.340e+02,2.720e+02
+NCT01064687,Adverse Event,weibull,-2.650e+02,5.341e+02
+NCT01064687,Lost to Follow-up,weibull,-2.593e+02,5.225e+02
+NCT01064687,Voluntary Withdrawal,weibull,-3.002e+02,6.044e+02
+NCT01075282,Adverse Event,weibull,-2.367e+02,4.775e+02
+NCT01075282,Other/Miscellaneous,weibull,-1.434e+02,2.908e+02
+NCT01075282,Voluntary Withdrawal,weibull,-2.729e+02,5.498e+02
+NCT01084005,Protocol Violation,weibull,-9.190e+01,1.878e+02
+NCT01087502,Adverse Event,weibull,-2.410e+02,4.859e+02
+NCT01126437,Adverse Event,weibull,-1.798e+04,3.597e+04
+NCT01126437,Lack of Efficacy,weibull,-2.201e+03,4.406e+03
+NCT01126437,Lost to Follow-up,weibull,-2.061e+03,4.126e+03
+NCT01126437,Other/Miscellaneous,weibull,-6.203e+03,1.241e+04
+NCT01126437,Protocol Violation,weibull,-2.068e+03,4.139e+03
+NCT01126437,Voluntary Withdrawal,weibull,-1.005e+04,2.011e+04
+NCT01126580,Adverse Event,weibull,-3.321e+02,6.681e+02
+NCT01126580,Lost to Follow-up,weibull,-2.745e+02,5.531e+02
+NCT01126580,PI/Sponsor Decision,weibull,-2.097e+02,4.234e+02
+NCT01126580,Voluntary Withdrawal,weibull,-3.919e+02,7.877e+02
+NCT01131676,Adverse Event,weibull,-2.465e+03,4.934e+03
+NCT01131676,Other/Miscellaneous,weibull,-1.294e+03,2.592e+03
+NCT01131676,Protocol Violation,weibull,-2.651e+02,5.341e+02
+NCT01131676,Voluntary Withdrawal,weibull,-5.632e+02,1.130e+03
+NCT01159600,Adverse Event,weibull,-3.362e+02,6.764e+02
+NCT01159600,Lost to Follow-up,weibull,-1.270e+02,2.580e+02
+NCT01159600,Other/Miscellaneous,weibull,-2.131e+02,4.303e+02
+NCT01159600,Voluntary Withdrawal,weibull,-2.211e+02,4.462e+02
+NCT01164501,Adverse Event,weibull,-4.132e+02,8.303e+02
+NCT01164501,Other/Miscellaneous,weibull,-1.410e+02,2.859e+02
+NCT01164501,Voluntary Withdrawal,weibull,-2.269e+02,4.579e+02
+NCT01167881,Adverse Event,weibull,-7.313e+02,1.467e+03
+NCT01167881,Lost to Follow-up,weibull,-3.221e+02,6.483e+02
+NCT01167881,Other/Miscellaneous,weibull,-6.621e+02,1.328e+03
+NCT01167881,Protocol Violation,weibull,-2.324e+02,4.688e+02
+NCT01167881,Voluntary Withdrawal,weibull,-6.698e+02,1.344e+03
+NCT01177813,Adverse Event,weibull,-1.958e+02,3.957e+02
+NCT01177813,Lost to Follow-up,weibull,-2.314e+02,4.668e+02
+NCT01177813,Other/Miscellaneous,weibull,-1.243e+02,2.525e+02
+NCT01177813,Voluntary Withdrawal,weibull,-2.752e+02,5.545e+02
+NCT01191268,Adverse Event,weibull,-4.029e+02,8.097e+02
+NCT01191268,Lost to Follow-up,weibull,-1.824e+02,3.689e+02
+NCT01191268,PI/Sponsor Decision,weibull,-2.483e+02,5.006e+02
+NCT01191268,Voluntary Withdrawal,weibull,-5.923e+02,1.189e+03
+NCT01191944,Adverse Event,weibull,-1.968e+02,3.977e+02
+NCT01194830,Lost to Follow-up,weibull,-1.260e+02,2.561e+02
+NCT01194830,Other/Miscellaneous,weibull,-1.581e+02,3.203e+02
+NCT01204294,Adverse Event,weibull,-2.017e+02,4.073e+02
+NCT01210001,Adverse Event,weibull,-1.090e+02,2.221e+02
+NCT01214239,Voluntary Withdrawal,weibull,-1.114e+02,2.268e+02
+NCT01306214,Adverse Event,weibull,-2.748e+02,5.535e+02
+NCT01306214,Protocol Violation,weibull,-1.544e+02,3.127e+02
+NCT01306214,Voluntary Withdrawal,weibull,-2.572e+02,5.185e+02
+NCT01335464,Adverse Event,weibull,-7.582e+02,1.520e+03
+NCT01335464,Voluntary Withdrawal,weibull,-1.633e+02,3.307e+02
+NCT01335477,Adverse Event,weibull,-8.241e+02,1.652e+03
+NCT01335477,Voluntary Withdrawal,weibull,-1.712e+02,3.464e+02
+NCT01368081,Adverse Event,weibull,-4.633e+02,9.306e+02
+NCT01368081,Other/Miscellaneous,weibull,-1.142e+02,2.323e+02
+NCT01368081,Voluntary Withdrawal,weibull,-3.435e+02,6.909e+02
+NCT01370005,Adverse Event,weibull,-1.499e+02,3.037e+02
+NCT01422876,Adverse Event,weibull,-5.385e+02,1.081e+03
+NCT01422876,Lost to Follow-up,weibull,-5.010e+02,1.006e+03
+NCT01422876,Other/Miscellaneous,weibull,-4.212e+02,8.464e+02
+NCT01422876,Protocol Violation,weibull,-1.385e+02,2.810e+02
+NCT01422876,Voluntary Withdrawal,weibull,-3.366e+02,6.773e+02
+NCT01558271,Adverse Event,weibull,-1.350e+02,2.740e+02
+NCT01558271,Voluntary Withdrawal,weibull,-2.623e+02,5.285e+02
+NCT01621178,Adverse Event,weibull,-1.564e+02,3.169e+02
+NCT01621178,Other/Miscellaneous,weibull,-1.563e+02,3.166e+02
+NCT01621178,PI/Sponsor Decision,weibull,-1.465e+02,2.971e+02
+NCT01621178,Voluntary Withdrawal,weibull,-4.183e+02,8.407e+02
+NCT01624259,Adverse Event,weibull,-1.741e+02,3.521e+02
+NCT01624259,Voluntary Withdrawal,weibull,-1.117e+02,2.275e+02
+NCT01694771,Adverse Event,weibull,-3.034e+02,6.109e+02
+NCT01694771,Other/Miscellaneous,weibull,-1.103e+02,2.246e+02
+NCT01694771,Protocol Violation,weibull,-1.194e+02,2.429e+02
+NCT01694771,Voluntary Withdrawal,weibull,-1.461e+02,2.962e+02
+NCT01708902,Adverse Event,weibull,-2.334e+02,4.708e+02
+NCT01708902,Voluntary Withdrawal,weibull,-1.991e+02,4.021e+02
+NCT01719003,Adverse Event,weibull,-3.454e+02,6.948e+02
+NCT01719003,Lost to Follow-up,weibull,-2.311e+02,4.661e+02
+NCT01719003,Other/Miscellaneous,weibull,-1.392e+02,2.824e+02
+NCT01719003,Protocol Violation,weibull,-1.099e+02,2.238e+02
+NCT01719003,Voluntary Withdrawal,weibull,-3.563e+02,7.166e+02
+NCT01769378,Adverse Event,weibull,-9.377e+01,1.915e+02
+NCT01769378,Voluntary Withdrawal,weibull,-9.479e+01,1.936e+02
+NCT02152371,Voluntary Withdrawal,weibull,-9.624e+01,1.965e+02
+NCT02172287,Adverse Event,weibull,-6.338e+02,1.272e+03
+NCT02172287,Voluntary Withdrawal,weibull,-2.066e+02,4.173e+02
+NCT02172586,Voluntary Withdrawal,weibull,-1.300e+02,2.640e+02
+NCT02175355,Adverse Event,weibull,-1.883e+02,3.807e+02
+NCT02175355,Protocol Violation,weibull,-2.268e+02,4.575e+02
+NCT02177344,Adverse Event,weibull,-2.676e+02,5.393e+02
+NCT02177344,Other/Miscellaneous,weibull,-2.016e+02,4.072e+02
+NCT02177344,Voluntary Withdrawal,weibull,-1.744e+02,3.527e+02
+NCT02177396,Adverse Event,weibull,-1.024e+02,2.089e+02
+NCT02177396,Lack of Efficacy,weibull,-8.690e+01,1.778e+02
+NCT02177461,Adverse Event,weibull,-1.454e+02,2.948e+02
+NCT02177461,Lack of Efficacy,weibull,-2.657e+02,5.353e+02
+NCT02177461,Protocol Violation,weibull,-1.120e+02,2.279e+02
+NCT02177461,Voluntary Withdrawal,weibull,-3.280e+02,6.600e+02
+NCT02183064,Adverse Event,weibull,-3.636e+02,7.311e+02
+NCT02183064,Other/Miscellaneous,weibull,-1.771e+02,3.581e+02
+NCT02183064,Voluntary Withdrawal,weibull,-3.488e+02,7.015e+02
+NCT02200653,Adverse Event,weibull,-1.013e+02,2.066e+02
+NCT02240680,Adverse Event,weibull,-1.141e+02,2.321e+02
+NCT02489968,Adverse Event,weibull,-1.666e+02,3.373e+02
+NCT02750410,Adverse Event,weibull,-1.128e+02,2.296e+02
