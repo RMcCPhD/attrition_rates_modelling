@@ -5,6 +5,7 @@
 
 source("config.R")
 library(tidyverse)
+library(flexsurv)
 
 # Import data
 imp_params <- read_csv("total_attrition/data/parameters.csv")
@@ -47,9 +48,29 @@ ind_cond_n <- imp_sum %>%
   ) %>% 
   select(-trial_num)
 
+# Address error for NCT01694771, randomised period ends at 84 days but follow-up
+# period was a threshold for completion (i.e. ~22 days), actual end point is
+# 84 days
+imp_cind_fix <- as_tibble(imp_cind) %>% 
+  group_by(ctgov) %>% 
+  mutate(
+    estimate = case_when(
+      ctgov == "NCT01694771" 
+      & time > 83
+      & !is.na(estimate) ~ first(estimate[time == 83]),
+      TRUE ~ estimate
+    )
+  ) %>% 
+  ungroup()
+
 # Join new id to cumulative incidence and hazard rate datasets
-cind_plot_df <- ind_cond_n %>% left_join(imp_cind) %>% filter(!is.na(estimate))
-haz_plot_df <- ind_cond_n %>% left_join(imp_haz) %>% filter(dist != "exp")
+cind_plot_df <- ind_cond_n %>% 
+  left_join(imp_cind_fix) %>% 
+  filter(!is.na(estimate))
+
+haz_plot_df <- ind_cond_n %>% 
+  left_join(imp_haz) %>% 
+  filter(dist != "exp")
 
 ### Cumulative incidence #######################################################
 
@@ -92,15 +113,8 @@ ci_params <- lst_prep$params %>%
   mutate(params = map(params, as_tibble)) %>% 
   unnest(params) %>% 
   select(ctgov, dist) %>% 
-  left_join(
-    imp_params %>% 
-      mutate(
-        uci = est + 1.96 * se,
-        lci = est - 1.96 * se
-      ) %>% 
-      select(-se)
-  ) %>% 
-  pivot_wider(names_from = "parameter", values_from = c("est", "uci", "lci"))
+  left_join(imp_params) %>% 
+  pivot_wider(names_from = "parameter", values_from = c("est", "se"))
 
 # Sequence all time points per trial and join empirical estimates
 ci_cind <- lst_prep$cind %>% 
@@ -112,6 +126,16 @@ ci_cind <- lst_prep$cind %>%
   left_join(
     lst_prep$cind %>% 
       unnest(cols = "cind") %>% 
+      group_by(ctgov) %>% 
+      mutate(
+        estimate = case_when(
+          ctgov == "NCT01694771" 
+          & time > 83
+          & !is.na(estimate) ~ first(estimate[time == 83]),
+          TRUE ~ estimate
+        )
+      ) %>% 
+      ungroup() %>% 
       rename(time_seq = time)
   ) %>% 
   distinct()
@@ -152,8 +176,11 @@ ci_cind_mdls <- ci_cind %>%
         }
       }
     ),
-    lci = pmap_dbl(
-      list(time_seq, dist, lci_rate, lci_shape, lci_scale, lci_meanlog, lci_sdlog),
+    se_mdl = pmap_dbl(
+      list(
+        time_seq, dist, est_rate, est_shape, est_scale, est_meanlog, est_sdlog, 
+        se_rate, se_shape, se_scale, se_meanlog, se_sdlog
+      ),
       ~ {
         time <- ..1
         dist <- ..2
@@ -162,58 +189,50 @@ ci_cind_mdls <- ci_cind %>%
         scale <- ..5
         meanlog <- ..6
         sdlog <- ..7
+        se_rate <- ..8
+        se_shape <- ..9
+        se_scale <- ..10
+        se_meanlog <- ..11
+        se_sdlog <- ..12
         
         if (dist == "exp") {
-          1 - pexp(time, rate = exp(rate))
+          S_t <- exp(-exp(rate) * time)
+          grad_rate <- -time * S_t * exp(rate)
+          se_S_t <- sqrt(grad_rate^2 * se_rate^2)
           
         } else if (dist == "gompertz") {
-          1 - pgompertz(time, shape = shape, rate = exp(rate))
+          S_t <- exp(-(exp(rate) / shape) * (exp(shape * time) - 1))
+          grad_rate <- -S_t * (1 / shape) * (exp(shape * time) - 1) * exp(rate)
+          grad_shape <- S_t * (exp(rate) / shape^2) * (exp(shape * time) - 1) - S_t * (exp(rate) / shape) * exp(shape * time) * time
+          se_S_t <- sqrt(grad_rate^2 * se_rate^2 + grad_shape^2 * se_shape^2)
           
         } else if (dist == "llogis") {
-          1 - pllogis(time, shape = exp(shape), scale = exp(scale))
+          S_t <- 1 / (1 + (time / exp(scale))^exp(shape))
+          grad_shape <- -S_t^2 * log(time / exp(scale)) * (time / exp(scale))^exp(shape) * exp(shape)
+          grad_scale <- S_t^2 * exp(shape) * (time / exp(scale))^exp(shape) / exp(scale)
+          se_S_t <- sqrt(grad_shape^2 * se_shape^2 + grad_scale^2 * se_scale^2)
           
         } else if (dist == "lnorm") {
-          1 - plnorm(time, meanlog = meanlog, sdlog = exp(sdlog))
+          S_t <- 1 - plnorm(time, meanlog, exp(sdlog))
+          grad_meanlog <- -dnorm((log(time) - meanlog) / exp(sdlog)) / exp(sdlog)
+          grad_sdlog <- -dnorm((log(time) - meanlog) / exp(sdlog)) * (log(time) - meanlog) / (exp(sdlog)^2) * exp(sdlog)
+          se_S_t <- sqrt(grad_meanlog^2 * se_meanlog^2 + grad_sdlog^2 * se_sdlog^2)
           
         } else if (dist == "weibull") {
-          1 - pweibull(time, shape = exp(shape), scale = exp(scale))
+          S_t <- exp(-(time / exp(scale))^exp(shape))
+          grad_shape <- -S_t * log(time / exp(scale)) * (time / exp(scale))^exp(shape) * exp(shape)
+          grad_scale <- S_t * exp(shape) * (time / exp(scale))^exp(shape) / exp(scale)
+          se_S_t <- sqrt(grad_shape^2 * se_shape^2 + grad_scale^2 * se_scale^2)
           
         } else {
           NA_real_
         }
       }
     ),
-    uci = pmap_dbl(
-      list(time_seq, dist, uci_rate, uci_shape, uci_scale, uci_meanlog, uci_sdlog),
-      ~ {
-        time <- ..1
-        dist <- ..2
-        rate <- ..3
-        shape <- ..4
-        scale <- ..5
-        meanlog <- ..6
-        sdlog <- ..7
-        
-        if (dist == "exp") {
-          1 - pexp(time, rate = exp(rate))
-          
-        } else if (dist == "gompertz") {
-          1 - pgompertz(time, shape = shape, rate = exp(rate))
-          
-        } else if (dist == "llogis") {
-          1 - pllogis(time, shape = exp(shape), scale = exp(scale))
-          
-        } else if (dist == "lnorm") {
-          1 - plnorm(time, meanlog = meanlog, sdlog = exp(sdlog))
-          
-        } else if (dist == "weibull") {
-          1 - pweibull(time, shape = exp(shape), scale = exp(scale))
-          
-        } else {
-          NA_real_
-        }
-      }
-    )
+    
+    # Compute CI based on delta method
+    lci = pmax((mdl + 1.96 * se_mdl), 0),
+    uci = pmin((mdl - 1.96 * se_mdl), 1)
   ) %>% 
   select(ctgov:dist, mdl:uci)
 
@@ -241,10 +260,9 @@ plot_cind_ci <- ci_cind_plot_df %>%
       ymin = round((1 - lci) * 100, 1),
       ymax = round((1 - uci) * 100, 1)
     ),
-    linewidth = 0.5,
-    alpha = 0.5,
+    alpha = 0.4,
     fill = case_when(
-      ci_cind_plot_df$dist == "exp" ~ "blue",
+      ci_cind_plot_df$dist == "exp" ~ "skyblue",
       ci_cind_plot_df$dist == "gompertz" ~"orange",
       ci_cind_plot_df$dist == "lnorm" ~ "purple",
       ci_cind_plot_df$dist == "llogis" ~ "deeppink",

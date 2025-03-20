@@ -56,3 +56,6 @@ haz_bind <- get_hazards()
 
 # Save (locally, can run the script as said above to get these objects)
 # saveRDS(haz_bind, "total_attrition/processed_data/haz_sampled_df.rds")
+
+# Unload MASS after use to avoid dplyr conflicts
+detach("package:MASS", unload = TRUE)
