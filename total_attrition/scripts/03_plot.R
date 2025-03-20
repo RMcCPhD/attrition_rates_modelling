@@ -51,6 +51,7 @@ ind_cond_n <- imp_sum %>%
 # Address error for NCT01694771, randomised period ends at 84 days but follow-up
 # period was a threshold for completion (i.e. ~22 days), actual end point is
 # 84 days
+# Updates reflected in cind_pblc.csv
 imp_cind_fix <- as_tibble(imp_cind) %>% 
   group_by(ctgov) %>% 
   mutate(
@@ -237,7 +238,9 @@ ci_cind_mdls <- ci_cind %>%
   select(ctgov:dist, mdl:uci)
 
 # Add plot ids
-ci_cind_plot_df <- ind_cond_n %>% left_join(ci_cind_mdls) %>% filter(!is.na(estimate))
+ci_cind_plot_df <- ind_cond_n %>% 
+  left_join(ci_cind_mdls) %>% 
+  filter(!is.na(estimate))
 
 # Plot
 plot_cind_ci <- ci_cind_plot_df %>% 
@@ -286,6 +289,47 @@ ggsave(
 )
 
 ## Supplementary figure 4 (Gompertz vs log-normal)
+# Get Gompertz and log-normal parameters where either were best-fitting
+# 57 trials
+gmp_lnorm_params <- ci_cind_mdls %>% 
+  count(ctgov, dist) %>% 
+  filter(dist %in% c("gompertz", "lnorm")) %>% 
+  select(ctgov) %>% 
+  left_join(imp_params %>% filter(dist %in% c("gompertz", "lnorm"))) %>% 
+  select(-se) %>% 
+  pivot_wider(names_from = c("dist", "parameter"), values_from = c("est"))
+
+gmp_lnorm_mdls <- ci_cind %>% 
+  filter(ctgov %in% gmp_lnorm_params$ctgov) %>% 
+  left_join(gmp_lnorm_params, by = "ctgov") %>% 
+  group_by(ctgov) %>% 
+  mutate(
+    mdl_gmp = 1 - pgompertz(time_seq, shape = gompertz_shape, rate = exp(gompertz_rate)),
+    mdl_lnorm = 1 - plnorm(time_seq, meanlog = lnorm_meanlog, sdlog = exp(lnorm_sdlog))
+  )
+
+plot_gmp_lnorm <- ind_cond_n %>% 
+  filter(ctgov %in% gmp_lnorm_mdls$ctgov) %>% 
+  left_join(gmp_lnorm_mdls) %>% 
+  filter(!is.na(estimate)) %>% 
+  ggplot(aes(x = time_seq, y = 1 - estimate)) +
+  geom_step(colour = "black", linewidth = 0.5) +
+  geom_line(aes(x = time_seq, y = 1 - mdl_gmp), colour = "orange", linewidth = 0.5) +
+  geom_line(aes(x = time_seq, y = 1 - mdl_lnorm), colour = "purple", linewidth = 0.5) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free", ncol = 9) +
+  theme_bw() +
+  theme(text = element_text(size = 5))
+
+ggsave(
+  "total_attrition/plots/suppfig4.png",
+  plot_gmp_lnorm,
+  dpi = 300,
+  width = 10,
+  height = 6
+)
 
 
 ### Hazard rate ################################################################
