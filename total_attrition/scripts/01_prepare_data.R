@@ -11,10 +11,11 @@ library(tidyverse)
 imp_cind <- read_csv("total_attrition/data/t2e.csv")
 
 # Separate variables
-# Data for 92 trials extracted but two were removed when finalising the
-# analysis set:
+# Data for 92 trials were removed when finalising the analysis set:
 # NCT01131676 - Discrepancies noted between the extracted counts and ctgov
 # NCT00274573 - Trial was stopped by the sponsor, not representative of attr
+# Error in extraction for NCT01694771 that was missed before export, randomised 
+# period was 106 days (incl. follow-up)
 cind_sep <- imp_cind %>% 
   filter(!(ctgov %in% c("NCT01131676", "NCT00274573"))) %>% 
   group_by(ctgov) %>% 
@@ -24,7 +25,8 @@ cind_sep <- imp_cind %>%
   mutate(
     across(c(time, estimate), ~ gsub("t|est|\\=", "", .)),
     across(c(time, estimate), ~ as.numeric(.))
-  )
+  ) %>% 
+  filter(!(ctgov == "NCT01694771" & time > 106))
 
 glimpse(cind_sep)
 
@@ -34,7 +36,7 @@ glimpse(cind_sep)
 # Save as nested data for analysis
 cind_nest <- cind_sep %>% 
   group_by(ctgov) %>% 
-  nest(.key = "t2e") %>% 
+  nest(.key = "cind") %>% 
   ungroup()
 
 ### Best parametric models #####################################################

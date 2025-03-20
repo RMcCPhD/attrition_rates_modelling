@@ -3,38 +3,36 @@
 
 get_samples <- function() {
   
-  dat <- data$nested_t2e
-  dat2 <- data$best_models
-  dat3 <- data$covariance
+  # Define data
+  dat <- lst_prep$cind
+  dat2 <- lst_prep$params
+  dat3 <- lst_prep$vcov
   
   # List to store samples for each model
   lst_samples <- vector("list", length = nrow(dat))
   names(lst_samples) <- dat$ctgov
   
-  for(i in seq_along(dat2$nested_params)) {
+  for(i in seq_along(dat2$params)) {
     
     name_loop <- dat$ctgov[i]
     
-    for(j in seq_along(dat2$nested_params[[i]]$params)) {
+    for(j in seq_along(dat2$params[[i]]$params)) {
       
-      dist <- paste0(dat2$nested_params[[i]]$dist[[j]])
-      surv <- dat$t2e[[i]]
+      dist <- paste0(dat2$params[[i]]$dist[[j]])
+      surv <- dat$cind[[i]]
       
-      # mvrnorm arguments
-      n = 100
-      mu = dat2$nested_params[[i]]$params[[j]]  # Estimate
-      sigma = dat3$distr_cov[[i]]$vcov[[j]]  # Covariance matrix
+      n = 100 # Number of samples
+      mu = dat2$params[[i]]$params[[j]]  # Parameter estimates
+      sigma = dat3$vcov[[i]]$vcov[[j]]  # Variance-covariance
       
-      # Sample parameters with mvrnorm
-      tryCatch(
-        {
+      # Sample parameters with mvrnorm and catch any errors
+      tryCatch({
           lst_samples[[i]][[dist]] <- mvrnorm(n = n, mu = mu, Sigma = sigma)
         },
         error = function(e) {
           message(paste0("Error sampling ", name_loop, " ", dist, " Error: ", e))
           return(NULL)
-        }
-      )
+        })
     }
   }
   
@@ -42,11 +40,11 @@ get_samples <- function() {
   
 }
 
-# Generate parametric estimates using sampled parameters -----------------------
+# Generate cumulative incidence estimates using sampled parameters -------------
 
-get_estimates <- function() {
+get_cind <- function() {
   
-  dat <- data$nested_t2e
+  dat <- lst_prep$cind
   dat2 <- sample_parameters
   
   # List to store estimates for each model
@@ -55,19 +53,19 @@ get_estimates <- function() {
   
   for(i in seq_along(dat2)) {
     
-    surv <- dat$t2e[[i]] # Non-parametric survival data
+    cind <- dat$cind[[i]] # Non-parametric cindival data
     name_loop <- names(dat2[i])  # ctgov_cause
     print(name_loop)  # Check for where errors occur
     
     for(j in seq_along(dat2[[i]])) {
       
-      time <- round(seq(min(surv$time), max(surv$time)))
+      time <- round(seq(min(cind$time), max(cind$time)))
       dist <- names(dat2[[i]][j])  # Distribution name
       print(dist)  # Check for where errors occur
       
       for(k in seq_along(dat2[[i]][[j]])) {
         
-        # Conditionally estimate fitted survival
+        # Conditionally estimate fitted cindival
         if(dist == "exp") {
           
           name_k <- paste0("iter_", k)  # Iteration
@@ -85,39 +83,9 @@ get_estimates <- function() {
             time = time
           ) %>% 
             left_join(
-              surv,
+              cind,
               by = "time"
             )
-          
-        } else if (dist == "gengamma") {
-          
-          params <- as.data.frame(dat2[[i]][[j]])
-          
-          for(n in 1:nrow(params)) {
-            
-            name_k <- paste0("iter_", n)
-            
-            mu_value <- params[n, "mu"]
-            sigma_value <- params[n, "sigma"]  # Inverse log
-            Q_value <- params[n, "Q"]
-            
-            fit_est <- 1 - pgengamma(
-              q = time,
-              mu = mu_value,
-              sigma = exp(sigma_value),
-              Q = Q_value
-            )
-            
-            lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-              iter = n,
-              fit_est = fit_est,
-              time = time
-            ) %>% 
-              left_join(
-                surv,
-                by = "time"
-              )
-          }
           
         } else if (dist == "gompertz") {
           
@@ -142,7 +110,7 @@ get_estimates <- function() {
               time = time
             ) %>% 
               left_join(
-                surv,
+                cind,
                 by = "time"
               )
           }
@@ -170,7 +138,7 @@ get_estimates <- function() {
               time = time
             ) %>% 
               left_join(
-                surv,
+                cind,
                 by = "time"
               )
           }
@@ -198,7 +166,7 @@ get_estimates <- function() {
               time = time
             ) %>% 
               left_join(
-                surv,
+                cind,
                 by = "time"
               )
           }
@@ -226,7 +194,7 @@ get_estimates <- function() {
               time = time
             ) %>% 
               left_join(
-                surv,
+                cind,
                 by = "time"
               )
           }
@@ -241,33 +209,33 @@ get_estimates <- function() {
 
 # Get hazard estimates from model parameters -----------------------------------
 
-get_haz <- function() {
+get_hazards <- function() {
   
   # Conditionally import data
-  dat <- data$nested_t2e
-  dat2 <- data$best_models
+  dat <- lst_prep$cind
+  dat2 <- lst_prep$params
   
   # List to store samples for each model
   lst_haz <- vector("list", length = nrow(dat))
   names(lst_haz) <- dat$ctgov
   
-  for(i in seq_along(dat2$nested_params)) {
+  for(i in seq_along(dat2$params)) {
     
     # Get names, parameters and survival times
     name_loop <- dat$ctgov[i]
-    params_tbl <- dat2$nested_params[[i]]
-    surv_times <- dat$t2e[[i]]
+    params_tbl <- dat2$params[[i]]
+    surv_times <- dat$cind[[i]]
     
-    for(j in seq_along(dat2$nested_params[[i]]$params)) {
+    for(j in seq_along(dat2$params[[i]]$params)) {
       
       # Get distribution and sequence times
-      dist <- paste0(dat2$nested_params[[i]]$dist[[j]])
+      dist <- paste0(dat2$params[[i]]$dist[[j]])
       time <- round(seq(min(surv_times$time), max(surv_times$time)))
       
       # Conditionally estimate hazard
       if(dist == "exp") {
         
-        rate <- dat2$nested_params[[i]]$params[[j]]
+        rate <- dat2$params[[i]]$params[[j]]
         haz <- hexp(x = time, rate = exp(rate))
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
@@ -279,9 +247,9 @@ get_haz <- function() {
         
       } else if (dist == "gengamma") {
         
-        mu <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$mu
-        sigma <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$sigma
-        q <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$Q
+        mu <- as.data.frame(dat2$params[[i]]$params[[j]])$mu
+        sigma <- as.data.frame(dat2$params[[i]]$params[[j]])$sigma
+        q <- as.data.frame(dat2$params[[i]]$params[[j]])$Q
         
         haz <- hgengamma(
           x = time, 
@@ -299,8 +267,8 @@ get_haz <- function() {
         
       } else if (dist == "gompertz") {
         
-        shape <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$shape
-        rate <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$rate
+        shape <- as.data.frame(dat2$params[[i]]$params[[j]])$shape
+        rate <- as.data.frame(dat2$params[[i]]$params[[j]])$rate
         
         haz <- hgompertz(
           x = time, 
@@ -317,8 +285,8 @@ get_haz <- function() {
         
       } else if (dist == "llogis") {
         
-        shape <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$shape
-        scale <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$scale
+        shape <- as.data.frame(dat2$params[[i]]$params[[j]])$shape
+        scale <- as.data.frame(dat2$params[[i]]$params[[j]])$scale
         
         haz <- hllogis(
           x = time, 
@@ -335,8 +303,8 @@ get_haz <- function() {
         
       } else if (dist == "lnorm") {
         
-        meanlog <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$meanlog
-        sdlog <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$sdlog
+        meanlog <- as.data.frame(dat2$params[[i]]$params[[j]])$meanlog
+        sdlog <- as.data.frame(dat2$params[[i]]$params[[j]])$sdlog
         
         haz <- hlnorm(
           x = time, 
@@ -353,8 +321,8 @@ get_haz <- function() {
         
       } else if (dist == "weibull") {
         
-        scale <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$scale
-        shape <- as.data.frame(dat2$nested_params[[i]]$params[[j]])$shape
+        scale <- as.data.frame(dat2$params[[i]]$params[[j]])$scale
+        shape <- as.data.frame(dat2$params[[i]]$params[[j]])$shape
         
         haz <- hweibull(
           x = time, 
