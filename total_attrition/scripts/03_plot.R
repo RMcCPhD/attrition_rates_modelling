@@ -101,14 +101,14 @@ plot_cind <- cind_plot_df %>%
   theme_bw() +
   theme(text = element_text(size = 5))
 
-ggsave(
-  "total_attrition/plots/fig1.png",
-  plot_cind,
-  dpi = 300,
-  width = 2244/300,
-  height = 1683/300,
-  units = "in"
-)
+# ggsave(
+#   "total_attrition/plots/fig1.png",
+#   plot_cind,
+#   dpi = 300,
+#   width = 2244/300,
+#   height = 1683/300,
+#   units = "in"
+# )
 
 ## Supplementary figure 3 (confidence limits)
 # Get output parameters and standard errors
@@ -280,15 +280,14 @@ plot_cind_ci <- ci_cind_plot_df %>%
   labs(x = "Time in days", y = "Cumulative incidence of attrition") +
   facet_wrap(~plot_id, scales = "free") +
   theme_bw() +
-  theme(text = element_text(size = 5))
+  theme(text = element_text(size = 6))
 
 ggsave(
-  "total_attrition/plots/suppfig3.png",
+  "total_attrition/plots/suppfig2.png",
   plot_cind_ci,
   dpi = 300,
-  width = 2244/300,
-  height = 1683/300,
-  units = "in"
+  width = 10,
+  height = 6
 )
 
 ## Supplementary figure 4 (Gompertz vs log-normal)
@@ -324,10 +323,10 @@ plot_gmp_lnorm <- ind_cond_n %>%
   labs(x = "Time in days", y = "Cumulative incidence of attrition") +
   facet_wrap(~plot_id, scales = "free", ncol = 9) +
   theme_bw() +
-  theme(text = element_text(size = 5))
+  theme(text = element_text(size = 6))
 
 ggsave(
-  "total_attrition/plots/suppfig4.png",
+  "total_attrition/plots/suppfig3.png",
   plot_gmp_lnorm,
   dpi = 300,
   width = 10,
