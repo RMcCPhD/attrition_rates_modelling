@@ -2,6 +2,8 @@
 .Rhistory
 .RData/
 .Ruserdata
+categorical_attrition/plots/
+categorical_attrition/processed_data/
 categorical_attrition/zold/
 total_attrition/plots/
 total_attrition/processed_data/
