@@ -87,8 +87,20 @@ mdl_best <- imp_fit %>%
   filter(dist != "gengamma" & !(ctgov %in% c("NCT01131676", "NCT00274573"))) %>% 
   group_by(ctgov) %>% 
   slice_min(aic, n = 1) %>% 
-  slice_head(n = 1) %>% 
   ungroup()
+
+# Where multiple models had the lowest AIC (19 trials), select the one that
+# best fits empirical cumulative incidence
+mdl_best2 <- mdl_best %>% 
+  left_join(read_csv("vivli/data/scratch_data/n19_log.csv")) %>% 
+  mutate(
+    take = case_when(
+      is.na(best_fit) ~ 1,
+      !is.na(best_fit) & best_fit == dist ~ 1,
+      TRUE ~ 0
+    )
+  ) %>% 
+  filter(take == 1)
 
 # Join parameters for the best-fitting models
 # Nest parameters

@@ -5,6 +5,8 @@
 
 source("config.R")
 library(tidyverse)
+library(ggh4x)
+library(forcats)
 library(flexsurv)
 
 # Import data
@@ -46,6 +48,7 @@ ind_cond_n <- imp_sum %>%
     trial_num = if_else(trial_num < 10, paste0("0", trial_num), as.character(trial_num)),
     plot_id = paste0(condition_short, " ", trial_num, ", n=", n)
   ) %>% 
+  ungroup() %>% 
   select(-trial_num)
 
 # Join new id to cumulative incidence and hazard rate datasets
@@ -59,6 +62,94 @@ cind_plot_df <- ind_cond_n %>%
 haz_plot_df <- ind_cond_n %>% 
   left_join(imp_haz) %>% 
   filter(dist != "exp")
+
+### Heatmap ####################################################################
+
+# Figure 1 (heatmap of best model performance compared to others)
+
+# Get data for heatmap
+imp_hmap_data <- read_csv("total_attrition/data/parameters.csv") %>% 
+  select(ctgov, dist) %>% 
+  distinct() %>% 
+  filter(!(ctgov %in% c("NCT01131676", "NCT00274573"))) %>% 
+  left_join(read_csv("total_attrition/data/fit.csv")) %>% 
+  select(-loglik) %>% 
+  arrange(ctgov)
+
+# Identify best performing model as centre for aic scale
+imp_hmap_id_best <- imp_hmap_data %>% 
+  left_join(
+    read_csv("usable_data/total_attrition/params_pblc.csv") %>% 
+      select(ctgov, best = dist) %>% 
+      distinct()
+  ) %>% 
+  filter(dist != "gengamma") %>% 
+  mutate(flag = if_else(best == dist, 1, 0)) %>% 
+  select(-best) %>% 
+  group_by(ctgov) %>% 
+  mutate(
+    best_aic = aic[flag == 1],
+    max_aic = max(aic),
+    min_aic = min(aic),
+    aic_scale = (max_aic - aic) / (max_aic - min_aic)
+  ) %>% 
+  ungroup()
+
+# Prepare heatmap data
+hmap_df <- ind_cond_n %>% 
+  left_join(imp_hmap_id_best) %>% 
+  select(plot_id, condition, dist, aic_scale) %>% 
+  group_by(condition) %>% 
+  mutate(
+    plot_index = as.integer(factor(plot_id)),
+  ) %>% 
+  ungroup() %>% 
+  mutate(
+    dist = case_match(
+      dist,
+      "weibull" ~ "Weibull",
+      "lnorm" ~ "Log-normal",
+      "llogis" ~ "Log-logistic",
+      "gompertz" ~ "Gompertz",
+      "exp" ~ "Exponential"
+    )
+  )
+
+# Heatmap
+hmap <- hmap_df %>% 
+  ggplot(aes(x = plot_index, y = fct_rev(dist), fill = aic_scale)) +
+  geom_tile(colour = "black") +
+  scale_x_continuous(
+    breaks = function(x) seq(floor(min(x)), ceiling(max(x)), by = 1),
+    expand = expansion(mult = c(0, 0.01))
+  ) +
+  scale_fill_gradient(
+    low = "white", 
+    high = "steelblue",
+    name = "Scaled AIC",
+    breaks = c(0, 0.25, 0.75, 1),
+    labels = c("0 (Worst)", "", "", "1 (Best)")
+  ) +
+  facet_grid(~ condition, scales = "free_x", space = "free_x") +
+  # facet_wrap(~ condition, scales = "free_x", ncol = 3) +
+  labs(x = NULL, y = NULL) +
+  theme_bw() +
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    # axis.text.x = element_blank(),
+    # axis.ticks.x = element_blank()
+    # axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
+ggsave(
+  "total_attrition/plots/fig1.png",
+  hmap,
+  dpi = 300,
+  width = 2244/300,
+  height = 1683/300,
+  units = "in"
+)
 
 ### Cumulative incidence #######################################################
 
