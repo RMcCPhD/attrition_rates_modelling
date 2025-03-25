@@ -10,12 +10,25 @@ library(tidyverse)
 # Import exported version
 imp_cind <- read_csv("total_attrition/data/t2e.csv")
 
-# Separate variables
+# Note of amendments
 # Data for 92 trials were removed when finalising the analysis set:
-# NCT01131676 - Discrepancies noted between the extracted counts and ctgov
-# NCT00274573 - Trial was stopped by the sponsor, not representative of attr
-# Error in extraction for NCT01694771 that was missed before export, randomised 
-# period was 106 days (incl. follow-up)
+#   NCT01131676 - Discrepancies noted between the extracted counts and ctgov
+#   NCT00274573 - Trial was stopped by the sponsor, not representative of attr
+#
+# Fixes to time-to-event dataset after finding disparities between reported and
+# duration shown:
+# NCT01694771 - Randomised period was 12 weeks/84 days. During extraction
+# participants were censored at the end of follow-up as per the protocol doc
+# that mentioned 84 days + 22 days. However, after revisiting this in checking
+# the dataset, this was simply a range of days that completion could take place
+# at. As such, censoring was applying to anything beyond 84 days and the cut-off
+# was set as 84 days/12 weeks.
+# NCT00384930 - 12 weeks/84 days
+# NCT01306214 - 52 weeks/365 days
+#
+# Participants were censored as per the methods if participation extended
+# beyond the intended duration, and these simply maintain the illustration
+# of time-to-event within the intended duration of the trial
 cind_sep <- imp_cind %>% 
   filter(!(ctgov %in% c("NCT01131676", "NCT00274573"))) %>% 
   group_by(ctgov) %>% 
@@ -26,9 +39,29 @@ cind_sep <- imp_cind %>%
     across(c(time, estimate), ~ gsub("t|est|\\=", "", .)),
     across(c(time, estimate), ~ as.numeric(.))
   ) %>% 
-  filter(!(ctgov == "NCT01694771" & time > 106))
+  group_by(ctgov) %>% 
+  mutate(
+    estimate = case_when(
+      ctgov == "NCT01694771" 
+      & time > 84
+      & !is.na(estimate) ~ first(estimate[time == 84]),
+      TRUE ~ estimate
+    )
+  ) %>% 
+  ungroup() %>% 
+  filter(
+    !(ctgov == "NCT01694771" & time >= 84),
+    !(ctgov == "NCT00384930" & time >= 84),
+    !(ctgov == "NCT01306214" & time >= 365)
+  )
 
 glimpse(cind_sep)
+
+# Test plot
+cind_sep %>% 
+  ggplot(aes(x = time, y = 1 - estimate)) +
+  geom_line(linewidth = 1) +
+  facet_wrap(~ctgov, scales = "free")
 
 # Save as csv for public access
 # write_csv(cind_sep, "usable_data/total_attrition/cind_pblc.csv")

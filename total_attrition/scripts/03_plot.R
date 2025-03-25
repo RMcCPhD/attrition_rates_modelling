@@ -48,27 +48,11 @@ ind_cond_n <- imp_sum %>%
   ) %>% 
   select(-trial_num)
 
-# Address error for NCT01694771, randomised period ends at 84 days but follow-up
-# period was a threshold for completion (i.e. ~22 days), actual end point is
-# 84 days
-# Updates reflected in cind_pblc.csv
-imp_cind_fix <- as_tibble(imp_cind) %>% 
-  group_by(ctgov) %>% 
-  mutate(
-    estimate = case_when(
-      ctgov == "NCT01694771" 
-      & time > 83
-      & !is.na(estimate) ~ first(estimate[time == 83]),
-      TRUE ~ estimate
-    )
-  ) %>% 
-  ungroup()
-
 # Join new id to cumulative incidence and hazard rate datasets
 # Remove a few iterations that make a plot unreadable (COPD_19_n=472), stil has
 # 96 sampled trajectories included
 cind_plot_df <- ind_cond_n %>% 
-  left_join(imp_cind_fix) %>% 
+  left_join(imp_cind) %>% 
   filter(!is.na(estimate)) %>% 
   filter(!(plot_id == "COPD_19_n=472" & iter %in% c(c(16L, 39L, 49L, 56L))))
 
