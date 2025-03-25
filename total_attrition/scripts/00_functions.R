@@ -43,168 +43,57 @@ get_samples <- function() {
 # Generate cumulative incidence estimates using sampled parameters -------------
 
 get_cind <- function() {
-  
   dat <- lst_prep$cind
   dat2 <- sample_parameters
   
-  # List to store estimates for each model
   lst_estimates <- vector("list", length = nrow(dat))
   names(lst_estimates) <- dat$ctgov
   
   for(i in seq_along(dat2)) {
     
-    cind <- dat$cind[[i]] # Non-parametric cindival data
-    name_loop <- names(dat2[i])  # ctgov_cause
-    print(name_loop)  # Check for where errors occur
+    cind <- dat$cind[[i]]
+    name_loop <- names(dat2[i])
+    print(name_loop)
+    
+    time <- round(seq(min(cind$time), max(cind$time)))
+    
+    cind_by_time <- cind
     
     for(j in seq_along(dat2[[i]])) {
+      dist <- names(dat2[[i]][j])
+      print(dist)
       
-      time <- round(seq(min(cind$time), max(cind$time)))
-      dist <- names(dat2[[i]][j])  # Distribution name
-      print(dist)  # Check for where errors occur
+      params_df <- as.data.frame(dat2[[i]][[j]])
+      dist_results <- vector("list", nrow(params_df))
       
-      for(k in seq_along(dat2[[i]][[j]])) {
+      for(k in seq_len(nrow(params_df))) {
+        name_k <- paste0("iter_", k)
         
-        # Conditionally estimate fitted cindival
-        if(dist == "exp") {
-          
-          name_k <- paste0("iter_", k)  # Iteration
-          rate <- dat2[[i]][[j]][[k]]  # Sampled parameter
-          
-          fit_est <- 1 - pexp(  # Fitted estimates
-            q = time, 
-            rate = exp(rate)  # Inverse log
-          )
-          
-          # Store as data frame with relevant variables
-          lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-            iter = k,
-            fit_est = fit_est,
-            time = time
-          ) %>% 
-            left_join(
-              cind,
-              by = "time"
-            )
-          
-        } else if (dist == "gompertz") {
-          
-          params <- as.data.frame(dat2[[i]][[j]])
-          
-          for(n in 1:nrow(params)) {
-            
-            name_k <- paste0("iter_", n)
-            
-            rate_value <- params[n, "rate"]
-            shape_value <- params[n, "shape"]
-            
-            fit_est <- 1 - pgompertz(
-              q = time,
-              rate = exp(rate_value),  # Inverse log
-              shape = shape_value
-            )
-            
-            lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-              iter = n,
-              fit_est = fit_est,
-              time = time
-            ) %>% 
-              left_join(
-                cind,
-                by = "time"
-              )
-          }
-          
-        } else if (dist == "llogis") {
-          
-          params <- as.data.frame(dat2[[i]][[j]])
-          
-          for(n in 1:nrow(params)) {
-            
-            name_k <- paste0("iter_", n)
-            
-            scale_shape <- params[n, "scale"]
-            shape_value <- params[n, "shape"]
-            
-            fit_est <- 1 - pllogis(
-              q = time,
-              scale = exp(scale_shape),  # Inverse log
-              shape = exp(shape_value)  # Inverse log
-            )
-            
-            lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-              iter = n,
-              fit_est = fit_est,
-              time = time
-            ) %>% 
-              left_join(
-                cind,
-                by = "time"
-              )
-          }
-          
-        } else if (dist == "lnorm") {
-          
-          params <- as.data.frame(dat2[[i]][[j]])
-          
-          for(n in 1:nrow(params)) {
-            
-            name_k <- paste0("iter_", n)
-            
-            meanlog_shape <- params[n, "meanlog"]
-            sdlog_value <- params[n, "sdlog"]
-            
-            fit_est <- 1 - plnorm(
-              q = time,
-              meanlog = meanlog_shape,
-              sdlog = exp(sdlog_value)  # Inverse log
-            )
-            
-            lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-              iter = n,
-              fit_est = fit_est,
-              time = time
-            ) %>% 
-              left_join(
-                cind,
-                by = "time"
-              )
-          }
-          
-        } else if (dist == "weibull") {
-          
-          params <- as.data.frame(dat2[[i]][[j]])
-          
-          for(n in 1:nrow(params)) {
-            
-            name_k <- paste0("iter_", n)
-            
-            scale_shape <- params[n, "scale"]
-            shape_value <- params[n, "shape"]
-            
-            fit_est <- 1 - pweibull(
-              q = time,
-              scale = exp(scale_shape),  # Inverse log
-              shape = exp(shape_value)  # Inverse log
-            )
-            
-            lst_estimates[[name_loop]][[dist]][[name_k]] <- data.frame(
-              iter = n,
-              fit_est = fit_est,
-              time = time
-            ) %>% 
-              left_join(
-                cind,
-                by = "time"
-              )
-          }
-        }
+        fit_est <- switch(
+          dist,
+          exp = 1 - pexp(time, rate = exp(params_df[k, 1])),
+          gompertz = 1 - pgompertz(time, rate = exp(params_df[k, "rate"]), shape = params_df[k, "shape"]),
+          llogis = 1 - pllogis(time, scale = exp(params_df[k, "scale"]), shape = exp(params_df[k, "shape"])),
+          lnorm = 1 - plnorm(time, meanlog = params_df[k, "meanlog"], sdlog = exp(params_df[k, "sdlog"])),
+          weibull = 1 - pweibull(time, scale = exp(params_df[k, "scale"]), shape = exp(params_df[k, "shape"])),
+          stop(paste("Unknown distribution:", dist))
+        )
+        
+        dist_results[[name_k]] <- data.frame(
+          iter = k,
+          fit_est = fit_est,
+          time = time
+        )
       }
+      
+      # Bind results for this distribution and join once
+      all_results <- dplyr::bind_rows(dist_results)
+      all_results <- dplyr::left_join(all_results, cind_by_time, by = "time")
+      lst_estimates[[name_loop]][[dist]] <- split(all_results, all_results$iter)
     }
   }
   
   return(lst_estimates)
-  
 }
 
 # Get hazard estimates from model parameters -----------------------------------

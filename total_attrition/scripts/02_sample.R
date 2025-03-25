@@ -24,16 +24,10 @@ plot_cind <- unnest(lst_prep$cind, cols = "cind") %>%
 plot_cind
 
 # Sample parameters from a multivariate distribution for each trial model
-sample_parameters <- get_cind()
+sample_parameters <- get_samples()
 
 # Estimate cumulative incidence using sampled parameters
-# Takes about an hour to run
-cind_sampled_estimates <- get_estimates()
-
-# Save this list to prevent having to re-run (quite a large file so have not
-# added this to the github repo, but the script can be run using the provided
-# data to create this)
-# saveRDS(cind_sampled_estimates, "total_attrition/processed_data/cind_sample_estimates.rds")
+cind_sampled_estimates <- get_cind()
 
 # Merge cumulative incidence datasets
 cind_bind <- lapply(seq_along(cind_sampled_estimates), function(i) {
