@@ -130,16 +130,13 @@ hmap <- hmap_df %>%
     breaks = c(0, 0.25, 0.75, 1),
     labels = c("0 (Worst)", "", "", "1 (Best)")
   ) +
-  facet_grid(~ condition, scales = "free_x", space = "free_x") +
-  # facet_wrap(~ condition, scales = "free_x", ncol = 3) +
+  facet_wrap(~ condition, scales = "free_x", ncol = 3) +
   labs(x = NULL, y = NULL) +
   theme_bw() +
   theme(
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
-    # axis.text.x = element_blank(),
-    # axis.ticks.x = element_blank()
-    # axis.text.x = element_text(angle = 45, hjust = 1)
+    axis.text.x = element_blank()
   )
 
 ggsave(
