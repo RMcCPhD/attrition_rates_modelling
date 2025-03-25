@@ -75,14 +75,14 @@ tbl1_fmt <- tbl1 %>%
   reframe(
     n_trials = n(),
     across(
-    .cols = n:vw_events,
-    .fns = list(
-      median = ~ median(.x, na.rm = TRUE),
-      min = ~ min(.x, na.rm = TRUE),
-      max = ~ max(., na.rm = TRUE)
-    ),
-    .names = "{.col}_{.fn}"
-  )) %>% 
+      .cols = n:vw_events,
+      .fns = list(
+        median = ~ median(.x, na.rm = TRUE),
+        min = ~ min(.x, na.rm = TRUE),
+        max = ~ max(., na.rm = TRUE)
+      ),
+      .names = "{.col}_{.fn}"
+    )) %>% 
   mutate(
     n_trials = paste0(n_trials, " (", round(n_trials/90 * 100, 1), ")"),
     n = paste0(n_median, " [", n_min, ", ", n_max, "]"),
