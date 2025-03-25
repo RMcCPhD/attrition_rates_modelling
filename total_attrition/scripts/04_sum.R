@@ -28,7 +28,7 @@ py_fu <- imp_cind %>%
     fu_yr = round(fu/365, 1)
   )
 
-# Table 1. Study characteristics ###############################################
+# Supplementary table 2. Study characteristics #################################
 
 # Trials, participants, follow-up, person-years of follow-up, events
 tbl1 <- flow_fmt %>% 

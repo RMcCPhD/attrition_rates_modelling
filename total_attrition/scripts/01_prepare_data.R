@@ -25,6 +25,7 @@ imp_cind <- read_csv("total_attrition/data/t2e.csv")
 # was set as 84 days/12 weeks.
 # NCT00384930 - 12 weeks/84 days
 # NCT01306214 - 52 weeks/365 days
+# NCT01422876 - 52 weeks/365 days
 #
 # Participants were censored as per the methods if participation extended
 # beyond the intended duration, and these simply maintain the illustration
@@ -52,7 +53,8 @@ cind_sep <- imp_cind %>%
   filter(
     !(ctgov == "NCT01694771" & time >= 84),
     !(ctgov == "NCT00384930" & time >= 84),
-    !(ctgov == "NCT01306214" & time >= 365)
+    !(ctgov == "NCT01306214" & time >= 365),
+    !(ctgov == "NCT01422876" & time >= 365)
   )
 
 glimpse(cind_sep)

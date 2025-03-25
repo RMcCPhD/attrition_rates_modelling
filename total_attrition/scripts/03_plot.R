@@ -44,17 +44,17 @@ ind_cond_n <- imp_sum %>%
   mutate(
     trial_num = row_number(),
     trial_num = if_else(trial_num < 10, paste0("0", trial_num), as.character(trial_num)),
-    plot_id = paste0(condition_short, "_", trial_num, "_n=", n)
+    plot_id = paste0(condition_short, " ", trial_num, ", n=", n)
   ) %>% 
   select(-trial_num)
 
 # Join new id to cumulative incidence and hazard rate datasets
-# Remove a few iterations that make a plot unreadable (COPD_19_n=472), stil has
-# 96 sampled trajectories included
+# Remove a few iterations that make a plot unreadable (COPD_19_n=472), has
+# 96 sampled trajectories
 cind_plot_df <- ind_cond_n %>% 
   left_join(imp_cind) %>% 
   filter(!is.na(estimate)) %>% 
-  filter(!(plot_id == "COPD_19_n=472" & iter %in% c(c(16L, 39L, 49L, 56L))))
+  filter(!(plot_id == "COPD 19, n=472" & iter %in% c(c(16L, 39L, 49L, 56L))))
 
 haz_plot_df <- ind_cond_n %>% 
   left_join(imp_haz) %>% 
@@ -62,7 +62,7 @@ haz_plot_df <- ind_cond_n %>%
 
 ### Cumulative incidence #######################################################
 
-# Figure 1 (empirical vs fitted estimates)
+# Figure 2 (empirical vs fitted estimates)
 plot_cind <- cind_plot_df %>% 
   ggplot(aes(x = time, y = round((1 - estimate) * 100, 1), group = iter)) +
   geom_step(linewidth = 0.5, colour = "black") +
@@ -85,14 +85,14 @@ plot_cind <- cind_plot_df %>%
   theme_bw() +
   theme(text = element_text(size = 5))
 
-# ggsave(
-#   "total_attrition/plots/fig1.png",
-#   plot_cind,
-#   dpi = 300,
-#   width = 2244/300,
-#   height = 1683/300,
-#   units = "in"
-# )
+ggsave(
+  "total_attrition/plots/fig2.png",
+  plot_cind,
+  dpi = 300,
+  width = 2244/300,
+  height = 1683/300,
+  units = "in"
+)
 
 ## Supplementary figure 3 (confidence limits)
 # Get output parameters and standard errors
@@ -114,16 +114,6 @@ ci_cind <- lst_prep$cind %>%
   left_join(
     lst_prep$cind %>% 
       unnest(cols = "cind") %>% 
-      group_by(ctgov) %>% 
-      mutate(
-        estimate = case_when(
-          ctgov == "NCT01694771" 
-          & time > 83
-          & !is.na(estimate) ~ first(estimate[time == 83]),
-          TRUE ~ estimate
-        )
-      ) %>% 
-      ungroup() %>% 
       rename(time_seq = time)
   ) %>% 
   distinct()
@@ -274,7 +264,7 @@ ggsave(
   height = 6
 )
 
-## Supplementary figure 4 (Gompertz vs log-normal)
+## Supplementary figure 3 (Gompertz vs log-normal)
 # Get Gompertz and log-normal parameters where either were best-fitting
 # 57 trials
 gmp_lnorm_params <- ci_cind_mdls %>% 
@@ -320,7 +310,7 @@ ggsave(
 
 ### Hazard rate ################################################################
 
-# Figure 2
+# Figure 3
 plot_haz <- haz_plot_df %>% 
   group_by(ctgov) %>% 
   mutate(est = haz_est/max(haz_est)) %>% 
@@ -342,7 +332,7 @@ plot_haz <- haz_plot_df %>%
   theme(text = element_text(size = 5))
 
 ggsave(
-  "total_attrition/plots/fig2.png",
+  "total_attrition/plots/fig3.png",
   plot_haz,
   dpi = 300,
   width = 2244/300,
