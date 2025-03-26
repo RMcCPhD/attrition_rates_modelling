@@ -91,14 +91,23 @@ imp_hmap_id_best <- imp_hmap_data %>%
     best_aic = aic[flag == 1],
     max_aic = max(aic),
     min_aic = min(aic),
-    aic_scale = (max_aic - aic) / (max_aic - min_aic)
+    aic_scale = pmin(aic - min_aic, 10)
   ) %>% 
-  ungroup()
+  ungroup() %>% 
+  mutate(
+    aic_scale_colour = case_when(
+      aic_scale == 0 ~ "dark grey", # Best model(s)
+      aic_scale <= 2 ~ "green", # AIC diff of <= 2 from best
+      aic_scale <= 4 ~ "yellow", # AIC diff of <= 4 from best
+      aic_scale <= 7 ~ "orange", # AIC diff of <= 7 from best
+      TRUE ~ "white" # Worst (AIC diff >7 from best)
+    )
+  )
 
 # Prepare heatmap data
 hmap_df <- ind_cond_n %>% 
   left_join(imp_hmap_id_best) %>% 
-  select(plot_id, condition, dist, aic_scale) %>% 
+  select(plot_id, condition, dist, aic_scale, aic_scale_colour) %>% 
   group_by(condition) %>% 
   mutate(
     plot_index = as.integer(factor(plot_id)),
@@ -112,41 +121,44 @@ hmap_df <- ind_cond_n %>%
       "llogis" ~ "Log-logistic",
       "gompertz" ~ "Gompertz",
       "exp" ~ "Exponential"
+    ),
+    dist = factor(
+      dist,
+      levels = c("Gompertz", "Log-normal", "Log-logistic", "Weibull", "Exponential")
     )
   )
 
 # Heatmap
 hmap <- hmap_df %>% 
-  ggplot(aes(x = plot_index, y = fct_rev(dist), fill = aic_scale)) +
+  ggplot(aes(x = dist, y = fct_rev(plot_id), fill = aic_scale_colour)) +
   geom_tile(colour = "black") +
-  scale_x_continuous(
-    breaks = function(x) seq(floor(min(x)), ceiling(max(x)), by = 1),
-    expand = expansion(mult = c(0, 0.01))
-  ) +
-  scale_fill_gradient(
-    low = "white", 
-    high = "steelblue",
-    name = "Scaled AIC",
-    breaks = c(0, 0.25, 0.75, 1),
-    labels = c("0 (Worst)", "", "", "1 (Best)")
-  ) +
-  facet_wrap(~ condition, scales = "free_x", ncol = 3) +
+  scale_fill_identity() +
   labs(x = NULL, y = NULL) +
   theme_bw() +
   theme(
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
-    axis.text.x = element_blank()
+    axis.text.x = element_text(size = 8, angle = 45, hjust = 1, colour = "black"),
+    axis.text.y = element_text(colour = "white", size = 10)
   )
 
-ggsave(
-  "total_attrition/plots/fig1.png",
-  hmap,
-  dpi = 300,
-  width = 2244/300,
-  height = 1683/300,
-  units = "in"
-)
+# ggsave(
+#   "total_attrition/plots/fig1_raw.png",
+#   hmap,
+#   dpi = 300,
+#   width = 90,
+#   height = 120,
+#   units = "mm"
+# )
+
+# ggsave(
+#   "total_attrition/plots/fig1_raw_labels.png",
+#   hmap,
+#   dpi = 300,
+#   width = 90,
+#   height = 360,
+#   units = "mm"
+# )
 
 ### Cumulative incidence #######################################################
 
@@ -166,21 +178,21 @@ plot_cind <- cind_plot_df %>%
       cind_plot_df$dist == "weibull" ~ "red"
     )
   ) +
-  scale_x_continuous(n.breaks = 4) +
-  scale_y_continuous(n.breaks = 4) +
   labs(x = "Time in days", y = "Cumulative incidence of attrition") +
   facet_wrap(~plot_id, scales = "free") +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 3)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 3)) +
   theme_bw() +
   theme(text = element_text(size = 5))
 
-ggsave(
-  "total_attrition/plots/fig2.png",
-  plot_cind,
-  dpi = 300,
-  width = 2244/300,
-  height = 1683/300,
-  units = "in"
-)
+# ggsave(
+#   "total_attrition/plots/fig2.png",
+#   plot_cind,
+#   dpi = 300,
+#   width = 190,
+#   height = 160,
+#   units = "mm"
+# )
 
 ## Supplementary figure 3 (confidence limits)
 # Get output parameters and standard errors
@@ -337,8 +349,8 @@ plot_cind_ci <- ci_cind_plot_df %>%
       ci_cind_plot_df$dist == "weibull" ~ "red"
     )
   ) +
-  scale_x_continuous(n.breaks = 4) +
-  scale_y_continuous(n.breaks = 4) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 3)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 3)) +
   labs(x = "Time in days", y = "Cumulative incidence of attrition") +
   facet_wrap(~plot_id, scales = "free") +
   theme_bw() +
@@ -380,8 +392,8 @@ plot_gmp_lnorm <- ind_cond_n %>%
   geom_step(colour = "black", linewidth = 0.5) +
   geom_line(aes(x = time_seq, y = 1 - mdl_gmp), colour = "orange", linewidth = 0.5) +
   geom_line(aes(x = time_seq, y = 1 - mdl_lnorm), colour = "purple", linewidth = 0.5) +
-  scale_x_continuous(n.breaks = 4) +
-  scale_y_continuous(n.breaks = 4) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 3)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 3)) +
   labs(x = "Time in days", y = "Cumulative incidence of attrition") +
   facet_wrap(~plot_id, scales = "free", ncol = 9) +
   theme_bw() +
@@ -412,8 +424,8 @@ plot_haz <- haz_plot_df %>%
       haz_plot_df$dist == "weibull" ~ "red"
     )
   ) +
-  scale_x_continuous(n.breaks = 4) +
-  scale_y_continuous(n.breaks = 4) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 3)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 3)) +
   labs(x = "Time in days", y = "Scaled hazard rate") +
   facet_wrap(~plot_id, scales = "free") +
   theme_bw() +
@@ -423,7 +435,7 @@ ggsave(
   "total_attrition/plots/fig3.png",
   plot_haz,
   dpi = 300,
-  width = 2244/300,
-  height = 1683/300,
-  units = "in"
+  width = 190,
+  height = 160,
+  units = "mm"
 )
