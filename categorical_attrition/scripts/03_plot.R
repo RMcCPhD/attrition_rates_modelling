@@ -91,4 +91,336 @@ ggsave(
 
 ### Compare best and second best ###############################################
 
+# Get model metrics for best and second-best
+best_2ndbest <- read_csv("categorical_attrition/data/fit.csv") %>% 
+  filter(dist != "gengamma" & !(ctgov %in% c("NCT01131676", "NCT00274573"))) %>% 
+  group_by(ctgov, cause) %>% 
+  slice_min(aic, n = 2) %>% 
+  slice_head(n = 2) |> 
+  ungroup() %>% 
+  left_join(imp_params) %>% 
+  select(-loglik, -aic, -se) %>% 
+  pivot_wider(names_from = "parameter", values_from = "est")
 
+ci_cind <- lst_prep$cind %>% 
+  unnest(cols = "cind") %>% 
+  group_by(ctgov, cause) %>% 
+  mutate(time_seq = list(seq(min(time), max(time), by = 1))) %>% 
+  unnest(time_seq) %>% 
+  select(ctgov, cause, time_seq) %>% 
+  left_join(
+    lst_prep$cind %>% 
+      unnest(cols = "cind") %>% 
+      rename(time_seq = time)
+  ) %>% 
+  distinct()
+
+best_2ndbest_mdls <- ci_cind %>% 
+  filter(ctgov %in% best_2ndbest$ctgov & cause %in% best_2ndbest$cause) %>% 
+  left_join(best_2ndbest, by = c("ctgov", "cause")) %>% 
+  group_by(ctgov, cause) %>%
+  mutate(
+    mdl = pmap_dbl(
+      list(time_seq, dist, rate, shape, scale, meanlog, sdlog),
+      ~ {
+        time <- ..1
+        dist <- ..2
+        rate <- ..3
+        shape <- ..4
+        scale <- ..5
+        meanlog <- ..6
+        sdlog <- ..7
+        
+        if (dist == "exp") {
+          1 - pexp(time, rate = exp(rate))
+          
+        } else if (dist == "gompertz") {
+          1 - pgompertz(time, shape = shape, rate = exp(rate))
+          
+        } else if (dist == "llogis") {
+          1 - pllogis(time, shape = exp(shape), scale = exp(scale))
+          
+        } else if (dist == "lnorm") {
+          1 - plnorm(time, meanlog = meanlog, sdlog = exp(sdlog))
+          
+        } else if (dist == "weibull") {
+          1 - pweibull(time, shape = exp(shape), scale = exp(scale))
+          
+        } else {
+          NA_real_
+        }
+      }
+    )
+  )
+
+mdl_df <- ind_cond_n %>% 
+  left_join(
+    best_2ndbest_mdls %>% 
+      select(ctgov, cause, time_seq, estimate, dist, mdl) 
+  )
+
+# Adverse event
+supp_ae <- mdl_df %>% 
+  filter(cause == "Adverse Event") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_ae.png",
+  supp_ae,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# Lack of Efficacy
+supp_loe <- mdl_df %>% 
+  filter(cause == "Lack of Efficacy") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_loe.png",
+  supp_loe,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# Lost to Follow-up
+supp_l2f <- mdl_df %>% 
+  filter(cause == "Lost to Follow-up") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_l2f.png",
+  supp_l2f,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# Other/Miscellaneous
+supp_o <- mdl_df %>% 
+  filter(cause == "Other/Miscellaneous") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_o.png",
+  supp_o,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# PI/Sponsor Decision
+supp_pi <- mdl_df %>% 
+  filter(cause == "PI/Sponsor Decision") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_pi.png",
+  supp_pi,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# Protocol Violation
+supp_pv <- mdl_df %>% 
+  filter(cause == "Protocol Violation") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_pv.png",
+  supp_pv,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
+
+# Voluntary Withdrawal
+supp_vw <- mdl_df %>% 
+  filter(cause == "Voluntary Withdrawal") %>% 
+  ggplot(aes(x = time_seq)) +
+  geom_step(
+    data = ~ filter(.x, !is.na(estimate)),
+    aes(y = 1 - estimate),
+    linewidth = 0.5,
+    colour = "black"
+  ) +
+  geom_line(aes(y = 1 - mdl, colour = dist), linewidth = 0.5) +
+  scale_colour_manual(
+    values = c(
+      "exp" = "blue",
+      "gompertz" = "orange",
+      "lnorm" = "purple",
+      "llogis" = "deeppink",
+      "weibull" = "red"
+    )
+  ) +
+  scale_x_continuous(n.breaks = 4) +
+  scale_y_continuous(n.breaks = 4) +
+  labs(x = "Time in days", y = "Cumulative incidence of attrition") +
+  facet_wrap(~plot_id, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none"
+  )
+
+ggsave(
+  "categorical_attrition/plots/suppl_vw.png",
+  supp_vw,
+  dpi = 300,
+  width = 4488/300,
+  height = 2524/300,
+  units = "in"
+)
