@@ -42,10 +42,10 @@ cind_sep <- imp_cind %>%
 glimpse(cind_sep)
 
 # Test plot
-cind_sep %>% 
-  ggplot(aes(x = time, y = 1 - estimate, colour = cause)) +
-  geom_line(linewidth = 1) +
-  facet_wrap(~ctgov, scales = "free")
+# cind_sep %>% 
+#   ggplot(aes(x = time, y = 1 - estimate, colour = cause)) +
+#   geom_line(linewidth = 1) +
+#   facet_wrap(~ctgov, scales = "free")
 
 # Save as csv for public access
 # write_csv(cind_sep, "usable_data/categorical_attrition/cind_pblc.csv")
@@ -71,25 +71,29 @@ mdl_best <- imp_fit %>%
   slice_min(aic, n = 1) %>% 
   ungroup()
 
-# Where multiple models had the lowest AIC (19 trials), select the one that
+# Where multiple models had the lowest AIC (22 trials), select the one that
 # best fits empirical cumulative incidence
 mdl_best2 <- mdl_best %>% 
   left_join(
     read_csv("vivli/scratch_data/n22_log.csv") %>% distinct()
   ) %>% 
+  group_by(ctgov, cause) %>% 
   mutate(
     take = case_when(
-      is.na(best_fit) ~ 1,
-      !is.na(best_fit) & best_fit == dist ~ 1,
+      n() == 1 ~ 1,
+      n() != 1 & !is.na(best_fit) & best_fit == dist ~ 1,
       TRUE ~ 0
     )
   ) %>% 
-  filter(take == 1)
+  ungroup() %>% 
+  filter(take == 1) %>% 
+  select(-take, -best_fit)
 
 # Join parameters for the best-fitting models
 # Nest parameters
-mdl_params_fit <- mdl_best %>% 
+mdl_params_fit <- mdl_best2 %>% 
   left_join(imp_params) %>% 
+  arrange(ctgov, cause) %>% 
   group_by(ctgov, cause, loglik, aic) %>% 
   nest(.key = "params") %>% 
   ungroup()
@@ -97,7 +101,8 @@ mdl_params_fit <- mdl_best %>%
 # Get variance-covariance matrices for best-fitting models
 # Nest
 mdl_vcov <- imp_vcov %>% 
-  inner_join(mdl_best %>% select(ctgov, dist) %>% distinct()) %>% 
+  inner_join(mdl_best2 %>% select(ctgov, cause, dist) %>% distinct()) %>% 
+  arrange(ctgov, cause) %>% 
   group_by(ctgov, cause) %>% 
   nest(.key = "vcov") %>% 
   ungroup()

@@ -100,7 +100,8 @@ mdl_best2 <- mdl_best %>%
       TRUE ~ 0
     )
   ) %>% 
-  filter(take == 1)
+  filter(take == 1) %>% 
+  select(-take)
 
 # Join parameters for the best-fitting models
 # Nest parameters

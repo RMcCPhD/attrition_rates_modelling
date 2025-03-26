@@ -1,1655 +1,209 @@
 ctgov,cause,dist,param1,param2,r
-NCT00051558,Adverse Event,exp,rate,rate,0.02083
-NCT00051558,Adverse Event,gompertz,shape,shape,2.687e-7
-NCT00051558,Adverse Event,gompertz,shape,rate,-9.27e-5
-NCT00051558,Adverse Event,gompertz,rate,shape,-9.27e-5
-NCT00051558,Adverse Event,gompertz,rate,rate,0.05281
+NCT00034840,Lack of Efficacy,lnorm,meanlog,meanlog,0.4633
+NCT00034840,Lack of Efficacy,lnorm,meanlog,sdlog,0.1726
+NCT00034840,Lack of Efficacy,lnorm,sdlog,meanlog,0.1726
+NCT00034840,Lack of Efficacy,lnorm,sdlog,sdlog,0.06765
 NCT00051558,Adverse Event,lnorm,meanlog,meanlog,0.312
 NCT00051558,Adverse Event,lnorm,meanlog,sdlog,0.06082
 NCT00051558,Adverse Event,lnorm,sdlog,meanlog,0.06082
 NCT00051558,Adverse Event,lnorm,sdlog,sdlog,0.01466
 NCT00051558,Lost to Follow-up,exp,rate,rate,0.06667
-NCT00051558,Lost to Follow-up,gompertz,shape,shape,4.758e-7
-NCT00051558,Lost to Follow-up,gompertz,shape,rate,-3.323e-4
-NCT00051558,Lost to Follow-up,gompertz,rate,shape,-3.323e-4
-NCT00051558,Lost to Follow-up,gompertz,rate,rate,0.2332
-NCT00051558,Lost to Follow-up,lnorm,meanlog,meanlog,2.083
-NCT00051558,Lost to Follow-up,lnorm,meanlog,sdlog,0.2956
-NCT00051558,Lost to Follow-up,lnorm,sdlog,meanlog,0.2956
-NCT00051558,Lost to Follow-up,lnorm,sdlog,sdlog,0.04552
-NCT00051558,Other/Miscellaneous,exp,rate,rate,0.03125
 NCT00051558,Other/Miscellaneous,gompertz,shape,shape,3.953e-7
 NCT00051558,Other/Miscellaneous,gompertz,shape,rate,-1.391e-4
 NCT00051558,Other/Miscellaneous,gompertz,rate,shape,-1.391e-4
 NCT00051558,Other/Miscellaneous,gompertz,rate,rate,0.08017
-NCT00051558,Other/Miscellaneous,lnorm,meanlog,meanlog,0.5094
-NCT00051558,Other/Miscellaneous,lnorm,meanlog,sdlog,0.09949
-NCT00051558,Other/Miscellaneous,lnorm,sdlog,meanlog,0.09949
-NCT00051558,Other/Miscellaneous,lnorm,sdlog,sdlog,0.02242
 NCT00051558,PI/Sponsor Decision,exp,rate,rate,0.08333
-NCT00051558,PI/Sponsor Decision,gompertz,shape,shape,6.117e-7
-NCT00051558,PI/Sponsor Decision,gompertz,shape,rate,-4.452e-4
-NCT00051558,PI/Sponsor Decision,gompertz,rate,shape,-4.452e-4
-NCT00051558,PI/Sponsor Decision,gompertz,rate,rate,0.3257
-NCT00051558,PI/Sponsor Decision,lnorm,meanlog,meanlog,1.106
-NCT00051558,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.246
-NCT00051558,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.246
-NCT00051558,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.05874
 NCT00051558,Voluntary Withdrawal,exp,rate,rate,0.01429
-NCT00051558,Voluntary Withdrawal,gompertz,shape,shape,1.013e-7
-NCT00051558,Voluntary Withdrawal,gompertz,shape,rate,-6.919e-5
-NCT00051558,Voluntary Withdrawal,gompertz,rate,shape,-6.919e-5
-NCT00051558,Voluntary Withdrawal,gompertz,rate,rate,0.04747
-NCT00051558,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.06911
-NCT00051558,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.0214
-NCT00051558,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.0214
-NCT00051558,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.00946
 NCT00125918,Adverse Event,exp,rate,rate,0.02174
 NCT00152984,Adverse Event,exp,rate,rate,0.08333
-NCT00153088,Adverse Event,exp,rate,rate,0.01754
+NCT00153023,Adverse Event,gompertz,shape,shape,1.165e-6
+NCT00153023,Adverse Event,gompertz,shape,rate,-1.545e-4
+NCT00153023,Adverse Event,gompertz,rate,shape,-1.545e-4
+NCT00153023,Adverse Event,gompertz,rate,rate,0.03184
+NCT00153023,Other/Miscellaneous,gompertz,shape,shape,1.384e-5
+NCT00153023,Other/Miscellaneous,gompertz,shape,rate,-8.085e-4
+NCT00153023,Other/Miscellaneous,gompertz,rate,shape,-8.085e-4
+NCT00153023,Other/Miscellaneous,gompertz,rate,rate,0.09268
+NCT00153023,Protocol Violation,llogis,shape,shape,0.05878
+NCT00153023,Protocol Violation,llogis,shape,scale,-0.3406
+NCT00153023,Protocol Violation,llogis,scale,shape,-0.3406
+NCT00153023,Protocol Violation,llogis,scale,scale,2.111
+NCT00153023,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.629
+NCT00153023,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2597
+NCT00153023,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2597
+NCT00153023,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02734
 NCT00153088,Adverse Event,lnorm,meanlog,meanlog,0.2299
 NCT00153088,Adverse Event,lnorm,meanlog,sdlog,0.04902
 NCT00153088,Adverse Event,lnorm,sdlog,meanlog,0.04902
 NCT00153088,Adverse Event,lnorm,sdlog,sdlog,0.01268
 NCT00153088,Voluntary Withdrawal,exp,rate,rate,0.08333
-NCT00153088,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.771
-NCT00153088,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3222
-NCT00153088,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3222
-NCT00153088,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.0619
-NCT00168831,Adverse Event,exp,rate,rate,0.006369
-NCT00168831,Adverse Event,gompertz,shape,shape,7.737e-7
-NCT00168831,Adverse Event,gompertz,shape,rate,-9.258e-5
-NCT00168831,Adverse Event,gompertz,rate,shape,-9.258e-5
-NCT00168831,Adverse Event,gompertz,rate,rate,0.01745
 NCT00168831,Adverse Event,lnorm,meanlog,meanlog,0.077
 NCT00168831,Adverse Event,lnorm,meanlog,sdlog,0.01607
 NCT00168831,Adverse Event,lnorm,sdlog,meanlog,0.01607
 NCT00168831,Adverse Event,lnorm,sdlog,sdlog,0.004511
 NCT00168831,Lost to Follow-up,exp,rate,rate,0.07143
-NCT00168831,Lost to Follow-up,gompertz,shape,shape,7.588e-6
-NCT00168831,Lost to Follow-up,gompertz,shape,rate,-0.001113
-NCT00168831,Lost to Follow-up,gompertz,rate,shape,-0.001113
-NCT00168831,Lost to Follow-up,gompertz,rate,rate,0.2347
-NCT00168831,Lost to Follow-up,lnorm,meanlog,meanlog,2.648
-NCT00168831,Lost to Follow-up,lnorm,meanlog,sdlog,0.3752
-NCT00168831,Lost to Follow-up,lnorm,sdlog,meanlog,0.3752
-NCT00168831,Lost to Follow-up,lnorm,sdlog,sdlog,0.05528
-NCT00168831,Other/Miscellaneous,exp,rate,rate,0.06667
 NCT00168831,Other/Miscellaneous,gompertz,shape,shape,8.743e-6
 NCT00168831,Other/Miscellaneous,gompertz,shape,rate,-9.617e-4
 NCT00168831,Other/Miscellaneous,gompertz,rate,shape,-9.617e-4
 NCT00168831,Other/Miscellaneous,gompertz,rate,rate,0.1725
-NCT00168831,Other/Miscellaneous,lnorm,meanlog,meanlog,3.027
-NCT00168831,Other/Miscellaneous,lnorm,meanlog,sdlog,0.3945
-NCT00168831,Other/Miscellaneous,lnorm,sdlog,meanlog,0.3945
-NCT00168831,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05345
-NCT00168831,Protocol Violation,exp,rate,rate,0.03571
 NCT00168831,Protocol Violation,gompertz,shape,shape,6.952e-6
 NCT00168831,Protocol Violation,gompertz,shape,rate,-5.494e-4
 NCT00168831,Protocol Violation,gompertz,rate,shape,-5.494e-4
 NCT00168831,Protocol Violation,gompertz,rate,rate,0.07914
-NCT00168831,Protocol Violation,lnorm,meanlog,meanlog,2.847
-NCT00168831,Protocol Violation,lnorm,meanlog,sdlog,0.2747
-NCT00168831,Protocol Violation,lnorm,sdlog,meanlog,0.2747
-NCT00168831,Protocol Violation,lnorm,sdlog,sdlog,0.02809
-NCT00168831,Voluntary Withdrawal,exp,rate,rate,0.025
-NCT00168831,Voluntary Withdrawal,gompertz,shape,shape,3.053e-6
-NCT00168831,Voluntary Withdrawal,gompertz,shape,rate,-3.63e-4
-NCT00168831,Voluntary Withdrawal,gompertz,rate,shape,-3.63e-4
-NCT00168831,Voluntary Withdrawal,gompertz,rate,rate,0.06816
 NCT00168831,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.185
 NCT00168831,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1434
 NCT00168831,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1434
 NCT00168831,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01878
+NCT00168844,Adverse Event,lnorm,meanlog,meanlog,0.1175
+NCT00168844,Adverse Event,lnorm,meanlog,sdlog,0.025
+NCT00168844,Adverse Event,lnorm,sdlog,meanlog,0.025
+NCT00168844,Adverse Event,lnorm,sdlog,sdlog,0.006527
+NCT00168844,Lost to Follow-up,llogis,shape,shape,0.04697
+NCT00168844,Lost to Follow-up,llogis,shape,scale,-0.2906
+NCT00168844,Lost to Follow-up,llogis,scale,shape,-0.2906
+NCT00168844,Lost to Follow-up,llogis,scale,scale,1.931
+NCT00168844,Other/Miscellaneous,gompertz,shape,shape,5.805e-6
+NCT00168844,Other/Miscellaneous,gompertz,shape,rate,-6.932e-4
+NCT00168844,Other/Miscellaneous,gompertz,rate,shape,-6.932e-4
+NCT00168844,Other/Miscellaneous,gompertz,rate,rate,0.1304
+NCT00168844,Voluntary Withdrawal,gompertz,shape,shape,6.194e-6
+NCT00168844,Voluntary Withdrawal,gompertz,shape,rate,-4.386e-4
+NCT00168844,Voluntary Withdrawal,gompertz,rate,shape,-4.386e-4
+NCT00168844,Voluntary Withdrawal,gompertz,rate,rate,0.05809
 NCT00168857,Adverse Event,exp,rate,rate,0.01053
-NCT00168857,Adverse Event,gompertz,shape,shape,9.439e-7
-NCT00168857,Adverse Event,gompertz,shape,rate,-1.661e-4
-NCT00168857,Adverse Event,gompertz,rate,shape,-1.661e-4
-NCT00168857,Adverse Event,gompertz,rate,rate,0.03974
-NCT00168857,Adverse Event,llogis,shape,shape,0.009662
-NCT00168857,Adverse Event,llogis,shape,scale,-0.02057
-NCT00168857,Adverse Event,llogis,scale,shape,-0.02057
-NCT00168857,Adverse Event,llogis,scale,scale,0.05583
-NCT00168857,Adverse Event,weibull,shape,shape,0.009922
-NCT00168857,Adverse Event,weibull,shape,scale,-0.02199
-NCT00168857,Adverse Event,weibull,scale,shape,-0.02199
-NCT00168857,Adverse Event,weibull,scale,scale,0.06005
-NCT00168857,Lost to Follow-up,exp,rate,rate,0.08333
-NCT00168857,Lost to Follow-up,gompertz,shape,shape,7.604e-6
-NCT00168857,Lost to Follow-up,gompertz,shape,rate,-0.001245
-NCT00168857,Lost to Follow-up,gompertz,rate,shape,-0.001245
-NCT00168857,Lost to Follow-up,gompertz,rate,rate,0.287
-NCT00168857,Lost to Follow-up,llogis,shape,shape,0.07905
-NCT00168857,Lost to Follow-up,llogis,shape,scale,-0.4894
-NCT00168857,Lost to Follow-up,llogis,scale,shape,-0.4894
-NCT00168857,Lost to Follow-up,llogis,scale,scale,3.211
 NCT00168857,Lost to Follow-up,weibull,shape,shape,0.07921
 NCT00168857,Lost to Follow-up,weibull,shape,scale,-0.4923
 NCT00168857,Lost to Follow-up,weibull,scale,shape,-0.4923
 NCT00168857,Lost to Follow-up,weibull,scale,scale,3.24
-NCT00168857,Other/Miscellaneous,exp,rate,rate,0.05556
 NCT00168857,Other/Miscellaneous,gompertz,shape,shape,3.157e-5
 NCT00168857,Other/Miscellaneous,gompertz,shape,rate,-0.001324
 NCT00168857,Other/Miscellaneous,gompertz,rate,shape,-0.001324
 NCT00168857,Other/Miscellaneous,gompertz,rate,rate,0.1111
-NCT00168857,Other/Miscellaneous,llogis,shape,shape,0.05354
-NCT00168857,Other/Miscellaneous,llogis,shape,scale,-0.5598
-NCT00168857,Other/Miscellaneous,llogis,scale,shape,-0.5598
-NCT00168857,Other/Miscellaneous,llogis,scale,scale,6.275
-NCT00168857,Other/Miscellaneous,weibull,shape,shape,0.05391
-NCT00168857,Other/Miscellaneous,weibull,shape,scale,-0.5687
-NCT00168857,Other/Miscellaneous,weibull,scale,shape,-0.5687
-NCT00168857,Other/Miscellaneous,weibull,scale,scale,6.416
 NCT00168857,Protocol Violation,exp,rate,rate,0.03571
-NCT00168857,Protocol Violation,gompertz,shape,shape,3.193e-6
-NCT00168857,Protocol Violation,gompertz,shape,rate,-5.86e-4
-NCT00168857,Protocol Violation,gompertz,rate,shape,-5.86e-4
-NCT00168857,Protocol Violation,gompertz,rate,rate,0.1432
-NCT00168857,Protocol Violation,llogis,shape,shape,0.03337
-NCT00168857,Protocol Violation,llogis,shape,scale,-0.1116
-NCT00168857,Protocol Violation,llogis,scale,shape,-0.1116
-NCT00168857,Protocol Violation,llogis,scale,scale,0.4102
-NCT00168857,Protocol Violation,weibull,shape,shape,0.03365
-NCT00168857,Protocol Violation,weibull,shape,scale,-0.1137
-NCT00168857,Protocol Violation,weibull,scale,shape,-0.1137
-NCT00168857,Protocol Violation,weibull,scale,scale,0.4202
-NCT00168857,Voluntary Withdrawal,exp,rate,rate,0.0625
-NCT00168857,Voluntary Withdrawal,gompertz,shape,shape,6.158e-6
-NCT00168857,Voluntary Withdrawal,gompertz,shape,rate,-8.694e-4
-NCT00168857,Voluntary Withdrawal,gompertz,rate,shape,-8.694e-4
-NCT00168857,Voluntary Withdrawal,gompertz,rate,rate,0.1852
 NCT00168857,Voluntary Withdrawal,llogis,shape,shape,0.05909
 NCT00168857,Voluntary Withdrawal,llogis,shape,scale,-0.3307
 NCT00168857,Voluntary Withdrawal,llogis,scale,shape,-0.3307
 NCT00168857,Voluntary Withdrawal,llogis,scale,scale,1.98
-NCT00168857,Voluntary Withdrawal,weibull,shape,shape,0.05936
-NCT00168857,Voluntary Withdrawal,weibull,shape,scale,-0.3342
-NCT00168857,Voluntary Withdrawal,weibull,scale,shape,-0.3342
-NCT00168857,Voluntary Withdrawal,weibull,scale,scale,2.01
 NCT00239421,Adverse Event,exp,rate,rate,0.07143
-NCT00274014,Adverse Event,exp,rate,rate,0.009091
 NCT00274014,Adverse Event,lnorm,meanlog,meanlog,0.1238
 NCT00274014,Adverse Event,lnorm,meanlog,sdlog,0.02599
 NCT00274014,Adverse Event,lnorm,sdlog,meanlog,0.02599
 NCT00274014,Adverse Event,lnorm,sdlog,sdlog,0.006636
 NCT00274014,Lost to Follow-up,exp,rate,rate,0.03125
-NCT00274014,Lost to Follow-up,lnorm,meanlog,meanlog,0.7274
-NCT00274014,Lost to Follow-up,lnorm,meanlog,sdlog,0.1258
-NCT00274014,Lost to Follow-up,lnorm,sdlog,meanlog,0.1258
-NCT00274014,Lost to Follow-up,lnorm,sdlog,sdlog,0.02331
 NCT00274014,Other/Miscellaneous,exp,rate,rate,0.02564
-NCT00274014,Other/Miscellaneous,lnorm,meanlog,meanlog,0.416
-NCT00274014,Other/Miscellaneous,lnorm,meanlog,sdlog,0.08495
-NCT00274014,Other/Miscellaneous,lnorm,sdlog,meanlog,0.08495
-NCT00274014,Other/Miscellaneous,lnorm,sdlog,sdlog,0.01881
-NCT00274014,Protocol Violation,exp,rate,rate,0.04
 NCT00274014,Protocol Violation,lnorm,meanlog,meanlog,1.467
 NCT00274014,Protocol Violation,lnorm,meanlog,sdlog,0.207
 NCT00274014,Protocol Violation,lnorm,sdlog,meanlog,0.207
 NCT00274014,Protocol Violation,lnorm,sdlog,sdlog,0.03088
-NCT00274014,Voluntary Withdrawal,exp,rate,rate,0.02174
 NCT00274014,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.5396
 NCT00274014,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.09005
 NCT00274014,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.09005
 NCT00274014,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01641
-NCT00274547,Adverse Event,exp,rate,rate,0.003922
+NCT00274053,Adverse Event,gompertz,shape,shape,4.114e-6
+NCT00274053,Adverse Event,gompertz,shape,rate,-4.208e-4
+NCT00274053,Adverse Event,gompertz,rate,shape,-4.208e-4
+NCT00274053,Adverse Event,gompertz,rate,rate,0.06576
+NCT00274053,Other/Miscellaneous,gompertz,shape,shape,1.434e-5
+NCT00274053,Other/Miscellaneous,gompertz,shape,rate,-0.001296
+NCT00274053,Other/Miscellaneous,gompertz,rate,shape,-0.001296
+NCT00274053,Other/Miscellaneous,gompertz,rate,rate,0.1887
+NCT00274053,Protocol Violation,gompertz,shape,shape,8.439e-6
+NCT00274053,Protocol Violation,gompertz,shape,rate,-8.897e-4
+NCT00274053,Protocol Violation,gompertz,rate,shape,-8.897e-4
+NCT00274053,Protocol Violation,gompertz,rate,rate,0.1414
+NCT00274053,Voluntary Withdrawal,gompertz,shape,shape,8.285e-6
+NCT00274053,Voluntary Withdrawal,gompertz,shape,rate,-7.251e-4
+NCT00274053,Voluntary Withdrawal,gompertz,rate,shape,-7.251e-4
+NCT00274053,Voluntary Withdrawal,gompertz,rate,rate,0.1035
+NCT00274079,Adverse Event,lnorm,meanlog,meanlog,0.4532
+NCT00274079,Adverse Event,lnorm,meanlog,sdlog,0.09467
+NCT00274079,Adverse Event,lnorm,sdlog,meanlog,0.09467
+NCT00274079,Adverse Event,lnorm,sdlog,sdlog,0.02284
 NCT00274547,Adverse Event,gompertz,shape,shape,1.632e-6
 NCT00274547,Adverse Event,gompertz,shape,rate,-1.063e-4
 NCT00274547,Adverse Event,gompertz,rate,shape,-1.063e-4
 NCT00274547,Adverse Event,gompertz,rate,rate,0.01085
-NCT00274547,Adverse Event,lnorm,meanlog,meanlog,0.04756
-NCT00274547,Adverse Event,lnorm,meanlog,sdlog,0.01021
-NCT00274547,Adverse Event,lnorm,sdlog,meanlog,0.01021
-NCT00274547,Adverse Event,lnorm,sdlog,sdlog,0.002827
-NCT00274547,Lost to Follow-up,exp,rate,rate,0.1
-NCT00274547,Lost to Follow-up,gompertz,shape,shape,3.701e-5
-NCT00274547,Lost to Follow-up,gompertz,shape,rate,-0.003934
-NCT00274547,Lost to Follow-up,gompertz,rate,shape,-0.003934
-NCT00274547,Lost to Follow-up,gompertz,rate,rate,0.5182
 NCT00274547,Lost to Follow-up,lnorm,meanlog,meanlog,1.732
 NCT00274547,Lost to Follow-up,lnorm,meanlog,sdlog,0.3697
 NCT00274547,Lost to Follow-up,lnorm,sdlog,meanlog,0.3697
 NCT00274547,Lost to Follow-up,lnorm,sdlog,sdlog,0.08079
-NCT00274547,Other/Miscellaneous,exp,rate,rate,0.04167
 NCT00274547,Other/Miscellaneous,gompertz,shape,shape,2.682e-5
 NCT00274547,Other/Miscellaneous,gompertz,shape,rate,-0.001182
 NCT00274547,Other/Miscellaneous,gompertz,rate,shape,-0.001182
 NCT00274547,Other/Miscellaneous,gompertz,rate,rate,0.09379
-NCT00274547,Other/Miscellaneous,lnorm,meanlog,meanlog,4.758
-NCT00274547,Other/Miscellaneous,lnorm,meanlog,sdlog,0.3964
-NCT00274547,Other/Miscellaneous,lnorm,sdlog,meanlog,0.3964
-NCT00274547,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03418
 NCT00274547,Protocol Violation,exp,rate,rate,0.02778
-NCT00274547,Protocol Violation,gompertz,shape,shape,1e-5
-NCT00274547,Protocol Violation,gompertz,shape,rate,-8.317e-4
-NCT00274547,Protocol Violation,gompertz,rate,shape,-8.317e-4
-NCT00274547,Protocol Violation,gompertz,rate,rate,0.09693
-NCT00274547,Protocol Violation,lnorm,meanlog,meanlog,1.153
-NCT00274547,Protocol Violation,lnorm,meanlog,sdlog,0.1527
-NCT00274547,Protocol Violation,lnorm,sdlog,meanlog,0.1527
-NCT00274547,Protocol Violation,lnorm,sdlog,sdlog,0.02121
-NCT00274547,Voluntary Withdrawal,exp,rate,rate,0.01613
 NCT00274547,Voluntary Withdrawal,gompertz,shape,shape,6.573e-6
 NCT00274547,Voluntary Withdrawal,gompertz,shape,rate,-4.396e-4
 NCT00274547,Voluntary Withdrawal,gompertz,rate,shape,-4.396e-4
 NCT00274547,Voluntary Withdrawal,gompertz,rate,rate,0.04553
-NCT00274547,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.4628
-NCT00274547,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.07355
-NCT00274547,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.07355
-NCT00274547,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01251
-NCT00274560,Adverse Event,exp,rate,rate,0.02174
 NCT00274560,Adverse Event,lnorm,meanlog,meanlog,0.474
 NCT00274560,Adverse Event,lnorm,meanlog,sdlog,0.08352
 NCT00274560,Adverse Event,lnorm,sdlog,meanlog,0.08352
 NCT00274560,Adverse Event,lnorm,sdlog,sdlog,0.01661
 NCT00274560,Voluntary Withdrawal,exp,rate,rate,0.08333
-NCT00274560,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.908
-NCT00274560,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3485
-NCT00274560,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3485
-NCT00274560,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.0665
-NCT00274599,Adverse Event,exp,rate,rate,0.02941
 NCT00274599,Adverse Event,gompertz,shape,shape,4.103e-5
 NCT00274599,Adverse Event,gompertz,shape,rate,-0.001479
 NCT00274599,Adverse Event,gompertz,rate,shape,-0.001479
 NCT00274599,Adverse Event,gompertz,rate,rate,0.08276
 NCT00274599,Lack of Efficacy,exp,rate,rate,0.08333
-NCT00274599,Lack of Efficacy,gompertz,shape,shape,9.95e-5
-NCT00274599,Lack of Efficacy,gompertz,shape,rate,-0.00505
-NCT00274599,Lack of Efficacy,gompertz,rate,shape,-0.00505
-NCT00274599,Lack of Efficacy,gompertz,rate,rate,0.3396
 NCT00274599,Lost to Follow-up,exp,rate,rate,0.1
-NCT00274599,Lost to Follow-up,gompertz,shape,shape,1.367e-4
-NCT00274599,Lost to Follow-up,gompertz,shape,rate,-0.005057
-NCT00274599,Lost to Follow-up,gompertz,rate,shape,-0.005057
-NCT00274599,Lost to Follow-up,gompertz,rate,rate,0.2871
-NCT00274599,Other/Miscellaneous,exp,rate,rate,0.1
 NCT00274599,Other/Miscellaneous,gompertz,shape,shape,3.42e-4
 NCT00274599,Other/Miscellaneous,gompertz,shape,rate,-0.006121
 NCT00274599,Other/Miscellaneous,gompertz,rate,shape,-0.006121
 NCT00274599,Other/Miscellaneous,gompertz,rate,rate,0.2096
 NCT00274599,Voluntary Withdrawal,exp,rate,rate,0.05556
-NCT00274599,Voluntary Withdrawal,gompertz,shape,shape,6.725e-5
-NCT00274599,Voluntary Withdrawal,gompertz,shape,rate,-0.00371
-NCT00274599,Voluntary Withdrawal,gompertz,rate,shape,-0.00371
-NCT00274599,Voluntary Withdrawal,gompertz,rate,rate,0.2602
-NCT00274612,Adverse Event,exp,rate,rate,0.02778
 NCT00274612,Adverse Event,gompertz,shape,shape,3.403e-5
 NCT00274612,Adverse Event,gompertz,shape,rate,-0.001429
 NCT00274612,Adverse Event,gompertz,rate,shape,-0.001429
 NCT00274612,Adverse Event,gompertz,rate,rate,0.0878
 NCT00274612,Lack of Efficacy,exp,rate,rate,0.1
-NCT00274612,Lack of Efficacy,gompertz,shape,shape,1.17e-4
-NCT00274612,Lack of Efficacy,gompertz,shape,rate,-0.005428
-NCT00274612,Lack of Efficacy,gompertz,rate,shape,-0.005428
-NCT00274612,Lack of Efficacy,gompertz,rate,rate,0.3518
 NCT00274612,Other/Miscellaneous,exp,rate,rate,0.05882
-NCT00274612,Other/Miscellaneous,gompertz,shape,shape,6.759e-5
-NCT00274612,Other/Miscellaneous,gompertz,shape,rate,-0.003387
-NCT00274612,Other/Miscellaneous,gompertz,rate,shape,-0.003387
-NCT00274612,Other/Miscellaneous,gompertz,rate,rate,0.2286
-NCT00277264,Adverse Event,exp,rate,rate,0.009009
-NCT00277264,Adverse Event,gompertz,shape,shape,1.363e-6
-NCT00277264,Adverse Event,gompertz,shape,rate,-1.319e-4
-NCT00277264,Adverse Event,gompertz,rate,shape,-1.319e-4
-NCT00277264,Adverse Event,gompertz,rate,rate,0.02178
-NCT00277264,Adverse Event,llogis,shape,shape,0.008117
-NCT00277264,Adverse Event,llogis,shape,scale,-0.02914
-NCT00277264,Adverse Event,llogis,scale,shape,-0.02914
-NCT00277264,Adverse Event,llogis,scale,scale,0.137
 NCT00277264,Adverse Event,lnorm,meanlog,meanlog,0.1909
 NCT00277264,Adverse Event,lnorm,meanlog,sdlog,0.03192
 NCT00277264,Adverse Event,lnorm,sdlog,meanlog,0.03192
 NCT00277264,Adverse Event,lnorm,sdlog,sdlog,0.006625
-NCT00277264,Adverse Event,weibull,shape,shape,0.0084
-NCT00277264,Adverse Event,weibull,shape,scale,-0.03167
-NCT00277264,Adverse Event,weibull,scale,shape,-0.03167
-NCT00277264,Adverse Event,weibull,scale,scale,0.15
 NCT00277264,Other/Miscellaneous,exp,rate,rate,0.07692
-NCT00277264,Other/Miscellaneous,gompertz,shape,shape,8.679e-6
-NCT00277264,Other/Miscellaneous,gompertz,shape,rate,-0.001166
-NCT00277264,Other/Miscellaneous,gompertz,rate,shape,-0.001166
-NCT00277264,Other/Miscellaneous,gompertz,rate,rate,0.2335
-NCT00277264,Other/Miscellaneous,llogis,shape,shape,0.07073
-NCT00277264,Other/Miscellaneous,llogis,shape,scale,-0.4196
-NCT00277264,Other/Miscellaneous,llogis,scale,shape,-0.4196
-NCT00277264,Other/Miscellaneous,llogis,scale,scale,2.648
-NCT00277264,Other/Miscellaneous,lnorm,meanlog,meanlog,4.966
-NCT00277264,Other/Miscellaneous,lnorm,meanlog,sdlog,0.5312
-NCT00277264,Other/Miscellaneous,lnorm,sdlog,meanlog,0.5312
-NCT00277264,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05912
-NCT00277264,Other/Miscellaneous,weibull,shape,shape,0.07098
-NCT00277264,Other/Miscellaneous,weibull,shape,scale,-0.4231
-NCT00277264,Other/Miscellaneous,weibull,scale,shape,-0.4231
-NCT00277264,Other/Miscellaneous,weibull,scale,scale,2.679
-NCT00277264,Protocol Violation,exp,rate,rate,0.07143
 NCT00277264,Protocol Violation,gompertz,shape,shape,9.534e-6
 NCT00277264,Protocol Violation,gompertz,shape,rate,-0.001039
 NCT00277264,Protocol Violation,gompertz,rate,shape,-0.001039
 NCT00277264,Protocol Violation,gompertz,rate,rate,0.1846
-NCT00277264,Protocol Violation,llogis,shape,shape,0.0657
-NCT00277264,Protocol Violation,llogis,shape,scale,-0.3857
-NCT00277264,Protocol Violation,llogis,scale,shape,-0.3857
-NCT00277264,Protocol Violation,llogis,scale,scale,2.413
-NCT00277264,Protocol Violation,lnorm,meanlog,meanlog,4.252
-NCT00277264,Protocol Violation,lnorm,meanlog,sdlog,0.4792
-NCT00277264,Protocol Violation,lnorm,sdlog,meanlog,0.4792
-NCT00277264,Protocol Violation,lnorm,sdlog,sdlog,0.05623
-NCT00277264,Protocol Violation,weibull,shape,shape,0.06593
-NCT00277264,Protocol Violation,weibull,shape,scale,-0.3892
-NCT00277264,Protocol Violation,weibull,scale,shape,-0.3892
-NCT00277264,Protocol Violation,weibull,scale,scale,2.446
-NCT00277264,Voluntary Withdrawal,exp,rate,rate,0.01408
 NCT00277264,Voluntary Withdrawal,gompertz,shape,shape,2.004e-6
 NCT00277264,Voluntary Withdrawal,gompertz,shape,rate,-2.051e-4
 NCT00277264,Voluntary Withdrawal,gompertz,rate,shape,-2.051e-4
 NCT00277264,Voluntary Withdrawal,gompertz,rate,rate,0.03507
-NCT00277264,Voluntary Withdrawal,llogis,shape,shape,0.01277
-NCT00277264,Voluntary Withdrawal,llogis,shape,scale,-0.04834
-NCT00277264,Voluntary Withdrawal,llogis,scale,shape,-0.04834
-NCT00277264,Voluntary Withdrawal,llogis,scale,scale,0.2192
-NCT00277264,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.3246
-NCT00277264,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.05426
-NCT00277264,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.05426
-NCT00277264,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01044
-NCT00277264,Voluntary Withdrawal,weibull,shape,shape,0.01304
-NCT00277264,Voluntary Withdrawal,weibull,shape,scale,-0.05097
-NCT00277264,Voluntary Withdrawal,weibull,scale,shape,-0.05097
-NCT00277264,Voluntary Withdrawal,weibull,scale,scale,0.2342
-NCT00321854,Adverse Event,exp,rate,rate,0.0119
 NCT00321854,Adverse Event,gompertz,shape,shape,9.012e-7
 NCT00321854,Adverse Event,gompertz,shape,rate,-1.486e-4
 NCT00321854,Adverse Event,gompertz,rate,shape,-1.486e-4
 NCT00321854,Adverse Event,gompertz,rate,rate,0.03642
-NCT00321854,Adverse Event,lnorm,meanlog,meanlog,0.08017
-NCT00321854,Adverse Event,lnorm,meanlog,sdlog,0.02226
-NCT00321854,Adverse Event,lnorm,sdlog,meanlog,0.02226
-NCT00321854,Adverse Event,lnorm,sdlog,sdlog,0.00836
 NCT00321854,Lack of Efficacy,exp,rate,rate,0.04348
-NCT00321854,Lack of Efficacy,gompertz,shape,shape,3.114e-6
-NCT00321854,Lack of Efficacy,gompertz,shape,rate,-5.716e-4
-NCT00321854,Lack of Efficacy,gompertz,rate,shape,-5.716e-4
-NCT00321854,Lack of Efficacy,gompertz,rate,rate,0.1484
-NCT00321854,Lack of Efficacy,lnorm,meanlog,meanlog,0.5048
-NCT00321854,Lack of Efficacy,lnorm,meanlog,sdlog,0.1226
-NCT00321854,Lack of Efficacy,lnorm,sdlog,meanlog,0.1226
-NCT00321854,Lack of Efficacy,lnorm,sdlog,sdlog,0.03247
 NCT00321854,Protocol Violation,exp,rate,rate,0.09091
-NCT00321854,Protocol Violation,gompertz,shape,shape,6.776e-6
-NCT00321854,Protocol Violation,gompertz,shape,rate,-0.001146
-NCT00321854,Protocol Violation,gompertz,rate,shape,-0.001146
-NCT00321854,Protocol Violation,gompertz,rate,rate,0.2849
-NCT00321854,Protocol Violation,lnorm,meanlog,meanlog,2.577
-NCT00321854,Protocol Violation,lnorm,meanlog,sdlog,0.4136
-NCT00321854,Protocol Violation,lnorm,sdlog,meanlog,0.4136
-NCT00321854,Protocol Violation,lnorm,sdlog,sdlog,0.06976
-NCT00321854,Voluntary Withdrawal,exp,rate,rate,0.04348
 NCT00321854,Voluntary Withdrawal,gompertz,shape,shape,4.474e-6
 NCT00321854,Voluntary Withdrawal,gompertz,shape,rate,-5.278e-4
 NCT00321854,Voluntary Withdrawal,gompertz,rate,shape,-5.278e-4
 NCT00321854,Voluntary Withdrawal,gompertz,rate,rate,0.1057
-NCT00321854,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.345
-NCT00321854,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2044
-NCT00321854,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2044
-NCT00321854,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.0337
-NCT00384930,Adverse Event,exp,rate,rate,0.02174
-NCT00384930,Adverse Event,gompertz,shape,shape,3.378e-5
-NCT00384930,Adverse Event,gompertz,shape,rate,-0.001278
-NCT00384930,Adverse Event,gompertz,rate,shape,-0.001278
-NCT00384930,Adverse Event,gompertz,rate,rate,0.07008
 NCT00384930,Adverse Event,lnorm,meanlog,meanlog,0.3557
 NCT00384930,Adverse Event,lnorm,meanlog,sdlog,0.07498
 NCT00384930,Adverse Event,lnorm,sdlog,meanlog,0.07498
 NCT00384930,Adverse Event,lnorm,sdlog,sdlog,0.01711
-NCT00384930,Other/Miscellaneous,exp,rate,rate,0.04
 NCT00384930,Other/Miscellaneous,gompertz,shape,shape,8.05e-5
 NCT00384930,Other/Miscellaneous,gompertz,shape,rate,-0.002244
 NCT00384930,Other/Miscellaneous,gompertz,rate,shape,-0.002244
 NCT00384930,Other/Miscellaneous,gompertz,rate,rate,0.1026
-NCT00384930,Other/Miscellaneous,lnorm,meanlog,meanlog,2.232
-NCT00384930,Other/Miscellaneous,lnorm,meanlog,sdlog,0.2622
-NCT00384930,Other/Miscellaneous,lnorm,sdlog,meanlog,0.2622
-NCT00384930,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03238
-NCT00384930,PI/Sponsor Decision,exp,rate,rate,0.07143
-NCT00384930,PI/Sponsor Decision,gompertz,shape,shape,9.754e-5
-NCT00384930,PI/Sponsor Decision,gompertz,shape,rate,-0.005225
-NCT00384930,PI/Sponsor Decision,gompertz,rate,shape,-0.005225
-NCT00384930,PI/Sponsor Decision,gompertz,rate,rate,0.3514
 NCT00384930,PI/Sponsor Decision,lnorm,meanlog,meanlog,0.7102
 NCT00384930,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.1974
 NCT00384930,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.1974
 NCT00384930,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.05692
 NCT00384930,Protocol Violation,exp,rate,rate,0.09091
-NCT00384930,Protocol Violation,gompertz,shape,shape,1.353e-4
-NCT00384930,Protocol Violation,gompertz,shape,rate,-0.005536
-NCT00384930,Protocol Violation,gompertz,rate,shape,-0.005536
-NCT00384930,Protocol Violation,gompertz,rate,rate,0.3174
-NCT00384930,Protocol Violation,lnorm,meanlog,meanlog,3.403
-NCT00384930,Protocol Violation,lnorm,meanlog,sdlog,0.4919
-NCT00384930,Protocol Violation,lnorm,sdlog,meanlog,0.4919
-NCT00384930,Protocol Violation,lnorm,sdlog,sdlog,0.07334
 NCT00384930,Voluntary Withdrawal,exp,rate,rate,0.02632
-NCT00384930,Voluntary Withdrawal,gompertz,shape,shape,4.011e-5
-NCT00384930,Voluntary Withdrawal,gompertz,shape,rate,-0.001568
-NCT00384930,Voluntary Withdrawal,gompertz,rate,shape,-0.001568
-NCT00384930,Voluntary Withdrawal,gompertz,rate,rate,0.08765
-NCT00384930,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.5003
-NCT00384930,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.09823
-NCT00384930,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.09823
-NCT00384930,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02066
-NCT00466167,Adverse Event,exp,rate,rate,0.03704
+NCT00402233,Adverse Event,gompertz,shape,shape,7.894e-5
+NCT00402233,Adverse Event,gompertz,shape,rate,-0.00222
+NCT00402233,Adverse Event,gompertz,rate,shape,-0.00222
+NCT00402233,Adverse Event,gompertz,rate,rate,0.1009
 NCT00466167,Adverse Event,gompertz,shape,shape,1.409e-5
 NCT00466167,Adverse Event,gompertz,shape,rate,-0.00084079999999999995
 NCT00466167,Adverse Event,gompertz,rate,shape,-0.00084079999999999995
 NCT00466167,Adverse Event,gompertz,rate,rate,0.08722
 NCT00466167,Voluntary Withdrawal,exp,rate,rate,0.05556
-NCT00466167,Voluntary Withdrawal,gompertz,shape,shape,1.335e-5
-NCT00466167,Voluntary Withdrawal,gompertz,shape,rate,-0.001286
-NCT00466167,Voluntary Withdrawal,gompertz,rate,shape,-0.001286
-NCT00466167,Voluntary Withdrawal,gompertz,rate,rate,0.1793
-NCT00563381,Adverse Event,exp,rate,rate,0.001799
-NCT00563381,Adverse Event,gompertz,shape,shape,1.875e-7
-NCT00563381,Adverse Event,gompertz,shape,rate,-2.46e-5
-NCT00563381,Adverse Event,gompertz,rate,shape,-2.46e-5
-NCT00563381,Adverse Event,gompertz,rate,rate,0.005026
-NCT00563381,Adverse Event,lnorm,meanlog,meanlog,0.03642
-NCT00563381,Adverse Event,lnorm,meanlog,sdlog,0.006574
-NCT00563381,Adverse Event,lnorm,sdlog,meanlog,0.006574
-NCT00563381,Adverse Event,lnorm,sdlog,sdlog,0.001354
-NCT00563381,Lack of Efficacy,exp,rate,rate,0.01786
-NCT00563381,Lack of Efficacy,gompertz,shape,shape,1.986e-6
-NCT00563381,Lack of Efficacy,gompertz,shape,rate,-2.417e-4
-NCT00563381,Lack of Efficacy,gompertz,rate,shape,-2.417e-4
-NCT00563381,Lack of Efficacy,gompertz,rate,rate,0.04728
-NCT00563381,Lack of Efficacy,lnorm,meanlog,meanlog,1.493
-NCT00563381,Lack of Efficacy,lnorm,meanlog,sdlog,0.1464
-NCT00563381,Lack of Efficacy,lnorm,sdlog,meanlog,0.1464
-NCT00563381,Lack of Efficacy,lnorm,sdlog,sdlog,0.01474
-NCT00563381,Lost to Follow-up,exp,rate,rate,0.04545
-NCT00563381,Lost to Follow-up,gompertz,shape,shape,4.251e-6
-NCT00563381,Lost to Follow-up,gompertz,shape,rate,-6.63e-4
-NCT00563381,Lost to Follow-up,gompertz,rate,shape,-6.63e-4
-NCT00563381,Lost to Follow-up,gompertz,rate,rate,0.1488
-NCT00563381,Lost to Follow-up,lnorm,meanlog,meanlog,5.578
-NCT00563381,Lost to Follow-up,lnorm,meanlog,sdlog,0.4463
-NCT00563381,Lost to Follow-up,lnorm,sdlog,meanlog,0.4463
-NCT00563381,Lost to Follow-up,lnorm,sdlog,sdlog,0.03633
-NCT00563381,Other/Miscellaneous,exp,rate,rate,0.01724
-NCT00563381,Other/Miscellaneous,gompertz,shape,shape,1.725e-6
-NCT00563381,Other/Miscellaneous,gompertz,shape,rate,-2.392e-4
-NCT00563381,Other/Miscellaneous,gompertz,rate,shape,-2.392e-4
-NCT00563381,Other/Miscellaneous,gompertz,rate,rate,0.05041
-NCT00563381,Other/Miscellaneous,lnorm,meanlog,meanlog,1.537
-NCT00563381,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1446
-NCT00563381,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1446
-NCT00563381,Other/Miscellaneous,lnorm,sdlog,sdlog,0.01397
-NCT00563381,Protocol Violation,exp,rate,rate,0.007194
-NCT00563381,Protocol Violation,gompertz,shape,shape,9.595e-7
-NCT00563381,Protocol Violation,gompertz,shape,rate,-9.822e-5
-NCT00563381,Protocol Violation,gompertz,rate,shape,-9.822e-5
-NCT00563381,Protocol Violation,gompertz,rate,rate,0.01725
-NCT00563381,Protocol Violation,lnorm,meanlog,meanlog,0.5989
-NCT00563381,Protocol Violation,lnorm,meanlog,sdlog,0.05752
-NCT00563381,Protocol Violation,lnorm,sdlog,meanlog,0.05752
-NCT00563381,Protocol Violation,lnorm,sdlog,sdlog,0.005773
-NCT00563381,Voluntary Withdrawal,exp,rate,rate,0.002494
-NCT00563381,Voluntary Withdrawal,gompertz,shape,shape,3.353e-7
-NCT00563381,Voluntary Withdrawal,gompertz,shape,rate,-3.409e-5
-NCT00563381,Voluntary Withdrawal,gompertz,rate,shape,-3.409e-5
-NCT00563381,Voluntary Withdrawal,gompertz,rate,rate,0.005962
-NCT00563381,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.09791
-NCT00563381,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.01313
-NCT00563381,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.01313
-NCT00563381,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.001937
-NCT00601250,Adverse Event,exp,rate,rate,0.09091
-NCT00601250,Adverse Event,gompertz,shape,shape,3.964e-5
-NCT00601250,Adverse Event,gompertz,shape,rate,-0.002692
-NCT00601250,Adverse Event,gompertz,rate,shape,-0.002692
-NCT00601250,Adverse Event,gompertz,rate,rate,0.2737
-NCT00601250,Other/Miscellaneous,exp,rate,rate,0.1
-NCT00601250,Other/Miscellaneous,gompertz,shape,shape,4.32e-5
-NCT00601250,Other/Miscellaneous,gompertz,shape,rate,-0.004541
-NCT00601250,Other/Miscellaneous,gompertz,rate,shape,-0.004541
-NCT00601250,Other/Miscellaneous,gompertz,rate,rate,0.5772
-NCT00601250,Voluntary Withdrawal,exp,rate,rate,0.05882
-NCT00601250,Voluntary Withdrawal,gompertz,shape,shape,2.644e-5
-NCT00601250,Voluntary Withdrawal,gompertz,shape,rate,-0.001719
-NCT00601250,Voluntary Withdrawal,gompertz,rate,shape,-0.001719
-NCT00601250,Voluntary Withdrawal,gompertz,rate,rate,0.1705
-NCT00602472,Adverse Event,exp,rate,rate,0.03571
-NCT00602472,Adverse Event,lnorm,meanlog,meanlog,1.51
-NCT00602472,Adverse Event,lnorm,meanlog,sdlog,0.2026
-NCT00602472,Adverse Event,lnorm,sdlog,meanlog,0.2026
-NCT00602472,Adverse Event,lnorm,sdlog,sdlog,0.0287
-NCT00602472,Protocol Violation,exp,rate,rate,0.04545
-NCT00602472,Protocol Violation,lnorm,meanlog,meanlog,1.286
-NCT00602472,Protocol Violation,lnorm,meanlog,sdlog,0.2121
-NCT00602472,Protocol Violation,lnorm,sdlog,meanlog,0.2121
-NCT00602472,Protocol Violation,lnorm,sdlog,sdlog,0.03663
-NCT00602472,Voluntary Withdrawal,exp,rate,rate,0.04762
-NCT00602472,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.9588
-NCT00602472,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1903
-NCT00602472,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1903
-NCT00602472,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03945
-NCT00622284,Adverse Event,exp,rate,rate,0.006623
-NCT00622284,Adverse Event,gompertz,shape,shape,1.858e-7
-NCT00622284,Adverse Event,gompertz,shape,rate,-4.44e-5
-NCT00622284,Adverse Event,gompertz,rate,shape,-4.44e-5
-NCT00622284,Adverse Event,gompertz,rate,rate,0.01723
-NCT00622284,Adverse Event,lnorm,meanlog,meanlog,0.1474
-NCT00622284,Adverse Event,lnorm,meanlog,sdlog,0.02468
-NCT00622284,Adverse Event,lnorm,sdlog,meanlog,0.02468
-NCT00622284,Adverse Event,lnorm,sdlog,sdlog,0.004902
-NCT00622284,Lack of Efficacy,exp,rate,rate,0.01667
-NCT00622284,Lack of Efficacy,gompertz,shape,shape,3.702e-7
-NCT00622284,Lack of Efficacy,gompertz,shape,rate,-1.351e-4
-NCT00622284,Lack of Efficacy,gompertz,rate,shape,-1.351e-4
-NCT00622284,Lack of Efficacy,gompertz,rate,rate,0.06595
-NCT00622284,Lack of Efficacy,lnorm,meanlog,meanlog,0.2153
-NCT00622284,Lack of Efficacy,lnorm,meanlog,sdlog,0.04978
-NCT00622284,Lack of Efficacy,lnorm,sdlog,meanlog,0.04978
-NCT00622284,Lack of Efficacy,lnorm,sdlog,sdlog,0.01247
-NCT00622284,Lost to Follow-up,exp,rate,rate,0.04545
-NCT00622284,Lost to Follow-up,gompertz,shape,shape,1.068e-6
-NCT00622284,Lost to Follow-up,gompertz,shape,rate,-3.219e-4
-NCT00622284,Lost to Follow-up,gompertz,rate,shape,-3.219e-4
-NCT00622284,Lost to Follow-up,gompertz,rate,rate,0.1425
-NCT00622284,Lost to Follow-up,lnorm,meanlog,meanlog,1.94
-NCT00622284,Lost to Follow-up,lnorm,meanlog,sdlog,0.2582
-NCT00622284,Lost to Follow-up,lnorm,sdlog,meanlog,0.2582
-NCT00622284,Lost to Follow-up,lnorm,sdlog,sdlog,0.03571
-NCT00622284,Other/Miscellaneous,exp,rate,rate,0.01754
-NCT00622284,Other/Miscellaneous,gompertz,shape,shape,4.336e-7
-NCT00622284,Other/Miscellaneous,gompertz,shape,rate,-1.205e-4
-NCT00622284,Other/Miscellaneous,gompertz,rate,shape,-1.205e-4
-NCT00622284,Other/Miscellaneous,gompertz,rate,rate,0.05105
-NCT00622284,Other/Miscellaneous,lnorm,meanlog,meanlog,0.4752
-NCT00622284,Other/Miscellaneous,lnorm,meanlog,sdlog,0.07708
-NCT00622284,Other/Miscellaneous,lnorm,sdlog,meanlog,0.07708
-NCT00622284,Other/Miscellaneous,lnorm,sdlog,sdlog,0.01345
-NCT00622284,Protocol Violation,exp,rate,rate,0.05882
-NCT00622284,Protocol Violation,gompertz,shape,shape,1.399e-6
-NCT00622284,Protocol Violation,gompertz,shape,rate,-4.127e-4
-NCT00622284,Protocol Violation,gompertz,rate,shape,-4.127e-4
-NCT00622284,Protocol Violation,gompertz,rate,rate,0.1806
-NCT00622284,Protocol Violation,lnorm,meanlog,meanlog,3.477
-NCT00622284,Protocol Violation,lnorm,meanlog,sdlog,0.3954
-NCT00622284,Protocol Violation,lnorm,sdlog,meanlog,0.3954
-NCT00622284,Protocol Violation,lnorm,sdlog,sdlog,0.04647
-NCT00622284,Voluntary Withdrawal,exp,rate,rate,0.02
-NCT00622284,Voluntary Withdrawal,gompertz,shape,shape,6.326e-7
-NCT00622284,Voluntary Withdrawal,gompertz,shape,rate,-1.348e-4
-NCT00622284,Voluntary Withdrawal,gompertz,rate,shape,-1.348e-4
-NCT00622284,Voluntary Withdrawal,gompertz,rate,rate,0.04873
-NCT00622284,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.149
-NCT00622284,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1288
-NCT00622284,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1288
-NCT00622284,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01541
-NCT00734474,Adverse Event,exp,rate,rate,0.004329
-NCT00734474,Adverse Event,gompertz,shape,shape,9.871e-8
-NCT00734474,Adverse Event,gompertz,shape,rate,-3.264e-5
-NCT00734474,Adverse Event,gompertz,rate,shape,-3.264e-5
-NCT00734474,Adverse Event,gompertz,rate,rate,0.01512
-NCT00734474,Adverse Event,lnorm,meanlog,meanlog,0.02056
-NCT00734474,Adverse Event,lnorm,meanlog,sdlog,0.005995
-NCT00734474,Adverse Event,lnorm,sdlog,meanlog,0.005995
-NCT00734474,Adverse Event,lnorm,sdlog,sdlog,0.00281
-NCT00734474,Lack of Efficacy,exp,rate,rate,0.07143
-NCT00734474,Lack of Efficacy,gompertz,shape,shape,2.235e-6
-NCT00734474,Lack of Efficacy,gompertz,shape,rate,-4.857e-4
-NCT00734474,Lack of Efficacy,gompertz,rate,shape,-4.857e-4
-NCT00734474,Lack of Efficacy,gompertz,rate,rate,0.177
-NCT00734474,Lack of Efficacy,lnorm,meanlog,meanlog,4.908
-NCT00734474,Lack of Efficacy,lnorm,meanlog,sdlog,0.5138
-NCT00734474,Lack of Efficacy,lnorm,sdlog,meanlog,0.5138
-NCT00734474,Lack of Efficacy,lnorm,sdlog,sdlog,0.0558
-NCT00734474,Lost to Follow-up,exp,rate,rate,0.03333
-NCT00734474,Lost to Follow-up,gompertz,shape,shape,8.418e-7
-NCT00734474,Lost to Follow-up,gompertz,shape,rate,-2.304e-4
-NCT00734474,Lost to Follow-up,gompertz,rate,shape,-2.304e-4
-NCT00734474,Lost to Follow-up,gompertz,rate,rate,0.09641
-NCT00734474,Lost to Follow-up,lnorm,meanlog,meanlog,0.8027
-NCT00734474,Lost to Follow-up,lnorm,meanlog,sdlog,0.1367
-NCT00734474,Lost to Follow-up,lnorm,sdlog,meanlog,0.1367
-NCT00734474,Lost to Follow-up,lnorm,sdlog,sdlog,0.02478
-NCT00734474,Other/Miscellaneous,exp,rate,rate,0.07143
-NCT00734474,Other/Miscellaneous,gompertz,shape,shape,2.066e-6
-NCT00734474,Other/Miscellaneous,gompertz,shape,rate,-4.839e-4
-NCT00734474,Other/Miscellaneous,gompertz,rate,shape,-4.839e-4
-NCT00734474,Other/Miscellaneous,gompertz,rate,rate,0.1848
-NCT00734474,Other/Miscellaneous,lnorm,meanlog,meanlog,4.248
-NCT00734474,Other/Miscellaneous,lnorm,meanlog,sdlog,0.4743
-NCT00734474,Other/Miscellaneous,lnorm,sdlog,meanlog,0.4743
-NCT00734474,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05497
-NCT00734474,PI/Sponsor Decision,exp,rate,rate,0.02857
-NCT00734474,PI/Sponsor Decision,gompertz,shape,shape,7.986e-7
-NCT00734474,PI/Sponsor Decision,gompertz,shape,rate,-1.938e-4
-NCT00734474,PI/Sponsor Decision,gompertz,rate,shape,-1.938e-4
-NCT00734474,PI/Sponsor Decision,gompertz,rate,rate,0.0756
-NCT00734474,PI/Sponsor Decision,lnorm,meanlog,meanlog,1.067
-NCT00734474,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.1463
-NCT00734474,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.1463
-NCT00734474,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.02147
-NCT00734474,Protocol Violation,exp,rate,rate,0.09091
-NCT00734474,Protocol Violation,gompertz,shape,shape,2.041e-6
-NCT00734474,Protocol Violation,gompertz,shape,rate,-7.258e-4
-NCT00734474,Protocol Violation,gompertz,rate,shape,-7.258e-4
-NCT00734474,Protocol Violation,gompertz,rate,rate,0.349
-NCT00734474,Protocol Violation,lnorm,meanlog,meanlog,1.578
-NCT00734474,Protocol Violation,lnorm,meanlog,sdlog,0.326
-NCT00734474,Protocol Violation,lnorm,sdlog,meanlog,0.326
-NCT00734474,Protocol Violation,lnorm,sdlog,sdlog,0.06968
-NCT00734474,Voluntary Withdrawal,exp,rate,rate,0.0101
-NCT00734474,Voluntary Withdrawal,gompertz,shape,shape,2.685e-7
-NCT00734474,Voluntary Withdrawal,gompertz,shape,rate,-6.891e-5
-NCT00734474,Voluntary Withdrawal,gompertz,rate,shape,-6.891e-5
-NCT00734474,Voluntary Withdrawal,gompertz,rate,rate,0.02779
-NCT00734474,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.1486
-NCT00734474,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.03008
-NCT00734474,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.03008
-NCT00734474,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.007213
-NCT00740051,Lost to Follow-up,exp,rate,rate,0.09091
-NCT00740051,Lost to Follow-up,gompertz,shape,shape,8.237e-6
-NCT00740051,Lost to Follow-up,gompertz,shape,rate,-0.001355
-NCT00740051,Lost to Follow-up,gompertz,rate,shape,-0.001355
-NCT00740051,Lost to Follow-up,gompertz,rate,rate,0.3139
-NCT00740051,Voluntary Withdrawal,exp,rate,rate,0.07143
-NCT00740051,Voluntary Withdrawal,gompertz,shape,shape,8.459e-6
-NCT00740051,Voluntary Withdrawal,gompertz,shape,rate,-9.625e-4
-NCT00740051,Voluntary Withdrawal,gompertz,rate,shape,-9.625e-4
-NCT00740051,Voluntary Withdrawal,gompertz,rate,rate,0.181
-NCT00772538,Adverse Event,exp,rate,rate,0.08333
-NCT00772538,Adverse Event,llogis,shape,shape,0.08051
-NCT00772538,Adverse Event,llogis,shape,scale,-0.4015
-NCT00772538,Adverse Event,llogis,scale,shape,-0.4015
-NCT00772538,Adverse Event,llogis,scale,scale,2.166
-NCT00772538,Adverse Event,weibull,shape,shape,0.081
-NCT00772538,Adverse Event,weibull,shape,scale,-0.4069
-NCT00772538,Adverse Event,weibull,scale,shape,-0.4069
-NCT00772538,Adverse Event,weibull,scale,scale,2.205
-NCT00772538,Other/Miscellaneous,exp,rate,rate,0.07143
-NCT00772538,Other/Miscellaneous,llogis,shape,shape,0.06929
-NCT00772538,Other/Miscellaneous,llogis,shape,scale,-0.4859
-NCT00772538,Other/Miscellaneous,llogis,scale,shape,-0.4859
-NCT00772538,Other/Miscellaneous,llogis,scale,scale,3.709
-NCT00772538,Other/Miscellaneous,weibull,shape,shape,0.06975
-NCT00772538,Other/Miscellaneous,weibull,shape,scale,-0.4936
-NCT00772538,Other/Miscellaneous,weibull,scale,shape,-0.4936
-NCT00772538,Other/Miscellaneous,weibull,scale,scale,3.79
-NCT00772538,Voluntary Withdrawal,exp,rate,rate,0.09091
-NCT00772538,Voluntary Withdrawal,llogis,shape,shape,0.08775
-NCT00772538,Voluntary Withdrawal,llogis,shape,scale,-0.4227
-NCT00772538,Voluntary Withdrawal,llogis,scale,shape,-0.4227
-NCT00772538,Voluntary Withdrawal,llogis,scale,scale,2.195
-NCT00772538,Voluntary Withdrawal,weibull,shape,shape,0.08832
-NCT00772538,Voluntary Withdrawal,weibull,shape,scale,-0.4286
-NCT00772538,Voluntary Withdrawal,weibull,scale,shape,-0.4286
-NCT00772538,Voluntary Withdrawal,weibull,scale,scale,2.237
-NCT00776984,Adverse Event,exp,rate,rate,0.1
-NCT00776984,Other/Miscellaneous,exp,rate,rate,0.07143
-NCT00776984,Voluntary Withdrawal,exp,rate,rate,0.05263
-NCT00782509,Adverse Event,exp,rate,rate,0.02
-NCT00782509,Adverse Event,lnorm,meanlog,meanlog,0.3947
-NCT00782509,Adverse Event,lnorm,meanlog,sdlog,0.07163
-NCT00782509,Adverse Event,lnorm,sdlog,meanlog,0.07163
-NCT00782509,Adverse Event,lnorm,sdlog,sdlog,0.01491
-NCT00782509,Lack of Efficacy,exp,rate,rate,0.05882
-NCT00782509,Lack of Efficacy,lnorm,meanlog,meanlog,1.845
-NCT00782509,Lack of Efficacy,lnorm,meanlog,sdlog,0.2832
-NCT00782509,Lack of Efficacy,lnorm,sdlog,meanlog,0.2832
-NCT00782509,Lack of Efficacy,lnorm,sdlog,sdlog,0.046
-NCT00782509,Other/Miscellaneous,exp,rate,rate,0.1
-NCT00782509,Other/Miscellaneous,lnorm,meanlog,meanlog,19.33
-NCT00782509,Other/Miscellaneous,lnorm,meanlog,sdlog,1.247
-NCT00782509,Other/Miscellaneous,lnorm,sdlog,meanlog,1.247
-NCT00782509,Other/Miscellaneous,lnorm,sdlog,sdlog,0.08348
-NCT00782509,Voluntary Withdrawal,exp,rate,rate,0.06667
-NCT00782509,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.79
-NCT00782509,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3758
-NCT00782509,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3758
-NCT00782509,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.05325
-NCT00798161,Adverse Event,exp,rate,rate,0.03846
-NCT00798161,Adverse Event,gompertz,shape,shape,2.062e-5
-NCT00798161,Adverse Event,gompertz,shape,rate,-0.001107
-NCT00798161,Adverse Event,gompertz,rate,shape,-0.001107
-NCT00798161,Adverse Event,gompertz,rate,rate,0.0979
-NCT00798161,Adverse Event,lnorm,meanlog,meanlog,1.966
-NCT00798161,Adverse Event,lnorm,meanlog,sdlog,0.2388
-NCT00798161,Adverse Event,lnorm,sdlog,meanlog,0.2388
-NCT00798161,Adverse Event,lnorm,sdlog,sdlog,0.0309
-NCT00798161,Lack of Efficacy,exp,rate,rate,0.05882
-NCT00798161,Lack of Efficacy,gompertz,shape,shape,2.462e-5
-NCT00798161,Lack of Efficacy,gompertz,shape,rate,-0.002394
-NCT00798161,Lack of Efficacy,gompertz,rate,shape,-0.002394
-NCT00798161,Lack of Efficacy,gompertz,rate,rate,0.2916
-NCT00798161,Lack of Efficacy,lnorm,meanlog,meanlog,0.8794
-NCT00798161,Lack of Efficacy,lnorm,meanlog,sdlog,0.196
-NCT00798161,Lack of Efficacy,lnorm,sdlog,meanlog,0.196
-NCT00798161,Lack of Efficacy,lnorm,sdlog,sdlog,0.04592
-NCT00798161,Lost to Follow-up,exp,rate,rate,0.07143
-NCT00798161,Lost to Follow-up,gompertz,shape,shape,2.957e-5
-NCT00798161,Lost to Follow-up,gompertz,shape,rate,-0.002809
-NCT00798161,Lost to Follow-up,gompertz,rate,shape,-0.002809
-NCT00798161,Lost to Follow-up,gompertz,rate,rate,0.3383
-NCT00798161,Lost to Follow-up,lnorm,meanlog,meanlog,0.8551
-NCT00798161,Lost to Follow-up,lnorm,meanlog,sdlog,0.2183
-NCT00798161,Lost to Follow-up,lnorm,sdlog,meanlog,0.2183
-NCT00798161,Lost to Follow-up,lnorm,sdlog,sdlog,0.05815
-NCT00798161,Protocol Violation,exp,rate,rate,0.07143
-NCT00798161,Protocol Violation,gompertz,shape,shape,4.162e-5
-NCT00798161,Protocol Violation,gompertz,shape,rate,-0.002069
-NCT00798161,Protocol Violation,gompertz,rate,shape,-0.002069
-NCT00798161,Protocol Violation,gompertz,rate,rate,0.1743
-NCT00798161,Protocol Violation,lnorm,meanlog,meanlog,4.863
-NCT00798161,Protocol Violation,lnorm,meanlog,sdlog,0.5224
-NCT00798161,Protocol Violation,lnorm,sdlog,meanlog,0.5224
-NCT00798161,Protocol Violation,lnorm,sdlog,sdlog,0.05847
-NCT00798161,Voluntary Withdrawal,exp,rate,rate,0.04762
-NCT00798161,Voluntary Withdrawal,gompertz,shape,shape,2.246e-5
-NCT00798161,Voluntary Withdrawal,gompertz,shape,rate,-0.001385
-NCT00798161,Voluntary Withdrawal,gompertz,rate,shape,-0.001385
-NCT00798161,Voluntary Withdrawal,gompertz,rate,rate,0.133
-NCT00798161,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.122
-NCT00798161,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2761
-NCT00798161,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2761
-NCT00798161,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03796
-NCT00800683,Adverse Event,exp,rate,rate,0.05263
-NCT00848081,Adverse Event,exp,rate,rate,0.08333
-NCT00855582,Adverse Event,exp,rate,rate,0.09091
-NCT00855582,Adverse Event,gompertz,shape,shape,2.136e-4
-NCT00855582,Adverse Event,gompertz,shape,rate,-0.005262
-NCT00855582,Adverse Event,gompertz,rate,shape,-0.005262
-NCT00855582,Adverse Event,gompertz,rate,rate,0.2205
-NCT00855582,Lack of Efficacy,exp,rate,rate,0.08333
-NCT00855582,Lack of Efficacy,gompertz,shape,shape,1.422e-4
-NCT00855582,Lack of Efficacy,gompertz,shape,rate,-0.004976
-NCT00855582,Lack of Efficacy,gompertz,rate,shape,-0.004976
-NCT00855582,Lack of Efficacy,gompertz,rate,rate,0.2575
-NCT00855582,Other/Miscellaneous,exp,rate,rate,0.0625
-NCT00855582,Other/Miscellaneous,gompertz,shape,shape,1.052e-4
-NCT00855582,Other/Miscellaneous,gompertz,shape,rate,-0.003767
-NCT00855582,Other/Miscellaneous,gompertz,rate,shape,-0.003767
-NCT00855582,Other/Miscellaneous,gompertz,rate,rate,0.1974
-NCT00855582,Protocol Violation,exp,rate,rate,0.08333
-NCT00855582,Protocol Violation,gompertz,shape,shape,1.336e-4
-NCT00855582,Protocol Violation,gompertz,shape,rate,-0.00534
-NCT00855582,Protocol Violation,gompertz,rate,shape,-0.00534
-NCT00855582,Protocol Violation,gompertz,rate,rate,0.2967
-NCT00855582,Voluntary Withdrawal,exp,rate,rate,0.0625
-NCT00855582,Voluntary Withdrawal,gompertz,shape,shape,1.135e-4
-NCT00855582,Voluntary Withdrawal,gompertz,shape,rate,-0.003632
-NCT00855582,Voluntary Withdrawal,gompertz,rate,shape,-0.003632
-NCT00855582,Voluntary Withdrawal,gompertz,rate,rate,0.1787
-NCT00861757,Adverse Event,exp,rate,rate,0.06667
-NCT00861757,Voluntary Withdrawal,exp,rate,rate,0.07692
-NCT00915772,Adverse Event,exp,rate,rate,0.02778
-NCT00915772,Adverse Event,llogis,shape,shape,0.02611
-NCT00915772,Adverse Event,llogis,shape,scale,-0.07805
-NCT00915772,Adverse Event,llogis,scale,shape,-0.07805
-NCT00915772,Adverse Event,llogis,scale,scale,0.2698
-NCT00915772,Adverse Event,lnorm,meanlog,meanlog,0.4298
-NCT00915772,Adverse Event,lnorm,meanlog,sdlog,0.08942
-NCT00915772,Adverse Event,lnorm,sdlog,meanlog,0.08942
-NCT00915772,Adverse Event,lnorm,sdlog,sdlog,0.02085
-NCT00915772,Adverse Event,weibull,shape,shape,0.02652
-NCT00915772,Adverse Event,weibull,shape,scale,-0.08105
-NCT00915772,Adverse Event,weibull,scale,shape,-0.08105
-NCT00915772,Adverse Event,weibull,scale,scale,0.283
-NCT00915772,Lack of Efficacy,exp,rate,rate,0.03704
-NCT00915772,Lack of Efficacy,llogis,shape,shape,0.03436
-NCT00915772,Lack of Efficacy,llogis,shape,scale,-0.0484
-NCT00915772,Lack of Efficacy,llogis,scale,shape,-0.0484
-NCT00915772,Lack of Efficacy,llogis,scale,scale,0.07716
-NCT00915772,Lack of Efficacy,lnorm,meanlog,meanlog,0.1233
-NCT00915772,Lack of Efficacy,lnorm,meanlog,sdlog,0.05624
-NCT00915772,Lack of Efficacy,lnorm,sdlog,meanlog,0.05624
-NCT00915772,Lack of Efficacy,lnorm,sdlog,sdlog,0.02814
-NCT00915772,Lack of Efficacy,weibull,shape,shape,0.03482
-NCT00915772,Lack of Efficacy,weibull,shape,scale,-0.05001
-NCT00915772,Lack of Efficacy,weibull,scale,shape,-0.05001
-NCT00915772,Lack of Efficacy,weibull,scale,scale,0.08063
-NCT00915772,Other/Miscellaneous,exp,rate,rate,0.05556
-NCT00915772,Other/Miscellaneous,llogis,shape,shape,0.05273
-NCT00915772,Other/Miscellaneous,llogis,shape,scale,-0.2198
-NCT00915772,Other/Miscellaneous,llogis,scale,shape,-0.2198
-NCT00915772,Other/Miscellaneous,llogis,scale,scale,1.003
-NCT00915772,Other/Miscellaneous,lnorm,meanlog,meanlog,1.674
-NCT00915772,Other/Miscellaneous,lnorm,meanlog,sdlog,0.2618
-NCT00915772,Other/Miscellaneous,lnorm,sdlog,meanlog,0.2618
-NCT00915772,Other/Miscellaneous,lnorm,sdlog,sdlog,0.04361
-NCT00915772,Other/Miscellaneous,weibull,shape,shape,0.05317
-NCT00915772,Other/Miscellaneous,weibull,shape,scale,-0.2241
-NCT00915772,Other/Miscellaneous,weibull,scale,shape,-0.2241
-NCT00915772,Other/Miscellaneous,weibull,scale,scale,1.03
-NCT00915772,Voluntary Withdrawal,exp,rate,rate,0.05882
-NCT00915772,Voluntary Withdrawal,llogis,shape,shape,0.05628
-NCT00915772,Voluntary Withdrawal,llogis,shape,scale,-0.3041
-NCT00915772,Voluntary Withdrawal,llogis,scale,shape,-0.3041
-NCT00915772,Voluntary Withdrawal,llogis,scale,scale,1.791
-NCT00915772,Voluntary Withdrawal,lnorm,meanlog,meanlog,3.124
-NCT00915772,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3669
-NCT00915772,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3669
-NCT00915772,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.04581
-NCT00915772,Voluntary Withdrawal,weibull,shape,shape,0.05669
-NCT00915772,Voluntary Withdrawal,weibull,shape,scale,-0.3093
-NCT00915772,Voluntary Withdrawal,weibull,scale,shape,-0.3093
-NCT00915772,Voluntary Withdrawal,weibull,scale,scale,1.833
-NCT00926289,Adverse Event,exp,rate,rate,0.05
-NCT00926289,Adverse Event,gompertz,shape,shape,3.176e-4
-NCT00926289,Adverse Event,gompertz,shape,rate,-0.00505
-NCT00926289,Adverse Event,gompertz,rate,shape,-0.00505
-NCT00926289,Adverse Event,gompertz,rate,rate,0.1303
-NCT00926289,Protocol Violation,exp,rate,rate,0.05
-NCT00926289,Protocol Violation,gompertz,shape,shape,2.573e-4
-NCT00926289,Protocol Violation,gompertz,shape,rate,-0.005404
-NCT00926289,Protocol Violation,gompertz,rate,shape,-0.005404
-NCT00926289,Protocol Violation,gompertz,rate,rate,0.1635
-NCT00954447,Adverse Event,exp,rate,rate,0.02128
-NCT00954447,Adverse Event,gompertz,shape,shape,1.277e-6
-NCT00954447,Adverse Event,gompertz,shape,rate,-2.116e-4
-NCT00954447,Adverse Event,gompertz,rate,shape,-2.116e-4
-NCT00954447,Adverse Event,gompertz,rate,rate,0.05632
-NCT00954447,Lack of Efficacy,exp,rate,rate,0.05556
-NCT00954447,Lack of Efficacy,gompertz,shape,shape,2.707e-6
-NCT00954447,Lack of Efficacy,gompertz,shape,rate,-5.556e-4
-NCT00954447,Lack of Efficacy,gompertz,rate,shape,-5.556e-4
-NCT00954447,Lack of Efficacy,gompertz,rate,rate,0.1696
-NCT00954447,Lost to Follow-up,exp,rate,rate,0.05
-NCT00954447,Lost to Follow-up,gompertz,shape,shape,3.958e-6
-NCT00954447,Lost to Follow-up,gompertz,shape,rate,-5.218e-4
-NCT00954447,Lost to Follow-up,gompertz,rate,shape,-5.218e-4
-NCT00954447,Lost to Follow-up,gompertz,rate,rate,0.1188
-NCT00954447,Other/Miscellaneous,exp,rate,rate,0.02941
-NCT00954447,Other/Miscellaneous,gompertz,shape,shape,1.52e-6
-NCT00954447,Other/Miscellaneous,gompertz,shape,rate,-2.919e-4
-NCT00954447,Other/Miscellaneous,gompertz,rate,shape,-2.919e-4
-NCT00954447,Other/Miscellaneous,gompertz,rate,rate,0.08547
-NCT00954447,Voluntary Withdrawal,exp,rate,rate,0.02564
-NCT00954447,Voluntary Withdrawal,gompertz,shape,shape,1.318e-6
-NCT00954447,Voluntary Withdrawal,gompertz,shape,rate,-2.546e-4
-NCT00954447,Voluntary Withdrawal,gompertz,rate,shape,-2.546e-4
-NCT00954447,Voluntary Withdrawal,gompertz,rate,rate,0.07482
-NCT00970632,Protocol Violation,exp,rate,rate,0.04762
-NCT00970632,Protocol Violation,lnorm,meanlog,meanlog,0.2415
-NCT00970632,Protocol Violation,lnorm,meanlog,sdlog,0.09166
-NCT00970632,Protocol Violation,lnorm,sdlog,meanlog,0.09166
-NCT00970632,Protocol Violation,lnorm,sdlog,sdlog,0.03755
-NCT00970632,Voluntary Withdrawal,exp,rate,rate,0.0625
-NCT00970632,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.882
-NCT00970632,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2021
-NCT00970632,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2021
-NCT00970632,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.04925
-NCT00975195,Adverse Event,exp,rate,rate,0.004808
-NCT00975195,Adverse Event,gompertz,shape,shape,4.426e-7
-NCT00975195,Adverse Event,gompertz,shape,rate,-7.041e-5
-NCT00975195,Adverse Event,gompertz,rate,shape,-7.041e-5
-NCT00975195,Adverse Event,gompertz,rate,rate,0.01601
-NCT00975195,Adverse Event,llogis,shape,shape,0.004448
-NCT00975195,Adverse Event,llogis,shape,scale,-0.01142
-NCT00975195,Adverse Event,llogis,scale,shape,-0.01142
-NCT00975195,Adverse Event,llogis,scale,scale,0.0353
-NCT00975195,Adverse Event,lnorm,meanlog,meanlog,0.05403
-NCT00975195,Adverse Event,lnorm,meanlog,sdlog,0.01287
-NCT00975195,Adverse Event,lnorm,sdlog,meanlog,0.01287
-NCT00975195,Adverse Event,lnorm,sdlog,sdlog,0.003558
-NCT00975195,Adverse Event,weibull,shape,shape,0.004546
-NCT00975195,Adverse Event,weibull,shape,scale,-0.01205
-NCT00975195,Adverse Event,weibull,scale,shape,-0.01205
-NCT00975195,Adverse Event,weibull,scale,scale,0.03769
-NCT00975195,Lack of Efficacy,exp,rate,rate,0.08333
-NCT00975195,Lack of Efficacy,gompertz,shape,shape,1.041e-5
-NCT00975195,Lack of Efficacy,gompertz,shape,rate,-0.001128
-NCT00975195,Lack of Efficacy,gompertz,rate,shape,-0.001128
-NCT00975195,Lack of Efficacy,gompertz,rate,rate,0.2057
-NCT00975195,Lack of Efficacy,llogis,shape,shape,0.07942
-NCT00975195,Lack of Efficacy,llogis,shape,scale,-0.6079
-NCT00975195,Lack of Efficacy,llogis,scale,shape,-0.6079
-NCT00975195,Lack of Efficacy,llogis,scale,scale,4.827
-NCT00975195,Lack of Efficacy,lnorm,meanlog,meanlog,9.399
-NCT00975195,Lack of Efficacy,lnorm,meanlog,sdlog,0.8058
-NCT00975195,Lack of Efficacy,lnorm,sdlog,meanlog,0.8058
-NCT00975195,Lack of Efficacy,lnorm,sdlog,sdlog,0.07049
-NCT00975195,Lack of Efficacy,weibull,shape,shape,0.07955
-NCT00975195,Lack of Efficacy,weibull,shape,scale,-0.6099
-NCT00975195,Lack of Efficacy,weibull,scale,shape,-0.6099
-NCT00975195,Lack of Efficacy,weibull,scale,scale,4.852
-NCT00975195,Lost to Follow-up,exp,rate,rate,0.0625
-NCT00975195,Lost to Follow-up,gompertz,shape,shape,5.58e-6
-NCT00975195,Lost to Follow-up,gompertz,shape,rate,-0.001014
-NCT00975195,Lost to Follow-up,gompertz,rate,shape,-0.001014
-NCT00975195,Lost to Follow-up,gompertz,rate,rate,0.2467
-NCT00975195,Lost to Follow-up,llogis,shape,shape,0.05915
-NCT00975195,Lost to Follow-up,llogis,shape,scale,-0.3458
-NCT00975195,Lost to Follow-up,llogis,scale,shape,-0.3458
-NCT00975195,Lost to Follow-up,llogis,scale,scale,2.108
-NCT00975195,Lost to Follow-up,lnorm,meanlog,meanlog,4.549
-NCT00975195,Lost to Follow-up,lnorm,meanlog,sdlog,0.4657
-NCT00975195,Lost to Follow-up,lnorm,sdlog,meanlog,0.4657
-NCT00975195,Lost to Follow-up,lnorm,sdlog,sdlog,0.0489
-NCT00975195,Lost to Follow-up,weibull,shape,shape,0.05923
-NCT00975195,Lost to Follow-up,weibull,shape,scale,-0.3469
-NCT00975195,Lost to Follow-up,weibull,scale,shape,-0.3469
-NCT00975195,Lost to Follow-up,weibull,scale,scale,2.118
-NCT00975195,Other/Miscellaneous,exp,rate,rate,0.01613
-NCT00975195,Other/Miscellaneous,gompertz,shape,shape,1.475e-6
-NCT00975195,Other/Miscellaneous,gompertz,shape,rate,-2.387e-4
-NCT00975195,Other/Miscellaneous,gompertz,rate,shape,-2.387e-4
-NCT00975195,Other/Miscellaneous,gompertz,rate,rate,0.05476
-NCT00975195,Other/Miscellaneous,llogis,shape,shape,0.0152
-NCT00975195,Other/Miscellaneous,llogis,shape,scale,-0.06504
-NCT00975195,Other/Miscellaneous,llogis,scale,shape,-0.06504
-NCT00975195,Other/Miscellaneous,llogis,scale,scale,0.3013
-NCT00975195,Other/Miscellaneous,lnorm,meanlog,meanlog,0.5561
-NCT00975195,Other/Miscellaneous,lnorm,meanlog,sdlog,0.08039
-NCT00975195,Other/Miscellaneous,lnorm,sdlog,meanlog,0.08039
-NCT00975195,Other/Miscellaneous,lnorm,sdlog,sdlog,0.01229
-NCT00975195,Protocol Violation,exp,rate,rate,0.02
-NCT00975195,Protocol Violation,gompertz,shape,shape,1.86e-6
-NCT00975195,Protocol Violation,gompertz,shape,rate,-2.891e-4
-NCT00975195,Protocol Violation,gompertz,rate,shape,-2.891e-4
-NCT00975195,Protocol Violation,gompertz,rate,rate,0.06493
-NCT00975195,Protocol Violation,llogis,shape,shape,0.01888
-NCT00975195,Protocol Violation,llogis,shape,scale,-0.08781
-NCT00975195,Protocol Violation,llogis,scale,shape,-0.08781
-NCT00975195,Protocol Violation,llogis,scale,scale,0.4381
-NCT00975195,Protocol Violation,lnorm,meanlog,meanlog,0.8089
-NCT00975195,Protocol Violation,lnorm,meanlog,sdlog,0.1093
-NCT00975195,Protocol Violation,lnorm,sdlog,meanlog,0.1093
-NCT00975195,Protocol Violation,lnorm,sdlog,sdlog,0.0155
-NCT00975195,Protocol Violation,weibull,shape,shape,0.01897
-NCT00975195,Protocol Violation,weibull,shape,scale,-0.08884
-NCT00975195,Protocol Violation,weibull,scale,shape,-0.08884
-NCT00975195,Protocol Violation,weibull,scale,scale,0.4454
-NCT00975195,Voluntary Withdrawal,exp,rate,rate,0.009174
-NCT00975195,Voluntary Withdrawal,gompertz,shape,shape,9.92e-7
-NCT00975195,Voluntary Withdrawal,gompertz,shape,rate,-1.242e-4
-NCT00975195,Voluntary Withdrawal,gompertz,rate,shape,-1.242e-4
-NCT00975195,Voluntary Withdrawal,gompertz,rate,rate,0.02472
-NCT00975195,Voluntary Withdrawal,llogis,shape,shape,0.00866
-NCT00975195,Voluntary Withdrawal,llogis,shape,scale,-0.03891
-NCT00975195,Voluntary Withdrawal,llogis,scale,shape,-0.03891
-NCT00975195,Voluntary Withdrawal,llogis,scale,scale,0.1953
-NCT00975195,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.3181
-NCT00975195,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.04557
-NCT00975195,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.04557
-NCT00975195,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.007084
-NCT00975195,Voluntary Withdrawal,weibull,shape,shape,0.008764
-NCT00975195,Voluntary Withdrawal,weibull,shape,scale,-0.04003
-NCT00975195,Voluntary Withdrawal,weibull,scale,shape,-0.04003
-NCT00975195,Voluntary Withdrawal,weibull,scale,scale,0.2029
-NCT01064687,Adverse Event,exp,rate,rate,0.03846
-NCT01064687,Adverse Event,gompertz,shape,shape,7.277e-6
-NCT01064687,Adverse Event,gompertz,shape,rate,-5.749e-4
-NCT01064687,Adverse Event,gompertz,rate,shape,-5.749e-4
-NCT01064687,Adverse Event,gompertz,rate,rate,0.08388
-NCT01064687,Adverse Event,llogis,shape,shape,0.03729
-NCT01064687,Adverse Event,llogis,shape,scale,-0.2539
-NCT01064687,Adverse Event,llogis,scale,shape,-0.2539
-NCT01064687,Adverse Event,llogis,scale,scale,1.869
-NCT01064687,Adverse Event,weibull,shape,shape,0.03761
-NCT01064687,Adverse Event,weibull,shape,scale,-0.2588
-NCT01064687,Adverse Event,weibull,scale,shape,-0.2588
-NCT01064687,Adverse Event,weibull,scale,scale,1.921
-NCT01064687,Lost to Follow-up,exp,rate,rate,0.04
-NCT01064687,Lost to Follow-up,gompertz,shape,shape,4.036e-6
-NCT01064687,Lost to Follow-up,gompertz,shape,rate,-9.266e-4
-NCT01064687,Lost to Follow-up,gompertz,rate,shape,-9.266e-4
-NCT01064687,Lost to Follow-up,gompertz,rate,rate,0.2527
-NCT01064687,Lost to Follow-up,llogis,shape,shape,0.03843
-NCT01064687,Lost to Follow-up,llogis,shape,scale,-0.07931
-NCT01064687,Lost to Follow-up,llogis,scale,shape,-0.07931
-NCT01064687,Lost to Follow-up,llogis,scale,scale,0.1771
-NCT01064687,Lost to Follow-up,weibull,shape,shape,0.03868
-NCT01064687,Lost to Follow-up,weibull,shape,scale,-0.08051
-NCT01064687,Lost to Follow-up,weibull,scale,shape,-0.08051
-NCT01064687,Lost to Follow-up,weibull,scale,scale,0.1809
-NCT01064687,Voluntary Withdrawal,exp,rate,rate,0.03448
-NCT01064687,Voluntary Withdrawal,gompertz,shape,shape,3.09e-6
-NCT01064687,Voluntary Withdrawal,gompertz,shape,rate,-5.736e-4
-NCT01064687,Voluntary Withdrawal,gompertz,rate,shape,-5.736e-4
-NCT01064687,Voluntary Withdrawal,gompertz,rate,rate,0.141
-NCT01064687,Voluntary Withdrawal,llogis,shape,shape,0.03313
-NCT01064687,Voluntary Withdrawal,llogis,shape,scale,-0.1082
-NCT01064687,Voluntary Withdrawal,llogis,scale,shape,-0.1082
-NCT01064687,Voluntary Withdrawal,llogis,scale,scale,0.385
-NCT01064687,Voluntary Withdrawal,weibull,shape,shape,0.03337
-NCT01064687,Voluntary Withdrawal,weibull,shape,scale,-0.1101
-NCT01064687,Voluntary Withdrawal,weibull,scale,shape,-0.1101
-NCT01064687,Voluntary Withdrawal,weibull,scale,scale,0.394
-NCT01084005,Protocol Violation,exp,rate,rate,0.1
-NCT01087502,Adverse Event,exp,rate,rate,0.03704
-NCT01126437,Adverse Event,exp,rate,rate,5.426e-4
-NCT01126437,Adverse Event,gompertz,shape,shape,9.27e-9
-NCT01126437,Adverse Event,gompertz,shape,rate,-3.288e-6
-NCT01126437,Adverse Event,gompertz,rate,shape,-3.288e-6
-NCT01126437,Adverse Event,gompertz,rate,rate,0.001709
-NCT01126437,Adverse Event,llogis,shape,shape,4.96e-4
-NCT01126437,Adverse Event,llogis,shape,scale,-0.001417
-NCT01126437,Adverse Event,llogis,scale,shape,-0.001417
-NCT01126437,Adverse Event,llogis,scale,scale,0.005132
-NCT01126437,Adverse Event,lnorm,meanlog,meanlog,0.008131
-NCT01126437,Adverse Event,lnorm,meanlog,sdlog,0.0016
-NCT01126437,Adverse Event,lnorm,sdlog,meanlog,0.0016
-NCT01126437,Adverse Event,lnorm,sdlog,sdlog,3.845e-4
-NCT01126437,Adverse Event,weibull,shape,shape,5.078e-4
-NCT01126437,Adverse Event,weibull,shape,scale,-0.001507
-NCT01126437,Adverse Event,weibull,scale,shape,-0.001507
-NCT01126437,Adverse Event,weibull,scale,scale,0.005496
-NCT01126437,Lack of Efficacy,exp,rate,rate,0.005435
-NCT01126437,Lack of Efficacy,gompertz,shape,shape,1.301e-7
-NCT01126437,Lack of Efficacy,gompertz,shape,rate,-3.176e-5
-NCT01126437,Lack of Efficacy,gompertz,rate,shape,-3.176e-5
-NCT01126437,Lack of Efficacy,gompertz,rate,rate,0.01319
-NCT01126437,Lack of Efficacy,llogis,shape,shape,0.005105
-NCT01126437,Lack of Efficacy,llogis,shape,scale,-0.03759
-NCT01126437,Lack of Efficacy,llogis,scale,shape,-0.03759
-NCT01126437,Lack of Efficacy,llogis,scale,scale,0.2916
-NCT01126437,Lack of Efficacy,lnorm,meanlog,meanlog,0.5326
-NCT01126437,Lack of Efficacy,lnorm,meanlog,sdlog,0.04779
-NCT01126437,Lack of Efficacy,lnorm,sdlog,meanlog,0.04779
-NCT01126437,Lack of Efficacy,lnorm,sdlog,sdlog,0.004424
-NCT01126437,Lack of Efficacy,weibull,shape,shape,0.005122
-NCT01126437,Lack of Efficacy,weibull,shape,scale,-0.03786
-NCT01126437,Lack of Efficacy,weibull,scale,shape,-0.03786
-NCT01126437,Lack of Efficacy,weibull,scale,scale,0.2947
-NCT01126437,Lost to Follow-up,exp,rate,rate,0.005882
-NCT01126437,Lost to Follow-up,gompertz,shape,shape,9.912e-8
-NCT01126437,Lost to Follow-up,gompertz,shape,rate,-3.603e-5
-NCT01126437,Lost to Follow-up,gompertz,rate,shape,-3.603e-5
-NCT01126437,Lost to Follow-up,gompertz,rate,rate,0.01898
-NCT01126437,Lost to Follow-up,llogis,shape,shape,0.005502
-NCT01126437,Lost to Follow-up,llogis,shape,scale,-0.03567
-NCT01126437,Lost to Follow-up,llogis,scale,shape,-0.03567
-NCT01126437,Lost to Follow-up,llogis,scale,scale,0.2433
-NCT01126437,Lost to Follow-up,lnorm,meanlog,meanlog,0.5081
-NCT01126437,Lost to Follow-up,lnorm,meanlog,sdlog,0.04706
-NCT01126437,Lost to Follow-up,lnorm,sdlog,meanlog,0.04706
-NCT01126437,Lost to Follow-up,lnorm,sdlog,sdlog,0.004501
-NCT01126437,Lost to Follow-up,weibull,shape,shape,0.005513
-NCT01126437,Lost to Follow-up,weibull,shape,scale,-0.03585
-NCT01126437,Lost to Follow-up,weibull,scale,shape,-0.03585
-NCT01126437,Lost to Follow-up,weibull,scale,scale,0.2451
-NCT01126437,Other/Miscellaneous,exp,rate,rate,0.001773
-NCT01126437,Other/Miscellaneous,gompertz,shape,shape,2.842e-8
-NCT01126437,Other/Miscellaneous,gompertz,shape,rate,-1.178e-5
-NCT01126437,Other/Miscellaneous,gompertz,rate,shape,-1.178e-5
-NCT01126437,Other/Miscellaneous,gompertz,rate,rate,0.00666
-NCT01126437,Other/Miscellaneous,llogis,shape,shape,0.001633
-NCT01126437,Other/Miscellaneous,llogis,shape,scale,-0.005788
-NCT01126437,Other/Miscellaneous,llogis,scale,shape,-0.005788
-NCT01126437,Other/Miscellaneous,llogis,scale,scale,0.02261
-NCT01126437,Other/Miscellaneous,lnorm,meanlog,meanlog,0.04238
-NCT01126437,Other/Miscellaneous,lnorm,meanlog,sdlog,0.007136
-NCT01126437,Other/Miscellaneous,lnorm,sdlog,meanlog,0.007136
-NCT01126437,Other/Miscellaneous,lnorm,sdlog,sdlog,0.001291
-NCT01126437,Other/Miscellaneous,weibull,shape,shape,0.001646
-NCT01126437,Other/Miscellaneous,weibull,shape,scale,-0.005899
-NCT01126437,Other/Miscellaneous,weibull,scale,shape,-0.005899
-NCT01126437,Other/Miscellaneous,weibull,scale,scale,0.0232
-NCT01126437,Protocol Violation,exp,rate,rate,0.005848
-NCT01126437,Protocol Violation,gompertz,shape,shape,1.023e-7
-NCT01126437,Protocol Violation,gompertz,shape,rate,-3.494e-5
-NCT01126437,Protocol Violation,gompertz,rate,shape,-3.494e-5
-NCT01126437,Protocol Violation,gompertz,rate,rate,0.01778
-NCT01126437,Protocol Violation,llogis,shape,shape,0.005478
-NCT01126437,Protocol Violation,llogis,shape,scale,-0.03732
-NCT01126437,Protocol Violation,llogis,scale,shape,-0.03732
-NCT01126437,Protocol Violation,llogis,scale,scale,0.2675
-NCT01126437,Protocol Violation,lnorm,meanlog,meanlog,0.5272
-NCT01126437,Protocol Violation,lnorm,meanlog,sdlog,0.04845
-NCT01126437,Protocol Violation,lnorm,sdlog,meanlog,0.04845
-NCT01126437,Protocol Violation,lnorm,sdlog,sdlog,0.004595
-NCT01126437,Protocol Violation,weibull,shape,shape,0.005491
-NCT01126437,Protocol Violation,weibull,shape,scale,-0.03752
-NCT01126437,Protocol Violation,weibull,scale,shape,-0.03752
-NCT01126437,Protocol Violation,weibull,scale,scale,0.2696
-NCT01126437,Voluntary Withdrawal,exp,rate,rate,0.001015
-NCT01126437,Voluntary Withdrawal,gompertz,shape,shape,2.259e-8
-NCT01126437,Voluntary Withdrawal,gompertz,shape,rate,-5.883e-6
-NCT01126437,Voluntary Withdrawal,gompertz,rate,shape,-5.883e-6
-NCT01126437,Voluntary Withdrawal,gompertz,rate,rate,0.002548
-NCT01126437,Voluntary Withdrawal,llogis,shape,shape,9.466e-4
-NCT01126437,Voluntary Withdrawal,llogis,shape,scale,-0.004736
-NCT01126437,Voluntary Withdrawal,llogis,scale,shape,-0.004736
-NCT01126437,Voluntary Withdrawal,llogis,scale,scale,0.02715
-NCT01126437,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.04312
-NCT01126437,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.005455
-NCT01126437,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.005455
-NCT01126437,Voluntary Withdrawal,lnorm,sdlog,sdlog,7.66e-4
-NCT01126437,Voluntary Withdrawal,weibull,shape,shape,9.604e-4
-NCT01126437,Voluntary Withdrawal,weibull,shape,scale,-0.004907
-NCT01126437,Voluntary Withdrawal,weibull,scale,shape,-0.004907
-NCT01126437,Voluntary Withdrawal,weibull,scale,scale,0.02844
-NCT01126580,Adverse Event,exp,rate,rate,0.02941
-NCT01126580,Adverse Event,gompertz,shape,shape,4.25e-6
-NCT01126580,Adverse Event,gompertz,shape,rate,-4.078e-4
-NCT01126580,Adverse Event,gompertz,rate,shape,-4.078e-4
-NCT01126580,Adverse Event,gompertz,rate,rate,0.06855
-NCT01126580,Lost to Follow-up,exp,rate,rate,0.03704
-NCT01126580,Lost to Follow-up,gompertz,shape,shape,3.295e-6
-NCT01126580,Lost to Follow-up,gompertz,shape,rate,-6.21e-4
-NCT01126580,Lost to Follow-up,gompertz,rate,shape,-6.21e-4
-NCT01126580,Lost to Follow-up,gompertz,rate,rate,0.1541
-NCT01126580,PI/Sponsor Decision,exp,rate,rate,0.05
-NCT01126580,PI/Sponsor Decision,gompertz,shape,shape,4.495e-6
-NCT01126580,PI/Sponsor Decision,gompertz,shape,rate,-7.601e-4
-NCT01126580,PI/Sponsor Decision,gompertz,rate,shape,-7.601e-4
-NCT01126580,PI/Sponsor Decision,gompertz,rate,rate,0.1785
-NCT01126580,Voluntary Withdrawal,exp,rate,rate,0.025
-NCT01126580,Voluntary Withdrawal,gompertz,shape,shape,2.25e-6
-NCT01126580,Voluntary Withdrawal,gompertz,shape,rate,-3.791e-4
-NCT01126580,Voluntary Withdrawal,gompertz,rate,shape,-3.791e-4
-NCT01126580,Voluntary Withdrawal,gompertz,rate,rate,0.08889
-NCT01164501,Adverse Event,exp,rate,rate,0.02326
-NCT01164501,Adverse Event,gompertz,shape,shape,2.336e-6
-NCT01164501,Adverse Event,gompertz,shape,rate,-3.203e-4
-NCT01164501,Adverse Event,gompertz,rate,shape,-3.203e-4
-NCT01164501,Adverse Event,gompertz,rate,rate,0.06719
-NCT01164501,Adverse Event,lnorm,meanlog,meanlog,0.5394
-NCT01164501,Adverse Event,lnorm,meanlog,sdlog,0.09414
-NCT01164501,Adverse Event,lnorm,sdlog,meanlog,0.09414
-NCT01164501,Adverse Event,lnorm,sdlog,sdlog,0.01817
-NCT01164501,Other/Miscellaneous,exp,rate,rate,0.07692
-NCT01164501,Other/Miscellaneous,gompertz,shape,shape,7.021e-6
-NCT01164501,Other/Miscellaneous,gompertz,shape,rate,-0.001145
-NCT01164501,Other/Miscellaneous,gompertz,rate,shape,-0.001145
-NCT01164501,Other/Miscellaneous,gompertz,rate,rate,0.2638
-NCT01164501,Other/Miscellaneous,lnorm,meanlog,meanlog,3.479
-NCT01164501,Other/Miscellaneous,lnorm,meanlog,sdlog,0.4441
-NCT01164501,Other/Miscellaneous,lnorm,sdlog,meanlog,0.4441
-NCT01164501,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05924
-NCT01164501,Voluntary Withdrawal,exp,rate,rate,0.04545
-NCT01164501,Voluntary Withdrawal,gompertz,shape,shape,4.443e-6
-NCT01164501,Voluntary Withdrawal,gompertz,shape,rate,-6.336e-4
-NCT01164501,Voluntary Withdrawal,gompertz,rate,shape,-6.336e-4
-NCT01164501,Voluntary Withdrawal,gompertz,rate,rate,0.1358
-NCT01164501,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.364
-NCT01164501,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2145
-NCT01164501,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2145
-NCT01164501,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03582
-NCT01177813,Adverse Event,exp,rate,rate,0.05
-NCT01177813,Adverse Event,gompertz,shape,shape,2.205e-5
-NCT01177813,Adverse Event,gompertz,shape,rate,-0.001512
-NCT01177813,Adverse Event,gompertz,rate,shape,-0.001512
-NCT01177813,Adverse Event,gompertz,rate,rate,0.1538
-NCT01177813,Adverse Event,llogis,shape,shape,0.04858
-NCT01177813,Adverse Event,llogis,shape,scale,-0.2703
-NCT01177813,Adverse Event,llogis,scale,shape,-0.2703
-NCT01177813,Adverse Event,llogis,scale,scale,1.615
-NCT01177813,Adverse Event,lnorm,meanlog,meanlog,2.935
-NCT01177813,Adverse Event,lnorm,meanlog,sdlog,0.333
-NCT01177813,Adverse Event,lnorm,sdlog,meanlog,0.333
-NCT01177813,Adverse Event,lnorm,sdlog,sdlog,0.03968
-NCT01177813,Adverse Event,weibull,shape,shape,0.04884
-NCT01177813,Adverse Event,weibull,shape,scale,-0.2736
-NCT01177813,Adverse Event,weibull,scale,shape,-0.2736
-NCT01177813,Adverse Event,weibull,scale,scale,1.643
-NCT01177813,Lost to Follow-up,exp,rate,rate,0.04167
-NCT01177813,Lost to Follow-up,gompertz,shape,shape,1.723e-5
-NCT01177813,Lost to Follow-up,gompertz,shape,rate,-0.001578
-NCT01177813,Lost to Follow-up,gompertz,rate,shape,-0.001578
-NCT01177813,Lost to Follow-up,gompertz,rate,rate,0.1861
-NCT01177813,Lost to Follow-up,llogis,shape,shape,0.03977
-NCT01177813,Lost to Follow-up,llogis,shape,scale,-0.09858
-NCT01177813,Lost to Follow-up,llogis,scale,shape,-0.09858
-NCT01177813,Lost to Follow-up,llogis,scale,scale,0.265
-NCT01177813,Lost to Follow-up,lnorm,meanlog,meanlog,0.4291
-NCT01177813,Lost to Follow-up,lnorm,meanlog,sdlog,0.1173
-NCT01177813,Lost to Follow-up,lnorm,sdlog,meanlog,0.1173
-NCT01177813,Lost to Follow-up,lnorm,sdlog,sdlog,0.03387
-NCT01177813,Lost to Follow-up,weibull,shape,shape,0.0401
-NCT01177813,Lost to Follow-up,weibull,shape,scale,-0.1004
-NCT01177813,Lost to Follow-up,weibull,scale,shape,-0.1004
-NCT01177813,Lost to Follow-up,weibull,scale,scale,0.2717
-NCT01177813,Other/Miscellaneous,exp,rate,rate,0.08333
-NCT01177813,Other/Miscellaneous,gompertz,shape,shape,3.794e-5
-NCT01177813,Other/Miscellaneous,gompertz,shape,rate,-0.002478
-NCT01177813,Other/Miscellaneous,gompertz,rate,shape,-0.002478
-NCT01177813,Other/Miscellaneous,gompertz,rate,rate,0.2453
-NCT01177813,Other/Miscellaneous,llogis,shape,shape,0.0809
-NCT01177813,Other/Miscellaneous,llogis,shape,scale,-0.4479
-NCT01177813,Other/Miscellaneous,llogis,scale,shape,-0.4479
-NCT01177813,Other/Miscellaneous,llogis,scale,scale,2.621
-NCT01177813,Other/Miscellaneous,lnorm,meanlog,meanlog,4.971
-NCT01177813,Other/Miscellaneous,lnorm,meanlog,sdlog,0.569
-NCT01177813,Other/Miscellaneous,lnorm,sdlog,meanlog,0.569
-NCT01177813,Other/Miscellaneous,lnorm,sdlog,sdlog,0.06746
-NCT01177813,Other/Miscellaneous,weibull,shape,shape,0.08116
-NCT01177813,Other/Miscellaneous,weibull,shape,scale,-0.4516
-NCT01177813,Other/Miscellaneous,weibull,scale,shape,-0.4516
-NCT01177813,Other/Miscellaneous,weibull,scale,scale,2.652
-NCT01177813,Voluntary Withdrawal,exp,rate,rate,0.03448
-NCT01177813,Voluntary Withdrawal,gompertz,shape,shape,1.542e-5
-NCT01177813,Voluntary Withdrawal,gompertz,shape,rate,-0.001034
-NCT01177813,Voluntary Withdrawal,gompertz,rate,shape,-0.001034
-NCT01177813,Voluntary Withdrawal,gompertz,rate,rate,0.1038
-NCT01177813,Voluntary Withdrawal,llogis,shape,shape,0.03323
-NCT01177813,Voluntary Withdrawal,llogis,shape,scale,-0.1354
-NCT01177813,Voluntary Withdrawal,llogis,scale,shape,-0.1354
-NCT01177813,Voluntary Withdrawal,llogis,scale,scale,0.6028
-NCT01177813,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.005
-NCT01177813,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1611
-NCT01177813,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1611
-NCT01177813,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.0275
-NCT01177813,Voluntary Withdrawal,weibull,shape,shape,0.03354
-NCT01177813,Voluntary Withdrawal,weibull,shape,scale,-0.1383
-NCT01177813,Voluntary Withdrawal,weibull,scale,shape,-0.1383
-NCT01177813,Voluntary Withdrawal,weibull,scale,scale,0.6205
-NCT01191268,Adverse Event,exp,rate,rate,0.02381
-NCT01191268,Adverse Event,gompertz,shape,shape,3.579e-6
-NCT01191268,Adverse Event,gompertz,shape,rate,-3.32e-4
-NCT01191268,Adverse Event,gompertz,rate,shape,-3.32e-4
-NCT01191268,Adverse Event,gompertz,rate,rate,0.05463
-NCT01191268,Adverse Event,lnorm,meanlog,meanlog,1.106
-NCT01191268,Adverse Event,lnorm,meanlog,sdlog,0.1389
-NCT01191268,Adverse Event,lnorm,sdlog,meanlog,0.1389
-NCT01191268,Adverse Event,lnorm,sdlog,sdlog,0.01895
-NCT01191268,Lost to Follow-up,exp,rate,rate,0.05882
-NCT01191268,Lost to Follow-up,gompertz,shape,shape,5.492e-6
-NCT01191268,Lost to Follow-up,gompertz,shape,rate,-8.39e-4
-NCT01191268,Lost to Follow-up,gompertz,rate,shape,-8.39e-4
-NCT01191268,Lost to Follow-up,gompertz,rate,rate,0.187
-NCT01191268,Lost to Follow-up,lnorm,meanlog,meanlog,1.353
-NCT01191268,Lost to Follow-up,lnorm,meanlog,sdlog,0.2477
-NCT01191268,Lost to Follow-up,lnorm,sdlog,meanlog,0.2477
-NCT01191268,Lost to Follow-up,lnorm,sdlog,sdlog,0.04745
-NCT01191268,PI/Sponsor Decision,exp,rate,rate,0.04167
-NCT01191268,PI/Sponsor Decision,gompertz,shape,shape,4.225e-6
-NCT01191268,PI/Sponsor Decision,gompertz,shape,rate,-5.686e-4
-NCT01191268,PI/Sponsor Decision,gompertz,rate,shape,-5.686e-4
-NCT01191268,PI/Sponsor Decision,gompertz,rate,rate,0.1182
-NCT01191268,PI/Sponsor Decision,lnorm,meanlog,meanlog,1.488
-NCT01191268,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.2155
-NCT01191268,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.2155
-NCT01191268,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.03302
-NCT01191268,Voluntary Withdrawal,exp,rate,rate,0.01587
-NCT01191268,Voluntary Withdrawal,gompertz,shape,shape,1.493e-6
-NCT01191268,Voluntary Withdrawal,gompertz,shape,rate,-2.25e-4
-NCT01191268,Voluntary Withdrawal,gompertz,rate,shape,-2.25e-4
-NCT01191268,Voluntary Withdrawal,gompertz,rate,rate,0.04978
-NCT01191268,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.2471
-NCT01191268,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.05083
-NCT01191268,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.05083
-NCT01191268,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01187
-NCT01210001,Adverse Event,exp,rate,rate,0.09091
-NCT01214239,Voluntary Withdrawal,exp,rate,rate,0.08333
-NCT01306214,Adverse Event,exp,rate,rate,0.03571
-NCT01306214,Adverse Event,weibull,shape,shape,0.03423
-NCT01306214,Adverse Event,weibull,shape,scale,-0.09039
-NCT01306214,Adverse Event,weibull,scale,shape,-0.09039
-NCT01306214,Adverse Event,weibull,scale,scale,0.2671
-NCT01306214,Protocol Violation,exp,rate,rate,0.06667
-NCT01306214,Protocol Violation,weibull,shape,shape,0.06482
-NCT01306214,Protocol Violation,weibull,shape,scale,-0.3841
-NCT01306214,Protocol Violation,weibull,scale,shape,-0.3841
-NCT01306214,Protocol Violation,weibull,scale,scale,2.456
-NCT01306214,Voluntary Withdrawal,exp,rate,rate,0.03846
-NCT01306214,Voluntary Withdrawal,weibull,shape,shape,0.03694
-NCT01306214,Voluntary Withdrawal,weibull,shape,scale,-0.1095
-NCT01306214,Voluntary Withdrawal,weibull,scale,shape,-0.1095
-NCT01306214,Voluntary Withdrawal,weibull,scale,scale,0.3615
-NCT01335464,Adverse Event,exp,rate,rate,0.01124
-NCT01335464,Adverse Event,gompertz,shape,shape,1.016e-6
-NCT01335464,Adverse Event,gompertz,shape,rate,-1.813e-4
-NCT01335464,Adverse Event,gompertz,rate,shape,-1.813e-4
-NCT01335464,Adverse Event,gompertz,rate,rate,0.04359
-NCT01335464,Voluntary Withdrawal,exp,rate,rate,0.0625
-NCT01335464,Voluntary Withdrawal,gompertz,shape,shape,6.542e-6
-NCT01335464,Voluntary Withdrawal,gompertz,shape,rate,-8.595e-4
-NCT01335464,Voluntary Withdrawal,gompertz,rate,shape,-8.595e-4
-NCT01335464,Voluntary Withdrawal,gompertz,rate,rate,0.1754
-NCT01335477,Adverse Event,exp,rate,rate,0.01031
-NCT01335477,Adverse Event,gompertz,shape,shape,9.431e-7
-NCT01335477,Adverse Event,gompertz,shape,rate,-1.583e-4
-NCT01335477,Adverse Event,gompertz,rate,shape,-1.583e-4
-NCT01335477,Adverse Event,gompertz,rate,rate,0.03687
-NCT01335477,Voluntary Withdrawal,exp,rate,rate,0.05882
-NCT01335477,Voluntary Withdrawal,gompertz,shape,shape,7.408e-6
-NCT01335477,Voluntary Withdrawal,gompertz,shape,rate,-8.031e-4
-NCT01335477,Voluntary Withdrawal,gompertz,rate,shape,-8.031e-4
-NCT01335477,Voluntary Withdrawal,gompertz,rate,rate,0.1459
-NCT01368081,Adverse Event,exp,rate,rate,0.02174
-NCT01368081,Adverse Event,lnorm,meanlog,meanlog,0.5495
-NCT01368081,Adverse Event,lnorm,meanlog,sdlog,0.09197
-NCT01368081,Adverse Event,lnorm,sdlog,meanlog,0.09197
-NCT01368081,Adverse Event,lnorm,sdlog,sdlog,0.01661
-NCT01368081,Other/Miscellaneous,exp,rate,rate,0.1
-NCT01368081,Other/Miscellaneous,lnorm,meanlog,meanlog,13.19
-NCT01368081,Other/Miscellaneous,lnorm,meanlog,sdlog,1.044
-NCT01368081,Other/Miscellaneous,lnorm,sdlog,meanlog,1.044
-NCT01368081,Other/Miscellaneous,lnorm,sdlog,sdlog,0.08479
-NCT01368081,Voluntary Withdrawal,exp,rate,rate,0.0303
-NCT01368081,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.5696
-NCT01368081,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1128
-NCT01368081,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1128
-NCT01368081,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02369
-NCT01370005,Adverse Event,exp,rate,rate,0.0625
-NCT01422876,Adverse Event,exp,rate,rate,0.01852
-NCT01422876,Adverse Event,gompertz,shape,shape,1.789e-6
-NCT01422876,Adverse Event,gompertz,shape,rate,-2.615e-4
-NCT01422876,Adverse Event,gompertz,rate,shape,-2.615e-4
-NCT01422876,Adverse Event,gompertz,rate,rate,0.05674
-NCT01422876,Adverse Event,llogis,shape,shape,0.01775
-NCT01422876,Adverse Event,llogis,shape,scale,-0.07909
-NCT01422876,Adverse Event,llogis,scale,shape,-0.07909
-NCT01422876,Adverse Event,llogis,scale,scale,0.3902
-NCT01422876,Adverse Event,weibull,shape,shape,0.01791
-NCT01422876,Adverse Event,weibull,shape,scale,-0.08087
-NCT01422876,Adverse Event,weibull,scale,shape,-0.08087
-NCT01422876,Adverse Event,weibull,scale,scale,0.4022
-NCT01422876,Lost to Follow-up,exp,rate,rate,0.02
-NCT01422876,Lost to Follow-up,gompertz,shape,shape,1.854e-6
-NCT01422876,Lost to Follow-up,gompertz,shape,rate,-2.93e-4
-NCT01422876,Lost to Follow-up,gompertz,rate,shape,-2.93e-4
-NCT01422876,Lost to Follow-up,gompertz,rate,rate,0.06629
-NCT01422876,Lost to Follow-up,llogis,shape,shape,0.01923
-NCT01422876,Lost to Follow-up,llogis,shape,scale,-0.09364
-NCT01422876,Lost to Follow-up,llogis,scale,shape,-0.09364
-NCT01422876,Lost to Follow-up,llogis,scale,scale,0.502
-NCT01422876,Lost to Follow-up,weibull,shape,shape,0.01936
-NCT01422876,Lost to Follow-up,weibull,shape,scale,-0.09531
-NCT01422876,Lost to Follow-up,weibull,scale,shape,-0.09531
-NCT01422876,Lost to Follow-up,weibull,scale,scale,0.5144
-NCT01422876,Other/Miscellaneous,exp,rate,rate,0.02439
-NCT01422876,Other/Miscellaneous,gompertz,shape,shape,2.42e-6
-NCT01422876,Other/Miscellaneous,gompertz,shape,rate,-3.395e-4
-NCT01422876,Other/Miscellaneous,gompertz,rate,shape,-3.395e-4
-NCT01422876,Other/Miscellaneous,gompertz,rate,rate,0.072
-NCT01422876,Other/Miscellaneous,llogis,shape,shape,0.02344
-NCT01422876,Other/Miscellaneous,llogis,shape,scale,-0.1066
-NCT01422876,Other/Miscellaneous,llogis,scale,shape,-0.1066
-NCT01422876,Other/Miscellaneous,llogis,scale,scale,0.5277
-NCT01422876,Other/Miscellaneous,weibull,shape,shape,0.02355
-NCT01422876,Other/Miscellaneous,weibull,shape,scale,-0.108
-NCT01422876,Other/Miscellaneous,weibull,scale,shape,-0.108
-NCT01422876,Other/Miscellaneous,weibull,scale,scale,0.5383
-NCT01422876,Protocol Violation,exp,rate,rate,0.08333
-NCT01422876,Protocol Violation,gompertz,shape,shape,7.484e-6
-NCT01422876,Protocol Violation,gompertz,shape,rate,-0.001416
-NCT01422876,Protocol Violation,gompertz,rate,shape,-0.001416
-NCT01422876,Protocol Violation,gompertz,rate,rate,0.3511
-NCT01422876,Protocol Violation,llogis,shape,shape,0.08048
-NCT01422876,Protocol Violation,llogis,shape,scale,-0.4082
-NCT01422876,Protocol Violation,llogis,scale,shape,-0.4082
-NCT01422876,Protocol Violation,llogis,scale,scale,2.169
-NCT01422876,Protocol Violation,weibull,shape,shape,0.08017
-NCT01422876,Protocol Violation,weibull,shape,scale,-0.4064
-NCT01422876,Protocol Violation,weibull,scale,shape,-0.4064
-NCT01422876,Protocol Violation,weibull,scale,scale,2.158
-NCT01422876,Voluntary Withdrawal,exp,rate,rate,0.03125
-NCT01422876,Voluntary Withdrawal,gompertz,shape,shape,3.112e-6
-NCT01422876,Voluntary Withdrawal,gompertz,shape,rate,-4.343e-4
-NCT01422876,Voluntary Withdrawal,gompertz,rate,shape,-4.343e-4
-NCT01422876,Voluntary Withdrawal,gompertz,rate,rate,0.09185
-NCT01422876,Voluntary Withdrawal,llogis,shape,shape,0.02998
-NCT01422876,Voluntary Withdrawal,llogis,shape,scale,-0.1467
-NCT01422876,Voluntary Withdrawal,llogis,scale,shape,-0.1467
-NCT01422876,Voluntary Withdrawal,llogis,scale,scale,0.7735
-NCT01422876,Voluntary Withdrawal,weibull,shape,shape,0.03018
-NCT01422876,Voluntary Withdrawal,weibull,shape,scale,-0.1489
-NCT01422876,Voluntary Withdrawal,weibull,scale,shape,-0.1489
-NCT01422876,Voluntary Withdrawal,weibull,scale,scale,0.7896
-NCT01621178,Adverse Event,exp,rate,rate,0.06667
-NCT01621178,Adverse Event,gompertz,shape,shape,5.914e-6
-NCT01621178,Adverse Event,gompertz,shape,rate,-9.873e-4
-NCT01621178,Adverse Event,gompertz,rate,shape,-9.873e-4
-NCT01621178,Adverse Event,gompertz,rate,rate,0.2315
-NCT01621178,Adverse Event,lnorm,meanlog,meanlog,2.18
-NCT01621178,Adverse Event,lnorm,meanlog,sdlog,0.3258
-NCT01621178,Adverse Event,lnorm,sdlog,meanlog,0.3258
-NCT01621178,Adverse Event,lnorm,sdlog,sdlog,0.05151
-NCT01621178,Other/Miscellaneous,exp,rate,rate,0.06667
-NCT01621178,Other/Miscellaneous,gompertz,shape,shape,5.831e-6
-NCT01621178,Other/Miscellaneous,gompertz,shape,rate,-0.001137
-NCT01621178,Other/Miscellaneous,gompertz,rate,shape,-0.001137
-NCT01621178,Other/Miscellaneous,gompertz,rate,rate,0.2882
-NCT01621178,Other/Miscellaneous,lnorm,meanlog,meanlog,0.8852
-NCT01621178,Other/Miscellaneous,lnorm,meanlog,sdlog,0.2092
-NCT01621178,Other/Miscellaneous,lnorm,sdlog,meanlog,0.2092
-NCT01621178,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05234
-NCT01621178,PI/Sponsor Decision,exp,rate,rate,0.07143
-NCT01621178,PI/Sponsor Decision,gompertz,shape,shape,7.263e-6
-NCT01621178,PI/Sponsor Decision,gompertz,shape,rate,-9.614e-4
-NCT01621178,PI/Sponsor Decision,gompertz,rate,shape,-9.614e-4
-NCT01621178,PI/Sponsor Decision,gompertz,rate,rate,0.1987
-NCT01621178,PI/Sponsor Decision,lnorm,meanlog,meanlog,2.85
-NCT01621178,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.3941
-NCT01621178,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.3941
-NCT01621178,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.05739
-NCT01621178,Voluntary Withdrawal,exp,rate,rate,0.02174
-NCT01621178,Voluntary Withdrawal,gompertz,shape,shape,2.663e-6
-NCT01621178,Voluntary Withdrawal,gompertz,shape,rate,-2.907e-4
-NCT01621178,Voluntary Withdrawal,gompertz,rate,shape,-2.907e-4
-NCT01621178,Voluntary Withdrawal,gompertz,rate,rate,0.05347
-NCT01621178,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.6865
-NCT01621178,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.09997
-NCT01621178,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.09997
-NCT01621178,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01667
-NCT01624259,Adverse Event,exp,rate,rate,0.05556
-NCT01624259,Adverse Event,gompertz,shape,shape,2.111e-5
-NCT01624259,Adverse Event,gompertz,shape,rate,-0.001553
-NCT01624259,Adverse Event,gompertz,rate,shape,-0.001553
-NCT01624259,Adverse Event,gompertz,rate,rate,0.1698
-NCT01624259,Voluntary Withdrawal,exp,rate,rate,0.09091
-NCT01624259,Voluntary Withdrawal,gompertz,shape,shape,3.196e-5
-NCT01624259,Voluntary Withdrawal,gompertz,shape,rate,-0.002912
-NCT01624259,Voluntary Withdrawal,gompertz,rate,shape,-0.002912
-NCT01624259,Voluntary Withdrawal,gompertz,rate,rate,0.3561
-NCT01694771,Adverse Event,exp,rate,rate,0.02941
-NCT01694771,Other/Miscellaneous,exp,rate,rate,0.09091
-NCT01694771,Protocol Violation,exp,rate,rate,0.08333
-NCT01694771,Voluntary Withdrawal,exp,rate,rate,0.06667
-NCT01719003,Adverse Event,exp,rate,rate,0.02778
-NCT01719003,Adverse Event,lnorm,meanlog,meanlog,1.547
-NCT01719003,Adverse Event,lnorm,meanlog,sdlog,0.181
-NCT01719003,Adverse Event,lnorm,sdlog,meanlog,0.181
-NCT01719003,Adverse Event,lnorm,sdlog,sdlog,0.02235
-NCT01719003,Lost to Follow-up,exp,rate,rate,0.04167
-NCT01719003,Lost to Follow-up,lnorm,meanlog,meanlog,6.799
-NCT01719003,Lost to Follow-up,lnorm,meanlog,sdlog,0.4698
-NCT01719003,Lost to Follow-up,lnorm,sdlog,meanlog,0.4698
-NCT01719003,Lost to Follow-up,lnorm,sdlog,sdlog,0.03383
-NCT01719003,Other/Miscellaneous,exp,rate,rate,0.07692
-NCT01719003,Other/Miscellaneous,lnorm,meanlog,meanlog,4.909
-NCT01719003,Other/Miscellaneous,lnorm,meanlog,sdlog,0.5458
-NCT01719003,Other/Miscellaneous,lnorm,sdlog,meanlog,0.5458
-NCT01719003,Other/Miscellaneous,lnorm,sdlog,sdlog,0.06248
-NCT01719003,Protocol Violation,exp,rate,rate,0.1
-NCT01719003,Protocol Violation,lnorm,meanlog,meanlog,6.551
-NCT01719003,Protocol Violation,lnorm,meanlog,sdlog,0.7045
-NCT01719003,Protocol Violation,lnorm,sdlog,meanlog,0.7045
-NCT01719003,Protocol Violation,lnorm,sdlog,sdlog,0.07783
-NCT01719003,Voluntary Withdrawal,exp,rate,rate,0.02703
-NCT01719003,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.134
-NCT01719003,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1523
-NCT01719003,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1523
-NCT01719003,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02161
-NCT01769378,Adverse Event,exp,rate,rate,0.1
-NCT01769378,Adverse Event,gompertz,shape,shape,6.548e-5
-NCT01769378,Adverse Event,gompertz,shape,rate,-0.002973
-NCT01769378,Adverse Event,gompertz,rate,shape,-0.002973
-NCT01769378,Adverse Event,gompertz,rate,rate,0.235
-NCT01769378,Voluntary Withdrawal,exp,rate,rate,0.1
-NCT01769378,Voluntary Withdrawal,gompertz,shape,shape,4.162e-5
-NCT01769378,Voluntary Withdrawal,gompertz,shape,rate,-0.003159
-NCT01769378,Voluntary Withdrawal,gompertz,rate,shape,-0.003159
-NCT01769378,Voluntary Withdrawal,gompertz,rate,rate,0.3398
-NCT02152371,Voluntary Withdrawal,exp,rate,rate,0.1
-NCT02177396,Adverse Event,exp,rate,rate,0.08333
-NCT02177396,Adverse Event,gompertz,shape,shape,3.61e-4
-NCT02177396,Adverse Event,gompertz,shape,rate,-0.007371
-NCT02177396,Adverse Event,gompertz,rate,shape,-0.007371
-NCT02177396,Adverse Event,gompertz,rate,rate,0.2338
-NCT02177396,Lack of Efficacy,exp,rate,rate,0.1
-NCT02177396,Lack of Efficacy,gompertz,shape,shape,3.651e-4
-NCT02177396,Lack of Efficacy,gompertz,shape,rate,-0.01092
-NCT02177396,Lack of Efficacy,gompertz,rate,shape,-0.01092
-NCT02177396,Lack of Efficacy,gompertz,rate,rate,0.4264
-NCT02200653,Adverse Event,exp,rate,rate,0.08333
-NCT02750410,Adverse Event,exp,rate,rate,0.08333
-NCT00153023,Adverse Event,gompertz,shape,shape,1.165e-6
-NCT00153023,Adverse Event,gompertz,shape,rate,-1.545e-4
-NCT00153023,Adverse Event,gompertz,rate,shape,-1.545e-4
-NCT00153023,Adverse Event,gompertz,rate,rate,0.03184
-NCT00153023,Adverse Event,llogis,shape,shape,0.01041
-NCT00153023,Adverse Event,llogis,shape,scale,-0.03113
-NCT00153023,Adverse Event,llogis,scale,shape,-0.03113
-NCT00153023,Adverse Event,llogis,scale,scale,0.1159
-NCT00153023,Adverse Event,lnorm,meanlog,meanlog,0.1728
-NCT00153023,Adverse Event,lnorm,meanlog,sdlog,0.03472
-NCT00153023,Adverse Event,lnorm,sdlog,meanlog,0.03472
-NCT00153023,Adverse Event,lnorm,sdlog,sdlog,0.008335
-NCT00153023,Adverse Event,weibull,shape,shape,0.01069
-NCT00153023,Adverse Event,weibull,shape,scale,-0.03326
-NCT00153023,Adverse Event,weibull,scale,shape,-0.03326
-NCT00153023,Adverse Event,weibull,scale,scale,0.1253
-NCT00153023,Other/Miscellaneous,gompertz,shape,shape,1.384e-5
-NCT00153023,Other/Miscellaneous,gompertz,shape,rate,-8.085e-4
-NCT00153023,Other/Miscellaneous,gompertz,rate,shape,-8.085e-4
-NCT00153023,Other/Miscellaneous,gompertz,rate,rate,0.09268
-NCT00153023,Other/Miscellaneous,llogis,shape,shape,0.04309
-NCT00153023,Other/Miscellaneous,llogis,shape,scale,-0.3403
-NCT00153023,Other/Miscellaneous,llogis,scale,shape,-0.3403
-NCT00153023,Other/Miscellaneous,llogis,scale,scale,2.906
-NCT00153023,Other/Miscellaneous,lnorm,meanlog,meanlog,4.643
-NCT00153023,Other/Miscellaneous,lnorm,meanlog,sdlog,0.4062
-NCT00153023,Other/Miscellaneous,lnorm,sdlog,meanlog,0.4062
-NCT00153023,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03739
-NCT00153023,Other/Miscellaneous,weibull,shape,shape,0.04345
-NCT00153023,Other/Miscellaneous,weibull,shape,scale,-0.3467
-NCT00153023,Other/Miscellaneous,weibull,scale,shape,-0.3467
-NCT00153023,Other/Miscellaneous,weibull,scale,scale,2.983
-NCT00153023,Protocol Violation,gompertz,shape,shape,5.895e-6
-NCT00153023,Protocol Violation,gompertz,shape,rate,-8.846e-4
-NCT00153023,Protocol Violation,gompertz,rate,shape,-8.846e-4
-NCT00153023,Protocol Violation,gompertz,rate,rate,0.1952
-NCT00153023,Protocol Violation,llogis,shape,shape,0.05878
-NCT00153023,Protocol Violation,llogis,shape,scale,-0.3406
-NCT00153023,Protocol Violation,llogis,scale,shape,-0.3406
-NCT00153023,Protocol Violation,llogis,scale,scale,2.111
-NCT00153023,Protocol Violation,lnorm,meanlog,meanlog,3.935
-NCT00153023,Protocol Violation,lnorm,meanlog,sdlog,0.4255
-NCT00153023,Protocol Violation,lnorm,sdlog,meanlog,0.4255
-NCT00153023,Protocol Violation,lnorm,sdlog,sdlog,0.04814
-NCT00153023,Protocol Violation,weibull,shape,shape,0.05889
-NCT00153023,Protocol Violation,weibull,shape,scale,-0.3427
-NCT00153023,Protocol Violation,weibull,scale,shape,-0.3427
-NCT00153023,Protocol Violation,weibull,scale,scale,2.13
-NCT00153023,Voluntary Withdrawal,gompertz,shape,shape,5.08e-6
-NCT00153023,Voluntary Withdrawal,gompertz,shape,rate,-4.769e-4
-NCT00153023,Voluntary Withdrawal,gompertz,rate,shape,-4.769e-4
-NCT00153023,Voluntary Withdrawal,gompertz,rate,rate,0.07926
-NCT00153023,Voluntary Withdrawal,llogis,shape,shape,0.03256
-NCT00153023,Voluntary Withdrawal,llogis,shape,scale,-0.2197
-NCT00153023,Voluntary Withdrawal,llogis,scale,shape,-0.2197
-NCT00153023,Voluntary Withdrawal,llogis,scale,scale,1.626
-NCT00153023,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.629
-NCT00153023,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2597
-NCT00153023,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2597
-NCT00153023,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02734
-NCT00153023,Voluntary Withdrawal,weibull,shape,shape,0.03286
-NCT00153023,Voluntary Withdrawal,weibull,shape,scale,-0.2244
-NCT00153023,Voluntary Withdrawal,weibull,scale,shape,-0.2244
-NCT00153023,Voluntary Withdrawal,weibull,scale,scale,1.674
-NCT00168844,Adverse Event,gompertz,shape,shape,1.025e-6
-NCT00168844,Adverse Event,gompertz,shape,rate,-1.339e-4
-NCT00168844,Adverse Event,gompertz,rate,shape,-1.339e-4
-NCT00168844,Adverse Event,gompertz,rate,rate,0.02651
-NCT00168844,Adverse Event,llogis,shape,shape,0.008207
-NCT00168844,Adverse Event,llogis,shape,scale,-0.02254
-NCT00168844,Adverse Event,llogis,scale,shape,-0.02254
-NCT00168844,Adverse Event,llogis,scale,scale,0.07948
-NCT00168844,Adverse Event,lnorm,meanlog,meanlog,0.1175
-NCT00168844,Adverse Event,lnorm,meanlog,sdlog,0.025
-NCT00168844,Adverse Event,lnorm,sdlog,meanlog,0.025
-NCT00168844,Adverse Event,lnorm,sdlog,sdlog,0.006527
-NCT00168844,Adverse Event,weibull,shape,shape,0.008451
-NCT00168844,Adverse Event,weibull,shape,scale,-0.02425
-NCT00168844,Adverse Event,weibull,scale,shape,-0.02425
-NCT00168844,Adverse Event,weibull,scale,scale,0.0862
-NCT00168844,Lost to Follow-up,gompertz,shape,shape,5.743e-6
-NCT00168844,Lost to Follow-up,gompertz,shape,rate,-7.4e-4
-NCT00168844,Lost to Follow-up,gompertz,rate,shape,-7.4e-4
-NCT00168844,Lost to Follow-up,gompertz,rate,rate,0.1453
-NCT00168844,Lost to Follow-up,llogis,shape,shape,0.04697
-NCT00168844,Lost to Follow-up,llogis,shape,scale,-0.2906
-NCT00168844,Lost to Follow-up,llogis,scale,shape,-0.2906
-NCT00168844,Lost to Follow-up,llogis,scale,scale,1.931
-NCT00168844,Lost to Follow-up,lnorm,meanlog,meanlog,3.573
-NCT00168844,Lost to Follow-up,lnorm,meanlog,sdlog,0.3614
-NCT00168844,Lost to Follow-up,lnorm,sdlog,meanlog,0.3614
-NCT00168844,Lost to Follow-up,lnorm,sdlog,sdlog,0.03837
-NCT00168844,Lost to Follow-up,weibull,shape,shape,0.04715
-NCT00168844,Lost to Follow-up,weibull,shape,scale,-0.2935
-NCT00168844,Lost to Follow-up,weibull,scale,shape,-0.2935
-NCT00168844,Lost to Follow-up,weibull,scale,scale,1.958
-NCT00168844,Other/Miscellaneous,gompertz,shape,shape,5.805e-6
-NCT00168844,Other/Miscellaneous,gompertz,shape,rate,-6.932e-4
-NCT00168844,Other/Miscellaneous,gompertz,rate,shape,-6.932e-4
-NCT00168844,Other/Miscellaneous,gompertz,rate,rate,0.1304
-NCT00168844,Other/Miscellaneous,llogis,shape,shape,0.0444
-NCT00168844,Other/Miscellaneous,llogis,shape,scale,-0.2258
-NCT00168844,Other/Miscellaneous,llogis,scale,shape,-0.2258
-NCT00168844,Other/Miscellaneous,llogis,scale,scale,1.237
-NCT00168844,Other/Miscellaneous,lnorm,meanlog,meanlog,2.115
-NCT00168844,Other/Miscellaneous,lnorm,meanlog,sdlog,0.275
-NCT00168844,Other/Miscellaneous,lnorm,sdlog,meanlog,0.275
-NCT00168844,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03755
-NCT00168844,Other/Miscellaneous,weibull,shape,shape,0.04467
-NCT00168844,Other/Miscellaneous,weibull,shape,scale,-0.229
-NCT00168844,Other/Miscellaneous,weibull,scale,shape,-0.229
-NCT00168844,Other/Miscellaneous,weibull,scale,scale,1.262
-NCT00168844,Voluntary Withdrawal,gompertz,shape,shape,6.194e-6
-NCT00168844,Voluntary Withdrawal,gompertz,shape,rate,-4.386e-4
-NCT00168844,Voluntary Withdrawal,gompertz,rate,shape,-4.386e-4
-NCT00168844,Voluntary Withdrawal,gompertz,rate,rate,0.05809
-NCT00168844,Voluntary Withdrawal,llogis,shape,shape,0.02547
-NCT00168844,Voluntary Withdrawal,llogis,shape,scale,-0.1767
-NCT00168844,Voluntary Withdrawal,llogis,scale,shape,-0.1767
-NCT00168844,Voluntary Withdrawal,llogis,scale,scale,1.355
-NCT00168844,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.1
-NCT00168844,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2057
-NCT00168844,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2057
-NCT00168844,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02162
-NCT00168844,Voluntary Withdrawal,weibull,shape,shape,0.02577
-NCT00168844,Voluntary Withdrawal,weibull,shape,scale,-0.1814
-NCT00168844,Voluntary Withdrawal,weibull,scale,shape,-0.1814
-NCT00168844,Voluntary Withdrawal,weibull,scale,scale,1.405
-NCT00274053,Adverse Event,gompertz,shape,shape,4.114e-6
-NCT00274053,Adverse Event,gompertz,shape,rate,-4.208e-4
-NCT00274053,Adverse Event,gompertz,rate,shape,-4.208e-4
-NCT00274053,Adverse Event,gompertz,rate,rate,0.06576
-NCT00274053,Adverse Event,lnorm,meanlog,meanlog,0.2964
-NCT00274053,Adverse Event,lnorm,meanlog,sdlog,0.06636
-NCT00274053,Adverse Event,lnorm,sdlog,meanlog,0.06636
-NCT00274053,Adverse Event,lnorm,sdlog,sdlog,0.0171
-NCT00274053,Other/Miscellaneous,gompertz,shape,shape,1.434e-5
-NCT00274053,Other/Miscellaneous,gompertz,shape,rate,-0.001296
-NCT00274053,Other/Miscellaneous,gompertz,rate,shape,-0.001296
-NCT00274053,Other/Miscellaneous,gompertz,rate,rate,0.1887
-NCT00274053,Other/Miscellaneous,lnorm,meanlog,meanlog,2.437
-NCT00274053,Other/Miscellaneous,lnorm,meanlog,sdlog,0.3634
-NCT00274053,Other/Miscellaneous,lnorm,sdlog,meanlog,0.3634
-NCT00274053,Other/Miscellaneous,lnorm,sdlog,sdlog,0.05717
-NCT00274053,Protocol Violation,gompertz,shape,shape,8.439e-6
-NCT00274053,Protocol Violation,gompertz,shape,rate,-8.897e-4
-NCT00274053,Protocol Violation,gompertz,rate,shape,-8.897e-4
-NCT00274053,Protocol Violation,gompertz,rate,rate,0.1414
-NCT00274053,Protocol Violation,lnorm,meanlog,meanlog,1.035
-NCT00274053,Protocol Violation,lnorm,meanlog,sdlog,0.189
-NCT00274053,Protocol Violation,lnorm,sdlog,meanlog,0.189
-NCT00274053,Protocol Violation,lnorm,sdlog,sdlog,0.03712
-NCT00274053,Voluntary Withdrawal,gompertz,shape,shape,8.285e-6
-NCT00274053,Voluntary Withdrawal,gompertz,shape,rate,-7.251e-4
-NCT00274053,Voluntary Withdrawal,gompertz,rate,shape,-7.251e-4
-NCT00274053,Voluntary Withdrawal,gompertz,rate,rate,0.1035
-NCT00274053,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.309
-NCT00274053,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1923
-NCT00274053,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1923
-NCT00274053,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03072
-NCT00402233,Adverse Event,gompertz,shape,shape,7.894e-5
-NCT00402233,Adverse Event,gompertz,shape,rate,-0.00222
-NCT00402233,Adverse Event,gompertz,rate,shape,-0.00222
-NCT00402233,Adverse Event,gompertz,rate,rate,0.1009
 NCT00472199,Adverse Event,gompertz,shape,shape,1.327e-5
 NCT00472199,Adverse Event,gompertz,shape,rate,-6.425e-4
 NCT00472199,Adverse Event,gompertz,rate,shape,-6.425e-4
@@ -1666,26 +220,10 @@ NCT00479401,Adverse Event,gompertz,shape,shape,6.21e-6
 NCT00479401,Adverse Event,gompertz,shape,rate,-4.381e-4
 NCT00479401,Adverse Event,gompertz,rate,shape,-4.381e-4
 NCT00479401,Adverse Event,gompertz,rate,rate,0.05174
-NCT00479401,Adverse Event,lnorm,meanlog,meanlog,0.5105
-NCT00479401,Adverse Event,lnorm,meanlog,sdlog,0.08266
-NCT00479401,Adverse Event,lnorm,sdlog,meanlog,0.08266
-NCT00479401,Adverse Event,lnorm,sdlog,sdlog,0.01563
 NCT00479401,Voluntary Withdrawal,gompertz,shape,shape,9.235e-6
 NCT00479401,Voluntary Withdrawal,gompertz,shape,rate,-7.87e-4
 NCT00479401,Voluntary Withdrawal,gompertz,rate,shape,-7.87e-4
 NCT00479401,Voluntary Withdrawal,gompertz,rate,rate,0.1041
-NCT00479401,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.079
-NCT00479401,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1659
-NCT00479401,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1659
-NCT00479401,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02802
-NCT00525512,Adverse Event,gompertz,shape,shape,3.503e-7
-NCT00525512,Adverse Event,gompertz,shape,rate,-1.047e-4
-NCT00525512,Adverse Event,gompertz,rate,shape,-1.047e-4
-NCT00525512,Adverse Event,gompertz,rate,rate,0.04446
-NCT00525512,Adverse Event,lnorm,meanlog,meanlog,0.1044
-NCT00525512,Adverse Event,lnorm,meanlog,sdlog,0.02613
-NCT00525512,Adverse Event,lnorm,sdlog,meanlog,0.02613
-NCT00525512,Adverse Event,lnorm,sdlog,sdlog,0.008838
 NCT00525512,Adverse Event,weibull,shape,shape,0.01182
 NCT00525512,Adverse Event,weibull,shape,scale,-0.02532
 NCT00525512,Adverse Event,weibull,scale,shape,-0.02532
@@ -1694,50 +232,110 @@ NCT00525512,Lack of Efficacy,gompertz,shape,shape,2.655e-6
 NCT00525512,Lack of Efficacy,gompertz,shape,rate,-4.23e-4
 NCT00525512,Lack of Efficacy,gompertz,rate,shape,-4.23e-4
 NCT00525512,Lack of Efficacy,gompertz,rate,rate,0.123
-NCT00525512,Lack of Efficacy,lnorm,meanlog,meanlog,2.102
-NCT00525512,Lack of Efficacy,lnorm,meanlog,sdlog,0.2924
-NCT00525512,Lack of Efficacy,lnorm,sdlog,meanlog,0.2924
-NCT00525512,Lack of Efficacy,lnorm,sdlog,sdlog,0.04358
-NCT00525512,Lack of Efficacy,weibull,shape,shape,0.05057
-NCT00525512,Lack of Efficacy,weibull,shape,scale,-0.2583
-NCT00525512,Lack of Efficacy,weibull,scale,shape,-0.2583
-NCT00525512,Lack of Efficacy,weibull,scale,scale,1.454
 NCT00525512,Other/Miscellaneous,gompertz,shape,shape,3.354e-6
 NCT00525512,Other/Miscellaneous,gompertz,shape,rate,-3.719e-4
 NCT00525512,Other/Miscellaneous,gompertz,rate,shape,-3.719e-4
 NCT00525512,Other/Miscellaneous,gompertz,rate,rate,0.08124
-NCT00525512,Other/Miscellaneous,lnorm,meanlog,meanlog,1.639
-NCT00525512,Other/Miscellaneous,lnorm,meanlog,sdlog,0.2184
-NCT00525512,Other/Miscellaneous,lnorm,sdlog,meanlog,0.2184
-NCT00525512,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03175
-NCT00525512,Other/Miscellaneous,weibull,shape,shape,0.03677
-NCT00525512,Other/Miscellaneous,weibull,shape,scale,-0.2003
-NCT00525512,Other/Miscellaneous,weibull,scale,shape,-0.2003
-NCT00525512,Other/Miscellaneous,weibull,scale,scale,1.227
-NCT00525512,Voluntary Withdrawal,gompertz,shape,shape,1.226e-6
-NCT00525512,Voluntary Withdrawal,gompertz,shape,rate,-2.574e-4
-NCT00525512,Voluntary Withdrawal,gompertz,rate,shape,-2.574e-4
-NCT00525512,Voluntary Withdrawal,gompertz,rate,rate,0.08976
 NCT00525512,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.894
 NCT00525512,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2133
 NCT00525512,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2133
 NCT00525512,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02658
-NCT00525512,Voluntary Withdrawal,weibull,shape,shape,0.03302
-NCT00525512,Voluntary Withdrawal,weibull,shape,scale,-0.1901
-NCT00525512,Voluntary Withdrawal,weibull,scale,shape,-0.1901
-NCT00525512,Voluntary Withdrawal,weibull,scale,scale,1.24
-NCT00782210,Adverse Event,gompertz,shape,shape,1.992e-6
-NCT00782210,Adverse Event,gompertz,shape,rate,-2.939e-4
-NCT00782210,Adverse Event,gompertz,rate,shape,-2.939e-4
-NCT00782210,Adverse Event,gompertz,rate,rate,0.06187
+NCT00563381,Adverse Event,gompertz,shape,shape,1.875e-7
+NCT00563381,Adverse Event,gompertz,shape,rate,-2.46e-5
+NCT00563381,Adverse Event,gompertz,rate,shape,-2.46e-5
+NCT00563381,Adverse Event,gompertz,rate,rate,0.005026
+NCT00563381,Lack of Efficacy,gompertz,shape,shape,1.986e-6
+NCT00563381,Lack of Efficacy,gompertz,shape,rate,-2.417e-4
+NCT00563381,Lack of Efficacy,gompertz,rate,shape,-2.417e-4
+NCT00563381,Lack of Efficacy,gompertz,rate,rate,0.04728
+NCT00563381,Lost to Follow-up,exp,rate,rate,0.04545
+NCT00563381,Other/Miscellaneous,lnorm,meanlog,meanlog,1.537
+NCT00563381,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1446
+NCT00563381,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1446
+NCT00563381,Other/Miscellaneous,lnorm,sdlog,sdlog,0.01397
+NCT00563381,Protocol Violation,gompertz,shape,shape,9.595e-7
+NCT00563381,Protocol Violation,gompertz,shape,rate,-9.822e-5
+NCT00563381,Protocol Violation,gompertz,rate,shape,-9.822e-5
+NCT00563381,Protocol Violation,gompertz,rate,rate,0.01725
+NCT00563381,Voluntary Withdrawal,gompertz,shape,shape,3.353e-7
+NCT00563381,Voluntary Withdrawal,gompertz,shape,rate,-3.409e-5
+NCT00563381,Voluntary Withdrawal,gompertz,rate,shape,-3.409e-5
+NCT00563381,Voluntary Withdrawal,gompertz,rate,rate,0.005962
+NCT00601250,Adverse Event,exp,rate,rate,0.09091
+NCT00601250,Other/Miscellaneous,exp,rate,rate,0.1
+NCT00601250,Voluntary Withdrawal,gompertz,shape,shape,2.644e-5
+NCT00601250,Voluntary Withdrawal,gompertz,shape,rate,-0.001719
+NCT00601250,Voluntary Withdrawal,gompertz,rate,shape,-0.001719
+NCT00601250,Voluntary Withdrawal,gompertz,rate,rate,0.1705
+NCT00602472,Adverse Event,lnorm,meanlog,meanlog,1.51
+NCT00602472,Adverse Event,lnorm,meanlog,sdlog,0.2026
+NCT00602472,Adverse Event,lnorm,sdlog,meanlog,0.2026
+NCT00602472,Adverse Event,lnorm,sdlog,sdlog,0.0287
+NCT00602472,Protocol Violation,exp,rate,rate,0.04545
+NCT00602472,Voluntary Withdrawal,exp,rate,rate,0.04762
+NCT00622284,Adverse Event,lnorm,meanlog,meanlog,0.1474
+NCT00622284,Adverse Event,lnorm,meanlog,sdlog,0.02468
+NCT00622284,Adverse Event,lnorm,sdlog,meanlog,0.02468
+NCT00622284,Adverse Event,lnorm,sdlog,sdlog,0.004902
+NCT00622284,Lack of Efficacy,exp,rate,rate,0.01667
+NCT00622284,Lost to Follow-up,exp,rate,rate,0.04545
+NCT00622284,Other/Miscellaneous,gompertz,shape,shape,4.336e-7
+NCT00622284,Other/Miscellaneous,gompertz,shape,rate,-1.205e-4
+NCT00622284,Other/Miscellaneous,gompertz,rate,shape,-1.205e-4
+NCT00622284,Other/Miscellaneous,gompertz,rate,rate,0.05105
+NCT00622284,Protocol Violation,exp,rate,rate,0.05882
+NCT00622284,Voluntary Withdrawal,gompertz,shape,shape,6.326e-7
+NCT00622284,Voluntary Withdrawal,gompertz,shape,rate,-1.348e-4
+NCT00622284,Voluntary Withdrawal,gompertz,rate,shape,-1.348e-4
+NCT00622284,Voluntary Withdrawal,gompertz,rate,rate,0.04873
+NCT00641043,Adverse Event,lnorm,meanlog,meanlog,8.915
+NCT00641043,Adverse Event,lnorm,meanlog,sdlog,0.8314
+NCT00641043,Adverse Event,lnorm,sdlog,meanlog,0.8314
+NCT00641043,Adverse Event,lnorm,sdlog,sdlog,0.08167
+NCT00654381,Adverse Event,lnorm,meanlog,meanlog,0.07069
+NCT00654381,Adverse Event,lnorm,meanlog,sdlog,0.05116
+NCT00654381,Adverse Event,lnorm,sdlog,meanlog,0.05116
+NCT00654381,Adverse Event,lnorm,sdlog,sdlog,0.03969
+NCT00734474,Adverse Event,exp,rate,rate,0.004329
+NCT00734474,Lack of Efficacy,gompertz,shape,shape,2.235e-6
+NCT00734474,Lack of Efficacy,gompertz,shape,rate,-4.857e-4
+NCT00734474,Lack of Efficacy,gompertz,rate,shape,-4.857e-4
+NCT00734474,Lack of Efficacy,gompertz,rate,rate,0.177
+NCT00734474,Lost to Follow-up,gompertz,shape,shape,8.418e-7
+NCT00734474,Lost to Follow-up,gompertz,shape,rate,-2.304e-4
+NCT00734474,Lost to Follow-up,gompertz,rate,shape,-2.304e-4
+NCT00734474,Lost to Follow-up,gompertz,rate,rate,0.09641
+NCT00734474,Other/Miscellaneous,gompertz,shape,shape,2.066e-6
+NCT00734474,Other/Miscellaneous,gompertz,shape,rate,-4.839e-4
+NCT00734474,Other/Miscellaneous,gompertz,rate,shape,-4.839e-4
+NCT00734474,Other/Miscellaneous,gompertz,rate,rate,0.1848
+NCT00734474,PI/Sponsor Decision,lnorm,meanlog,meanlog,1.067
+NCT00734474,PI/Sponsor Decision,lnorm,meanlog,sdlog,0.1463
+NCT00734474,PI/Sponsor Decision,lnorm,sdlog,meanlog,0.1463
+NCT00734474,PI/Sponsor Decision,lnorm,sdlog,sdlog,0.02147
+NCT00734474,Protocol Violation,exp,rate,rate,0.09091
+NCT00734474,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.1486
+NCT00734474,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.03008
+NCT00734474,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.03008
+NCT00734474,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.007213
+NCT00740051,Lost to Follow-up,exp,rate,rate,0.09091
+NCT00740051,Voluntary Withdrawal,gompertz,shape,shape,8.459e-6
+NCT00740051,Voluntary Withdrawal,gompertz,shape,rate,-9.625e-4
+NCT00740051,Voluntary Withdrawal,gompertz,rate,shape,-9.625e-4
+NCT00740051,Voluntary Withdrawal,gompertz,rate,rate,0.181
+NCT00772538,Adverse Event,exp,rate,rate,0.08333
+NCT00772538,Other/Miscellaneous,llogis,shape,shape,0.06929
+NCT00772538,Other/Miscellaneous,llogis,shape,scale,-0.4859
+NCT00772538,Other/Miscellaneous,llogis,scale,shape,-0.4859
+NCT00772538,Other/Miscellaneous,llogis,scale,scale,3.709
+NCT00772538,Voluntary Withdrawal,exp,rate,rate,0.09091
+NCT00776984,Adverse Event,exp,rate,rate,0.1
+NCT00776984,Other/Miscellaneous,exp,rate,rate,0.07143
+NCT00776984,Voluntary Withdrawal,exp,rate,rate,0.05263
 NCT00782210,Adverse Event,lnorm,meanlog,meanlog,0.2688
 NCT00782210,Adverse Event,lnorm,meanlog,sdlog,0.05582
 NCT00782210,Adverse Event,lnorm,sdlog,meanlog,0.05582
 NCT00782210,Adverse Event,lnorm,sdlog,sdlog,0.01355
-NCT00782210,Lack of Efficacy,gompertz,shape,shape,7.425e-6
-NCT00782210,Lack of Efficacy,gompertz,shape,rate,-8.094e-4
-NCT00782210,Lack of Efficacy,gompertz,rate,shape,-8.094e-4
-NCT00782210,Lack of Efficacy,gompertz,rate,rate,0.1438
 NCT00782210,Lack of Efficacy,lnorm,meanlog,meanlog,3.304
 NCT00782210,Lack of Efficacy,lnorm,meanlog,sdlog,0.3685
 NCT00782210,Lack of Efficacy,lnorm,sdlog,meanlog,0.3685
@@ -1746,14 +344,19 @@ NCT00782210,Voluntary Withdrawal,gompertz,shape,shape,4.88e-6
 NCT00782210,Voluntary Withdrawal,gompertz,shape,rate,-4.875e-4
 NCT00782210,Voluntary Withdrawal,gompertz,rate,shape,-4.875e-4
 NCT00782210,Voluntary Withdrawal,gompertz,rate,rate,0.08203
-NCT00782210,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.476
-NCT00782210,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1868
-NCT00782210,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1868
-NCT00782210,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02581
-NCT00793624,Adverse Event,gompertz,shape,shape,2.011e-6
-NCT00793624,Adverse Event,gompertz,shape,rate,-2.212e-4
-NCT00793624,Adverse Event,gompertz,rate,shape,-2.212e-4
-NCT00793624,Adverse Event,gompertz,rate,rate,0.03949
+NCT00782509,Adverse Event,lnorm,meanlog,meanlog,0.3947
+NCT00782509,Adverse Event,lnorm,meanlog,sdlog,0.07163
+NCT00782509,Adverse Event,lnorm,sdlog,meanlog,0.07163
+NCT00782509,Adverse Event,lnorm,sdlog,sdlog,0.01491
+NCT00782509,Lack of Efficacy,exp,rate,rate,0.05882
+NCT00782509,Other/Miscellaneous,lnorm,meanlog,meanlog,19.33
+NCT00782509,Other/Miscellaneous,lnorm,meanlog,sdlog,1.247
+NCT00782509,Other/Miscellaneous,lnorm,sdlog,meanlog,1.247
+NCT00782509,Other/Miscellaneous,lnorm,sdlog,sdlog,0.08348
+NCT00782509,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.79
+NCT00782509,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3758
+NCT00782509,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3758
+NCT00782509,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.05325
 NCT00793624,Adverse Event,lnorm,meanlog,meanlog,0.4076
 NCT00793624,Adverse Event,lnorm,meanlog,sdlog,0.0639
 NCT00793624,Adverse Event,lnorm,sdlog,meanlog,0.0639
@@ -1762,14 +365,6 @@ NCT00793624,Lack of Efficacy,gompertz,shape,shape,1.701e-5
 NCT00793624,Lack of Efficacy,gompertz,shape,rate,-0.001127
 NCT00793624,Lack of Efficacy,gompertz,rate,shape,-0.001127
 NCT00793624,Lack of Efficacy,gompertz,rate,rate,0.1414
-NCT00793624,Lack of Efficacy,lnorm,meanlog,meanlog,7.8
-NCT00793624,Lack of Efficacy,lnorm,meanlog,sdlog,0.6417
-NCT00793624,Lack of Efficacy,lnorm,sdlog,meanlog,0.6417
-NCT00793624,Lack of Efficacy,lnorm,sdlog,sdlog,0.05491
-NCT00793624,Other/Miscellaneous,gompertz,shape,shape,6.543e-6
-NCT00793624,Other/Miscellaneous,gompertz,shape,rate,-0.001293
-NCT00793624,Other/Miscellaneous,gompertz,rate,shape,-0.001293
-NCT00793624,Other/Miscellaneous,gompertz,rate,rate,0.3143
 NCT00793624,Other/Miscellaneous,lnorm,meanlog,meanlog,0.5719
 NCT00793624,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1579
 NCT00793624,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1579
@@ -1778,66 +373,174 @@ NCT00793624,Protocol Violation,gompertz,shape,shape,1.621e-5
 NCT00793624,Protocol Violation,gompertz,shape,rate,-0.001485
 NCT00793624,Protocol Violation,gompertz,rate,shape,-0.001485
 NCT00793624,Protocol Violation,gompertz,rate,rate,0.236
-NCT00793624,Protocol Violation,lnorm,meanlog,meanlog,12.37
-NCT00793624,Protocol Violation,lnorm,meanlog,sdlog,0.9943
-NCT00793624,Protocol Violation,lnorm,sdlog,meanlog,0.9943
-NCT00793624,Protocol Violation,lnorm,sdlog,sdlog,0.08247
 NCT00793624,Voluntary Withdrawal,gompertz,shape,shape,2.588e-6
 NCT00793624,Voluntary Withdrawal,gompertz,shape,rate,-2.754e-4
 NCT00793624,Voluntary Withdrawal,gompertz,rate,shape,-2.754e-4
 NCT00793624,Voluntary Withdrawal,gompertz,rate,rate,0.04817
-NCT00793624,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.4729
-NCT00793624,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.07872
-NCT00793624,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.07872
-NCT00793624,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01454
+NCT00798161,Adverse Event,gompertz,shape,shape,2.062e-5
+NCT00798161,Adverse Event,gompertz,shape,rate,-0.001107
+NCT00798161,Adverse Event,gompertz,rate,shape,-0.001107
+NCT00798161,Adverse Event,gompertz,rate,rate,0.0979
+NCT00798161,Lack of Efficacy,exp,rate,rate,0.05882
+NCT00798161,Lost to Follow-up,lnorm,meanlog,meanlog,0.8551
+NCT00798161,Lost to Follow-up,lnorm,meanlog,sdlog,0.2183
+NCT00798161,Lost to Follow-up,lnorm,sdlog,meanlog,0.2183
+NCT00798161,Lost to Follow-up,lnorm,sdlog,sdlog,0.05815
+NCT00798161,Protocol Violation,gompertz,shape,shape,4.162e-5
+NCT00798161,Protocol Violation,gompertz,shape,rate,-0.002069
+NCT00798161,Protocol Violation,gompertz,rate,shape,-0.002069
+NCT00798161,Protocol Violation,gompertz,rate,rate,0.1743
+NCT00798161,Voluntary Withdrawal,gompertz,shape,shape,2.246e-5
+NCT00798161,Voluntary Withdrawal,gompertz,shape,rate,-0.001385
+NCT00798161,Voluntary Withdrawal,gompertz,rate,shape,-0.001385
+NCT00798161,Voluntary Withdrawal,gompertz,rate,rate,0.133
+NCT00800683,Adverse Event,exp,rate,rate,0.05263
+NCT00848081,Adverse Event,exp,rate,rate,0.08333
+NCT00855582,Adverse Event,gompertz,shape,shape,2.136e-4
+NCT00855582,Adverse Event,gompertz,shape,rate,-0.005262
+NCT00855582,Adverse Event,gompertz,rate,shape,-0.005262
+NCT00855582,Adverse Event,gompertz,rate,rate,0.2205
+NCT00855582,Lack of Efficacy,exp,rate,rate,0.08333
+NCT00855582,Other/Miscellaneous,exp,rate,rate,0.0625
+NCT00855582,Protocol Violation,exp,rate,rate,0.08333
+NCT00855582,Voluntary Withdrawal,gompertz,shape,shape,1.135e-4
+NCT00855582,Voluntary Withdrawal,gompertz,shape,rate,-0.003632
+NCT00855582,Voluntary Withdrawal,gompertz,rate,shape,-0.003632
+NCT00855582,Voluntary Withdrawal,gompertz,rate,rate,0.1787
+NCT00861757,Adverse Event,exp,rate,rate,0.06667
+NCT00861757,Voluntary Withdrawal,exp,rate,rate,0.07692
+NCT00915772,Adverse Event,exp,rate,rate,0.02778
+NCT00915772,Lack of Efficacy,lnorm,meanlog,meanlog,0.1233
+NCT00915772,Lack of Efficacy,lnorm,meanlog,sdlog,0.05624
+NCT00915772,Lack of Efficacy,lnorm,sdlog,meanlog,0.05624
+NCT00915772,Lack of Efficacy,lnorm,sdlog,sdlog,0.02814
+NCT00915772,Other/Miscellaneous,exp,rate,rate,0.05556
+NCT00915772,Voluntary Withdrawal,llogis,shape,shape,0.05628
+NCT00915772,Voluntary Withdrawal,llogis,shape,scale,-0.3041
+NCT00915772,Voluntary Withdrawal,llogis,scale,shape,-0.3041
+NCT00915772,Voluntary Withdrawal,llogis,scale,scale,1.791
+NCT00926289,Adverse Event,gompertz,shape,shape,3.176e-4
+NCT00926289,Adverse Event,gompertz,shape,rate,-0.00505
+NCT00926289,Adverse Event,gompertz,rate,shape,-0.00505
+NCT00926289,Adverse Event,gompertz,rate,rate,0.1303
+NCT00926289,Protocol Violation,exp,rate,rate,0.05
+NCT00954447,Adverse Event,gompertz,shape,shape,1.277e-6
+NCT00954447,Adverse Event,gompertz,shape,rate,-2.116e-4
+NCT00954447,Adverse Event,gompertz,rate,shape,-2.116e-4
+NCT00954447,Adverse Event,gompertz,rate,rate,0.05632
+NCT00954447,Lack of Efficacy,exp,rate,rate,0.05556
+NCT00954447,Lost to Follow-up,gompertz,shape,shape,3.958e-6
+NCT00954447,Lost to Follow-up,gompertz,shape,rate,-5.218e-4
+NCT00954447,Lost to Follow-up,gompertz,rate,shape,-5.218e-4
+NCT00954447,Lost to Follow-up,gompertz,rate,rate,0.1188
+NCT00954447,Other/Miscellaneous,gompertz,shape,shape,1.52e-6
+NCT00954447,Other/Miscellaneous,gompertz,shape,rate,-2.919e-4
+NCT00954447,Other/Miscellaneous,gompertz,rate,shape,-2.919e-4
+NCT00954447,Other/Miscellaneous,gompertz,rate,rate,0.08547
+NCT00954447,Voluntary Withdrawal,gompertz,shape,shape,1.318e-6
+NCT00954447,Voluntary Withdrawal,gompertz,shape,rate,-2.546e-4
+NCT00954447,Voluntary Withdrawal,gompertz,rate,shape,-2.546e-4
+NCT00954447,Voluntary Withdrawal,gompertz,rate,rate,0.07482
+NCT00970632,Protocol Violation,lnorm,meanlog,meanlog,0.2415
+NCT00970632,Protocol Violation,lnorm,meanlog,sdlog,0.09166
+NCT00970632,Protocol Violation,lnorm,sdlog,meanlog,0.09166
+NCT00970632,Protocol Violation,lnorm,sdlog,sdlog,0.03755
+NCT00970632,Voluntary Withdrawal,exp,rate,rate,0.0625
+NCT00975195,Adverse Event,gompertz,shape,shape,4.426e-7
+NCT00975195,Adverse Event,gompertz,shape,rate,-7.041e-5
+NCT00975195,Adverse Event,gompertz,rate,shape,-7.041e-5
+NCT00975195,Adverse Event,gompertz,rate,rate,0.01601
+NCT00975195,Lack of Efficacy,gompertz,shape,shape,1.041e-5
+NCT00975195,Lack of Efficacy,gompertz,shape,rate,-0.001128
+NCT00975195,Lack of Efficacy,gompertz,rate,shape,-0.001128
+NCT00975195,Lack of Efficacy,gompertz,rate,rate,0.2057
+NCT00975195,Lost to Follow-up,exp,rate,rate,0.0625
+NCT00975195,Other/Miscellaneous,exp,rate,rate,0.01613
+NCT00975195,Protocol Violation,exp,rate,rate,0.02
+NCT00975195,Voluntary Withdrawal,gompertz,shape,shape,9.92e-7
+NCT00975195,Voluntary Withdrawal,gompertz,shape,rate,-1.242e-4
+NCT00975195,Voluntary Withdrawal,gompertz,rate,shape,-1.242e-4
+NCT00975195,Voluntary Withdrawal,gompertz,rate,rate,0.02472
+NCT00996658,Other/Miscellaneous,lnorm,meanlog,meanlog,0.4501
+NCT00996658,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1467
+NCT00996658,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1467
+NCT00996658,Other/Miscellaneous,lnorm,sdlog,sdlog,0.0526
+NCT01064687,Adverse Event,gompertz,shape,shape,7.277e-6
+NCT01064687,Adverse Event,gompertz,shape,rate,-5.749e-4
+NCT01064687,Adverse Event,gompertz,rate,shape,-5.749e-4
+NCT01064687,Adverse Event,gompertz,rate,rate,0.08388
+NCT01064687,Lost to Follow-up,llogis,shape,shape,0.03843
+NCT01064687,Lost to Follow-up,llogis,shape,scale,-0.07931
+NCT01064687,Lost to Follow-up,llogis,scale,shape,-0.07931
+NCT01064687,Lost to Follow-up,llogis,scale,scale,0.1771
+NCT01064687,Voluntary Withdrawal,exp,rate,rate,0.03448
+NCT01075282,Adverse Event,lnorm,meanlog,meanlog,2.112
+NCT01075282,Adverse Event,lnorm,meanlog,sdlog,0.2704
+NCT01075282,Adverse Event,lnorm,sdlog,meanlog,0.2704
+NCT01075282,Adverse Event,lnorm,sdlog,sdlog,0.03657
+NCT01075282,Other/Miscellaneous,lnorm,meanlog,meanlog,9.724
+NCT01075282,Other/Miscellaneous,lnorm,meanlog,sdlog,0.7733
+NCT01075282,Other/Miscellaneous,lnorm,sdlog,meanlog,0.7733
+NCT01075282,Other/Miscellaneous,lnorm,sdlog,sdlog,0.06388
+NCT01075282,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.252
+NCT01075282,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2546
+NCT01075282,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2546
+NCT01075282,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03064
+NCT01084005,Protocol Violation,exp,rate,rate,0.1
+NCT01087502,Adverse Event,exp,rate,rate,0.03704
+NCT01126437,Adverse Event,llogis,shape,shape,4.96e-4
+NCT01126437,Adverse Event,llogis,shape,scale,-0.001417
+NCT01126437,Adverse Event,llogis,scale,shape,-0.001417
+NCT01126437,Adverse Event,llogis,scale,scale,0.005132
+NCT01126437,Lack of Efficacy,gompertz,shape,shape,1.301e-7
+NCT01126437,Lack of Efficacy,gompertz,shape,rate,-3.176e-5
+NCT01126437,Lack of Efficacy,gompertz,rate,shape,-3.176e-5
+NCT01126437,Lack of Efficacy,gompertz,rate,rate,0.01319
+NCT01126437,Lost to Follow-up,llogis,shape,shape,0.005502
+NCT01126437,Lost to Follow-up,llogis,shape,scale,-0.03567
+NCT01126437,Lost to Follow-up,llogis,scale,shape,-0.03567
+NCT01126437,Lost to Follow-up,llogis,scale,scale,0.2433
+NCT01126437,Other/Miscellaneous,exp,rate,rate,0.001773
+NCT01126437,Protocol Violation,weibull,shape,shape,0.005491
+NCT01126437,Protocol Violation,weibull,shape,scale,-0.03752
+NCT01126437,Protocol Violation,weibull,scale,shape,-0.03752
+NCT01126437,Protocol Violation,weibull,scale,scale,0.2696
+NCT01126437,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.04312
+NCT01126437,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.005455
+NCT01126437,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.005455
+NCT01126437,Voluntary Withdrawal,lnorm,sdlog,sdlog,7.66e-4
+NCT01126580,Adverse Event,gompertz,shape,shape,4.25e-6
+NCT01126580,Adverse Event,gompertz,shape,rate,-4.078e-4
+NCT01126580,Adverse Event,gompertz,rate,shape,-4.078e-4
+NCT01126580,Adverse Event,gompertz,rate,rate,0.06855
+NCT01126580,Lost to Follow-up,exp,rate,rate,0.03704
+NCT01126580,PI/Sponsor Decision,exp,rate,rate,0.05
+NCT01126580,Voluntary Withdrawal,exp,rate,rate,0.025
 NCT01159600,Adverse Event,gompertz,shape,shape,1.381e-5
 NCT01159600,Adverse Event,gompertz,shape,rate,-8.349e-4
 NCT01159600,Adverse Event,gompertz,rate,shape,-8.349e-4
 NCT01159600,Adverse Event,gompertz,rate,rate,0.07904
-NCT01159600,Adverse Event,llogis,shape,shape,0.02785
-NCT01159600,Adverse Event,llogis,shape,scale,-0.1513
-NCT01159600,Adverse Event,llogis,scale,shape,-0.1513
-NCT01159600,Adverse Event,llogis,scale,scale,0.8888
-NCT01159600,Adverse Event,lnorm,meanlog,meanlog,1.52
-NCT01159600,Adverse Event,lnorm,meanlog,sdlog,0.1821
-NCT01159600,Adverse Event,lnorm,sdlog,meanlog,0.1821
-NCT01159600,Adverse Event,lnorm,sdlog,sdlog,0.02302
-NCT01159600,Lost to Follow-up,gompertz,shape,shape,4.094e-5
-NCT01159600,Lost to Follow-up,gompertz,shape,rate,-0.00461
-NCT01159600,Lost to Follow-up,gompertz,rate,shape,-0.00461
-NCT01159600,Lost to Follow-up,gompertz,rate,rate,0.6023
-NCT01159600,Lost to Follow-up,llogis,shape,shape,0.08086
-NCT01159600,Lost to Follow-up,llogis,shape,scale,-0.187
-NCT01159600,Lost to Follow-up,llogis,scale,shape,-0.187
-NCT01159600,Lost to Follow-up,llogis,scale,scale,0.4533
 NCT01159600,Lost to Follow-up,lnorm,meanlog,meanlog,0.8875
 NCT01159600,Lost to Follow-up,lnorm,meanlog,sdlog,0.2422
 NCT01159600,Lost to Follow-up,lnorm,sdlog,meanlog,0.2422
 NCT01159600,Lost to Follow-up,lnorm,sdlog,sdlog,0.06804
-NCT01159600,Other/Miscellaneous,gompertz,shape,shape,2.154e-5
-NCT01159600,Other/Miscellaneous,gompertz,shape,rate,-0.001419
-NCT01159600,Other/Miscellaneous,gompertz,rate,shape,-0.001419
-NCT01159600,Other/Miscellaneous,gompertz,rate,rate,0.1411
 NCT01159600,Other/Miscellaneous,llogis,shape,shape,0.04653
 NCT01159600,Other/Miscellaneous,llogis,shape,scale,-0.2711
 NCT01159600,Other/Miscellaneous,llogis,scale,shape,-0.2711
 NCT01159600,Other/Miscellaneous,llogis,scale,scale,1.677
-NCT01159600,Other/Miscellaneous,lnorm,meanlog,meanlog,3.113
-NCT01159600,Other/Miscellaneous,lnorm,meanlog,sdlog,0.3396
-NCT01159600,Other/Miscellaneous,lnorm,sdlog,meanlog,0.3396
-NCT01159600,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03853
 NCT01159600,Voluntary Withdrawal,gompertz,shape,shape,2.277e-5
 NCT01159600,Voluntary Withdrawal,gompertz,shape,rate,-0.001322
 NCT01159600,Voluntary Withdrawal,gompertz,rate,shape,-0.001322
 NCT01159600,Voluntary Withdrawal,gompertz,rate,rate,0.1222
-NCT01159600,Voluntary Withdrawal,llogis,shape,shape,0.04443
-NCT01159600,Voluntary Withdrawal,llogis,shape,scale,-0.2839
-NCT01159600,Voluntary Withdrawal,llogis,scale,shape,-0.2839
-NCT01159600,Voluntary Withdrawal,llogis,scale,scale,1.928
-NCT01159600,Voluntary Withdrawal,lnorm,meanlog,meanlog,3.451
-NCT01159600,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.352
-NCT01159600,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.352
-NCT01159600,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03735
+NCT01164501,Adverse Event,lnorm,meanlog,meanlog,0.5394
+NCT01164501,Adverse Event,lnorm,meanlog,sdlog,0.09414
+NCT01164501,Adverse Event,lnorm,sdlog,meanlog,0.09414
+NCT01164501,Adverse Event,lnorm,sdlog,sdlog,0.01817
+NCT01164501,Other/Miscellaneous,exp,rate,rate,0.07692
+NCT01164501,Voluntary Withdrawal,gompertz,shape,shape,4.443e-6
+NCT01164501,Voluntary Withdrawal,gompertz,shape,rate,-6.336e-4
+NCT01164501,Voluntary Withdrawal,gompertz,rate,shape,-6.336e-4
+NCT01164501,Voluntary Withdrawal,gompertz,rate,rate,0.1358
 NCT01167881,Adverse Event,gompertz,shape,shape,2.003e-7
 NCT01167881,Adverse Event,gompertz,shape,rate,-5.918e-5
 NCT01167881,Adverse Event,gompertz,rate,shape,-5.918e-5
@@ -1858,22 +561,114 @@ NCT01167881,Voluntary Withdrawal,gompertz,shape,shape,1.589e-7
 NCT01167881,Voluntary Withdrawal,gompertz,shape,rate,-5.948e-5
 NCT01167881,Voluntary Withdrawal,gompertz,rate,shape,-5.948e-5
 NCT01167881,Voluntary Withdrawal,gompertz,rate,rate,0.03893
+NCT01177813,Adverse Event,llogis,shape,shape,0.04858
+NCT01177813,Adverse Event,llogis,shape,scale,-0.2703
+NCT01177813,Adverse Event,llogis,scale,shape,-0.2703
+NCT01177813,Adverse Event,llogis,scale,scale,1.615
+NCT01177813,Lost to Follow-up,lnorm,meanlog,meanlog,0.4291
+NCT01177813,Lost to Follow-up,lnorm,meanlog,sdlog,0.1173
+NCT01177813,Lost to Follow-up,lnorm,sdlog,meanlog,0.1173
+NCT01177813,Lost to Follow-up,lnorm,sdlog,sdlog,0.03387
+NCT01177813,Other/Miscellaneous,exp,rate,rate,0.08333
+NCT01177813,Voluntary Withdrawal,gompertz,shape,shape,1.542e-5
+NCT01177813,Voluntary Withdrawal,gompertz,shape,rate,-0.001034
+NCT01177813,Voluntary Withdrawal,gompertz,rate,shape,-0.001034
+NCT01177813,Voluntary Withdrawal,gompertz,rate,rate,0.1038
+NCT01191268,Adverse Event,gompertz,shape,shape,3.579e-6
+NCT01191268,Adverse Event,gompertz,shape,rate,-3.32e-4
+NCT01191268,Adverse Event,gompertz,rate,shape,-3.32e-4
+NCT01191268,Adverse Event,gompertz,rate,rate,0.05463
+NCT01191268,Lost to Follow-up,exp,rate,rate,0.05882
+NCT01191268,PI/Sponsor Decision,gompertz,shape,shape,4.225e-6
+NCT01191268,PI/Sponsor Decision,gompertz,shape,rate,-5.686e-4
+NCT01191268,PI/Sponsor Decision,gompertz,rate,shape,-5.686e-4
+NCT01191268,PI/Sponsor Decision,gompertz,rate,rate,0.1182
+NCT01191268,Voluntary Withdrawal,gompertz,shape,shape,1.493e-6
+NCT01191268,Voluntary Withdrawal,gompertz,shape,rate,-2.25e-4
+NCT01191268,Voluntary Withdrawal,gompertz,rate,shape,-2.25e-4
+NCT01191268,Voluntary Withdrawal,gompertz,rate,rate,0.04978
+NCT01191944,Adverse Event,lnorm,meanlog,meanlog,2.197
+NCT01191944,Adverse Event,lnorm,meanlog,sdlog,0.2647
+NCT01191944,Adverse Event,lnorm,sdlog,meanlog,0.2647
+NCT01191944,Adverse Event,lnorm,sdlog,sdlog,0.03471
 NCT01194830,Lost to Follow-up,gompertz,shape,shape,4.047e-5
 NCT01194830,Lost to Follow-up,gompertz,shape,rate,-0.001948
 NCT01194830,Lost to Follow-up,gompertz,rate,shape,-0.001948
 NCT01194830,Lost to Follow-up,gompertz,rate,rate,0.1604
-NCT01194830,Lost to Follow-up,lnorm,meanlog,meanlog,2.196
-NCT01194830,Lost to Follow-up,lnorm,meanlog,sdlog,0.3115
-NCT01194830,Lost to Follow-up,lnorm,sdlog,meanlog,0.3115
-NCT01194830,Lost to Follow-up,lnorm,sdlog,sdlog,0.04998
 NCT01194830,Other/Miscellaneous,gompertz,shape,shape,2.666e-5
 NCT01194830,Other/Miscellaneous,gompertz,shape,rate,-0.001534
 NCT01194830,Other/Miscellaneous,gompertz,rate,shape,-0.001534
 NCT01194830,Other/Miscellaneous,gompertz,rate,rate,0.1408
-NCT01194830,Other/Miscellaneous,lnorm,meanlog,meanlog,0.763
-NCT01194830,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1604
-NCT01194830,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1604
-NCT01194830,Other/Miscellaneous,lnorm,sdlog,sdlog,0.03938
+NCT01204294,Adverse Event,lnorm,meanlog,meanlog,2.487
+NCT01204294,Adverse Event,lnorm,meanlog,sdlog,0.3046
+NCT01204294,Adverse Event,lnorm,sdlog,meanlog,0.3046
+NCT01204294,Adverse Event,lnorm,sdlog,sdlog,0.03984
+NCT01210001,Adverse Event,exp,rate,rate,0.09091
+NCT01214239,Voluntary Withdrawal,exp,rate,rate,0.08333
+NCT01306214,Adverse Event,exp,rate,rate,0.03571
+NCT01306214,Protocol Violation,weibull,shape,shape,0.06482
+NCT01306214,Protocol Violation,weibull,shape,scale,-0.3841
+NCT01306214,Protocol Violation,weibull,scale,shape,-0.3841
+NCT01306214,Protocol Violation,weibull,scale,scale,2.456
+NCT01306214,Voluntary Withdrawal,exp,rate,rate,0.03846
+NCT01335464,Adverse Event,exp,rate,rate,0.01124
+NCT01335464,Voluntary Withdrawal,gompertz,shape,shape,6.542e-6
+NCT01335464,Voluntary Withdrawal,gompertz,shape,rate,-8.595e-4
+NCT01335464,Voluntary Withdrawal,gompertz,rate,shape,-8.595e-4
+NCT01335464,Voluntary Withdrawal,gompertz,rate,rate,0.1754
+NCT01335477,Adverse Event,exp,rate,rate,0.01031
+NCT01335477,Voluntary Withdrawal,gompertz,shape,shape,7.408e-6
+NCT01335477,Voluntary Withdrawal,gompertz,shape,rate,-8.031e-4
+NCT01335477,Voluntary Withdrawal,gompertz,rate,shape,-8.031e-4
+NCT01335477,Voluntary Withdrawal,gompertz,rate,rate,0.1459
+NCT01368081,Adverse Event,exp,rate,rate,0.02174
+NCT01368081,Other/Miscellaneous,lnorm,meanlog,meanlog,13.19
+NCT01368081,Other/Miscellaneous,lnorm,meanlog,sdlog,1.044
+NCT01368081,Other/Miscellaneous,lnorm,sdlog,meanlog,1.044
+NCT01368081,Other/Miscellaneous,lnorm,sdlog,sdlog,0.08479
+NCT01368081,Voluntary Withdrawal,exp,rate,rate,0.0303
+NCT01370005,Adverse Event,exp,rate,rate,0.0625
+NCT01422876,Adverse Event,llogis,shape,shape,0.01775
+NCT01422876,Adverse Event,llogis,shape,scale,-0.07909
+NCT01422876,Adverse Event,llogis,scale,shape,-0.07909
+NCT01422876,Adverse Event,llogis,scale,scale,0.3902
+NCT01422876,Lost to Follow-up,llogis,shape,shape,0.01923
+NCT01422876,Lost to Follow-up,llogis,shape,scale,-0.09364
+NCT01422876,Lost to Follow-up,llogis,scale,shape,-0.09364
+NCT01422876,Lost to Follow-up,llogis,scale,scale,0.502
+NCT01422876,Other/Miscellaneous,gompertz,shape,shape,2.42e-6
+NCT01422876,Other/Miscellaneous,gompertz,shape,rate,-3.395e-4
+NCT01422876,Other/Miscellaneous,gompertz,rate,shape,-3.395e-4
+NCT01422876,Other/Miscellaneous,gompertz,rate,rate,0.072
+NCT01422876,Protocol Violation,exp,rate,rate,0.08333
+NCT01422876,Voluntary Withdrawal,gompertz,shape,shape,3.112e-6
+NCT01422876,Voluntary Withdrawal,gompertz,shape,rate,-4.343e-4
+NCT01422876,Voluntary Withdrawal,gompertz,rate,shape,-4.343e-4
+NCT01422876,Voluntary Withdrawal,gompertz,rate,rate,0.09185
+NCT01558271,Adverse Event,lnorm,meanlog,meanlog,0.7067
+NCT01558271,Adverse Event,lnorm,meanlog,sdlog,0.2021
+NCT01558271,Adverse Event,lnorm,sdlog,meanlog,0.2021
+NCT01558271,Adverse Event,lnorm,sdlog,sdlog,0.06108
+NCT01558271,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.068
+NCT01558271,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2273
+NCT01558271,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2273
+NCT01558271,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02759
+NCT01621178,Adverse Event,exp,rate,rate,0.06667
+NCT01621178,Other/Miscellaneous,exp,rate,rate,0.06667
+NCT01621178,PI/Sponsor Decision,gompertz,shape,shape,7.263e-6
+NCT01621178,PI/Sponsor Decision,gompertz,shape,rate,-9.614e-4
+NCT01621178,PI/Sponsor Decision,gompertz,rate,shape,-9.614e-4
+NCT01621178,PI/Sponsor Decision,gompertz,rate,rate,0.1987
+NCT01621178,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.6865
+NCT01621178,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.09997
+NCT01621178,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.09997
+NCT01621178,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01667
+NCT01624259,Adverse Event,exp,rate,rate,0.05556
+NCT01624259,Voluntary Withdrawal,exp,rate,rate,0.09091
+NCT01694771,Adverse Event,exp,rate,rate,0.02941
+NCT01694771,Other/Miscellaneous,exp,rate,rate,0.09091
+NCT01694771,Protocol Violation,exp,rate,rate,0.08333
+NCT01694771,Voluntary Withdrawal,exp,rate,rate,0.06667
 NCT01708902,Adverse Event,gompertz,shape,shape,2.227e-5
 NCT01708902,Adverse Event,gompertz,shape,rate,-0.001161
 NCT01708902,Adverse Event,gompertz,rate,shape,-0.001161
@@ -1882,10 +677,46 @@ NCT01708902,Voluntary Withdrawal,gompertz,shape,shape,2.608e-5
 NCT01708902,Voluntary Withdrawal,gompertz,shape,rate,-0.001381
 NCT01708902,Voluntary Withdrawal,gompertz,rate,shape,-0.001381
 NCT01708902,Voluntary Withdrawal,gompertz,rate,rate,0.1207
+NCT01719003,Adverse Event,lnorm,meanlog,meanlog,1.547
+NCT01719003,Adverse Event,lnorm,meanlog,sdlog,0.181
+NCT01719003,Adverse Event,lnorm,sdlog,meanlog,0.181
+NCT01719003,Adverse Event,lnorm,sdlog,sdlog,0.02235
+NCT01719003,Lost to Follow-up,lnorm,meanlog,meanlog,6.799
+NCT01719003,Lost to Follow-up,lnorm,meanlog,sdlog,0.4698
+NCT01719003,Lost to Follow-up,lnorm,sdlog,meanlog,0.4698
+NCT01719003,Lost to Follow-up,lnorm,sdlog,sdlog,0.03383
+NCT01719003,Other/Miscellaneous,exp,rate,rate,0.07692
+NCT01719003,Protocol Violation,exp,rate,rate,0.1
+NCT01719003,Voluntary Withdrawal,lnorm,meanlog,meanlog,1.134
+NCT01719003,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.1523
+NCT01719003,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.1523
+NCT01719003,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02161
+NCT01769378,Adverse Event,gompertz,shape,shape,6.548e-5
+NCT01769378,Adverse Event,gompertz,shape,rate,-0.002973
+NCT01769378,Adverse Event,gompertz,rate,shape,-0.002973
+NCT01769378,Adverse Event,gompertz,rate,rate,0.235
+NCT01769378,Voluntary Withdrawal,exp,rate,rate,0.1
+NCT02152371,Voluntary Withdrawal,exp,rate,rate,0.1
+NCT02172287,Adverse Event,lnorm,meanlog,meanlog,0.1899
+NCT02172287,Adverse Event,lnorm,meanlog,sdlog,0.03707
+NCT02172287,Adverse Event,lnorm,sdlog,meanlog,0.03707
+NCT02172287,Adverse Event,lnorm,sdlog,sdlog,0.009116
+NCT02172287,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.937
+NCT02172287,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3043
+NCT02172287,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3043
+NCT02172287,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03385
 NCT02172586,Voluntary Withdrawal,gompertz,shape,shape,3.262e-5
 NCT02172586,Voluntary Withdrawal,gompertz,shape,rate,-0.00205
 NCT02172586,Voluntary Withdrawal,gompertz,rate,shape,-0.00205
 NCT02172586,Voluntary Withdrawal,gompertz,rate,rate,0.2003
+NCT02175355,Adverse Event,lnorm,meanlog,meanlog,1.024
+NCT02175355,Adverse Event,lnorm,meanlog,sdlog,0.1942
+NCT02175355,Adverse Event,lnorm,sdlog,meanlog,0.1942
+NCT02175355,Adverse Event,lnorm,sdlog,sdlog,0.03848
+NCT02175355,Protocol Violation,lnorm,meanlog,meanlog,0.1707
+NCT02175355,Protocol Violation,lnorm,meanlog,sdlog,0.06859
+NCT02175355,Protocol Violation,lnorm,sdlog,meanlog,0.06859
+NCT02175355,Protocol Violation,lnorm,sdlog,sdlog,0.0291
 NCT02177344,Adverse Event,gompertz,shape,shape,2.64e-5
 NCT02177344,Adverse Event,gompertz,shape,rate,-0.001037
 NCT02177344,Adverse Event,gompertz,rate,shape,-0.001037
@@ -1898,18 +729,15 @@ NCT02177344,Voluntary Withdrawal,gompertz,shape,shape,6.625e-5
 NCT02177344,Voluntary Withdrawal,gompertz,shape,rate,-0.001932
 NCT02177344,Voluntary Withdrawal,gompertz,rate,shape,-0.001932
 NCT02177344,Voluntary Withdrawal,gompertz,rate,rate,0.109
+NCT02177396,Adverse Event,gompertz,shape,shape,3.61e-4
+NCT02177396,Adverse Event,gompertz,shape,rate,-0.007371
+NCT02177396,Adverse Event,gompertz,rate,shape,-0.007371
+NCT02177396,Adverse Event,gompertz,rate,rate,0.2338
+NCT02177396,Lack of Efficacy,exp,rate,rate,0.1
 NCT02177461,Adverse Event,gompertz,shape,shape,2.895e-5
 NCT02177461,Adverse Event,gompertz,shape,rate,-0.001772
 NCT02177461,Adverse Event,gompertz,rate,shape,-0.001772
 NCT02177461,Adverse Event,gompertz,rate,rate,0.1709
-NCT02177461,Adverse Event,lnorm,meanlog,meanlog,1.654
-NCT02177461,Adverse Event,lnorm,meanlog,sdlog,0.27
-NCT02177461,Adverse Event,lnorm,sdlog,meanlog,0.27
-NCT02177461,Adverse Event,lnorm,sdlog,sdlog,0.04782
-NCT02177461,Lack of Efficacy,gompertz,shape,shape,1.21e-5
-NCT02177461,Lack of Efficacy,gompertz,shape,rate,-0.001167
-NCT02177461,Lack of Efficacy,gompertz,rate,shape,-0.001167
-NCT02177461,Lack of Efficacy,gompertz,rate,rate,0.1438
 NCT02177461,Lack of Efficacy,lnorm,meanlog,meanlog,0.07475
 NCT02177461,Lack of Efficacy,lnorm,meanlog,sdlog,0.03836
 NCT02177461,Lack of Efficacy,lnorm,sdlog,meanlog,0.03836
@@ -1918,18 +746,10 @@ NCT02177461,Protocol Violation,gompertz,shape,shape,4.057e-5
 NCT02177461,Protocol Violation,gompertz,shape,rate,-0.002354
 NCT02177461,Protocol Violation,gompertz,rate,shape,-0.002354
 NCT02177461,Protocol Violation,gompertz,rate,rate,0.2199
-NCT02177461,Protocol Violation,lnorm,meanlog,meanlog,3.496
-NCT02177461,Protocol Violation,lnorm,meanlog,sdlog,0.4574
-NCT02177461,Protocol Violation,lnorm,sdlog,meanlog,0.4574
-NCT02177461,Protocol Violation,lnorm,sdlog,sdlog,0.0639
 NCT02177461,Voluntary Withdrawal,gompertz,shape,shape,1.109e-5
 NCT02177461,Voluntary Withdrawal,gompertz,shape,rate,-7.144e-4
 NCT02177461,Voluntary Withdrawal,gompertz,rate,shape,-7.144e-4
 NCT02177461,Voluntary Withdrawal,gompertz,rate,rate,0.07103
-NCT02177461,Voluntary Withdrawal,lnorm,meanlog,meanlog,0.2437
-NCT02177461,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.06081
-NCT02177461,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.06081
-NCT02177461,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.01836
 NCT02183064,Adverse Event,gompertz,shape,shape,1.639e-5
 NCT02183064,Adverse Event,gompertz,shape,rate,-7.267e-4
 NCT02183064,Adverse Event,gompertz,rate,shape,-7.267e-4
@@ -1942,6 +762,7 @@ NCT02183064,Voluntary Withdrawal,gompertz,shape,shape,1.446e-5
 NCT02183064,Voluntary Withdrawal,gompertz,shape,rate,-7.365e-4
 NCT02183064,Voluntary Withdrawal,gompertz,rate,shape,-7.365e-4
 NCT02183064,Voluntary Withdrawal,gompertz,rate,rate,0.06455
+NCT02200653,Adverse Event,exp,rate,rate,0.08333
 NCT02240680,Adverse Event,gompertz,shape,shape,1.791e-5
 NCT02240680,Adverse Event,gompertz,shape,rate,-0.001454
 NCT02240680,Adverse Event,gompertz,rate,shape,-0.001454
@@ -1950,67 +771,4 @@ NCT02489968,Adverse Event,gompertz,shape,shape,7.911e-6
 NCT02489968,Adverse Event,gompertz,shape,rate,-8.457e-4
 NCT02489968,Adverse Event,gompertz,rate,shape,-8.457e-4
 NCT02489968,Adverse Event,gompertz,rate,rate,0.1492
-NCT00034840,Lack of Efficacy,lnorm,meanlog,meanlog,0.4633
-NCT00034840,Lack of Efficacy,lnorm,meanlog,sdlog,0.1726
-NCT00034840,Lack of Efficacy,lnorm,sdlog,meanlog,0.1726
-NCT00034840,Lack of Efficacy,lnorm,sdlog,sdlog,0.06765
-NCT00274079,Adverse Event,lnorm,meanlog,meanlog,0.4532
-NCT00274079,Adverse Event,lnorm,meanlog,sdlog,0.09467
-NCT00274079,Adverse Event,lnorm,sdlog,meanlog,0.09467
-NCT00274079,Adverse Event,lnorm,sdlog,sdlog,0.02284
-NCT00641043,Adverse Event,lnorm,meanlog,meanlog,8.915
-NCT00641043,Adverse Event,lnorm,meanlog,sdlog,0.8314
-NCT00641043,Adverse Event,lnorm,sdlog,meanlog,0.8314
-NCT00641043,Adverse Event,lnorm,sdlog,sdlog,0.08167
-NCT00654381,Adverse Event,lnorm,meanlog,meanlog,0.07069
-NCT00654381,Adverse Event,lnorm,meanlog,sdlog,0.05116
-NCT00654381,Adverse Event,lnorm,sdlog,meanlog,0.05116
-NCT00654381,Adverse Event,lnorm,sdlog,sdlog,0.03969
-NCT00996658,Other/Miscellaneous,lnorm,meanlog,meanlog,0.4501
-NCT00996658,Other/Miscellaneous,lnorm,meanlog,sdlog,0.1467
-NCT00996658,Other/Miscellaneous,lnorm,sdlog,meanlog,0.1467
-NCT00996658,Other/Miscellaneous,lnorm,sdlog,sdlog,0.0526
-NCT01075282,Adverse Event,lnorm,meanlog,meanlog,2.112
-NCT01075282,Adverse Event,lnorm,meanlog,sdlog,0.2704
-NCT01075282,Adverse Event,lnorm,sdlog,meanlog,0.2704
-NCT01075282,Adverse Event,lnorm,sdlog,sdlog,0.03657
-NCT01075282,Other/Miscellaneous,lnorm,meanlog,meanlog,9.724
-NCT01075282,Other/Miscellaneous,lnorm,meanlog,sdlog,0.7733
-NCT01075282,Other/Miscellaneous,lnorm,sdlog,meanlog,0.7733
-NCT01075282,Other/Miscellaneous,lnorm,sdlog,sdlog,0.06388
-NCT01075282,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.252
-NCT01075282,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2546
-NCT01075282,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2546
-NCT01075282,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03064
-NCT01191944,Adverse Event,lnorm,meanlog,meanlog,2.197
-NCT01191944,Adverse Event,lnorm,meanlog,sdlog,0.2647
-NCT01191944,Adverse Event,lnorm,sdlog,meanlog,0.2647
-NCT01191944,Adverse Event,lnorm,sdlog,sdlog,0.03471
-NCT01204294,Adverse Event,lnorm,meanlog,meanlog,2.487
-NCT01204294,Adverse Event,lnorm,meanlog,sdlog,0.3046
-NCT01204294,Adverse Event,lnorm,sdlog,meanlog,0.3046
-NCT01204294,Adverse Event,lnorm,sdlog,sdlog,0.03984
-NCT01558271,Adverse Event,lnorm,meanlog,meanlog,0.7067
-NCT01558271,Adverse Event,lnorm,meanlog,sdlog,0.2021
-NCT01558271,Adverse Event,lnorm,sdlog,meanlog,0.2021
-NCT01558271,Adverse Event,lnorm,sdlog,sdlog,0.06108
-NCT01558271,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.068
-NCT01558271,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.2273
-NCT01558271,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.2273
-NCT01558271,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.02759
-NCT02172287,Adverse Event,lnorm,meanlog,meanlog,0.1899
-NCT02172287,Adverse Event,lnorm,meanlog,sdlog,0.03707
-NCT02172287,Adverse Event,lnorm,sdlog,meanlog,0.03707
-NCT02172287,Adverse Event,lnorm,sdlog,sdlog,0.009116
-NCT02172287,Voluntary Withdrawal,lnorm,meanlog,meanlog,2.937
-NCT02172287,Voluntary Withdrawal,lnorm,meanlog,sdlog,0.3043
-NCT02172287,Voluntary Withdrawal,lnorm,sdlog,meanlog,0.3043
-NCT02172287,Voluntary Withdrawal,lnorm,sdlog,sdlog,0.03385
-NCT02175355,Adverse Event,lnorm,meanlog,meanlog,1.024
-NCT02175355,Adverse Event,lnorm,meanlog,sdlog,0.1942
-NCT02175355,Adverse Event,lnorm,sdlog,meanlog,0.1942
-NCT02175355,Adverse Event,lnorm,sdlog,sdlog,0.03848
-NCT02175355,Protocol Violation,lnorm,meanlog,meanlog,0.1707
-NCT02175355,Protocol Violation,lnorm,meanlog,sdlog,0.06859
-NCT02175355,Protocol Violation,lnorm,sdlog,meanlog,0.06859
-NCT02175355,Protocol Violation,lnorm,sdlog,sdlog,0.0291
+NCT02750410,Adverse Event,exp,rate,rate,0.08333

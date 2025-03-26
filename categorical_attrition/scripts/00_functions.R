@@ -10,11 +10,11 @@ get_samples <- function() {
   
   # List to store samples for each model
   lst_samples <- vector("list", length = nrow(dat))
-  names(lst_samples) <- dat$ctgov
+  names(lst_samples) <- paste0(dat$ctgov, "_", dat$cause)
   
   for(i in seq_along(dat2$params)) {
     
-    name_loop <- dat$ctgov[i]
+    name_loop <- paste0(dat$ctgov[i], "_", dat$cause[i])
     
     for(j in seq_along(dat2$params[[i]]$params)) {
       
@@ -47,7 +47,7 @@ get_cind <- function() {
   dat2 <- sample_parameters
   
   lst_estimates <- vector("list", length = nrow(dat))
-  names(lst_estimates) <- dat$ctgov
+  names(lst_estimates) <- paste0(dat$ctgov, "_", dat$cause)
   
   for(i in seq_along(dat2)) {
     
@@ -106,12 +106,12 @@ get_hazards <- function() {
   
   # List to store samples for each model
   lst_haz <- vector("list", length = nrow(dat))
-  names(lst_haz) <- dat$ctgov
+  names(lst_haz) <- paste0(dat$ctgov, "_", dat$cause)
   
   for(i in seq_along(dat2$params)) {
     
     # Get names, parameters and survival times
-    name_loop <- dat$ctgov[i]
+    name_loop <- paste0(dat$ctgov[i], "_", dat$cause[i])
     params_tbl <- dat2$params[[i]]
     surv_times <- dat$cind[[i]]
     
@@ -129,26 +129,7 @@ get_hazards <- function() {
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
           ctgov = dat$ctgov[i],
-          dist = dist,
-          haz_est = haz,
-          time = time
-        )
-        
-      } else if (dist == "gengamma") {
-        
-        mu <- as.data.frame(dat2$params[[i]]$params[[j]])$mu
-        sigma <- as.data.frame(dat2$params[[i]]$params[[j]])$sigma
-        q <- as.data.frame(dat2$params[[i]]$params[[j]])$Q
-        
-        haz <- hgengamma(
-          x = time, 
-          mu = mu,
-          sigma = exp(sigma),
-          Q = q
-        )
-        
-        lst_haz[[name_loop]][[dist]] <- data.frame(
-          ctgov = dat$ctgov[i],
+          cause = dat$cause[i],
           dist = dist,
           haz_est = haz,
           time = time
@@ -167,6 +148,7 @@ get_hazards <- function() {
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
           ctgov = dat$ctgov[i],
+          cause = dat$cause[i],
           dist = dist,
           haz_est = haz,
           time = time
@@ -185,6 +167,7 @@ get_hazards <- function() {
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
           ctgov = dat$ctgov[i],
+          cause = dat$cause[i],
           dist = dist,
           haz_est = haz,
           time = time
@@ -203,6 +186,7 @@ get_hazards <- function() {
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
           ctgov = dat$ctgov[i],
+          cause = dat$cause[i],
           dist = dist,
           haz_est = haz,
           time = time
@@ -221,6 +205,7 @@ get_hazards <- function() {
         
         lst_haz[[name_loop]][[dist]] <- data.frame(
           ctgov = dat$ctgov[i],
+          cause = dat$cause[i],
           dist = dist,
           haz_est = haz,
           time = time
@@ -232,7 +217,7 @@ get_hazards <- function() {
     
   }
   
-  df_haz <- bind_rows(lst_haz) %>% arrange(ctgov)
+  df_haz <- bind_rows(lst_haz) %>% arrange(ctgov, cause)
   
   return(df_haz)
   

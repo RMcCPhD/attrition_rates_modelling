@@ -5,18 +5,18 @@
 # the script can be run using uploaded data to get the outputs
 
 source("config.R")
-source("total_attrition/scripts/00_functions.R")
+source("categorical_attrition/scripts/00_functions.R")
 
 library(tidyverse)
 library(MASS)
 library(flexsurv)
 
 # Import prepared data
-lst_prep <- read_rds("total_attrition/processed_data/prepared_data.rds")
+lst_prep <- read_rds("categorical_attrition/processed_data/prepared_data.rds")
 
 # Check empirical cumulative incidence curves
 plot_cind <- unnest(lst_prep$cind, cols = "cind") %>% 
-  ggplot(aes(x = time, y = 1 - estimate)) +
+  ggplot(aes(x = time, y = 1 - estimate, colour = cause)) +
   geom_step(linewidth = 1) +
   facet_wrap(~ctgov, scales = "free") +
   labs(x = "Time in trial (days)", y = "Cumulative incidence of attrition")
@@ -32,24 +32,28 @@ cind_sampled_estimates <- get_cind()
 # Merge cumulative incidence datasets
 cind_bind <- lapply(seq_along(cind_sampled_estimates), function(i) {
   name <- names(cind_sampled_estimates[i])
+  name_parts <- strsplit(name, "_")[[1]]
+  name1 <- name_parts[1]
+  name2 <- name_parts[2]
   lapply(seq_along(cind_sampled_estimates[[i]]), function(j) {
-    name2 <- names(cind_sampled_estimates[[i]][j])
+    name3 <- names(cind_sampled_estimates[[i]][j])
     bind_rows(cind_sampled_estimates[[i]][[j]]) %>% 
       mutate(
-        ctgov = name,
-        dist = name2
+        ctgov = name1,
+        cause = name2,
+        dist = name3
       )
   })
 })
 
 cind_bind <- bind_rows(cind_bind) %>% distinct()
-# saveRDS(cind_bind, "total_attrition/processed_data/cind_sampled_df.rds")
+# saveRDS(cind_bind, "categorical_attrition/processed_data/cind_sampled_df.rds")
 
 # Estimate hazard rates over time using model parameters
 haz_bind <- get_hazards()
 
 # Save (locally, can run the script as said above to get these objects)
-# saveRDS(haz_bind, "total_attrition/processed_data/haz_sampled_df.rds")
+# saveRDS(haz_bind, "categorical_attrition/processed_data/haz_sampled_df.rds")
 
 # Unload MASS after use to avoid dplyr conflicts
 detach("package:MASS", unload = TRUE)

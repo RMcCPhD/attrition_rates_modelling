@@ -16,8 +16,6 @@ NCT00153023,Other/Miscellaneous,-213.3,430.6,gompertz,shape,-0.01616,0.003721
 NCT00153023,Other/Miscellaneous,-213.3,430.6,gompertz,rate,-7.752,0.3044
 NCT00153023,Protocol Violation,-171,346,llogis,shape,-0.3826,0.2424
 NCT00153023,Protocol Violation,-171,346,llogis,scale,11.6,1.453
-NCT00153023,Protocol Violation,-171,346,weibull,shape,-0.3862,0.2427
-NCT00153023,Protocol Violation,-171,346,weibull,scale,11.64,1.459
 NCT00153023,Voluntary Withdrawal,-284.7,573.4,lnorm,meanlog,14.89,1.621
 NCT00153023,Voluntary Withdrawal,-284.7,573.4,lnorm,sdlog,1.606,0.1654
 NCT00153088,Adverse Event,-532.1,1068,lnorm,meanlog,9.699,0.4795
@@ -36,8 +34,6 @@ NCT00168844,Adverse Event,-976.6,1957,lnorm,meanlog,9.187,0.3428
 NCT00168844,Adverse Event,-976.6,1957,lnorm,sdlog,1.05,0.08079
 NCT00168844,Lost to Follow-up,-208.7,421.3,llogis,shape,-0.4779,0.2167
 NCT00168844,Lost to Follow-up,-208.7,421.3,llogis,scale,11.91,1.389
-NCT00168844,Lost to Follow-up,-208.6,421.3,weibull,shape,-0.4828,0.2171
-NCT00168844,Lost to Follow-up,-208.6,421.3,weibull,scale,11.95,1.399
 NCT00168844,Other/Miscellaneous,-218.9,441.8,gompertz,shape,-0.004891,0.002409
 NCT00168844,Other/Miscellaneous,-218.9,441.8,gompertz,rate,-8.84,0.3611
 NCT00168844,Voluntary Withdrawal,-349.6,703.3,gompertz,shape,-0.0127,0.002489
@@ -50,8 +46,6 @@ NCT00168857,Other/Miscellaneous,-172.1,348.2,gompertz,rate,-7.594,0.3333
 NCT00168857,Protocol Violation,-285.7,573.4,exp,rate,-9.203,0.189
 NCT00168857,Voluntary Withdrawal,-171,345.9,llogis,shape,-0.3532,0.2431
 NCT00168857,Voluntary Withdrawal,-171,345.9,llogis,scale,11.41,1.407
-NCT00168857,Voluntary Withdrawal,-171,345.9,weibull,shape,-0.3581,0.2436
-NCT00168857,Voluntary Withdrawal,-171,345.9,weibull,scale,11.45,1.418
 NCT00239421,Adverse Event,-119.5,240.9,exp,rate,-7.532,0.2673
 NCT00274014,Adverse Event,-968.5,1941,lnorm,meanlog,9.259,0.3519
 NCT00274014,Adverse Event,-968.5,1941,lnorm,sdlog,1.058,0.08146
@@ -67,16 +61,12 @@ NCT00274053,Other/Miscellaneous,-140,284.1,gompertz,shape,-0.006906,0.003786
 NCT00274053,Other/Miscellaneous,-140,284.1,gompertz,rate,-8.378,0.4343
 NCT00274053,Protocol Violation,-203.3,410.5,gompertz,shape,-0.00409,0.002905
 NCT00274053,Protocol Violation,-203.3,410.5,gompertz,rate,-8.248,0.3761
-NCT00274053,Protocol Violation,-203.3,410.5,lnorm,meanlog,10.37,1.018
-NCT00274053,Protocol Violation,-203.3,410.5,lnorm,sdlog,1.02,0.1927
 NCT00274053,Voluntary Withdrawal,-235,474.1,gompertz,shape,-0.007499,0.002878
 NCT00274053,Voluntary Withdrawal,-235,474.1,gompertz,rate,-7.745,0.3217
 NCT00274079,Adverse Event,-256.1,516.2,lnorm,meanlog,8.189,0.6732
 NCT00274079,Adverse Event,-256.1,516.2,lnorm,sdlog,1.019,0.1511
 NCT00274547,Adverse Event,-2024,4053,gompertz,shape,-0.008526,0.001277
 NCT00274547,Adverse Event,-2024,4053,gompertz,rate,-6.383,0.1042
-NCT00274547,Adverse Event,-2025,4053,lnorm,meanlog,8.289,0.2181
-NCT00274547,Adverse Event,-2025,4053,lnorm,sdlog,1.069,0.05317
 NCT00274547,Lost to Follow-up,-111.3,226.5,lnorm,meanlog,9.671,1.316
 NCT00274547,Lost to Follow-up,-111.3,226.5,lnorm,sdlog,0.5868,0.2842
 NCT00274547,Other/Miscellaneous,-240.4,484.8,gompertz,shape,-0.01918,0.005179
@@ -101,20 +91,12 @@ NCT00274612,Other/Miscellaneous,-160,322,exp,rate,-8.411,0.2425
 NCT00277264,Adverse Event,-938.6,1881,lnorm,meanlog,9.958,0.437
 NCT00277264,Adverse Event,-938.6,1881,lnorm,sdlog,1.305,0.08139
 NCT00277264,Other/Miscellaneous,-141.5,285,exp,rate,-9.886,0.2774
-NCT00277264,Other/Miscellaneous,-140.5,285,llogis,shape,-0.3533,0.2659
-NCT00277264,Other/Miscellaneous,-140.5,285,llogis,scale,11.64,1.627
-NCT00277264,Other/Miscellaneous,-140.5,285,lnorm,meanlog,14.45,2.228
-NCT00277264,Other/Miscellaneous,-140.5,285,lnorm,sdlog,1.398,0.2431
-NCT00277264,Other/Miscellaneous,-140.5,285,weibull,shape,-0.357,0.2664
-NCT00277264,Other/Miscellaneous,-140.5,285,weibull,scale,11.67,1.637
 NCT00277264,Protocol Violation,-149.3,302.5,gompertz,shape,-0.005986,0.003088
 NCT00277264,Protocol Violation,-149.3,302.5,gompertz,rate,-9.01,0.4296
 NCT00277264,Voluntary Withdrawal,-638.7,1281,gompertz,shape,-0.006893,0.001416
 NCT00277264,Voluntary Withdrawal,-638.7,1281,gompertz,rate,-7.291,0.1873
 NCT00321854,Adverse Event,-726.2,1456,gompertz,shape,-0.001964,9.493e-4
 NCT00321854,Adverse Event,-726.2,1456,gompertz,rate,-7.322,0.1909
-NCT00321854,Adverse Event,-726.1,1456,lnorm,meanlog,8.18,0.2831
-NCT00321854,Adverse Event,-726.1,1456,lnorm,sdlog,0.8204,0.09143
 NCT00321854,Lack of Efficacy,-229.2,460.5,exp,rate,-8.967,0.2085
 NCT00321854,Protocol Violation,-117.8,237.5,exp,rate,-9.705,0.3015
 NCT00321854,Voluntary Withdrawal,-224.4,452.9,gompertz,shape,-0.006032,0.002115
@@ -142,8 +124,6 @@ NCT00479401,Adverse Event,-409.4,822.8,gompertz,shape,-0.01037,0.002492
 NCT00479401,Adverse Event,-409.4,822.8,gompertz,rate,-6.797,0.2275
 NCT00479401,Voluntary Withdrawal,-249.1,502.2,gompertz,shape,-0.006396,0.003039
 NCT00479401,Voluntary Withdrawal,-249.1,502.2,gompertz,rate,-7.682,0.3227
-NCT00479401,Voluntary Withdrawal,-249.1,502.2,lnorm,meanlog,10.97,1.039
-NCT00479401,Voluntary Withdrawal,-249.1,502.2,lnorm,sdlog,1.236,0.1674
 NCT00525512,Adverse Event,-698.6,1401,weibull,shape,-0.1708,0.1087
 NCT00525512,Adverse Event,-698.6,1401,weibull,scale,8.544,0.2697
 NCT00525512,Lack of Efficacy,-184.9,373.9,gompertz,shape,-0.005196,0.001629
@@ -154,8 +134,6 @@ NCT00525512,Voluntary Withdrawal,-275.8,555.7,lnorm,meanlog,13.86,1.376
 NCT00525512,Voluntary Withdrawal,-275.8,555.7,lnorm,sdlog,1.559,0.163
 NCT00563381,Adverse Event,-5151,10310,gompertz,shape,-0.004285,4.331e-4
 NCT00563381,Adverse Event,-5151,10310,gompertz,rate,-7.703,0.0709
-NCT00563381,Adverse Event,-5151,10310,lnorm,meanlog,10.32,0.1908
-NCT00563381,Adverse Event,-5151,10310,lnorm,sdlog,1.149,0.0368
 NCT00563381,Lack of Efficacy,-644.8,1294,gompertz,shape,-0.005307,0.001409
 NCT00563381,Lack of Efficacy,-644.8,1294,gompertz,rate,-9.869,0.2174
 NCT00563381,Lost to Follow-up,-277,555.9,exp,rate,-11.59,0.2132
@@ -176,13 +154,9 @@ NCT00602472,Voluntary Withdrawal,-210.4,422.9,exp,rate,-9.021,0.2182
 NCT00622284,Adverse Event,-1446,2896,lnorm,meanlog,11.06,0.3839
 NCT00622284,Adverse Event,-1446,2896,lnorm,sdlog,1.267,0.07002
 NCT00622284,Lack of Efficacy,-641.4,1285,exp,rate,-9.69,0.1291
-NCT00622284,Lack of Efficacy,-640.4,1285,lnorm,meanlog,10.34,0.464
-NCT00622284,Lack of Efficacy,-640.4,1285,lnorm,sdlog,0.7886,0.1117
 NCT00622284,Lost to Follow-up,-257.3,516.5,exp,rate,-10.69,0.2132
 NCT00622284,Other/Miscellaneous,-608.8,1222,gompertz,shape,-0.001697,6.584e-4
 NCT00622284,Other/Miscellaneous,-608.8,1222,gompertz,rate,-9.209,0.2259
-NCT00622284,Other/Miscellaneous,-608.9,1222,lnorm,meanlog,11.97,0.6893
-NCT00622284,Other/Miscellaneous,-608.9,1222,lnorm,sdlog,1.132,0.116
 NCT00622284,Protocol Violation,-203.2,408.3,exp,rate,-10.95,0.2425
 NCT00622284,Voluntary Withdrawal,-532.3,1069,gompertz,shape,-0.003489,7.953e-4
 NCT00622284,Voluntary Withdrawal,-532.3,1069,gompertz,rate,-8.902,0.2207
@@ -208,8 +182,6 @@ NCT00740051,Voluntary Withdrawal,-131.3,266.6,gompertz,rate,-7.691,0.4254
 NCT00772538,Adverse Event,-124.8,251.7,exp,rate,-9.403,0.2887
 NCT00772538,Other/Miscellaneous,-138.8,281.6,llogis,shape,-0.706,0.2632
 NCT00772538,Other/Miscellaneous,-138.8,281.6,llogis,scale,12.77,1.926
-NCT00772538,Other/Miscellaneous,-138.8,281.6,weibull,shape,-0.7129,0.2641
-NCT00772538,Other/Miscellaneous,-138.8,281.6,weibull,scale,12.85,1.947
 NCT00772538,Voluntary Withdrawal,-115.4,232.8,exp,rate,-9.49,0.3015
 NCT00776984,Adverse Event,-105.8,213.6,exp,rate,-9.579,0.3162
 NCT00776984,Other/Miscellaneous,-143.4,288.8,exp,rate,-9.242,0.2673
@@ -220,8 +192,6 @@ NCT00782210,Lack of Efficacy,-180.9,365.8,lnorm,meanlog,13.86,1.818
 NCT00782210,Lack of Efficacy,-180.9,365.8,lnorm,sdlog,1.463,0.2088
 NCT00782210,Voluntary Withdrawal,-285.2,574.3,gompertz,shape,-0.007511,0.002209
 NCT00782210,Voluntary Withdrawal,-285.2,574.3,gompertz,rate,-7.755,0.2864
-NCT00782210,Voluntary Withdrawal,-285.2,574.3,lnorm,meanlog,12.59,1.215
-NCT00782210,Voluntary Withdrawal,-285.2,574.3,lnorm,sdlog,1.424,0.1607
 NCT00782509,Adverse Event,-460,924.1,lnorm,meanlog,10.22,0.6282
 NCT00782509,Adverse Event,-460,924.1,lnorm,sdlog,1.147,0.1221
 NCT00782509,Lack of Efficacy,-175.9,353.9,exp,rate,-9.349,0.2425
@@ -265,10 +235,6 @@ NCT00915772,Lack of Efficacy,-260.3,524.6,lnorm,sdlog,0.1471,0.1677
 NCT00915772,Other/Miscellaneous,-185.1,372.1,exp,rate,-9.281,0.2357
 NCT00915772,Voluntary Withdrawal,-173.6,351.3,llogis,shape,-0.4437,0.2372
 NCT00915772,Voluntary Withdrawal,-173.6,351.3,llogis,scale,11.25,1.338
-NCT00915772,Voluntary Withdrawal,-173.6,351.3,weibull,shape,-0.4514,0.2381
-NCT00915772,Voluntary Withdrawal,-173.6,351.3,weibull,scale,11.32,1.354
-NCT00915772,Voluntary Withdrawal,-173.7,351.3,lnorm,meanlog,13.57,1.768
-NCT00915772,Voluntary Withdrawal,-173.7,351.3,lnorm,sdlog,1.415,0.214
 NCT00926289,Adverse Event,-169.3,342.6,gompertz,shape,-0.04472,0.01782
 NCT00926289,Adverse Event,-169.3,342.6,gompertz,rate,-6.753,0.361
 NCT00926289,Protocol Violation,-172.8,347.7,exp,rate,-7.642,0.2236
@@ -286,21 +252,11 @@ NCT00970632,Protocol Violation,-177.1,358.2,lnorm,sdlog,0.3001,0.1938
 NCT00970632,Voluntary Withdrawal,-142,286.1,exp,rate,-7.878,0.25
 NCT00975195,Adverse Event,-1924,3853,gompertz,shape,-0.001565,6.653e-4
 NCT00975195,Adverse Event,-1924,3853,gompertz,rate,-8.003,0.1265
-NCT00975195,Adverse Event,-1925,3853,lnorm,meanlog,9.175,0.2324
-NCT00975195,Adverse Event,-1925,3853,lnorm,sdlog,0.888,0.05965
 NCT00975195,Lack of Efficacy,-142.8,289.6,gompertz,shape,-0.006848,0.003226
 NCT00975195,Lack of Efficacy,-142.8,289.6,gompertz,rate,-10.16,0.4535
 NCT00975195,Lost to Follow-up,-189.3,380.6,exp,rate,-10.83,0.25
 NCT00975195,Other/Miscellaneous,-649.5,1301,exp,rate,-9.476,0.127
-NCT00975195,Other/Miscellaneous,-648.5,1301,llogis,shape,-0.1633,0.1233
-NCT00975195,Other/Miscellaneous,-648.5,1301,llogis,scale,10.11,0.5489
 NCT00975195,Protocol Violation,-534.6,1071,exp,rate,-9.691,0.1414
-NCT00975195,Protocol Violation,-533.6,1071,gompertz,shape,-0.001904,0.001364
-NCT00975195,Protocol Violation,-533.6,1071,gompertz,rate,-9.375,0.2548
-NCT00975195,Protocol Violation,-533.5,1071,llogis,shape,-0.1883,0.1374
-NCT00975195,Protocol Violation,-533.5,1071,llogis,scale,10.48,0.6619
-NCT00975195,Protocol Violation,-533.5,1071,weibull,shape,-0.1939,0.1377
-NCT00975195,Protocol Violation,-533.5,1071,weibull,scale,10.52,0.6674
 NCT00975195,Voluntary Withdrawal,-1067,2138,gompertz,shape,-0.004906,9.96e-4
 NCT00975195,Voluntary Withdrawal,-1067,2138,gompertz,rate,-8.176,0.1572
 NCT00996658,Other/Miscellaneous,-133.4,270.9,lnorm,meanlog,7.748,0.6709
@@ -309,8 +265,6 @@ NCT01064687,Adverse Event,-258.7,521.4,gompertz,shape,-0.01162,0.002698
 NCT01064687,Adverse Event,-258.7,521.4,gompertz,rate,-8.033,0.2896
 NCT01064687,Lost to Follow-up,-259.3,522.5,llogis,shape,0.5576,0.196
 NCT01064687,Lost to Follow-up,-259.3,522.5,llogis,scale,7.946,0.4209
-NCT01064687,Lost to Follow-up,-259.3,522.5,weibull,shape,0.5507,0.1967
-NCT01064687,Lost to Follow-up,-259.3,522.5,weibull,scale,7.968,0.4253
 NCT01064687,Voluntary Withdrawal,-300.2,602.5,exp,rate,-9.353,0.1857
 NCT01075282,Adverse Event,-236.3,476.5,lnorm,meanlog,13.4,1.453
 NCT01075282,Adverse Event,-236.3,476.5,lnorm,sdlog,1.315,0.1912
@@ -322,21 +276,11 @@ NCT01084005,Protocol Violation,-92.58,187.2,exp,rate,-8.258,0.3162
 NCT01087502,Adverse Event,-241.2,484.5,exp,rate,-7.935,0.1925
 NCT01126437,Adverse Event,-17990,35970,llogis,shape,-0.2893,0.02227
 NCT01126437,Adverse Event,-17990,35970,llogis,scale,9.461,0.07164
-NCT01126437,Adverse Event,-17980,35970,weibull,shape,-0.3171,0.02253
-NCT01126437,Adverse Event,-17980,35970,weibull,scale,9.619,0.07413
 NCT01126437,Lack of Efficacy,-2187,4378,gompertz,shape,-0.003074,3.607e-4
 NCT01126437,Lack of Efficacy,-2187,4378,gompertz,rate,-10.13,0.1148
 NCT01126437,Lost to Follow-up,-2061,4126,llogis,shape,-0.3549,0.07418
 NCT01126437,Lost to Follow-up,-2061,4126,llogis,scale,13.13,0.4932
-NCT01126437,Lost to Follow-up,-2061,4126,weibull,shape,-0.3575,0.07425
-NCT01126437,Lost to Follow-up,-2061,4126,weibull,scale,13.15,0.4951
 NCT01126437,Other/Miscellaneous,-6205,12410,exp,rate,-10,0.04211
-NCT01126437,Other/Miscellaneous,-6204,12410,gompertz,shape,9.71e-5,1.686e-4
-NCT01126437,Other/Miscellaneous,-6204,12410,gompertz,rate,-10.04,0.08161
-NCT01126437,Other/Miscellaneous,-6203,12410,llogis,shape,-0.065310000000000007,0.04041
-NCT01126437,Other/Miscellaneous,-6203,12410,llogis,scale,10.21,0.1504
-NCT01126437,Other/Miscellaneous,-6203,12410,weibull,shape,-0.07436,0.04057
-NCT01126437,Other/Miscellaneous,-6203,12410,weibull,scale,10.26,0.1523
 NCT01126437,Protocol Violation,-2068,4139,weibull,shape,-0.4078,0.0741
 NCT01126437,Protocol Violation,-2068,4139,weibull,scale,13.48,0.5193
 NCT01126437,Voluntary Withdrawal,-10050,20090,lnorm,meanlog,13.32,0.2076
@@ -352,8 +296,6 @@ NCT01159600,Lost to Follow-up,-127,257.9,lnorm,meanlog,8.622,0.9421
 NCT01159600,Lost to Follow-up,-127,257.9,lnorm,sdlog,0.3988,0.2609
 NCT01159600,Other/Miscellaneous,-213.1,430.2,llogis,shape,-0.3501,0.2157
 NCT01159600,Other/Miscellaneous,-213.1,430.2,llogis,scale,10.93,1.295
-NCT01159600,Other/Miscellaneous,-213.1,430.2,lnorm,meanlog,13.7,1.764
-NCT01159600,Other/Miscellaneous,-213.1,430.2,lnorm,sdlog,1.391,0.1963
 NCT01159600,Voluntary Withdrawal,-220.6,445.3,gompertz,shape,-0.01152,0.004772
 NCT01159600,Voluntary Withdrawal,-220.6,445.3,gompertz,rate,-8.36,0.3495
 NCT01164501,Adverse Event,-411.9,827.9,lnorm,meanlog,10.73,0.7344
@@ -373,8 +315,6 @@ NCT01167881,Voluntary Withdrawal,-661.6,1327,gompertz,shape,-0.002019,3.986e-4
 NCT01167881,Voluntary Withdrawal,-661.6,1327,gompertz,rate,-9.271,0.1973
 NCT01177813,Adverse Event,-195.8,395.7,llogis,shape,-0.3864,0.2204
 NCT01177813,Adverse Event,-195.8,395.7,llogis,scale,10.65,1.271
-NCT01177813,Adverse Event,-195.8,395.7,weibull,shape,-0.392,0.221
-NCT01177813,Adverse Event,-195.8,395.7,weibull,scale,10.7,1.282
 NCT01177813,Lost to Follow-up,-230.5,465,lnorm,meanlog,8.456,0.655
 NCT01177813,Lost to Follow-up,-230.5,465,lnorm,sdlog,0.5558,0.184
 NCT01177813,Other/Miscellaneous,-124.7,251.4,exp,rate,-9.393,0.2887
@@ -387,14 +327,10 @@ NCT01191268,PI/Sponsor Decision,-247.3,498.7,gompertz,shape,-0.003966,0.002055
 NCT01191268,PI/Sponsor Decision,-247.3,498.7,gompertz,rate,-8.772,0.3438
 NCT01191268,Voluntary Withdrawal,-591.7,1187,gompertz,shape,-0.002393,0.001222
 NCT01191268,Voluntary Withdrawal,-591.7,1187,gompertz,rate,-8.031,0.2231
-NCT01191268,Voluntary Withdrawal,-591.3,1187,lnorm,meanlog,9.816,0.497
-NCT01191268,Voluntary Withdrawal,-591.3,1187,lnorm,sdlog,1.007,0.109
 NCT01191944,Adverse Event,-196.1,396.3,lnorm,meanlog,12.04,1.482
 NCT01191944,Adverse Event,-196.1,396.3,lnorm,sdlog,1.475,0.1863
 NCT01194830,Lost to Follow-up,-125.7,255.4,gompertz,shape,-0.01539,0.006362
 NCT01194830,Lost to Follow-up,-125.7,255.4,gompertz,rate,-6.641,0.4005
-NCT01194830,Lost to Follow-up,-125.7,255.4,lnorm,meanlog,10.78,1.482
-NCT01194830,Lost to Follow-up,-125.7,255.4,lnorm,sdlog,1.374,0.2236
 NCT01194830,Other/Miscellaneous,-157,318.1,gompertz,shape,-0.01022,0.005164
 NCT01194830,Other/Miscellaneous,-157,318.1,gompertz,rate,-6.677,0.3753
 NCT01204294,Adverse Event,-201.5,407,lnorm,meanlog,13.21,1.577
@@ -418,12 +354,8 @@ NCT01368081,Voluntary Withdrawal,-343.7,689.3,exp,rate,-9.414,0.1741
 NCT01370005,Adverse Event,-149.9,301.9,exp,rate,-8.37,0.25
 NCT01422876,Adverse Event,-538.5,1081,llogis,shape,-0.3358,0.1332
 NCT01422876,Adverse Event,-538.5,1081,llogis,scale,10.29,0.6247
-NCT01422876,Adverse Event,-538.5,1081,weibull,shape,-0.3463,0.1338
-NCT01422876,Adverse Event,-538.5,1081,weibull,scale,10.36,0.6342
 NCT01422876,Lost to Follow-up,-501.1,1006,llogis,shape,-0.3992,0.1387
 NCT01422876,Lost to Follow-up,-501.1,1006,llogis,scale,10.7,0.7085
-NCT01422876,Lost to Follow-up,-501,1006,weibull,shape,-0.408,0.1392
-NCT01422876,Lost to Follow-up,-501,1006,weibull,scale,10.77,0.7172
 NCT01422876,Other/Miscellaneous,-420.4,844.7,gompertz,shape,-0.003515,0.001556
 NCT01422876,Other/Miscellaneous,-420.4,844.7,gompertz,rate,-8.76,0.2683
 NCT01422876,Protocol Violation,-138.6,279.1,exp,rate,-10.55,0.2887
@@ -440,8 +372,6 @@ NCT01621178,PI/Sponsor Decision,-145.8,295.7,gompertz,rate,-8.839,0.4457
 NCT01621178,Voluntary Withdrawal,-416.9,837.9,lnorm,meanlog,11.37,0.8286
 NCT01621178,Voluntary Withdrawal,-416.9,837.9,lnorm,sdlog,1.374,0.1291
 NCT01624259,Adverse Event,-174.3,350.6,exp,rate,-8.684,0.2357
-NCT01624259,Adverse Event,-173.3,350.6,gompertz,shape,-0.006335,0.004595
-NCT01624259,Adverse Event,-173.3,350.6,gompertz,rate,-8.163,0.412
 NCT01624259,Voluntary Withdrawal,-111.9,225.9,exp,rate,-9.176,0.3015
 NCT01694771,Adverse Event,-303.6,609.2,exp,rate,-7.929,0.1715
 NCT01694771,Other/Miscellaneous,-110.6,223.3,exp,rate,-9.058,0.3015
