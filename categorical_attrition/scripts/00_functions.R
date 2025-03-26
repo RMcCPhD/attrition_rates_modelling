@@ -96,171 +96,6 @@ get_cind <- function() {
   return(lst_estimates)
 }
 
-# Get cumulative incidence plots for arranging with ggtable --------------------
-
-get_plots <- function() {
-  
-  dat <- sample_estimates
-  dat2 <- lst_prep$cind
-  dat3 <- plots_coord_cartesian
-  
-  # List to store plots for each dist per trial/cause
-  lst_plots <- vector("list")
-  
-  for(i in seq_along(dat)) {
-    
-    name_loop <- names(dat[i])
-    print(name_loop)
-    
-    for(j in seq_along(dat[[i]])) {
-      
-      dist <- names(dat[[i]][j])
-      plot_dat <- bind_rows(dat[[i]][[j]])
-      lst_name <- paste0(name_loop, "_", dist)
-      plot_name <- gsub("^(.*?)_(.*?)_.*$", "\\1 - \\2", lst_name)
-      
-      print(lst_name)
-      
-      lst_plots[[lst_name]] <- plot_dat %>% 
-        filter(
-          !is.na(estimate)
-        ) %>% 
-        ggplot(
-          aes(
-            x = time, 
-            y = 1 - estimate, 
-            group = iter
-          )
-        ) +
-        geom_step(
-          linewidth = 12, 
-          colour = "black"
-        ) +
-        geom_line(
-          aes(
-            x = time, 
-            y = 1 - fit_est
-          ), 
-          linewidth = 12, 
-          colour = case_when(
-            grepl("exp", lst_name) ~ "skyblue",
-            grepl("gengamma", lst_name) ~ "limegreen",
-            grepl("gompertz", lst_name) ~"orange",
-            grepl("lnorm", lst_name) ~ "purple",
-            grepl("llogis", lst_name) ~ "salmon",
-            grepl("weibull", lst_name) ~ "red",
-            TRUE ~ "black"
-          ), 
-          alpha = 0.025
-        ) +
-        scale_x_continuous(
-          limits = c(min(plot_dat$time), max(plot_dat$time)),
-          n.breaks = 6
-        ) +
-        guides(alpha = "none") +
-        theme_bw() +
-        theme_void()
-    }
-  }
-  
-  # Get list names for each applications of coord_cartesian
-  names_01 <- dat3 %>% filter(apply_01 == 1) %>% dplyr::select(ctgov_cause)
-  names_02 <- dat3 %>% filter(apply_02 == 1) %>% dplyr::select(ctgov_cause)
-  names_03 <- dat3 %>% filter(apply_03 == 1) %>% dplyr::select(ctgov_cause)
-  names_05 <- dat3 %>% filter(apply_05 == 1) %>% dplyr::select(ctgov_cause)
-  names_06 <- dat3 %>% filter(apply_06 == 1) %>% dplyr::select(ctgov_cause)
-  names_10 <- dat3 %>% filter(apply_10 == 1) %>% dplyr::select(ctgov_cause)
-  names_15 <- dat3 %>% filter(apply_15 == 1) %>% dplyr::select(ctgov_cause)
-  
-  # Apply coord_cartesian where estimates diverge considerably
-  lst_plots_coord <- lapply(names(lst_plots), function(plot_name) {
-    if (any(grepl(paste(names_01$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.01))
-      
-    } else if (any(grepl(paste(names_02$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.02))
-      
-    } else if (any(grepl(paste(names_03$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.03))
-      
-    } else if (any(grepl(paste(names_05$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.05))
-      
-    } else if (any(grepl(paste(names_06$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.06))
-      
-    } else if (any(grepl(paste(names_10$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.10))
-      
-    } else if (any(grepl(paste(names_15$ctgov_cause, collapse = "|"), plot_name))) {
-      lst_plots[[plot_name]] + coord_cartesian(ylim = c(0, 0.15))
-      
-    } else {
-      lst_plots[[plot_name]]
-    }
-  })
-  
-  names(lst_plots_coord) <- names(lst_plots)
-  lst_plots <- lst_plots_coord
-  
-  # Create blank plots for where a cause did not occur
-  ctgov <- unique(dat2$ctgov)
-  cause <- unique(dat2$cause)
-  
-  combine <- expand.grid(
-    ctgov = ctgov, 
-    cause = cause
-  ) %>%
-    mutate(
-      nms = paste0(ctgov, "_", cause)
-    )
-  
-  blank_plots <- lapply(seq_along(combine$nms), function(i) {
-    ggplot() +
-      theme_void()
-  })
-  names(blank_plots) <- paste0(combine$nms)
-  
-  # Filter for blank plots that are not present in list of plots
-  names_main <- gsub("^(.*?)_(.*?)_.*$", "\\1_\\2", names(lst_plots))
-  blanks <- combine %>% filter(!nms %in% names_main)
-  blank_plots_filter <- blank_plots[names(blank_plots) %in% blanks$nms]
-  names(blank_plots_filter) <- paste0(blanks$nms, "_blank")
-  
-  # Join blanks to list of plots
-  lst_plots <- c(lst_plots, blank_plots_filter)
-  order_strings <- gsub("^(.*?)_(.*?)_.*$", "\\1_\\2", names(lst_plots))
-  lst_plots <- lst_plots[order(order_strings)]
-  
-  # Order plots by condition, then ctgov
-  lst_names <- data.frame(names = names(lst_plots)) %>% 
-    separate(names, into = c("ctgov", "cause", "dist"), sep = "_")
-  
-  import_cond <- read_csv("../Analysis/Vivli/Summary_statistics/participant_flow_formatted.csv")
-  
-  ctgov <- dat2 %>% 
-    inner_join(
-      import_cond %>% 
-        dplyr::select(ctgov, condition)
-    ) %>% 
-    dplyr::select(ctgov, condition) %>% 
-    distinct()
-  
-  order_names_conditions <- ctgov %>% arrange(condition)
-  
-  names_conditions <- lst_names %>% 
-    left_join(order_names_conditions) %>% 
-    arrange(condition) %>% 
-    mutate(names = paste0(ctgov, "_", cause, "_", dist))
-  
-  sort_names_conditions <- names_conditions$names
-  
-  lst_plots <- lst_plots[match(sort_names_conditions, names(lst_plots))]
-  
-  return(lst_plots)
-  
-}
-
 # Get hazard estimates from model parameters -----------------------------------
 
 get_hazards <- function() {
@@ -388,8 +223,76 @@ get_hazards <- function() {
   
 }
 
+# Get cumulative incidence plots for arranging with ggtable --------------------
 
+get_plots <- function() {
+  
+  dat1 <- df_loop_adj
+  ids <- unique(dat1$id)
+  
+  lst_plots <- vector("list")
 
+  for (i in seq_along(ids)) {
+    name <- ids[i]
+    print(name)
+    
+    dat_plot <- dat1 %>% filter(id == name)
+    
+    plot <- dat_plot %>% 
+      ggplot(aes(x = time, group = iter)) +
+      geom_step(
+        data = ~ filter(.x, !is.na(estimate)), 
+        aes(y = estimate), 
+        linewidth = 12, 
+        colour = "black"
+      ) +
+      geom_line(
+        aes(y = fit_est, colour = dist), 
+        linewidth = 12, 
+        alpha = 0.02
+      ) +
+      scale_colour_manual(
+        values = c(
+          "exp" = "blue",
+          "gompertz" = "orange",
+          "lnorm" = "purple",
+          "llogis" = "deeppink",
+          "weibull" = "red"
+        )
+      ) +
+      guides(alpha = "none") +
+      theme_bw() +
+      theme_void()
+    
+    lst_plots[[name]] <- plot
+  }
+  
+  # Add in blank plots and order list
+  id <- unique(dat1$plot_id)
+  cause <- unique(dat1$cause)
+  
+  combine <- expand.grid(
+    ctgov = id,
+    cause = cause
+  ) %>%
+    mutate(nms = paste0(id, " FOR ", cause))
+  
+  blank_plots <- lapply(seq_along(combine$nms), function(i) {
+    ggplot() + theme_void()
+  })
+  names(blank_plots) <- paste0(combine$nms)
+  
+  # Filter for blank plots that are not present in list of plots
+  names_main <- names(lst_plots)
+  blanks <- combine %>% filter(!nms %in% names_main)
+  blank_plots_filter <- blank_plots[blanks$nms]
+  
+  # Join blanks to list of plots
+  lst_plots <- c(lst_plots, blank_plots_filter)
+  lst_plots <- lst_plots[order(names(lst_plots))]
+  
+  return(lst_plots)
+}
 
 
 
