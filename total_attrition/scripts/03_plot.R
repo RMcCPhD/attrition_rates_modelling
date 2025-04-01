@@ -149,6 +149,7 @@ hmap <- hmap_df %>%
   theme_bw() +
   theme(
     legend.position = "bottom",
+    legend.justification.bottom = 1,
     legend.title = element_text(size = 6),
     legend.text = element_text(size = 6),
     legend.key.size = unit(0.3, "cm"),
@@ -159,7 +160,7 @@ hmap <- hmap_df %>%
   )
 
 ggsave(
-  "total_attrition/plots/fig1_test.png",
+  "total_attrition/plots/fig1_test_empty2.png",
   hmap,
   dpi = 300,
   width = 90,
