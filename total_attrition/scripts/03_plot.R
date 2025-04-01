@@ -96,11 +96,11 @@ imp_hmap_id_best <- imp_hmap_data %>%
   ungroup() %>% 
   mutate(
     aic_scale_colour = case_when(
-      aic_scale == 0 ~ "dark grey", # Best model(s)
-      aic_scale <= 2 ~ "green", # AIC diff of <= 2 from best
-      aic_scale <= 4 ~ "yellow", # AIC diff of <= 4 from best
-      aic_scale <= 7 ~ "orange", # AIC diff of <= 7 from best
-      TRUE ~ "white" # Worst (AIC diff >7 from best)
+      aic_scale == 0 ~ "0", # Best model(s)
+      aic_scale <= 2 ~ "<=2", # AIC diff of <= 2 from best
+      aic_scale <= 4 ~ "<=4", # AIC diff of <= 4 from best
+      aic_scale <= 7 ~ "<=7", # AIC diff of <= 7 from best
+      TRUE ~ ">7" # Worst (AIC diff >7 from best)
     )
   )
 
@@ -125,6 +125,10 @@ hmap_df <- ind_cond_n %>%
     dist = factor(
       dist,
       levels = c("Gompertz", "Log-normal", "Log-logistic", "Weibull", "Exponential")
+    ),
+    aic_scale_colour = factor(
+      aic_scale_colour,
+      levels = c("0", "<=2", "<=4", "<=7", ">7")
     )
   )
 
@@ -132,33 +136,45 @@ hmap_df <- ind_cond_n %>%
 hmap <- hmap_df %>% 
   ggplot(aes(x = dist, y = fct_rev(plot_id), fill = aic_scale_colour)) +
   geom_tile(colour = "black") +
-  scale_fill_identity() +
-  labs(x = NULL, y = NULL) +
+  labs(x = NULL, y = NULL, fill = "AIC difference") +
+  scale_fill_manual(
+    values = c(
+      "0" = "forestgreen",
+      "<=2" = "gold",
+      "<=4" = "darkorange2",
+      "<=7" = "red",
+      ">7" = "white"
+    )
+  ) +
   theme_bw() +
   theme(
+    legend.position = "bottom",
+    legend.title = element_text(size = 6),
+    legend.text = element_text(size = 6),
+    legend.key.size = unit(0.3, "cm"),
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
     axis.text.x = element_text(size = 8, angle = 45, hjust = 1, colour = "black"),
     axis.text.y = element_text(colour = "white", size = 10)
   )
 
-# ggsave(
-#   "total_attrition/plots/fig1_raw.png",
-#   hmap,
-#   dpi = 300,
-#   width = 90,
-#   height = 120,
-#   units = "mm"
-# )
+ggsave(
+  "total_attrition/plots/fig1_test.png",
+  hmap,
+  dpi = 300,
+  width = 90,
+  height = 120,
+  units = "mm"
+)
 
-# ggsave(
-#   "total_attrition/plots/fig1_raw_labels.png",
-#   hmap,
-#   dpi = 300,
-#   width = 90,
-#   height = 360,
-#   units = "mm"
-# )
+ggsave(
+  "total_attrition/plots/fig1_raw_labels.png",
+  hmap,
+  dpi = 300,
+  width = 90,
+  height = 360,
+  units = "mm"
+)
 
 ### Cumulative incidence #######################################################
 
